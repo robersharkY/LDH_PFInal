@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['genrefilter_0',['GenreFilter',['../classull_1_1_genre_filter.html#a2f57b2fff6e84f8decd0f9a9e33a330d',1,'ull::GenreFilter']]],
+  ['getaverageratings_1',['getAverageRatings',['../classull_1_1_fourth_ratings.html#a59edfa917bd77ad10a98f213c1d2e916',1,'ull::FourthRatings']]],
+  ['getaverageratingsbyfilter_2',['getAverageRatingsByFilter',['../classull_1_1_fourth_ratings.html#a97b35c395e5e0726406e4aff220e964c',1,'ull::FourthRatings']]],
+  ['getcountry_3',['getCountry',['../classull_1_1_movie.html#a7a8cda8b4788354cfb2a0961a3265063',1,'ull.Movie.getCountry()'],['../classull_1_1_movie_database.html#afeda2d24461c4704d4fe543fa3f57a04',1,'ull.MovieDatabase.getCountry()']]],
+  ['getdirector_4',['getDirector',['../classull_1_1_movie.html#a5ae282e78841113634a97ec915120c71',1,'ull.Movie.getDirector()'],['../classull_1_1_movie_database.html#a58711cbbafe0b6032f04941806c18094',1,'ull.MovieDatabase.getDirector()']]],
+  ['getgenres_5',['getGenres',['../classull_1_1_movie.html#a422b4928d7549dff684e4208d8f9beb9',1,'ull.Movie.getGenres()'],['../classull_1_1_movie_database.html#af19c2278a440187f6089fe98142fba16',1,'ull.MovieDatabase.getGenres()']]],
+  ['getid_6',['getID',['../classull_1_1_efficient_rater.html#a8af79207b48aab3bffeb73c267ccf09b',1,'ull.EfficientRater.getID()'],['../classull_1_1_movie.html#a7820459992e0d6bf83a5d0748761e00f',1,'ull.Movie.getID()'],['../interfaceull_1_1_rater.html#a87229c0dd812a0e858eab45ec67076e6',1,'ull.Rater.getID()']]],
+  ['getitem_7',['getItem',['../classull_1_1_rating.html#a2ea97a8211f698427c97f7b23fa2b014',1,'ull::Rating']]],
+  ['getitemsrated_8',['getItemsRated',['../classull_1_1_efficient_rater.html#ab648944d0b96c0a357f6c2229c4075b3',1,'ull.EfficientRater.getItemsRated()'],['../interfaceull_1_1_rater.html#a9ac6b75876fe12578593f730397f18dd',1,'ull.Rater.getItemsRated()']]],
+  ['getitemstorate_9',['getItemsToRate',['../classull_1_1_recommendation_runner.html#a47c6ea06b8b8b395e9f84bc33fc5445c',1,'ull.RecommendationRunner.getItemsToRate()'],['../interfaceull_1_1_recommender.html#a6698b3dd0094ab9b38b3b525928e4a0e',1,'ull.Recommender.getItemsToRate()']]],
+  ['getminutes_10',['getMinutes',['../classull_1_1_movie.html#a21613640f9ade74b3c681b64145aa4ca',1,'ull.Movie.getMinutes()'],['../classull_1_1_movie_database.html#a3fc05e85cfd011a68dd065d5166d8787',1,'ull.MovieDatabase.getMinutes(String id)']]],
+  ['getmovie_11',['getMovie',['../classull_1_1_movie_database.html#a6ba6e8e0d7dff5e7141deb97307a0a32',1,'ull::MovieDatabase']]],
+  ['getmyratings_12',['getMyRatings',['../classull_1_1_efficient_rater.html#adb3a489b43e983c7469616b2e3af61f3',1,'ull.EfficientRater.getMyRatings()'],['../interfaceull_1_1_rater.html#af5b0ce89aa2d83450bbeafb4f60ab0c1',1,'ull.Rater.getMyRatings()']]],
+  ['getposter_13',['getPoster',['../classull_1_1_movie.html#a64f4b4bb99ded013a3cb980c2f96b496',1,'ull.Movie.getPoster()'],['../classull_1_1_movie_database.html#a0fd5d25e51d8c2fb5bc327cab7fbdb71',1,'ull.MovieDatabase.getPoster()']]],
+  ['getrater_14',['getRater',['../classull_1_1_rater_database.html#a11ddf69714042b586d755cb8500bdaa5',1,'ull::RaterDatabase']]],
+  ['getraters_15',['getRaters',['../classull_1_1_rater_database.html#a70c1bdc423e6a894fc771c1caff3ab40',1,'ull::RaterDatabase']]],
+  ['getrating_16',['getRating',['../classull_1_1_efficient_rater.html#a05ef78026648535a40c3aafc79e48861',1,'ull.EfficientRater.getRating()'],['../interfaceull_1_1_rater.html#a495ee1563d0fd648752d0cfadeb4be29',1,'ull.Rater.getRating()']]],
+  ['getsimilarratings_17',['getSimilarRatings',['../classull_1_1_fourth_ratings.html#aec08a1c30c3e996dbd399bcd629bc05a',1,'ull::FourthRatings']]],
+  ['getsimilarratingsbyfilter_18',['getSimilarRatingsByFilter',['../classull_1_1_fourth_ratings.html#acff4750fcf28096f53251a752d325252',1,'ull::FourthRatings']]],
+  ['gettitle_19',['getTitle',['../classull_1_1_movie.html#a1a477bcc96175257be93ec410e07482e',1,'ull.Movie.getTitle()'],['../classull_1_1_movie_database.html#a3a8d84fee5161dc7dfbba47ae1dfa0ff',1,'ull.MovieDatabase.getTitle()']]],
+  ['getvalue_20',['getValue',['../classull_1_1_rating.html#aeedde614f08745f2fba0ab1e4fe295a9',1,'ull::Rating']]],
+  ['getyear_21',['getYear',['../classull_1_1_movie.html#a2d59b5b741f0a1d28bf3eaabf098ab05',1,'ull.Movie.getYear()'],['../classull_1_1_movie_database.html#ab4179c84b10cbdc27fed0ce2886e035f',1,'ull.MovieDatabase.getYear()']]]
+];
