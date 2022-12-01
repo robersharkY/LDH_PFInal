@@ -37,8 +37,6 @@ public class Main {
     quiz.printSimilarRatingsByGenreAndMinutes();
     System.out.println("---");
     quiz.printSimilarRatingsByYearAfterAndMinutes();
-
-    System.out.println("hola");
   }
 }
 
