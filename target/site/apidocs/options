@@ -1,0 +1,26 @@
+-classpath
+'C:/Users/roberto/.m2/repository/junit/junit/4.11/junit-4.11.jar;C:/Users/roberto/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar;C:/Users/roberto/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar;C:/Users/roberto/.m2/repository/org/apache/commons/commons-csv/1.9.0/commons-csv-1.9.0.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java;C:/Users/roberto/IdeaProjects/LDH_PFInal/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/roberto/IdeaProjects/LDH_PFInal/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Duke-U.-Java-Programming.-Recommendation-System 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/roberto/IdeaProjects/LDH_PFInal/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'Duke-U.-Java-Programming.-Recommendation-System 1.0-SNAPSHOT API'
