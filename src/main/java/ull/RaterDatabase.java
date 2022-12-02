@@ -4,7 +4,7 @@ package ull; /**
  * @author (your name)
  * @version (a version number or a date)
  */
-import edu.duke.FileResource;
+import courserajava.edu.duke.FileResource;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
 
