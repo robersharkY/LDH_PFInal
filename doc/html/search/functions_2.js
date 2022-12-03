@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['directorsfilter_0',['DirectorsFilter',['../classull_1_1_directors_filter.html#ab32c691bd46d0583b47907c750b426e7',1,'ull::DirectorsFilter']]],
-  ['dotproduct_1',['dotProduct',['../classull_1_1_fourth_ratings.html#af29a7fe47916dfe133b2c64941faff17',1,'ull::FourthRatings']]]
+  ['directorsfilter_0',['DirectorsFilter',['../classes_1_1ull_1_1etsii_1_1_directors_filter.html#af19d1a6d72d4055f8b01856d2b6b85e3',1,'es::ull::etsii::DirectorsFilter']]],
+  ['dotproduct_1',['dotProduct',['../classes_1_1ull_1_1etsii_1_1_fourth_ratings.html#a6d4bf8a895497bd15fde890f4a4bb8c2',1,'es::ull::etsii::FourthRatings']]]
 ];
