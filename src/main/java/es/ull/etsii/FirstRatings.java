@@ -1,8 +1,8 @@
 package es.ull.etsii;
 
 import es.courserajava.edu.duke.FileResource;
-import org.apache.commons.csv.CSVParser;
-import org.apache.commons.csv.CSVRecord;
+import es.apachecsv.org.apache.commons.csv.CSVParser;
+import es.apachecsv.org.apache.commons.csv.CSVRecord;
 
 import java.io.File;
 import java.util.ArrayList;

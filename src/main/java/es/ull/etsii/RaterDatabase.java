@@ -6,8 +6,8 @@ package es.ull.etsii;
  * @version (a version number or a date)
  */
 import es.courserajava.edu.duke.FileResource;
-import org.apache.commons.csv.CSVParser;
-import org.apache.commons.csv.CSVRecord;
+import es.apachecsv.org.apache.commons.csv.CSVParser;
+import es.apachecsv.org.apache.commons.csv.CSVRecord;
 
 import java.util.ArrayList;
 import java.util.HashMap;

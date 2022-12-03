@@ -2,16 +2,16 @@
 <JDepend>
     <Packages>
 
-        <Package name="es.ull.etsii">
+        <Package name="es.courserajava.edu.duke">
             <Stats>
-                <TotalClasses>1</TotalClasses>
-                <ConcreteClasses>1</ConcreteClasses>
+                <TotalClasses>16</TotalClasses>
+                <ConcreteClasses>16</ConcreteClasses>
                 <AbstractClasses>0</AbstractClasses>
-                <Ca>0</Ca>
-                <Ce>2</Ce>
+                <Ca>1</Ca>
+                <Ce>10</Ce>
                 <A>0</A>
-                <I>1</I>
-                <D>0</D>
+                <I>0.91</I>
+                <D>0.09</D>
                 <V>1</V>
             </Stats>
 
@@ -19,18 +19,162 @@
             </AbstractClasses>
 
             <ConcreteClasses>
-                <Class sourceFile="Main.java">
-                    es.ull.etsii.Main
+                <Class sourceFile="FileResource.java">
+                    es.courserajava.edu.duke.FileResource
+                </Class>
+                <Class sourceFile="FileSelector.java">
+                    es.courserajava.edu.duke.FileSelector
+                </Class>
+                <Class sourceFile="FileSelector.java">
+                    es.courserajava.edu.duke.FileSelector$1
+                </Class>
+                <Class sourceFile="FileSelector.java">
+                    es.courserajava.edu.duke.FileSelector$ChooserFilter
+                </Class>
+                <Class sourceFile="ImageFrame.java">
+                    es.courserajava.edu.duke.ImageFrame
+                </Class>
+                <Class sourceFile="ImageFrame.java">
+                    es.courserajava.edu.duke.ImageFrame$ImagePanel
+                </Class>
+                <Class sourceFile="ImageResource.java">
+                    es.courserajava.edu.duke.ImageResource
+                </Class>
+                <Class sourceFile="Pixel.java">
+                    es.courserajava.edu.duke.Pixel
+                </Class>
+                <Class sourceFile="Point.java">
+                    es.courserajava.edu.duke.Point
+                </Class>
+                <Class sourceFile="RangeResource.java">
+                    es.courserajava.edu.duke.RangeResource
+                </Class>
+                <Class sourceFile="ResourceException.java">
+                    es.courserajava.edu.duke.ResourceException
+                </Class>
+                <Class sourceFile="Shape.java">
+                    es.courserajava.edu.duke.Shape
+                </Class>
+                <Class sourceFile="StorageResource.java">
+                    es.courserajava.edu.duke.StorageResource
+                </Class>
+                <Class sourceFile="TextIterable.java">
+                    es.courserajava.edu.duke.TextIterable
+                </Class>
+                <Class sourceFile="TextIterable.java">
+                    es.courserajava.edu.duke.TextIterable$1
+                </Class>
+                <Class sourceFile="URLResource.java">
+                    es.courserajava.edu.duke.URLResource
                 </Class>
             </ConcreteClasses>
 
             <DependsUpon>
+                <Package>java.awt</Package>
+                <Package>java.awt.image</Package>
                 <Package>java.io</Package>
                 <Package>java.lang</Package>
+                <Package>java.net</Package>
+                <Package>java.util</Package>
+                <Package>javax.imageio</Package>
+                <Package>javax.swing</Package>
+                <Package>javax.swing.filechooser</Package>
+                <Package>org.apache.commons.csv</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>es.ull.etsii</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="es.ull.etsii">
+            <Stats>
+                <TotalClasses>17</TotalClasses>
+                <ConcreteClasses>14</ConcreteClasses>
+                <AbstractClasses>3</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>5</Ce>
+                <A>0.18</A>
+                <I>1</I>
+                <D>0.18</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="Filter.java">
+                    es.ull.etsii.Filter
+                </Class>
+                <Class sourceFile="Rater.java">
+                    es.ull.etsii.Rater
+                </Class>
+                <Class sourceFile="Recommender.java">
+                    es.ull.etsii.Recommender
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="AllFilters.java">
+                    es.ull.etsii.AllFilters
+                </Class>
+                <Class sourceFile="DirectorsFilter.java">
+                    es.ull.etsii.DirectorsFilter
+                </Class>
+                <Class sourceFile="EfficientRater.java">
+                    es.ull.etsii.EfficientRater
+                </Class>
+                <Class sourceFile="FirstRatings.java">
+                    es.ull.etsii.FirstRatings
+                </Class>
+                <Class sourceFile="GenreFilter.java">
+                    es.ull.etsii.GenreFilter
+                </Class>
+                <Class sourceFile="Main.java">
+                    es.ull.etsii.Main
+                </Class>
+                <Class sourceFile="MinutesFilter.java">
+                    es.ull.etsii.MinutesFilter
+                </Class>
+                <Class sourceFile="Movie.java">
+                    es.ull.etsii.Movie
+                </Class>
+                <Class sourceFile="MovieDatabase.java">
+                    es.ull.etsii.MovieDatabase
+                </Class>
+                <Class sourceFile="RaterDatabase.java">
+                    es.ull.etsii.RaterDatabase
+                </Class>
+                <Class sourceFile="Rating.java">
+                    es.ull.etsii.Rating
+                </Class>
+                <Class sourceFile="RecommendationRunner.java">
+                    es.ull.etsii.RecommendationRunner
+                </Class>
+                <Class sourceFile="TrueFilter.java">
+                    es.ull.etsii.TrueFilter
+                </Class>
+                <Class sourceFile="YearAfterFilter.java">
+                    es.ull.etsii.YearAfterFilter
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>es.courserajava.edu.duke</Package>
+                <Package>java.io</Package>
+                <Package>java.lang</Package>
+                <Package>java.util</Package>
+                <Package>org.apache.commons.csv</Package>
             </DependsUpon>
 
             <UsedBy>
             </UsedBy>
+        </Package>
+
+        <Package name="java.awt">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.awt.image">
+            <error>No stats available: package referenced, but not analyzed.</error>
         </Package>
 
         <Package name="java.io">
@@ -38,6 +182,30 @@
         </Package>
 
         <Package name="java.lang">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.net">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.util">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="javax.imageio">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="javax.swing">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="javax.swing.filechooser">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.apache.commons.csv">
             <error>No stats available: package referenced, but not analyzed.</error>
         </Package>
     </Packages>
