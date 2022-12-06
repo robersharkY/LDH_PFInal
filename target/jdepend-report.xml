@@ -2,6 +2,85 @@
 <JDepend>
     <Packages>
 
+        <Package name="es.apachecsv.org.apache.commons.csv">
+            <Stats>
+                <TotalClasses>15</TotalClasses>
+                <ConcreteClasses>15</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>2</Ca>
+                <Ce>6</Ce>
+                <A>0</A>
+                <I>0.75</I>
+                <D>0.25</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="Assertions.java">
+                    es.apachecsv.org.apache.commons.csv.Assertions
+                </Class>
+                <Class sourceFile="CSVFormat.java">
+                    es.apachecsv.org.apache.commons.csv.CSVFormat
+                </Class>
+                <Class sourceFile="CSVFormat.java">
+                    es.apachecsv.org.apache.commons.csv.CSVFormat$1
+                </Class>
+                <Class sourceFile="CSVFormat.java">
+                    es.apachecsv.org.apache.commons.csv.CSVFormat$Predefined
+                </Class>
+                <Class sourceFile="CSVParser.java">
+                    es.apachecsv.org.apache.commons.csv.CSVParser
+                </Class>
+                <Class sourceFile="CSVParser.java">
+                    es.apachecsv.org.apache.commons.csv.CSVParser$1
+                </Class>
+                <Class sourceFile="CSVParser.java">
+                    es.apachecsv.org.apache.commons.csv.CSVParser$2
+                </Class>
+                <Class sourceFile="CSVPrinter.java">
+                    es.apachecsv.org.apache.commons.csv.CSVPrinter
+                </Class>
+                <Class sourceFile="CSVRecord.java">
+                    es.apachecsv.org.apache.commons.csv.CSVRecord
+                </Class>
+                <Class sourceFile="Constants.java">
+                    es.apachecsv.org.apache.commons.csv.Constants
+                </Class>
+                <Class sourceFile="ExtendedBufferedReader.java">
+                    es.apachecsv.org.apache.commons.csv.ExtendedBufferedReader
+                </Class>
+                <Class sourceFile="Lexer.java">
+                    es.apachecsv.org.apache.commons.csv.Lexer
+                </Class>
+                <Class sourceFile="QuoteMode.java">
+                    es.apachecsv.org.apache.commons.csv.QuoteMode
+                </Class>
+                <Class sourceFile="Token.java">
+                    es.apachecsv.org.apache.commons.csv.Token
+                </Class>
+                <Class sourceFile="Token.java">
+                    es.apachecsv.org.apache.commons.csv.Token$Type
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.io</Package>
+                <Package>java.lang</Package>
+                <Package>java.net</Package>
+                <Package>java.nio.charset</Package>
+                <Package>java.sql</Package>
+                <Package>java.util</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>es.courserajava.edu.duke</Package>
+                <Package>es.ull.etsii</Package>
+            </UsedBy>
+        </Package>
+
         <Package name="es.courserajava.edu.duke">
             <Stats>
                 <TotalClasses>16</TotalClasses>
@@ -70,6 +149,7 @@
             </ConcreteClasses>
 
             <DependsUpon>
+                <Package>es.apachecsv.org.apache.commons.csv</Package>
                 <Package>java.awt</Package>
                 <Package>java.awt.image</Package>
                 <Package>java.io</Package>
@@ -79,7 +159,6 @@
                 <Package>javax.imageio</Package>
                 <Package>javax.swing</Package>
                 <Package>javax.swing.filechooser</Package>
-                <Package>org.apache.commons.csv</Package>
             </DependsUpon>
 
             <UsedBy>
@@ -158,11 +237,11 @@
             </ConcreteClasses>
 
             <DependsUpon>
+                <Package>es.apachecsv.org.apache.commons.csv</Package>
                 <Package>es.courserajava.edu.duke</Package>
                 <Package>java.io</Package>
                 <Package>java.lang</Package>
                 <Package>java.util</Package>
-                <Package>org.apache.commons.csv</Package>
             </DependsUpon>
 
             <UsedBy>
@@ -189,6 +268,14 @@
             <error>No stats available: package referenced, but not analyzed.</error>
         </Package>
 
+        <Package name="java.nio.charset">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.sql">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
         <Package name="java.util">
             <error>No stats available: package referenced, but not analyzed.</error>
         </Package>
@@ -202,10 +289,6 @@
         </Package>
 
         <Package name="javax.swing.filechooser">
-            <error>No stats available: package referenced, but not analyzed.</error>
-        </Package>
-
-        <Package name="org.apache.commons.csv">
             <error>No stats available: package referenced, but not analyzed.</error>
         </Package>
     </Packages>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pmd-cpd>
    <duplication lines="15" tokens="135">
-      <file begintoken="6900" column="71" endcolumn="20" endline="106" endtoken="7034"
+      <file begintoken="15967" column="71" endcolumn="20" endline="106" endtoken="16101"
             line="92"
             path="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\FourthRatings.java"/>
-      <file begintoken="7250" column="69" endcolumn="20" endline="159" endtoken="7384"
+      <file begintoken="16317" column="69" endcolumn="20" endline="159" endtoken="16451"
             line="145"
             path="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\FourthRatings.java"/>
       <codefragment><![CDATA[    ArrayList<String> movies = MovieDatabase.filterBy(new TrueFilter());
@@ -24,10 +24,10 @@
               num += 1;]]></codefragment>
    </duplication>
    <duplication lines="82" tokens="106">
-      <file begintoken="122" column="30" endcolumn="40" endline="241" endtoken="227"
+      <file begintoken="9189" column="30" endcolumn="40" endline="241" endtoken="9294"
             line="160"
             path="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\courserajava\edu\duke\FileResource.java"/>
-      <file begintoken="4114" column="103" endcolumn="40" endline="155" endtoken="4219"
+      <file begintoken="13181" column="103" endcolumn="40" endline="155" endtoken="13286"
             line="76"
             path="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\courserajava\edu\duke\URLResource.java"/>
       <codefragment><![CDATA[            initRead(filename);

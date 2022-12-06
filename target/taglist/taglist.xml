@@ -2,6 +2,89 @@
 <report xmlns="org.codehaus.mojo.taglist-maven-plugin">
   <tags>
     <tag name="@todo" count="0" />
-    <tag name="TODO" count="0" />
+    <tag name="TODO" count="14">
+      <files>
+        <file name="es.apachecsv.org.apache.commons.csv.CSVFormat" count="6">
+          <comments>
+            <comment>
+              <lineNumber>497</lineNumber>
+              <comment>--No comment--</comment>
+            </comment>
+            <comment>
+              <lineNumber>499</lineNumber>
+              <comment>--No comment--</comment>
+            </comment>
+            <comment>
+              <lineNumber>501</lineNumber>
+              <comment>--No comment--</comment>
+            </comment>
+            <comment>
+              <lineNumber>503</lineNumber>
+              <comment>--No comment--</comment>
+            </comment>
+            <comment>
+              <lineNumber>505</lineNumber>
+              <comment>--No comment--</comment>
+            </comment>
+            <comment>
+              <lineNumber>991</lineNumber>
+              <comment>where did this rule come from?</comment>
+            </comment>
+          </comments>
+        </file>
+        <file name="es.apachecsv.org.apache.commons.csv.CSVRecord" count="1">
+          <comments>
+            <comment>
+              <lineNumber>244</lineNumber>
+              <comment>Maybe make this public?</comment>
+            </comment>
+          </comments>
+        </file>
+        <file name="es.apachecsv.org.apache.commons.csv.Lexer" count="4">
+          <comments>
+            <comment>
+              <lineNumber>308</lineNumber>
+              <comment>escape handling needs more work</comment>
+            </comment>
+            <comment>
+              <lineNumber>336</lineNumber>
+              <comment>is this correct?</comment>
+            </comment>
+            <comment>
+              <lineNumber>337</lineNumber>
+              <comment>is this correct? Do tabs need to be escaped?</comment>
+            </comment>
+            <comment>
+              <lineNumber>338</lineNumber>
+              <comment>is this correct?</comment>
+            </comment>
+          </comments>
+        </file>
+        <file name="es.apachecsv.org.apache.commons.csv.Assertions" count="1">
+          <comments>
+            <comment>
+              <lineNumber>23</lineNumber>
+              <comment>Replace usage with {@link Objects} when we switch to Java 7.</comment>
+            </comment>
+          </comments>
+        </file>
+        <file name="es.apachecsv.org.apache.commons.csv.CSVParser" count="1">
+          <comments>
+            <comment>
+              <lineNumber>443</lineNumber>
+              <comment>This is not great, throw an ISE instead?</comment>
+            </comment>
+          </comments>
+        </file>
+        <file name="es.apachecsv.org.apache.commons.csv.CSVPrinter" count="1">
+          <comments>
+            <comment>
+              <lineNumber>66</lineNumber>
+              <comment>Is it a good idea to do this here instead of on the first call to a print method? It seems a pain to have to track whether the header has already been printed or not.</comment>
+            </comment>
+          </comments>
+        </file>
+      </files>
+    </tag>
   </tags>
 </report>
