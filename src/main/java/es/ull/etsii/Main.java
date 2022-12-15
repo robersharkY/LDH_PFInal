@@ -1,8 +1,8 @@
 package es.ull.etsii;
-import es.ull.etsii.EfficientRater;
-import es.ull.etsii.FourthRatings;
-import es.ull.etsii.MovieRunnerSimilarRatings;
-import es.ull.etsii.Rater;
+// import es.ull.etsii.EfficientRater;
+// import es.ull.etsii.FourthRatings;
+// import es.ull.etsii.MovieRunnerSimilarRatings;
+// import es.ull.etsii.Rater;
 
 /** @author Stanislav Rakitov */
 public class Main {

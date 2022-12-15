@@ -4,6 +4,9 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
+/**
+ * Unit test for MovieRunnerSimilarRatings class.
+ */
 public class MovieRunnerSimilarRatingsTest {
 
     @Test

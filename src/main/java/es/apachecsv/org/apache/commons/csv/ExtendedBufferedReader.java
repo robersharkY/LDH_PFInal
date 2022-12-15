@@ -17,7 +17,8 @@
 
 package es.apachecsv.org.apache.commons.csv;
 
-import es.apachecsv.org.apache.commons.csv.Constants;
+// Comentado
+//import es.apachecsv.org.apache.commons.csv.Constants;
 
 import static es.apachecsv.org.apache.commons.csv.Constants.CR;
 import static es.apachecsv.org.apache.commons.csv.Constants.END_OF_STREAM;

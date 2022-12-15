@@ -3,10 +3,10 @@
    <duplication lines="15" tokens="135">
       <file begintoken="15967" column="71" endcolumn="20" endline="106" endtoken="16101"
             line="92"
-            path="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\FourthRatings.java"/>
+            path="/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/src/main/java/es/ull/etsii/FourthRatings.java"/>
       <file begintoken="16317" column="69" endcolumn="20" endline="159" endtoken="16451"
             line="145"
-            path="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\FourthRatings.java"/>
+            path="/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/src/main/java/es/ull/etsii/FourthRatings.java"/>
       <codefragment><![CDATA[    ArrayList<String> movies = MovieDatabase.filterBy(new TrueFilter());
     for (String movie_id : movies) {
       int md_id = Integer.parseInt(movie_id);
@@ -26,10 +26,10 @@
    <duplication lines="82" tokens="106">
       <file begintoken="9189" column="30" endcolumn="40" endline="241" endtoken="9294"
             line="160"
-            path="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\courserajava\edu\duke\FileResource.java"/>
-      <file begintoken="13181" column="103" endcolumn="40" endline="155" endtoken="13286"
+            path="/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/src/main/java/es/courserajava/edu/duke/FileResource.java"/>
+      <file begintoken="13180" column="103" endcolumn="40" endline="155" endtoken="13285"
             line="76"
-            path="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\courserajava\edu\duke\URLResource.java"/>
+            path="/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/src/main/java/es/courserajava/edu/duke/URLResource.java"/>
       <codefragment><![CDATA[            initRead(filename);
         }
     }

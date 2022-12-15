@@ -1,12 +1,19 @@
 package es.ull.etsii;
 
-import org.junit.Test;
-
 import static org.junit.Assert.*;
 
-public class MainTest {
+import org.junit.Test;
 
+/**
+ * Unit test for Main program.
+ */
+public class MainTest {
+    /**
+     * Rigorous Test :-)
+     */
     @Test
-    public void main() {
+    public void shouldAnswerWithTrue() 
+    {
+        assertTrue( true );
     }
 }
