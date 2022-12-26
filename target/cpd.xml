@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pmd-cpd>
    <duplication lines="15" tokens="135">
-      <file begintoken="15967" column="71" endcolumn="20" endline="106" endtoken="16101"
-            line="92"
-            path="/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/src/main/java/es/ull/etsii/FourthRatings.java"/>
-      <file begintoken="16317" column="69" endcolumn="20" endline="159" endtoken="16451"
-            line="145"
-            path="/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/src/main/java/es/ull/etsii/FourthRatings.java"/>
+      <file begintoken="17382" column="71" endcolumn="20" endline="112" endtoken="17516"
+            line="98"
+            path="/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FourthRatings.java"/>
+      <file begintoken="17732" column="69" endcolumn="20" endline="165" endtoken="17866"
+            line="151"
+            path="/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FourthRatings.java"/>
       <codefragment><![CDATA[    ArrayList<String> movies = MovieDatabase.filterBy(new TrueFilter());
     for (String movie_id : movies) {
       int md_id = Integer.parseInt(movie_id);

@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"es.ull.etsii"}]
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"es.ull.etsii.Filters"},{"l":"es.ull.etsii.MainProgram"},{"l":"es.ull.etsii.Movies"},{"l":"es.ull.etsii.Rate"},{"l":"es.ull.etsii.Ratings"},{"l":"es.ull.etsii.Recommendations"}]
