@@ -8,6 +8,10 @@
 [Java Programming: Build a Recommendation System](https://www.coursera.org/learn/java-programming-recommender)
 by Duke University
 
+Modified, quality report and continiuos integration made by:
+[Roberto Carlos García](https://github.com/robersharkY)
+[Rodrigo García Jiménez](https://github.com/garciarodrigo99)
+
 Course 5 of 5 in the [Java Programming and Software Engineering Fundamentals Specialization](https://www.coursera.org/specializations/java-programming)<br>
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=robersharkY_LDH_PFInal) <br>
 
