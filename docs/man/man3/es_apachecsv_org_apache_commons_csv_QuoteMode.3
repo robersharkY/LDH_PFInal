@@ -1,0 +1,52 @@
+.TH "es.apachecsv.org.apache.commons.csv.QuoteMode" 3 "Thu Dec 29 2022" "Version 1.0" "ProyectoFinalLDH" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+es.apachecsv.org.apache.commons.csv.QuoteMode
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBALL\fP"
+.br
+.ti -1c
+.RI "\fBMINIMAL\fP"
+.br
+.ti -1c
+.RI "\fBNON_NUMERIC\fP"
+.br
+.ti -1c
+.RI "\fBNONE\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Defines quote behavior when printing\&.
+.PP
+\fBVersion\fP
+.RS 4
+.RE
+.PP
+\fBId\fP
+.RS 4
+\fBQuoteMode\&.java\fP 1694977 2015-08-10 07:05:58Z ggregory 
+.RE
+.PP
+
+.SH "Member Data Documentation"
+.PP 
+.SS "es\&.apachecsv\&.org\&.apache\&.commons\&.csv\&.QuoteMode\&.ALL"
+Quotes all fields\&. 
+.SS "es\&.apachecsv\&.org\&.apache\&.commons\&.csv\&.QuoteMode\&.MINIMAL"
+Quotes fields which contain special characters such as a delimiter, quotes character or any of the characters in line separator\&. 
+.SS "es\&.apachecsv\&.org\&.apache\&.commons\&.csv\&.QuoteMode\&.NON_NUMERIC"
+Quotes all non-numeric fields\&. 
+.SS "es\&.apachecsv\&.org\&.apache\&.commons\&.csv\&.QuoteMode\&.NONE"
+Never quotes fields\&. When the delimiter occurs in data, the printer prefixes it with the current escape character\&. If the escape character is not set, format validation throws an exception\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for ProyectoFinalLDH from the source code\&.

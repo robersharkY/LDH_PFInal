@@ -1,7 +1,6 @@
 package es.ull.etsii.Movies;
 
 import es.ull.etsii.Filters.Filter;
-import es.ull.etsii.Movies.Movie;
 import es.ull.etsii.Ratings.FirstRatings;
 
 import java.util.ArrayList;

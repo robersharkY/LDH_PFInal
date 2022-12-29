@@ -8,7 +8,6 @@ package es.ull.etsii.Rate;
 import es.courserajava.edu.duke.FileResource;
 import es.apachecsv.org.apache.commons.csv.CSVParser;
 import es.apachecsv.org.apache.commons.csv.CSVRecord;
-import es.ull.etsii.Rate.Rater;
 
 import java.util.ArrayList;
 import java.util.HashMap;

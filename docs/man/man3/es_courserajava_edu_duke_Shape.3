@@ -1,0 +1,138 @@
+.TH "es.courserajava.edu.duke.Shape" 3 "Thu Dec 29 2022" "Version 1.0" "ProyectoFinalLDH" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+es.courserajava.edu.duke.Shape
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBShape\fP ()"
+.br
+.ti -1c
+.RI "\fBShape\fP (\fBFileResource\fP file)"
+.br
+.ti -1c
+.RI "void \fBaddPoint\fP (\fBPoint\fP p)"
+.br
+.ti -1c
+.RI "\fBPoint\fP \fBgetLastPoint\fP ()"
+.br
+.ti -1c
+.RI "Iterable< \fBPoint\fP > \fBgetPoints\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+The \fC\fBShape\fP\fP class represents a collection of \fC\fBPoint\fP\fPs that can easily model a polygonal shape\&. Points can be added in order via code or given using a file, one point per line separated by a comma\&. The points can then be accessed in the order they were added one at a time, using the method \fCgetPoints\fP\&.
+.PP
+Example usage:
+.PP
+.PP
+.nf
+
+\fBPoint\fP a = new Point(3, 4);
+\fBPoint\fP b = new Point(2, 5);
+\fBShape\fP s = new \fBShape()\fP;
+s\&.addPoint(a);
+s\&.addPoint(b);
+s\&.addPoint(new Point(1, 1));
+for (\fBPoint\fP p : s\&.getPoints()) {
+    System\&.out\&.println(p);
+}
+.fi
+.PP
+.PP
+A \fC\fBShape\fP\fP can also be created using file in the following format:
+.PP
+.PP
+.nf
+
+3, 4
+2, 5
+1, 1
+.fi
+.PP
+.PP
+Example file usage:
+.PP
+.PP
+.nf
+
+\fBFileResource\fP fr = new FileResource();
+\fBShape\fP s = new Shape(fr);
+for (\fBPoint\fP p : s\&.getPoints()) {
+    System\&.out\&.println(p);
+}
+.fi
+.PP
+.PP
+This software is licensed with an Apache 2 license, see http://www.apache.org/licenses/LICENSE-2.0 for details\&.
+.PP
+\fBAuthor\fP
+.RS 4
+Duke Coursera Team 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "es\&.courserajava\&.edu\&.duke\&.Shape\&.Shape ()"
+Create an empty \fC\fBShape\fP\fP object, one with no points\&. 
+.SS "es\&.courserajava\&.edu\&.duke\&.Shape\&.Shape (\fBFileResource\fP file)"
+Create a \fC\fBShape\fP\fP object from a file with x,y coordinates of points, in order, one pair of x,y per line\&.
+.PP
+Each x,y are comma-separated, e\&.g\&., 
+.PP
+.nf
+
+  3,4
+ -2,5
+.fi
+.PP
+ whitespace on line is skipped\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIfile\fP is the \fBFileResource\fP accessible and bound to a file with one pair of points per line 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void es\&.courserajava\&.edu\&.duke\&.Shape\&.addPoint (\fBPoint\fP p)"
+Add a point to this shape/polygon\&.
+.PP
+The order in which points are added defines the order in which points are accessed\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIp\fP is the \fBPoint\fP added to this shape 
+.RE
+.PP
+
+.SS "\fBPoint\fP es\&.courserajava\&.edu\&.duke\&.Shape\&.getLastPoint ()"
+Return the last point added to this shape/polygon
+.PP
+\fBReturns\fP
+.RS 4
+the last \fBPoint\fP added 
+.RE
+.PP
+
+.SS "Iterable< \fBPoint\fP > es\&.courserajava\&.edu\&.duke\&.Shape\&.getPoints ()"
+Allow access to this shape one point at a time\&.
+.PP
+\fBReturns\fP
+.RS 4
+an Iterable that allows access to points 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for ProyectoFinalLDH from the source code\&.

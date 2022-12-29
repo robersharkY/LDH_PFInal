@@ -1,0 +1,157 @@
+.TH "es.courserajava.edu.duke.RangeResource" 3 "Thu Dec 29 2022" "Version 1.0" "ProyectoFinalLDH" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+es.courserajava.edu.duke.RangeResource
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBRangeResource\fP (int end)"
+.br
+.ti -1c
+.RI "\fBRangeResource\fP (int start, int end)"
+.br
+.ti -1c
+.RI "\fBRangeResource\fP (int start, int end, int increment)"
+.br
+.ti -1c
+.RI "\fBRangeResource\fP (\fBRangeResource\fP other)"
+.br
+.ti -1c
+.RI "String \fBtoString\fP ()"
+.br
+.ti -1c
+.RI "Iterable< Integer > \fBsequence\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+The \fC\fBRangeResource\fP\fP class represents a range of integer (or whole) numbers and allows access to these numbers using the method \fCsequence\fP\&. The integers can then be iterated over using a \fCfor\fP loop
+.PP
+Example usage:
+.PP
+.PP
+.nf
+
+// this prints the square number sequence for the first 9 numbers:
+//   1, 4, 9, 16, 25, 36, 49, 64, 81 
+\fBRangeResource\fP rr = new RangeResource(1, 10);
+for (int value : rr\&.sequence()) {
+    System\&.out\&.println(value * value);
+}
+.fi
+.PP
+.PP
+Another example usage:
+.PP
+.PP
+.nf
+
+// this prints the odd numbers in decreasing order within the given range:
+//   37, 35, 33, 31, 29, 27, 25, 23
+\fBRangeResource\fP rr = new \fBRangeResource\fP(37, 21, -2);
+for (int value : rr\&.sequence()) {
+    System\&.out\&.println(value);
+}
+.fi
+.PP
+.PP
+This software is licensed with an Apache 2 license, see http://www.apache.org/licenses/LICENSE-2.0 for details\&.
+.PP
+\fBAuthor\fP
+.RS 4
+Duke Software Team 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "es\&.courserajava\&.edu\&.duke\&.RangeResource\&.RangeResource (int end)"
+Create a \fC\fBRangeResource\fP\fP object, starting at 0 and going up to but not including end, [0 - end), that increments by 1\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIend\fP when to stop the range, not included as one of the values 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fI\fBResourceException\fP\fP if the end is negative 
+.RE
+.PP
+
+.SS "es\&.courserajava\&.edu\&.duke\&.RangeResource\&.RangeResource (int start, int end)"
+Create a \fC\fBRangeResource\fP\fP object, starting at start and going up to but not including end, [start - end), that increments by 1\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIstart\fP the first value in the range, included as one of the values 
+.br
+\fIend\fP when to stop the range, not included as one of the values 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fI\fBResourceException\fP\fP if the end is less than the start 
+.RE
+.PP
+
+.SS "es\&.courserajava\&.edu\&.duke\&.RangeResource\&.RangeResource (int start, int end, int increment)"
+Create a \fC\fBRangeResource\fP\fP object, starting at start and going up to but not including end, [start - end), that increments by the amount passed as a parameter\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIstart\fP the first value in the range, included as one of the values 
+.br
+\fIend\fP when to stop the range, not included as one of the values 
+.br
+\fIincrement\fP how much to add to get the next value in the range's sequence 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fI\fBResourceException\fP\fP if increment is negative when the end is greater than the start 
+.br
+\fI\fBResourceException\fP\fP if increment is positive when the end is less than the start 
+.br
+\fI\fBResourceException\fP\fP if increment is 0 
+.RE
+.PP
+
+.SS "es\&.courserajava\&.edu\&.duke\&.RangeResource\&.RangeResource (\fBRangeResource\fP other)"
+Create an \fC\fBRangeResource\fP\fP object that is a copy of another range\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIother\fP the original range being copied 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "Iterable< Integer > es\&.courserajava\&.edu\&.duke\&.RangeResource\&.sequence ()"
+Allow access to the numbers in this range one at a time\&.
+.PP
+\fBReturns\fP
+.RS 4
+an \fCIterable\fP that will allow access to each number in this range 
+.RE
+.PP
+
+.SS "String es\&.courserajava\&.edu\&.duke\&.RangeResource\&.toString ()"
+Return string representation of this range, with each value in the sequence separated by a comma\&.
+.PP
+\fBReturns\fP
+.RS 4
+a \fCString\fP containing all the values in the range 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for ProyectoFinalLDH from the source code\&.

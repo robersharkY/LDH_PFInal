@@ -1,0 +1,121 @@
+\hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_point}{}\doxysection{es.\+courserajava.\+edu.\+duke.\+Point Class Reference}
+\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_point}\index{es.courserajava.edu.duke.Point@{es.courserajava.edu.duke.Point}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_point_a983ee4b212921caea8a98e0f1e231ca4}{Point}} (int startx, int starty)
+\item 
+int \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_point_a14ce117faef064b2f86fa192eb618700}{getX}} ()
+\item 
+int \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_point_a0c88dc9376b3739cf48b1c0bdd8093c6}{getY}} ()
+\item 
+double \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_point_a6110ac1f6324a0740491f04a13ebd1a4}{distance}} (\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_point}{Point}} other\+Pt)
+\item 
+String \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_point_a318d2eeee5d1cdf7ddf8cbcc959e1a89}{to\+String}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_point_a180f5f19be37d3465af7e4a1a0bc848a}{main}} (String\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The {\ttfamily \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_point}{Point}}} class represents a two-\/dimensional location, constructed from (x,y) coordinates with some methods for access and the capability to calculate the distance from this point to another point.
+
+Example usage\+:
+
+
+\begin{DoxyPre}
+\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_point}{Point}} a = new Point(3, 4);
+\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_point}{Point}} b = new Point(2, 5);
+double dist = a.distance(b);
+\end{DoxyPre}
+
+
+This software is licensed with an Apache 2 license, see \href{http://www.apache.org/licenses/LICENSE-2.0}{\texttt{ http\+://www.\+apache.\+org/licenses/\+LICENSE-\/2.\+0}} for details.
+
+\begin{DoxyAuthor}{Author}
+Duke Coursera Team 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_point_a983ee4b212921caea8a98e0f1e231ca4}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_point_a983ee4b212921caea8a98e0f1e231ca4}} 
+\index{es.courserajava.edu.duke.Point@{es.courserajava.edu.duke.Point}!Point@{Point}}
+\index{Point@{Point}!es.courserajava.edu.duke.Point@{es.courserajava.edu.duke.Point}}
+\doxysubsubsection{\texorpdfstring{Point()}{Point()}}
+{\footnotesize\ttfamily es.\+courserajava.\+edu.\+duke.\+Point.\+Point (\begin{DoxyParamCaption}\item[{int}]{startx,  }\item[{int}]{starty }\end{DoxyParamCaption})}
+
+Create a {\ttfamily \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_point}{Point}}} object from x and y coordinates.
+
+
+\begin{DoxyParams}{Parameters}
+{\em startx} & is the x-\/coordinate \\
+\hline
+{\em starty} & is the y-\/coordinate \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_point_a6110ac1f6324a0740491f04a13ebd1a4}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_point_a6110ac1f6324a0740491f04a13ebd1a4}} 
+\index{es.courserajava.edu.duke.Point@{es.courserajava.edu.duke.Point}!distance@{distance}}
+\index{distance@{distance}!es.courserajava.edu.duke.Point@{es.courserajava.edu.duke.Point}}
+\doxysubsubsection{\texorpdfstring{distance()}{distance()}}
+{\footnotesize\ttfamily double es.\+courserajava.\+edu.\+duke.\+Point.\+distance (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_point}{Point}}}]{other\+Pt }\end{DoxyParamCaption})}
+
+Calculate and return the Euclidean distance from this point to another point.
+
+
+\begin{DoxyParams}{Parameters}
+{\em other\+Pt} & the other point to which distance is calculated \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the distance from this point to other\+Pt 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_point_a14ce117faef064b2f86fa192eb618700}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_point_a14ce117faef064b2f86fa192eb618700}} 
+\index{es.courserajava.edu.duke.Point@{es.courserajava.edu.duke.Point}!getX@{getX}}
+\index{getX@{getX}!es.courserajava.edu.duke.Point@{es.courserajava.edu.duke.Point}}
+\doxysubsubsection{\texorpdfstring{getX()}{getX()}}
+{\footnotesize\ttfamily int es.\+courserajava.\+edu.\+duke.\+Point.\+getX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the x coordinate of this point.
+
+\begin{DoxyReturn}{Returns}
+x coordinate 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_point_a0c88dc9376b3739cf48b1c0bdd8093c6}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_point_a0c88dc9376b3739cf48b1c0bdd8093c6}} 
+\index{es.courserajava.edu.duke.Point@{es.courserajava.edu.duke.Point}!getY@{getY}}
+\index{getY@{getY}!es.courserajava.edu.duke.Point@{es.courserajava.edu.duke.Point}}
+\doxysubsubsection{\texorpdfstring{getY()}{getY()}}
+{\footnotesize\ttfamily int es.\+courserajava.\+edu.\+duke.\+Point.\+getY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the y coordinate of this point.
+
+\begin{DoxyReturn}{Returns}
+y coordinate 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_point_a180f5f19be37d3465af7e4a1a0bc848a}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_point_a180f5f19be37d3465af7e4a1a0bc848a}} 
+\index{es.courserajava.edu.duke.Point@{es.courserajava.edu.duke.Point}!main@{main}}
+\index{main@{main}!es.courserajava.edu.duke.Point@{es.courserajava.edu.duke.Point}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void es.\+courserajava.\+edu.\+duke.\+Point.\+main (\begin{DoxyParamCaption}\item[{String\mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_point_a318d2eeee5d1cdf7ddf8cbcc959e1a89}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_point_a318d2eeee5d1cdf7ddf8cbcc959e1a89}} 
+\index{es.courserajava.edu.duke.Point@{es.courserajava.edu.duke.Point}!toString@{toString}}
+\index{toString@{toString}!es.courserajava.edu.duke.Point@{es.courserajava.edu.duke.Point}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily String es.\+courserajava.\+edu.\+duke.\+Point.\+to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a string representation of this point.
+
+\begin{DoxyReturn}{Returns}
+(x,y) for this point. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/roberto/\+Idea\+Projects/\+LDH\+\_\+\+PFInal/src/main/java/es/courserajava/edu/duke/\mbox{\hyperlink{_point_8java}{Point.\+java}}\end{DoxyCompactItemize}

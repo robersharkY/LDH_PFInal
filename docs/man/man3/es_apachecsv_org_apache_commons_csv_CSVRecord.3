@@ -1,0 +1,257 @@
+.TH "es.apachecsv.org.apache.commons.csv.CSVRecord" 3 "Thu Dec 29 2022" "Version 1.0" "ProyectoFinalLDH" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+es.apachecsv.org.apache.commons.csv.CSVRecord
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Serializable, and Iterable< String >\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "String \fBget\fP (final Enum<?> e)"
+.br
+.ti -1c
+.RI "String \fBget\fP (final int i)"
+.br
+.ti -1c
+.RI "String \fBget\fP (final String name)"
+.br
+.ti -1c
+.RI "long \fBgetCharacterPosition\fP ()"
+.br
+.ti -1c
+.RI "String \fBgetComment\fP ()"
+.br
+.ti -1c
+.RI "long \fBgetRecordNumber\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisConsistent\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBhasComment\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisMapped\fP (final String name)"
+.br
+.ti -1c
+.RI "boolean \fBisSet\fP (final String name)"
+.br
+.ti -1c
+.RI "Iterator< String > \fBiterator\fP ()"
+.br
+.ti -1c
+.RI "int \fBsize\fP ()"
+.br
+.ti -1c
+.RI "Map< String, String > \fBtoMap\fP ()"
+.br
+.ti -1c
+.RI "String \fBtoString\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A CSV record parsed from a CSV file\&.
+.PP
+\fBVersion\fP
+.RS 4
+.RE
+.PP
+\fBId\fP
+.RS 4
+\fBCSVRecord\&.java\fP 1727809 2016-01-31 13:08:33Z sebb 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "String es\&.apachecsv\&.org\&.apache\&.commons\&.csv\&.CSVRecord\&.get (final Enum<?> e)"
+Returns a value by \fC\fBEnum\fP\fP\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIe\fP an enum 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+the String at the given enum String 
+.RE
+.PP
+
+.SS "String es\&.apachecsv\&.org\&.apache\&.commons\&.csv\&.CSVRecord\&.get (final int i)"
+Returns a value by index\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIi\fP a column index (0-based) 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+the String at the given index 
+.RE
+.PP
+
+.SS "String es\&.apachecsv\&.org\&.apache\&.commons\&.csv\&.CSVRecord\&.get (final String name)"
+Returns a value by name\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIname\fP the name of the column to be retrieved\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+the column value, maybe null depending on \fC\fBCSVFormat#getNullString()\fP\fP\&. 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIIllegalStateException\fP if no header mapping was provided 
+.br
+\fIIllegalArgumentException\fP if \fC
+name\fP
+ is not mapped or if the record is inconsistent 
+.RE
+.PP
+\fBSee also\fP
+.RS 4
+\fBisConsistent()\fP 
+.PP
+\fBCSVFormat::withNullString(String)\fP 
+.RE
+.PP
+
+.SS "long es\&.apachecsv\&.org\&.apache\&.commons\&.csv\&.CSVRecord\&.getCharacterPosition ()"
+Returns the start position of this record as a character position in the source stream\&. This may or may not correspond to the byte position depending on the character set\&.
+.PP
+\fBReturns\fP
+.RS 4
+the position of this record in the source stream\&. 
+.RE
+.PP
+
+.SS "String es\&.apachecsv\&.org\&.apache\&.commons\&.csv\&.CSVRecord\&.getComment ()"
+Returns the comment for this record, if any\&. Note that comments are attached to the following record\&. If there is no following record (i\&.e\&. the comment is at EOF) the comment will be ignored\&.
+.PP
+\fBReturns\fP
+.RS 4
+the comment for this record, or null if no comment for this record is available\&. 
+.RE
+.PP
+
+.SS "long es\&.apachecsv\&.org\&.apache\&.commons\&.csv\&.CSVRecord\&.getRecordNumber ()"
+Returns the number of this record in the parsed CSV file\&.
+.PP
+\fBATTENTION:\fP If your CSV input has multi-line values, the returned number does not correspond to the current line number of the parser that created this record\&. 
+.PP
+\fBReturns\fP
+.RS 4
+the number of this record\&. 
+.RE
+.PP
+\fBSee also\fP
+.RS 4
+\fBCSVParser::getCurrentLineNumber()\fP 
+.RE
+.PP
+
+.SS "boolean es\&.apachecsv\&.org\&.apache\&.commons\&.csv\&.CSVRecord\&.hasComment ()"
+Checks whether this record has a comment, false otherwise\&. Note that comments are attached to the following record\&. If there is no following record (i\&.e\&. the comment is at EOF) the comment will be ignored\&.
+.PP
+\fBReturns\fP
+.RS 4
+true if this record has a comment, false otherwise 
+.RE
+.PP
+\fBSince\fP
+.RS 4
+1\&.3 
+.RE
+.PP
+
+.SS "boolean es\&.apachecsv\&.org\&.apache\&.commons\&.csv\&.CSVRecord\&.isConsistent ()"
+Tells whether the record size matches the header size\&.
+.PP
+Returns true if the sizes for this record match and false if not\&. Some programs can export files that fail this test but still produce parsable files\&. 
+.PP
+\fBReturns\fP
+.RS 4
+true of this record is valid, false if not 
+.RE
+.PP
+
+.SS "boolean es\&.apachecsv\&.org\&.apache\&.commons\&.csv\&.CSVRecord\&.isMapped (final String name)"
+Checks whether a given column is mapped, i\&.e\&. its name has been defined to the parser\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIname\fP the name of the column to be retrieved\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+whether a given column is mapped\&. 
+.RE
+.PP
+
+.SS "boolean es\&.apachecsv\&.org\&.apache\&.commons\&.csv\&.CSVRecord\&.isSet (final String name)"
+Checks whether a given columns is mapped and has a value\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIname\fP the name of the column to be retrieved\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+whether a given columns is mapped and has a value 
+.RE
+.PP
+
+.SS "Iterator< String > es\&.apachecsv\&.org\&.apache\&.commons\&.csv\&.CSVRecord\&.iterator ()"
+Returns an iterator over the values of this record\&.
+.PP
+\fBReturns\fP
+.RS 4
+an iterator over the values of this record\&. 
+.RE
+.PP
+
+.SS "int es\&.apachecsv\&.org\&.apache\&.commons\&.csv\&.CSVRecord\&.size ()"
+Returns the number of values in this record\&.
+.PP
+\fBReturns\fP
+.RS 4
+the number of values\&. 
+.RE
+.PP
+
+.SS "Map< String, String > es\&.apachecsv\&.org\&.apache\&.commons\&.csv\&.CSVRecord\&.toMap ()"
+Copies this record into a new Map\&. The new map is not connect
+.PP
+\fBReturns\fP
+.RS 4
+A new Map\&. The map is empty if the record has no headers\&. 
+.RE
+.PP
+
+.SS "String es\&.apachecsv\&.org\&.apache\&.commons\&.csv\&.CSVRecord\&.toString ()"
+Returns a string representation of the contents of this record\&. The result is constructed by comment, mapping, recordNumber and by passing the internal values array to \fC\fBArrays#toString(Object[])\fP\fP\&.
+.PP
+\fBReturns\fP
+.RS 4
+a String representation of this record\&. 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for ProyectoFinalLDH from the source code\&.

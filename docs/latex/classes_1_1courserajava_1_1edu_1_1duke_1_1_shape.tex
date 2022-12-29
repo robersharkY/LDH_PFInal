@@ -1,0 +1,137 @@
+\hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_shape}{}\doxysection{es.\+courserajava.\+edu.\+duke.\+Shape Class Reference}
+\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_shape}\index{es.courserajava.edu.duke.Shape@{es.courserajava.edu.duke.Shape}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_shape_a33f825d9df31c388282e818228484618}{Shape}} ()
+\item 
+\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_shape_aa527260c47871f36fea7a26d04f8712c}{Shape}} (\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_file_resource}{File\+Resource}} file)
+\item 
+void \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_shape_aa72e237a14dc0fa71c13ac5ff18f59a2}{add\+Point}} (\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_point}{Point}} p)
+\item 
+\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_point}{Point}} \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_shape_a7dece712167ed2ccf148e5e69c61b3bf}{get\+Last\+Point}} ()
+\item 
+Iterable$<$ \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_point}{Point}} $>$ \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_shape_a0c0fb45e90058f1d28c33dc7bda4ce7c}{get\+Points}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The {\ttfamily \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_shape}{Shape}}} class represents a collection of {\ttfamily \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_point}{Point}}}s that can easily model a polygonal shape. Points can be added in order via code or given using a file, one point per line separated by a comma. The points can then be accessed in the order they were added one at a time, using the method {\ttfamily get\+Points}.
+
+Example usage\+:
+
+
+\begin{DoxyPre}
+\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_point}{Point}} a = new Point(3, 4);
+\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_point}{Point}} b = new Point(2, 5);
+\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_shape}{Shape}} s = new \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_shape_a33f825d9df31c388282e818228484618}{Shape()}};
+s.addPoint(a);
+s.addPoint(b);
+s.addPoint(new Point(1, 1));
+for (\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_point}{Point}} p : s.getPoints()) \{
+    System.out.println(p);
+\}
+\end{DoxyPre}
+
+
+A {\ttfamily \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_shape}{Shape}}} can also be created using file in the following format\+:
+
+
+\begin{DoxyPre}
+3, 4
+2, 5
+1, 1
+\end{DoxyPre}
+
+
+Example file usage\+:
+
+
+\begin{DoxyPre}
+\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_file_resource}{FileResource}} fr = new FileResource();
+\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_shape}{Shape}} s = new Shape(fr);
+for (\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_point}{Point}} p : s.getPoints()) \{
+    System.out.println(p);
+\}
+\end{DoxyPre}
+
+
+This software is licensed with an Apache 2 license, see \href{http://www.apache.org/licenses/LICENSE-2.0}{\texttt{ http\+://www.\+apache.\+org/licenses/\+LICENSE-\/2.\+0}} for details.
+
+\begin{DoxyAuthor}{Author}
+Duke Coursera Team 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_shape_a33f825d9df31c388282e818228484618}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_shape_a33f825d9df31c388282e818228484618}} 
+\index{es.courserajava.edu.duke.Shape@{es.courserajava.edu.duke.Shape}!Shape@{Shape}}
+\index{Shape@{Shape}!es.courserajava.edu.duke.Shape@{es.courserajava.edu.duke.Shape}}
+\doxysubsubsection{\texorpdfstring{Shape()}{Shape()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily es.\+courserajava.\+edu.\+duke.\+Shape.\+Shape (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Create an empty {\ttfamily \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_shape}{Shape}}} object, one with no points. \mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_shape_aa527260c47871f36fea7a26d04f8712c}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_shape_aa527260c47871f36fea7a26d04f8712c}} 
+\index{es.courserajava.edu.duke.Shape@{es.courserajava.edu.duke.Shape}!Shape@{Shape}}
+\index{Shape@{Shape}!es.courserajava.edu.duke.Shape@{es.courserajava.edu.duke.Shape}}
+\doxysubsubsection{\texorpdfstring{Shape()}{Shape()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily es.\+courserajava.\+edu.\+duke.\+Shape.\+Shape (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_file_resource}{File\+Resource}}}]{file }\end{DoxyParamCaption})}
+
+Create a {\ttfamily \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_shape}{Shape}}} object from a file with x,y coordinates of points, in order, one pair of x,y per line.
+
+Each x,y are comma-\/separated, e.\+g., 
+\begin{DoxyPre}
+  3,4
+ -\/2,5
+\end{DoxyPre}
+ whitespace on line is skipped.
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & is the \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_file_resource}{File\+Resource}} accessible and bound to a file with one pair of points per line \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_shape_aa72e237a14dc0fa71c13ac5ff18f59a2}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_shape_aa72e237a14dc0fa71c13ac5ff18f59a2}} 
+\index{es.courserajava.edu.duke.Shape@{es.courserajava.edu.duke.Shape}!addPoint@{addPoint}}
+\index{addPoint@{addPoint}!es.courserajava.edu.duke.Shape@{es.courserajava.edu.duke.Shape}}
+\doxysubsubsection{\texorpdfstring{addPoint()}{addPoint()}}
+{\footnotesize\ttfamily void es.\+courserajava.\+edu.\+duke.\+Shape.\+add\+Point (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_point}{Point}}}]{p }\end{DoxyParamCaption})}
+
+Add a point to this shape/polygon.
+
+The order in which points are added defines the order in which points are accessed.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & is the \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_point}{Point}} added to this shape \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_shape_a7dece712167ed2ccf148e5e69c61b3bf}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_shape_a7dece712167ed2ccf148e5e69c61b3bf}} 
+\index{es.courserajava.edu.duke.Shape@{es.courserajava.edu.duke.Shape}!getLastPoint@{getLastPoint}}
+\index{getLastPoint@{getLastPoint}!es.courserajava.edu.duke.Shape@{es.courserajava.edu.duke.Shape}}
+\doxysubsubsection{\texorpdfstring{getLastPoint()}{getLastPoint()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_point}{Point}} es.\+courserajava.\+edu.\+duke.\+Shape.\+get\+Last\+Point (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Return the last point added to this shape/polygon
+
+\begin{DoxyReturn}{Returns}
+the last \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_point}{Point}} added 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_shape_a0c0fb45e90058f1d28c33dc7bda4ce7c}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_shape_a0c0fb45e90058f1d28c33dc7bda4ce7c}} 
+\index{es.courserajava.edu.duke.Shape@{es.courserajava.edu.duke.Shape}!getPoints@{getPoints}}
+\index{getPoints@{getPoints}!es.courserajava.edu.duke.Shape@{es.courserajava.edu.duke.Shape}}
+\doxysubsubsection{\texorpdfstring{getPoints()}{getPoints()}}
+{\footnotesize\ttfamily Iterable$<$ \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_point}{Point}} $>$ es.\+courserajava.\+edu.\+duke.\+Shape.\+get\+Points (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Allow access to this shape one point at a time.
+
+\begin{DoxyReturn}{Returns}
+an Iterable that allows access to points 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/roberto/\+Idea\+Projects/\+LDH\+\_\+\+PFInal/src/main/java/es/courserajava/edu/duke/\mbox{\hyperlink{_shape_8java}{Shape.\+java}}\end{DoxyCompactItemize}

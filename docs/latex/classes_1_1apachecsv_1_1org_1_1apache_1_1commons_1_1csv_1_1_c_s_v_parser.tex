@@ -1,0 +1,386 @@
+\hypertarget{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser}{}\doxysection{es.\+apachecsv.\+org.\+apache.\+commons.\+csv.\+CSVParser Class Reference}
+\label{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser}\index{es.apachecsv.org.apache.commons.csv.CSVParser@{es.apachecsv.org.apache.commons.csv.CSVParser}}
+
+
+Inheritance diagram for es.\+apachecsv.\+org.\+apache.\+commons.\+csv.\+CSVParser\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=288pt]{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for es.\+apachecsv.\+org.\+apache.\+commons.\+csv.\+CSVParser\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=288pt]{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_aca914caf575e53cec09ae55ce44d2663}{CSVParser}} (final Reader reader, final \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_format}{CSVFormat}} format)  throws IOException 
+\item 
+\mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_a76d3c3d0f8de3fede8f1b9c475e02d3d}{CSVParser}} (final Reader reader, final \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_format}{CSVFormat}} format, final long character\+Offset, final long record\+Number)  throws IOException 
+\item 
+void \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_afc8e96cef62a1b6921979f5cf95fe747}{close}} ()  throws IOException 
+\item 
+long \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_ad0f61eec0c1db9ad0f5c2c6b59be6562}{get\+Current\+Line\+Number}} ()
+\item 
+Map$<$ String, Integer $>$ \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_abb0a53dfe5e50b93666e350581647d70}{get\+Header\+Map}} ()
+\item 
+long \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_aef1d506e1d9092071065d560f95c4619}{get\+Record\+Number}} ()
+\item 
+List$<$ \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_record}{CSVRecord}} $>$ \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_a4136fbaa929e5c6e81773cf85b16b58c}{get\+Records}} ()  throws IOException 
+\item 
+boolean \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_adb69dd67f4d864889f604e539b439869}{is\+Closed}} ()
+\item 
+Iterator$<$ \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_record}{CSVRecord}} $>$ \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_a0f701cc2739a59ee9447446c6661d25e}{iterator}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser}{CSVParser}} \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_a4a8e074a4c52fb327cbd30a9473176c8}{parse}} (final File file, final Charset charset, final \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_format}{CSVFormat}} format)  throws IOException 
+\item 
+static \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser}{CSVParser}} \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_aa46d6e7cb8693d94b58592e865ff793d}{parse}} (final String string, final \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_format}{CSVFormat}} format)  throws IOException 
+\item 
+static \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser}{CSVParser}} \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_a5e381f5f48d28cb13e453e499f871be7}{parse}} (final URL url, final Charset charset, final \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_format}{CSVFormat}} format)  throws IOException 
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Parses CSV files according to the specified format.
+
+Because CSV appears in many different dialects, the parser supports many formats by allowing the specification of a {\ttfamily \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_format}{CSVFormat}}}.
+
+The parser works record wise. It is not possible to go back, once a record has been parsed from the input stream.
+
+\doxysubsubsection*{Creating instances}
+
+There are several static factory methods that can be used to create instances for various types of resources\+: 
+
+
+\begin{DoxyItemize}
+\item {\ttfamily \mbox{\hyperlink{}{parse(java.\+io.\+File, Charset, CSVFormat)}}} 
+\item {\ttfamily \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_aa46d6e7cb8693d94b58592e865ff793d}{parse(\+String, CSVFormat)}}} 
+\item {\ttfamily \mbox{\hyperlink{}{parse(java.\+net.\+URL, java.\+nio.\+charset.\+Charset, CSVFormat)}}} 
+\end{DoxyItemize}
+
+Alternatively parsers can also be created by passing a {\ttfamily \mbox{\hyperlink{}{Reader}}} directly to the sole constructor.
+
+For those who like fluent APIs, parsers can be created using {\ttfamily \mbox{\hyperlink{}{CSVFormat\#parse(java.\+io.\+Reader)}}} as a shortcut\+: 
+
+
+\begin{DoxyPre}
+for(\mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_record}{CSVRecord}} record : CSVFormat.EXCEL.parse(in)) \{
+    ...
+\}
+\end{DoxyPre}
+
+
+\doxysubsubsection*{Parsing record wise}
+
+To parse a CSV input from a file, you write\+: 
+
+
+\begin{DoxyPre}
+File csvData = new File("{}/path/to/csv"{});
+\mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser}{CSVParser}} parser = \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_a4a8e074a4c52fb327cbd30a9473176c8}{CSVParser.parse}}(csvData, \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_format_a642de17d01e1c3b6e7f5b282380f4172}{CSVFormat.RFC4180}});
+for (\mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_record}{CSVRecord}} csvRecord : parser) \{
+    ...
+\}
+\end{DoxyPre}
+
+
+This will read the parse the contents of the file using the \href{http://tools.ietf.org/html/rfc4180}{\texttt{ RFC 4180}} format. 
+
+To parse CSV input in a format like Excel, you write\+: 
+
+
+\begin{DoxyPre}
+\mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser}{CSVParser}} parser = \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_a4a8e074a4c52fb327cbd30a9473176c8}{CSVParser.parse}}(csvData, \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_format_a6a430701b467d522bb292b5148e8f3e2}{CSVFormat.EXCEL}});
+for (\mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_record}{CSVRecord}} csvRecord : parser) \{
+    ...
+\}
+\end{DoxyPre}
+
+
+If the predefined formats don\textquotesingle{}t match the format at hands, custom formats can be defined. More information about customising CSVFormats is available in {\ttfamily \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_format}{CSVFormat Java\+Doc}}}. 
+
+\doxysubsubsection*{Parsing into memory}
+
+If parsing record wise is not desired, the contents of the input can be read completely into memory. 
+
+
+\begin{DoxyPre}
+Reader in = new StringReader("{}a;b\(\backslash\)nc;d"{});
+\mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser}{CSVParser}} parser = new \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser}{CSVParser}}(in, \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_format_a6a430701b467d522bb292b5148e8f3e2}{CSVFormat.EXCEL}});
+List<\mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_record}{CSVRecord}}> list = parser.getRecords();
+\end{DoxyPre}
+
+
+There are two constraints that have to be kept in mind\+: 
+
+
+\begin{DoxyEnumerate}
+\item Parsing into memory starts at the current position of the parser. If you have already parsed records from the input, those records will not end up in the in memory representation of your CSV data. 
+\item Parsing into memory may consume a lot of system resources depending on the input. For example if you\textquotesingle{}re parsing a 150MB file of CSV data the contents will be read completely into memory. 
+\end{DoxyEnumerate}
+
+\doxysubsubsection*{Notes}
+
+Internal parser state is completely covered by the format and the reader-\/state. 
+
+\begin{DoxyVersion}{Version}
+
+\end{DoxyVersion}
+\begin{DoxyParagraph}{Id}
+\mbox{\hyperlink{_c_s_v_parser_8java}{CSVParser.\+java}} 1743529 2016-\/05-\/12 17\+:02\+:05Z ggregory 
+\end{DoxyParagraph}
+
+
+\begin{DoxySeeAlso}{See also}
+\href{package-summary.html}{\texttt{ package documentation for more details}} 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_aca914caf575e53cec09ae55ce44d2663}\label{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_aca914caf575e53cec09ae55ce44d2663}} 
+\index{es.apachecsv.org.apache.commons.csv.CSVParser@{es.apachecsv.org.apache.commons.csv.CSVParser}!CSVParser@{CSVParser}}
+\index{CSVParser@{CSVParser}!es.apachecsv.org.apache.commons.csv.CSVParser@{es.apachecsv.org.apache.commons.csv.CSVParser}}
+\doxysubsubsection{\texorpdfstring{CSVParser()}{CSVParser()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily es.\+apachecsv.\+org.\+apache.\+commons.\+csv.\+CSVParser.\+CSVParser (\begin{DoxyParamCaption}\item[{final Reader}]{reader,  }\item[{final \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_format}{CSVFormat}}}]{format }\end{DoxyParamCaption}) throws IOException}
+
+Customized CSV parser using the given {\ttfamily \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_format}{CSVFormat}}}
+
+If you do not read all records from the given {\ttfamily reader}, you should call {\ttfamily \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_afc8e96cef62a1b6921979f5cf95fe747}{close()}}} on the parser, unless you close the {\ttfamily reader}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em reader} & a Reader containing CSV-\/formatted input. Must not be null. \\
+\hline
+{\em format} & the \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_format}{CSVFormat}} used for CSV parsing. Must not be null. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & If the parameters of the format are inconsistent or if either reader or format are null. \\
+\hline
+{\em IOException} & If there is a problem reading the header or skipping the first record \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_a76d3c3d0f8de3fede8f1b9c475e02d3d}\label{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_a76d3c3d0f8de3fede8f1b9c475e02d3d}} 
+\index{es.apachecsv.org.apache.commons.csv.CSVParser@{es.apachecsv.org.apache.commons.csv.CSVParser}!CSVParser@{CSVParser}}
+\index{CSVParser@{CSVParser}!es.apachecsv.org.apache.commons.csv.CSVParser@{es.apachecsv.org.apache.commons.csv.CSVParser}}
+\doxysubsubsection{\texorpdfstring{CSVParser()}{CSVParser()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily es.\+apachecsv.\+org.\+apache.\+commons.\+csv.\+CSVParser.\+CSVParser (\begin{DoxyParamCaption}\item[{final Reader}]{reader,  }\item[{final \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_format}{CSVFormat}}}]{format,  }\item[{final long}]{character\+Offset,  }\item[{final long}]{record\+Number }\end{DoxyParamCaption}) throws IOException}
+
+Customized CSV parser using the given {\ttfamily \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_format}{CSVFormat}}}
+
+If you do not read all records from the given {\ttfamily reader}, you should call {\ttfamily \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_afc8e96cef62a1b6921979f5cf95fe747}{close()}}} on the parser, unless you close the {\ttfamily reader}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em reader} & a Reader containing CSV-\/formatted input. Must not be null. \\
+\hline
+{\em format} & the \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_format}{CSVFormat}} used for CSV parsing. Must not be null. \\
+\hline
+{\em character\+Offset} & Lexer offset when the parser does not start parsing at the beginning of the source. \\
+\hline
+{\em record\+Number} & The next record number to assign \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & If the parameters of the format are inconsistent or if either reader or format are null. \\
+\hline
+{\em IOException} & If there is a problem reading the header or skipping the first record \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxySince}{Since}
+1.\+1 
+\end{DoxySince}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_afc8e96cef62a1b6921979f5cf95fe747}\label{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_afc8e96cef62a1b6921979f5cf95fe747}} 
+\index{es.apachecsv.org.apache.commons.csv.CSVParser@{es.apachecsv.org.apache.commons.csv.CSVParser}!close@{close}}
+\index{close@{close}!es.apachecsv.org.apache.commons.csv.CSVParser@{es.apachecsv.org.apache.commons.csv.CSVParser}}
+\doxysubsubsection{\texorpdfstring{close()}{close()}}
+{\footnotesize\ttfamily void es.\+apachecsv.\+org.\+apache.\+commons.\+csv.\+CSVParser.\+close (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws IOException}
+
+Closes resources.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em IOException} & If an I/O error occurs \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_ad0f61eec0c1db9ad0f5c2c6b59be6562}\label{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_ad0f61eec0c1db9ad0f5c2c6b59be6562}} 
+\index{es.apachecsv.org.apache.commons.csv.CSVParser@{es.apachecsv.org.apache.commons.csv.CSVParser}!getCurrentLineNumber@{getCurrentLineNumber}}
+\index{getCurrentLineNumber@{getCurrentLineNumber}!es.apachecsv.org.apache.commons.csv.CSVParser@{es.apachecsv.org.apache.commons.csv.CSVParser}}
+\doxysubsubsection{\texorpdfstring{getCurrentLineNumber()}{getCurrentLineNumber()}}
+{\footnotesize\ttfamily long es.\+apachecsv.\+org.\+apache.\+commons.\+csv.\+CSVParser.\+get\+Current\+Line\+Number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the current line number in the input stream.
+
+{\bfseries{ATTENTION\+:}} If your CSV input has multi-\/line values, the returned number does not correspond to the record number. 
+
+\begin{DoxyReturn}{Returns}
+current line number 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_abb0a53dfe5e50b93666e350581647d70}\label{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_abb0a53dfe5e50b93666e350581647d70}} 
+\index{es.apachecsv.org.apache.commons.csv.CSVParser@{es.apachecsv.org.apache.commons.csv.CSVParser}!getHeaderMap@{getHeaderMap}}
+\index{getHeaderMap@{getHeaderMap}!es.apachecsv.org.apache.commons.csv.CSVParser@{es.apachecsv.org.apache.commons.csv.CSVParser}}
+\doxysubsubsection{\texorpdfstring{getHeaderMap()}{getHeaderMap()}}
+{\footnotesize\ttfamily Map$<$ String, Integer $>$ es.\+apachecsv.\+org.\+apache.\+commons.\+csv.\+CSVParser.\+get\+Header\+Map (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a copy of the header map that iterates in column order. 
+
+The map keys are column names. The map values are 0-\/based indices. 
+
+\begin{DoxyReturn}{Returns}
+a copy of the header map that iterates in column order. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_aef1d506e1d9092071065d560f95c4619}\label{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_aef1d506e1d9092071065d560f95c4619}} 
+\index{es.apachecsv.org.apache.commons.csv.CSVParser@{es.apachecsv.org.apache.commons.csv.CSVParser}!getRecordNumber@{getRecordNumber}}
+\index{getRecordNumber@{getRecordNumber}!es.apachecsv.org.apache.commons.csv.CSVParser@{es.apachecsv.org.apache.commons.csv.CSVParser}}
+\doxysubsubsection{\texorpdfstring{getRecordNumber()}{getRecordNumber()}}
+{\footnotesize\ttfamily long es.\+apachecsv.\+org.\+apache.\+commons.\+csv.\+CSVParser.\+get\+Record\+Number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the current record number in the input stream.
+
+{\bfseries{ATTENTION\+:}} If your CSV input has multi-\/line values, the returned number does not correspond to the line number. 
+
+\begin{DoxyReturn}{Returns}
+current record number 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_a4136fbaa929e5c6e81773cf85b16b58c}\label{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_a4136fbaa929e5c6e81773cf85b16b58c}} 
+\index{es.apachecsv.org.apache.commons.csv.CSVParser@{es.apachecsv.org.apache.commons.csv.CSVParser}!getRecords@{getRecords}}
+\index{getRecords@{getRecords}!es.apachecsv.org.apache.commons.csv.CSVParser@{es.apachecsv.org.apache.commons.csv.CSVParser}}
+\doxysubsubsection{\texorpdfstring{getRecords()}{getRecords()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_record}{CSVRecord}} $>$ es.\+apachecsv.\+org.\+apache.\+commons.\+csv.\+CSVParser.\+get\+Records (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws IOException}
+
+Parses the CSV input according to the given format and returns the content as a list of {\ttfamily \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_record}{CSVRecords}}}.
+
+The returned content starts at the current parse-\/position in the stream. 
+
+\begin{DoxyReturn}{Returns}
+list of {\ttfamily \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_record}{CSVRecords}}}, may be empty 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em IOException} & on parse error or input read-\/failure \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_adb69dd67f4d864889f604e539b439869}\label{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_adb69dd67f4d864889f604e539b439869}} 
+\index{es.apachecsv.org.apache.commons.csv.CSVParser@{es.apachecsv.org.apache.commons.csv.CSVParser}!isClosed@{isClosed}}
+\index{isClosed@{isClosed}!es.apachecsv.org.apache.commons.csv.CSVParser@{es.apachecsv.org.apache.commons.csv.CSVParser}}
+\doxysubsubsection{\texorpdfstring{isClosed()}{isClosed()}}
+{\footnotesize\ttfamily boolean es.\+apachecsv.\+org.\+apache.\+commons.\+csv.\+CSVParser.\+is\+Closed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Gets whether this parser is closed.
+
+\begin{DoxyReturn}{Returns}
+whether this parser is closed. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_a0f701cc2739a59ee9447446c6661d25e}\label{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_a0f701cc2739a59ee9447446c6661d25e}} 
+\index{es.apachecsv.org.apache.commons.csv.CSVParser@{es.apachecsv.org.apache.commons.csv.CSVParser}!iterator@{iterator}}
+\index{iterator@{iterator}!es.apachecsv.org.apache.commons.csv.CSVParser@{es.apachecsv.org.apache.commons.csv.CSVParser}}
+\doxysubsubsection{\texorpdfstring{iterator()}{iterator()}}
+{\footnotesize\ttfamily Iterator$<$ \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_record}{CSVRecord}} $>$ es.\+apachecsv.\+org.\+apache.\+commons.\+csv.\+CSVParser.\+iterator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns an iterator on the records.
+
+IOExceptions occurring during the iteration are wrapped in a Runtime\+Exception. If the parser is closed a call to {\ttfamily next()} will throw a No\+Such\+Element\+Exception.\mbox{\Hypertarget{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_a4a8e074a4c52fb327cbd30a9473176c8}\label{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_a4a8e074a4c52fb327cbd30a9473176c8}} 
+\index{es.apachecsv.org.apache.commons.csv.CSVParser@{es.apachecsv.org.apache.commons.csv.CSVParser}!parse@{parse}}
+\index{parse@{parse}!es.apachecsv.org.apache.commons.csv.CSVParser@{es.apachecsv.org.apache.commons.csv.CSVParser}}
+\doxysubsubsection{\texorpdfstring{parse()}{parse()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser}{CSVParser}} es.\+apachecsv.\+org.\+apache.\+commons.\+csv.\+CSVParser.\+parse (\begin{DoxyParamCaption}\item[{final File}]{file,  }\item[{final Charset}]{charset,  }\item[{final \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_format}{CSVFormat}}}]{format }\end{DoxyParamCaption}) throws IOException\hspace{0.3cm}{\ttfamily [static]}}
+
+Creates a parser for the given {\ttfamily \mbox{\hyperlink{}{File}}}.
+
+{\bfseries{Note\+:}} This method internally creates a File\+Reader using {\ttfamily \mbox{\hyperlink{}{java.\+io.\+File\+Reader\#\+File\+Reader(java.\+io.\+File)}}} which in turn relies on the default encoding of the JVM that is executing the code. If this is insufficient create a URL to the file and use {\ttfamily \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_a5e381f5f48d28cb13e453e499f871be7}{parse(\+URL, Charset, CSVFormat)}}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & a CSV file. Must not be null. \\
+\hline
+{\em charset} & A charset \\
+\hline
+{\em format} & the \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_format}{CSVFormat}} used for CSV parsing. Must not be null. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a new parser 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & If the parameters of the format are inconsistent or if either file or format are null. \\
+\hline
+{\em IOException} & If an I/O error occurs \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_aa46d6e7cb8693d94b58592e865ff793d}\label{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_aa46d6e7cb8693d94b58592e865ff793d}} 
+\index{es.apachecsv.org.apache.commons.csv.CSVParser@{es.apachecsv.org.apache.commons.csv.CSVParser}!parse@{parse}}
+\index{parse@{parse}!es.apachecsv.org.apache.commons.csv.CSVParser@{es.apachecsv.org.apache.commons.csv.CSVParser}}
+\doxysubsubsection{\texorpdfstring{parse()}{parse()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser}{CSVParser}} es.\+apachecsv.\+org.\+apache.\+commons.\+csv.\+CSVParser.\+parse (\begin{DoxyParamCaption}\item[{final String}]{string,  }\item[{final \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_format}{CSVFormat}}}]{format }\end{DoxyParamCaption}) throws IOException\hspace{0.3cm}{\ttfamily [static]}}
+
+Creates a parser for the given {\ttfamily \mbox{\hyperlink{}{String}}}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & a CSV string. Must not be null. \\
+\hline
+{\em format} & the \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_format}{CSVFormat}} used for CSV parsing. Must not be null. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a new parser 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & If the parameters of the format are inconsistent or if either string or format are null. \\
+\hline
+{\em IOException} & If an I/O error occurs \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_a5e381f5f48d28cb13e453e499f871be7}\label{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_a5e381f5f48d28cb13e453e499f871be7}} 
+\index{es.apachecsv.org.apache.commons.csv.CSVParser@{es.apachecsv.org.apache.commons.csv.CSVParser}!parse@{parse}}
+\index{parse@{parse}!es.apachecsv.org.apache.commons.csv.CSVParser@{es.apachecsv.org.apache.commons.csv.CSVParser}}
+\doxysubsubsection{\texorpdfstring{parse()}{parse()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser}{CSVParser}} es.\+apachecsv.\+org.\+apache.\+commons.\+csv.\+CSVParser.\+parse (\begin{DoxyParamCaption}\item[{final URL}]{url,  }\item[{final Charset}]{charset,  }\item[{final \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_format}{CSVFormat}}}]{format }\end{DoxyParamCaption}) throws IOException\hspace{0.3cm}{\ttfamily [static]}}
+
+Creates a parser for the given URL.
+
+If you do not read all records from the given {\ttfamily url}, you should call {\ttfamily \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_parser_afc8e96cef62a1b6921979f5cf95fe747}{close()}}} on the parser, unless you close the {\ttfamily url}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em url} & a URL. Must not be null. \\
+\hline
+{\em charset} & the charset for the resource. Must not be null. \\
+\hline
+{\em format} & the \mbox{\hyperlink{classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_format}{CSVFormat}} used for CSV parsing. Must not be null. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a new parser 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & If the parameters of the format are inconsistent or if either url, charset or format are null. \\
+\hline
+{\em IOException} & If an I/O error occurs \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/roberto/\+Idea\+Projects/\+LDH\+\_\+\+PFInal/src/main/java/es/apachecsv/org/apache/commons/csv/\mbox{\hyperlink{_c_s_v_parser_8java}{CSVParser.\+java}}\end{DoxyCompactItemize}

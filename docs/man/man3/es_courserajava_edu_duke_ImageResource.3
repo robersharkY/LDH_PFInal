@@ -1,0 +1,261 @@
+.TH "es.courserajava.edu.duke.ImageResource" 3 "Thu Dec 29 2022" "Version 1.0" "ProyectoFinalLDH" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+es.courserajava.edu.duke.ImageResource
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBImageResource\fP ()"
+.br
+.ti -1c
+.RI "\fBImageResource\fP (int width, int height)"
+.br
+.ti -1c
+.RI "\fBImageResource\fP (String fileName)"
+.br
+.ti -1c
+.RI "\fBImageResource\fP (File file)"
+.br
+.ti -1c
+.RI "\fBImageResource\fP (\fBImageResource\fP other)"
+.br
+.ti -1c
+.RI "int \fBgetWidth\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetHeight\fP ()"
+.br
+.ti -1c
+.RI "Iterable< \fBPixel\fP > \fBpixels\fP ()"
+.br
+.ti -1c
+.RI "void \fBdraw\fP ()"
+.br
+.ti -1c
+.RI "String \fBgetFileName\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetFileName\fP (String name)"
+.br
+.ti -1c
+.RI "\fBPixel\fP \fBgetPixel\fP (int x, int y)"
+.br
+.ti -1c
+.RI "void \fBsetPixel\fP (int x, int y, \fBPixel\fP p)"
+.br
+.ti -1c
+.RI "String \fBtoString\fP ()"
+.br
+.ti -1c
+.RI "void \fBsave\fP ()"
+.br
+.ti -1c
+.RI "void \fBsaveAs\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+The \fC\fBImageResource\fP\fP class represents an image as a grid of \fC\fBPixel\fP\fP objects and allows access to all of them, using the method \fCpixels\fP\&. These pixels can then be iterated over using a \fCfor\fP loop\&.
+.PP
+Note, no changes made to the pixels in this image affect the original image opened unless you use the method \fCsave\fP\&.
+.PP
+Example usage:
+.PP
+.PP
+.nf
+
+\fBImageResource\fP image = new \fBImageResource()\fP;
+for (\fBPixel\fP p : image\&.pixels()) {
+    int red = p\&.getRed();
+    int green = p\&.getGreen();
+    int blue = p\&.getBlue();
+    int average = (red + green + blue) / 3;
+    p\&.setRed(average);
+    p\&.setGreen(average);
+    p\&.setBlue(average);
+}
+image\&.draw();
+.fi
+.PP
+.PP
+This is open-source software released under the terms of the GPL (http://www.gnu.org/licenses/gpl.html)\&. 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "es\&.courserajava\&.edu\&.duke\&.ImageResource\&.ImageResource ()"
+Create an \fC\fBImageResource\fP\fP object that represents the file chosen by the user using a file selection dialog box\&.
+.PP
+\fBExceptions\fP
+.RS 4
+\fI\fBResourceException\fP\fP if no file is selected by the user 
+.RE
+.PP
+
+.SS "es\&.courserajava\&.edu\&.duke\&.ImageResource\&.ImageResource (int width, int height)"
+Create an \fC\fBImageResource\fP\fP object whose size is the width and height passed as parameters and whose pixels are all black\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIwidth\fP the width of the image in pixels 
+.br
+\fIheight\fP the height of the image in pixels 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fI\fBResourceException\fP\fP if the width or height are not positive values 
+.RE
+.PP
+
+.SS "es\&.courserajava\&.edu\&.duke\&.ImageResource\&.ImageResource (String fileName)"
+Create an \fC\fBImageResource\fP\fP object from the file name passed as a parameter\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIfileName\fP the name of the file 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fI\fBResourceException\fP\fP if the file cannot be accessed or is not in an image format 
+.RE
+.PP
+
+.SS "es\&.courserajava\&.edu\&.duke\&.ImageResource\&.ImageResource (File file)"
+Create an \fC\fBImageResource\fP\fP object from a file given as a parameter\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIfile\fP the file representing an image 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fI\fBResourceException\fP\fP if the file cannot be accessed or is not in an image format 
+.RE
+.PP
+
+.SS "es\&.courserajava\&.edu\&.duke\&.ImageResource\&.ImageResource (\fBImageResource\fP other)"
+Create an \fC\fBImageResource\fP\fP object that is a copy of another image\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIother\fP the original image being copied 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void es\&.courserajava\&.edu\&.duke\&.ImageResource\&.draw ()"
+Displays this image in a separate window\&. 
+.SS "String es\&.courserajava\&.edu\&.duke\&.ImageResource\&.getFileName ()"
+Returns the file name associated with this image\&.
+.PP
+\fBReturns\fP
+.RS 4
+the name of the file used to create this image or an empty string if it was created as a sized image 
+.RE
+.PP
+
+.SS "int es\&.courserajava\&.edu\&.duke\&.ImageResource\&.getHeight ()"
+Returns the height of the image in pixels\&.
+.PP
+\fBReturns\fP
+.RS 4
+the image's height in pixels 
+.RE
+.PP
+
+.SS "\fBPixel\fP es\&.courserajava\&.edu\&.duke\&.ImageResource\&.getPixel (int x, int y)"
+Returns the pixel at the (x, y) coordinates passed as a parameter\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIx\fP the column position of the pixel 
+.br
+\fIy\fP the row position of the pixel 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+the \fBPixel\fP at the given (x, y) coordinates 
+.RE
+.PP
+
+.SS "int es\&.courserajava\&.edu\&.duke\&.ImageResource\&.getWidth ()"
+Returns the width of the image in pixels\&.
+.PP
+\fBReturns\fP
+.RS 4
+the image's width in pixels 
+.RE
+.PP
+
+.SS "Iterable< \fBPixel\fP > es\&.courserajava\&.edu\&.duke\&.ImageResource\&.pixels ()"
+Allow access to this image one pixel at a time\&.
+.PP
+\fBReturns\fP
+.RS 4
+an \fCIterable\fP that will allow access to each pixel in this image 
+.RE
+.PP
+
+.SS "void es\&.courserajava\&.edu\&.duke\&.ImageResource\&.save ()"
+Saves the image as a JPEG using its current file name or opens a file selection dialog box to allow the user to choose a name if no file name set (for example if this image was created as a blank sized image)\&.
+.PP
+\fBExceptions\fP
+.RS 4
+\fI\fBResourceException\fP\fP if the current filename cannot be accessed for saving 
+.RE
+.PP
+
+.SS "void es\&.courserajava\&.edu\&.duke\&.ImageResource\&.saveAs ()"
+Saves the image as a JPEG by opening a file selection dialog box to allow the user to choose the new name for the file\&.
+.PP
+\fBExceptions\fP
+.RS 4
+\fI\fBResourceException\fP\fP if no file is selected by the user 
+.RE
+.PP
+
+.SS "void es\&.courserajava\&.edu\&.duke\&.ImageResource\&.setFileName (String name)"
+Resets the file name associated with this image\&.
+.PP
+Useful, for example, when saving the results of changes to this image in a different file than the original\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIname\fP the new name for the file 
+.RE
+.PP
+
+.SS "void es\&.courserajava\&.edu\&.duke\&.ImageResource\&.setPixel (int x, int y, \fBPixel\fP p)"
+Resets the pixel at the given (x, y) coordinates but does not redraw it\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIx\fP the column position of the pixel 
+.br
+\fIy\fP the row position of the pixel 
+.br
+\fIp\fP the new pixel values to use 
+.RE
+.PP
+
+.SS "String es\&.courserajava\&.edu\&.duke\&.ImageResource\&.toString ()"
+Returns a string representation of the image (file name, width, and height)\&.
+.PP
+\fBReturns\fP
+.RS 4
+a string representation of the image 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for ProyectoFinalLDH from the source code\&.

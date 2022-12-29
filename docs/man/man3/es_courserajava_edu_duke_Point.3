@@ -1,0 +1,119 @@
+.TH "es.courserajava.edu.duke.Point" 3 "Thu Dec 29 2022" "Version 1.0" "ProyectoFinalLDH" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+es.courserajava.edu.duke.Point
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBPoint\fP (int startx, int starty)"
+.br
+.ti -1c
+.RI "int \fBgetX\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetY\fP ()"
+.br
+.ti -1c
+.RI "double \fBdistance\fP (\fBPoint\fP otherPt)"
+.br
+.ti -1c
+.RI "String \fBtoString\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+The \fC\fBPoint\fP\fP class represents a two-dimensional location, constructed from (x,y) coordinates with some methods for access and the capability to calculate the distance from this point to another point\&.
+.PP
+Example usage:
+.PP
+.PP
+.nf
+
+\fBPoint\fP a = new Point(3, 4);
+\fBPoint\fP b = new Point(2, 5);
+double dist = a\&.distance(b);
+.fi
+.PP
+.PP
+This software is licensed with an Apache 2 license, see http://www.apache.org/licenses/LICENSE-2.0 for details\&.
+.PP
+\fBAuthor\fP
+.RS 4
+Duke Coursera Team 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "es\&.courserajava\&.edu\&.duke\&.Point\&.Point (int startx, int starty)"
+Create a \fC\fBPoint\fP\fP object from x and y coordinates\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIstartx\fP is the x-coordinate 
+.br
+\fIstarty\fP is the y-coordinate 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "double es\&.courserajava\&.edu\&.duke\&.Point\&.distance (\fBPoint\fP otherPt)"
+Calculate and return the Euclidean distance from this point to another point\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIotherPt\fP the other point to which distance is calculated 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+the distance from this point to otherPt 
+.RE
+.PP
+
+.SS "int es\&.courserajava\&.edu\&.duke\&.Point\&.getX ()"
+Returns the x coordinate of this point\&.
+.PP
+\fBReturns\fP
+.RS 4
+x coordinate 
+.RE
+.PP
+
+.SS "int es\&.courserajava\&.edu\&.duke\&.Point\&.getY ()"
+Returns the y coordinate of this point\&.
+.PP
+\fBReturns\fP
+.RS 4
+y coordinate 
+.RE
+.PP
+
+.SS "static void es\&.courserajava\&.edu\&.duke\&.Point\&.main (String[] args)\fC [static]\fP"
+
+.SS "String es\&.courserajava\&.edu\&.duke\&.Point\&.toString ()"
+Returns a string representation of this point\&.
+.PP
+\fBReturns\fP
+.RS 4
+(x,y) for this point\&. 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for ProyectoFinalLDH from the source code\&.

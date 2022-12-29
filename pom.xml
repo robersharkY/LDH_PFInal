@@ -168,7 +168,6 @@
           </reportSet>
         </reportSets>
       </plugin>
-
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
@@ -177,7 +176,6 @@
         <doclint>all,-missing</doclint>
     </configuration>
       </plugin>
-
     </plugins>
   </reporting>
 </project>

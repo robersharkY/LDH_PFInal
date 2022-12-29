@@ -1,0 +1,292 @@
+\hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource}{}\doxysection{es.\+courserajava.\+edu.\+duke.\+Image\+Resource Class Reference}
+\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource}\index{es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a14f71a8e0788f3ea02141284dc60ae6d}{Image\+Resource}} ()
+\item 
+\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a91aafbf8ff1024893bc8c077983b1af2}{Image\+Resource}} (int width, int height)
+\item 
+\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_ab06dbee5e211ab244b7e5b72d7931483}{Image\+Resource}} (String file\+Name)
+\item 
+\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_ace73eee956be57b1d9c1407449ce6749}{Image\+Resource}} (File file)
+\item 
+\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a4ebeabf19c3b0728fe43f757db7b9106}{Image\+Resource}} (\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource}{Image\+Resource}} other)
+\item 
+int \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a7101c815e073f09bf0e2b48849890c0e}{get\+Width}} ()
+\item 
+int \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a3ed1ca3b9f8c8cff287cbae324639cdd}{get\+Height}} ()
+\item 
+Iterable$<$ \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_pixel}{Pixel}} $>$ \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a1ce6170f8d9050028e9f0913125e525e}{pixels}} ()
+\item 
+void \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_aded1afd09fd86fdf92e5a607b50fa582}{draw}} ()
+\item 
+String \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a10c7d89a92a796d4c7a9f3372355cecd}{get\+File\+Name}} ()
+\item 
+void \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_ade8f6b3675dd612aa3104812ca89943c}{set\+File\+Name}} (String name)
+\item 
+\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_pixel}{Pixel}} \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_ac9022f038bd3fd70ada2722a5d9546e2}{get\+Pixel}} (int x, int y)
+\item 
+void \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_ae3a54e942a60b545b0e9c8c2db715145}{set\+Pixel}} (int x, int y, \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_pixel}{Pixel}} p)
+\item 
+String \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a15ff08f210e00a34eb412cced086b214}{to\+String}} ()
+\item 
+void \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_ac8b2d3bf758f9fc9e3a83275b70e71e8}{save}} ()
+\item 
+void \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a638510460b98757b9d9c056cea610214}{save\+As}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The {\ttfamily \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource}{Image\+Resource}}} class represents an image as a grid of {\ttfamily \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_pixel}{Pixel}}} objects and allows access to all of them, using the method {\ttfamily pixels}. These pixels can then be iterated over using a {\ttfamily for} loop.
+
+Note, no changes made to the pixels in this image affect the original image opened unless you use the method {\ttfamily save}.
+
+Example usage\+:
+
+
+\begin{DoxyPre}
+\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource}{ImageResource}} image = new \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a14f71a8e0788f3ea02141284dc60ae6d}{ImageResource()}};
+for (\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_pixel}{Pixel}} p : image.pixels()) \{
+    int red = p.getRed();
+    int green = p.getGreen();
+    int blue = p.getBlue();
+    int average = (red + green + blue) / 3;
+    p.setRed(average);
+    p.setGreen(average);
+    p.setBlue(average);
+\}
+image.draw();
+\end{DoxyPre}
+
+
+This is open-\/source software released under the terms of the GPL (\href{http://www.gnu.org/licenses/gpl.html}{\texttt{ http\+://www.\+gnu.\+org/licenses/gpl.\+html}}). 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a14f71a8e0788f3ea02141284dc60ae6d}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a14f71a8e0788f3ea02141284dc60ae6d}} 
+\index{es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}!ImageResource@{ImageResource}}
+\index{ImageResource@{ImageResource}!es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{ImageResource()}{ImageResource()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily es.\+courserajava.\+edu.\+duke.\+Image\+Resource.\+Image\+Resource (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Create an {\ttfamily \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource}{Image\+Resource}}} object that represents the file chosen by the user using a file selection dialog box.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_resource_exception}{Resource\+Exception}}} & if no file is selected by the user \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a91aafbf8ff1024893bc8c077983b1af2}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a91aafbf8ff1024893bc8c077983b1af2}} 
+\index{es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}!ImageResource@{ImageResource}}
+\index{ImageResource@{ImageResource}!es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{ImageResource()}{ImageResource()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
+{\footnotesize\ttfamily es.\+courserajava.\+edu.\+duke.\+Image\+Resource.\+Image\+Resource (\begin{DoxyParamCaption}\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+Create an {\ttfamily \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource}{Image\+Resource}}} object whose size is the width and height passed as parameters and whose pixels are all black.
+
+
+\begin{DoxyParams}{Parameters}
+{\em width} & the width of the image in pixels \\
+\hline
+{\em height} & the height of the image in pixels \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_resource_exception}{Resource\+Exception}}} & if the width or height are not positive values \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_ab06dbee5e211ab244b7e5b72d7931483}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_ab06dbee5e211ab244b7e5b72d7931483}} 
+\index{es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}!ImageResource@{ImageResource}}
+\index{ImageResource@{ImageResource}!es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{ImageResource()}{ImageResource()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
+{\footnotesize\ttfamily es.\+courserajava.\+edu.\+duke.\+Image\+Resource.\+Image\+Resource (\begin{DoxyParamCaption}\item[{String}]{file\+Name }\end{DoxyParamCaption})}
+
+Create an {\ttfamily \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource}{Image\+Resource}}} object from the file name passed as a parameter.
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & the name of the file \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_resource_exception}{Resource\+Exception}}} & if the file cannot be accessed or is not in an image format \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_ace73eee956be57b1d9c1407449ce6749}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_ace73eee956be57b1d9c1407449ce6749}} 
+\index{es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}!ImageResource@{ImageResource}}
+\index{ImageResource@{ImageResource}!es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{ImageResource()}{ImageResource()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
+{\footnotesize\ttfamily es.\+courserajava.\+edu.\+duke.\+Image\+Resource.\+Image\+Resource (\begin{DoxyParamCaption}\item[{File}]{file }\end{DoxyParamCaption})}
+
+Create an {\ttfamily \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource}{Image\+Resource}}} object from a file given as a parameter.
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & the file representing an image \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_resource_exception}{Resource\+Exception}}} & if the file cannot be accessed or is not in an image format \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a4ebeabf19c3b0728fe43f757db7b9106}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a4ebeabf19c3b0728fe43f757db7b9106}} 
+\index{es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}!ImageResource@{ImageResource}}
+\index{ImageResource@{ImageResource}!es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{ImageResource()}{ImageResource()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
+{\footnotesize\ttfamily es.\+courserajava.\+edu.\+duke.\+Image\+Resource.\+Image\+Resource (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource}{Image\+Resource}}}]{other }\end{DoxyParamCaption})}
+
+Create an {\ttfamily \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource}{Image\+Resource}}} object that is a copy of another image.
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & the original image being copied \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_aded1afd09fd86fdf92e5a607b50fa582}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_aded1afd09fd86fdf92e5a607b50fa582}} 
+\index{es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}!draw@{draw}}
+\index{draw@{draw}!es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void es.\+courserajava.\+edu.\+duke.\+Image\+Resource.\+draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Displays this image in a separate window. \mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a10c7d89a92a796d4c7a9f3372355cecd}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a10c7d89a92a796d4c7a9f3372355cecd}} 
+\index{es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}!getFileName@{getFileName}}
+\index{getFileName@{getFileName}!es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{getFileName()}{getFileName()}}
+{\footnotesize\ttfamily String es.\+courserajava.\+edu.\+duke.\+Image\+Resource.\+get\+File\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the file name associated with this image.
+
+\begin{DoxyReturn}{Returns}
+the name of the file used to create this image or an empty string if it was created as a sized image 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a3ed1ca3b9f8c8cff287cbae324639cdd}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a3ed1ca3b9f8c8cff287cbae324639cdd}} 
+\index{es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}!getHeight@{getHeight}}
+\index{getHeight@{getHeight}!es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{getHeight()}{getHeight()}}
+{\footnotesize\ttfamily int es.\+courserajava.\+edu.\+duke.\+Image\+Resource.\+get\+Height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the height of the image in pixels.
+
+\begin{DoxyReturn}{Returns}
+the image\textquotesingle{}s height in pixels 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_ac9022f038bd3fd70ada2722a5d9546e2}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_ac9022f038bd3fd70ada2722a5d9546e2}} 
+\index{es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}!getPixel@{getPixel}}
+\index{getPixel@{getPixel}!es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{getPixel()}{getPixel()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_pixel}{Pixel}} es.\+courserajava.\+edu.\+duke.\+Image\+Resource.\+get\+Pixel (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+Returns the pixel at the (x, y) coordinates passed as a parameter.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the column position of the pixel \\
+\hline
+{\em y} & the row position of the pixel \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_pixel}{Pixel}} at the given (x, y) coordinates 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a7101c815e073f09bf0e2b48849890c0e}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a7101c815e073f09bf0e2b48849890c0e}} 
+\index{es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}!getWidth@{getWidth}}
+\index{getWidth@{getWidth}!es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{getWidth()}{getWidth()}}
+{\footnotesize\ttfamily int es.\+courserajava.\+edu.\+duke.\+Image\+Resource.\+get\+Width (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the width of the image in pixels.
+
+\begin{DoxyReturn}{Returns}
+the image\textquotesingle{}s width in pixels 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a1ce6170f8d9050028e9f0913125e525e}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a1ce6170f8d9050028e9f0913125e525e}} 
+\index{es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}!pixels@{pixels}}
+\index{pixels@{pixels}!es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{pixels()}{pixels()}}
+{\footnotesize\ttfamily Iterable$<$ \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_pixel}{Pixel}} $>$ es.\+courserajava.\+edu.\+duke.\+Image\+Resource.\+pixels (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Allow access to this image one pixel at a time.
+
+\begin{DoxyReturn}{Returns}
+an {\ttfamily Iterable} that will allow access to each pixel in this image 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_ac8b2d3bf758f9fc9e3a83275b70e71e8}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_ac8b2d3bf758f9fc9e3a83275b70e71e8}} 
+\index{es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}!save@{save}}
+\index{save@{save}!es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{save()}{save()}}
+{\footnotesize\ttfamily void es.\+courserajava.\+edu.\+duke.\+Image\+Resource.\+save (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Saves the image as a JPEG using its current file name or opens a file selection dialog box to allow the user to choose a name if no file name set (for example if this image was created as a blank sized image).
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_resource_exception}{Resource\+Exception}}} & if the current filename cannot be accessed for saving \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a638510460b98757b9d9c056cea610214}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a638510460b98757b9d9c056cea610214}} 
+\index{es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}!saveAs@{saveAs}}
+\index{saveAs@{saveAs}!es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{saveAs()}{saveAs()}}
+{\footnotesize\ttfamily void es.\+courserajava.\+edu.\+duke.\+Image\+Resource.\+save\+As (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Saves the image as a JPEG by opening a file selection dialog box to allow the user to choose the new name for the file.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_resource_exception}{Resource\+Exception}}} & if no file is selected by the user \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_ade8f6b3675dd612aa3104812ca89943c}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_ade8f6b3675dd612aa3104812ca89943c}} 
+\index{es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}!setFileName@{setFileName}}
+\index{setFileName@{setFileName}!es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{setFileName()}{setFileName()}}
+{\footnotesize\ttfamily void es.\+courserajava.\+edu.\+duke.\+Image\+Resource.\+set\+File\+Name (\begin{DoxyParamCaption}\item[{String}]{name }\end{DoxyParamCaption})}
+
+Resets the file name associated with this image.
+
+Useful, for example, when saving the results of changes to this image in a different file than the original.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & the new name for the file \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_ae3a54e942a60b545b0e9c8c2db715145}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_ae3a54e942a60b545b0e9c8c2db715145}} 
+\index{es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}!setPixel@{setPixel}}
+\index{setPixel@{setPixel}!es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{setPixel()}{setPixel()}}
+{\footnotesize\ttfamily void es.\+courserajava.\+edu.\+duke.\+Image\+Resource.\+set\+Pixel (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{\mbox{\hyperlink{classes_1_1courserajava_1_1edu_1_1duke_1_1_pixel}{Pixel}}}]{p }\end{DoxyParamCaption})}
+
+Resets the pixel at the given (x, y) coordinates but does not redraw it.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the column position of the pixel \\
+\hline
+{\em y} & the row position of the pixel \\
+\hline
+{\em p} & the new pixel values to use \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a15ff08f210e00a34eb412cced086b214}\label{classes_1_1courserajava_1_1edu_1_1duke_1_1_image_resource_a15ff08f210e00a34eb412cced086b214}} 
+\index{es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}!toString@{toString}}
+\index{toString@{toString}!es.courserajava.edu.duke.ImageResource@{es.courserajava.edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily String es.\+courserajava.\+edu.\+duke.\+Image\+Resource.\+to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a string representation of the image (file name, width, and height).
+
+\begin{DoxyReturn}{Returns}
+a string representation of the image 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/roberto/\+Idea\+Projects/\+LDH\+\_\+\+PFInal/src/main/java/es/courserajava/edu/duke/\mbox{\hyperlink{_image_resource_8java}{Image\+Resource.\+java}}\end{DoxyCompactItemize}
