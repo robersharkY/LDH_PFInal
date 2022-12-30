@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: es.ull.etsii.Movies.MovieDatabaseTest
 -------------------------------------------------------------------------------
-Tests run: 33, Failures: 0, Errors: 0, Skipped: 8, Time elapsed: 0.043 s - in es.ull.etsii.Movies.MovieDatabaseTest
+Tests run: 33, Failures: 0, Errors: 0, Skipped: 8, Time elapsed: 0.048 s - in es.ull.etsii.Movies.MovieDatabaseTest
