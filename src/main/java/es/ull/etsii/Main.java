@@ -1,8 +1,4 @@
 package es.ull.etsii;
-// import es.ull.etsii.Rate.EfficientRater;
-// import es.ull.etsii.Ratings.FourthRatings;
-// import es.ull.etsii.Ratings.MovieRunnerSimilarRatings;
-// import es.ull.etsii.Rate.Rater;
 
 import es.ull.etsii.Rate.EfficientRater;
 import es.ull.etsii.Rate.Rater;
