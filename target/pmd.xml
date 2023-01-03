@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.49.0" timestamp="2022-12-30T14:45:27.740">
-<file name="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\apachecsv\org\apache\commons\csv\CSVFormat.java">
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.49.0" timestamp="2022-12-26T16:42:34.200">
+<file name="/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/src/main/java/es/apachecsv/org/apache/commons/csv/CSVFormat.java">
 <violation beginline="18" endline="1767" begincolumn="1" endcolumn="3" rule="TooManyStaticImports" ruleset="Code Style" package="es.apachecsv.org.apache.commons.csv" class="CSVFormat" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#toomanystaticimports" priority="3">
 Too many static imports may lead to messy code
 </violation>
@@ -29,7 +29,7 @@ Unnecessary use of fully qualified name 'es.apachecsv.org.apache.commons.csv.CSV
 Unnecessary use of fully qualified name 'es.apachecsv.org.apache.commons.csv.QuoteMode' due to existing same package import 'es.apachecsv.org.apache.commons.csv.*'
 </violation>
 </file>
-<file name="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\apachecsv\org\apache\commons\csv\CSVParser.java">
+<file name="/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/src/main/java/es/apachecsv/org/apache/commons/csv/CSVParser.java">
 <violation beginline="216" endline="216" begincolumn="19" endcolumn="59" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="es.apachecsv.org.apache.commons.csv" class="CSVParser" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
 Unnecessary use of fully qualified name 'es.apachecsv.org.apache.commons.csv.Lexer' due to existing same package import 'es.apachecsv.org.apache.commons.csv.*'
 </violation>
@@ -49,12 +49,12 @@ Unnecessary use of fully qualified name 'es.apachecsv.org.apache.commons.csv.Lex
 Unnecessary use of fully qualified name 'es.apachecsv.org.apache.commons.csv.Constants.LF' due to existing same package import 'es.apachecsv.org.apache.commons.csv.*'
 </violation>
 </file>
-<file name="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\apachecsv\org\apache\commons\csv\Lexer.java">
+<file name="/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/src/main/java/es/apachecsv/org/apache/commons/csv/Lexer.java">
 <violation beginline="18" endline="437" begincolumn="1" endcolumn="3" rule="TooManyStaticImports" ruleset="Code Style" package="es.apachecsv.org.apache.commons.csv" class="Lexer" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#toomanystaticimports" priority="3">
 Too many static imports may lead to messy code
 </violation>
 </file>
-<file name="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\courserajava\edu\duke\FileResource.java">
+<file name="/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/src/main/java/es/courserajava/edu/duke/FileResource.java">
 <violation beginline="331" endline="333" begincolumn="17" endcolumn="17" rule="EmptyCatchBlock" ruleset="Error Prone" package="es.courserajava.edu.duke" class="FileResource" method="write" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
 Avoid empty catch blocks
 </violation>
@@ -62,28 +62,23 @@ Avoid empty catch blocks
 Avoid empty catch blocks
 </violation>
 </file>
-<file name="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\courserajava\edu\duke\ImageFrame.java">
+<file name="/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/src/main/java/es/courserajava/edu/duke/ImageFrame.java">
 <violation beginline="27" endline="27" begincolumn="47" endcolumn="51" rule="UnusedFormalParameter" ruleset="Best Practices" package="es.courserajava.edu.duke" class="ImageFrame" method="ImageFrame" variable="image" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
 Avoid unused constructor parameters such as 'image'.
 </violation>
 </file>
-<file name="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\courserajava\edu\duke\ImageResource.java">
+<file name="/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/src/main/java/es/courserajava/edu/duke/ImageResource.java">
 <violation beginline="326" endline="328" begincolumn="13" endcolumn="13" rule="EmptyControlStatement" ruleset="Code Style" package="es.courserajava.edu.duke" class="ImageResource" method="getImageFromFile" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#emptycontrolstatement" priority="3">
 Empty while statement
 </violation>
 </file>
-<file name="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\courserajava\edu\duke\URLResource.java">
+<file name="/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/src/main/java/es/courserajava/edu/duke/URLResource.java">
 <violation beginline="205" endline="207" begincolumn="13" endcolumn="13" rule="EmptyCatchBlock" ruleset="Error Prone" package="es.courserajava.edu.duke" class="URLResource" method="initFromStream" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
 Avoid empty catch blocks
 </violation>
 </file>
-<file name="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\Filters\TrueFilter.java">
-<violation beginline="3" endline="3" begincolumn="1" endcolumn="35" rule="UnnecessaryImport" ruleset="Code Style" package="es.ull.etsii.Filters" class="TrueFilter" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
-Unnecessary import from the current package 'es.ull.etsii.Filters.Filter'
-</violation>
-</file>
-<file name="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\Ratings\FirstRatings.java">
-<violation beginline="353" endline="353" begincolumn="16" endcolumn="37" rule="UnusedPrivateMethod" ruleset="Best Practices" package="es.ull.etsii.Ratings" class="FirstRatings" method="printAllRaterRatings" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+<file name="/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/src/main/java/es/ull/etsii/FirstRatings.java">
+<violation beginline="350" endline="350" begincolumn="16" endcolumn="37" rule="UnusedPrivateMethod" ruleset="Best Practices" package="es.ull.etsii" class="FirstRatings" method="printAllRaterRatings" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
 Avoid unused private methods such as 'printAllRaterRatings()'.
 </violation>
 </file>

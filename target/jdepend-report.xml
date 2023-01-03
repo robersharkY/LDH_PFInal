@@ -4,21 +4,18 @@
 
         <Package name="es.apachecsv.org.apache.commons.csv">
             <Stats>
-                <TotalClasses>14</TotalClasses>
-                <ConcreteClasses>13</ConcreteClasses>
-                <AbstractClasses>1</AbstractClasses>
-                <Ca>3</Ca>
+                <TotalClasses>15</TotalClasses>
+                <ConcreteClasses>15</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>2</Ca>
                 <Ce>6</Ce>
-                <A>0.07</A>
-                <I>0.67</I>
-                <D>0.26</D>
+                <A>0</A>
+                <I>0.75</I>
+                <D>0.25</D>
                 <V>1</V>
             </Stats>
 
             <AbstractClasses>
-                <Class sourceFile="package-info.java">
-                    es.apachecsv.org.apache.commons.csv.package-info
-                </Class>
             </AbstractClasses>
 
             <ConcreteClasses>
@@ -29,6 +26,9 @@
                     es.apachecsv.org.apache.commons.csv.CSVFormat
                 </Class>
                 <Class sourceFile="CSVFormat.java">
+                    es.apachecsv.org.apache.commons.csv.CSVFormat$1
+                </Class>
+                <Class sourceFile="CSVFormat.java">
                     es.apachecsv.org.apache.commons.csv.CSVFormat$Predefined
                 </Class>
                 <Class sourceFile="CSVParser.java">
@@ -36,6 +36,9 @@
                 </Class>
                 <Class sourceFile="CSVParser.java">
                     es.apachecsv.org.apache.commons.csv.CSVParser$1
+                </Class>
+                <Class sourceFile="CSVParser.java">
+                    es.apachecsv.org.apache.commons.csv.CSVParser$2
                 </Class>
                 <Class sourceFile="CSVPrinter.java">
                     es.apachecsv.org.apache.commons.csv.CSVPrinter
@@ -74,28 +77,24 @@
 
             <UsedBy>
                 <Package>es.courserajava.edu.duke</Package>
-                <Package>es.ull.etsii.Rate</Package>
-                <Package>es.ull.etsii.Ratings</Package>
+                <Package>es.ull.etsii</Package>
             </UsedBy>
         </Package>
 
         <Package name="es.courserajava.edu.duke">
             <Stats>
-                <TotalClasses>17</TotalClasses>
+                <TotalClasses>16</TotalClasses>
                 <ConcreteClasses>16</ConcreteClasses>
-                <AbstractClasses>1</AbstractClasses>
-                <Ca>2</Ca>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>1</Ca>
                 <Ce>10</Ce>
-                <A>0.06</A>
-                <I>0.83</I>
-                <D>0.11</D>
+                <A>0</A>
+                <I>0.91</I>
+                <D>0.09</D>
                 <V>1</V>
             </Stats>
 
             <AbstractClasses>
-                <Class sourceFile="package-info.java">
-                    es.courserajava.edu.duke.package-info
-                </Class>
             </AbstractClasses>
 
             <ConcreteClasses>
@@ -163,249 +162,83 @@
             </DependsUpon>
 
             <UsedBy>
-                <Package>es.ull.etsii.Rate</Package>
-                <Package>es.ull.etsii.Ratings</Package>
+                <Package>es.ull.etsii</Package>
             </UsedBy>
         </Package>
 
-        <Package name="es.ull.etsii.Filters">
+        <Package name="es.ull.etsii">
             <Stats>
-                <TotalClasses>7</TotalClasses>
-                <ConcreteClasses>6</ConcreteClasses>
-                <AbstractClasses>1</AbstractClasses>
-                <Ca>2</Ca>
-                <Ce>3</Ce>
-                <A>0.14</A>
-                <I>0.6</I>
-                <D>0.26</D>
+                <TotalClasses>17</TotalClasses>
+                <ConcreteClasses>14</ConcreteClasses>
+                <AbstractClasses>3</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>5</Ce>
+                <A>0.18</A>
+                <I>1</I>
+                <D>0.18</D>
                 <V>1</V>
             </Stats>
 
             <AbstractClasses>
                 <Class sourceFile="Filter.java">
-                    es.ull.etsii.Filters.Filter
+                    es.ull.etsii.Filter
+                </Class>
+                <Class sourceFile="Rater.java">
+                    es.ull.etsii.Rater
+                </Class>
+                <Class sourceFile="Recommender.java">
+                    es.ull.etsii.Recommender
                 </Class>
             </AbstractClasses>
 
             <ConcreteClasses>
                 <Class sourceFile="AllFilters.java">
-                    es.ull.etsii.Filters.AllFilters
+                    es.ull.etsii.AllFilters
                 </Class>
                 <Class sourceFile="DirectorsFilter.java">
-                    es.ull.etsii.Filters.DirectorsFilter
+                    es.ull.etsii.DirectorsFilter
+                </Class>
+                <Class sourceFile="EfficientRater.java">
+                    es.ull.etsii.EfficientRater
+                </Class>
+                <Class sourceFile="FirstRatings.java">
+                    es.ull.etsii.FirstRatings
                 </Class>
                 <Class sourceFile="GenreFilter.java">
-                    es.ull.etsii.Filters.GenreFilter
+                    es.ull.etsii.GenreFilter
+                </Class>
+                <Class sourceFile="Main.java">
+                    es.ull.etsii.Main
                 </Class>
                 <Class sourceFile="MinutesFilter.java">
-                    es.ull.etsii.Filters.MinutesFilter
+                    es.ull.etsii.MinutesFilter
                 </Class>
-                <Class sourceFile="TrueFilter.java">
-                    es.ull.etsii.Filters.TrueFilter
-                </Class>
-                <Class sourceFile="YearAfterFilter.java">
-                    es.ull.etsii.Filters.YearAfterFilter
-                </Class>
-            </ConcreteClasses>
-
-            <DependsUpon>
-                <Package>es.ull.etsii.Movies</Package>
-                <Package>java.lang</Package>
-                <Package>java.util</Package>
-            </DependsUpon>
-
-            <UsedBy>
-                <Package>es.ull.etsii.Movies</Package>
-                <Package>es.ull.etsii.Recommendations</Package>
-            </UsedBy>
-        </Package>
-
-        <Package name="es.ull.etsii.MainProgram">
-            <Stats>
-                <TotalClasses>1</TotalClasses>
-                <ConcreteClasses>1</ConcreteClasses>
-                <AbstractClasses>0</AbstractClasses>
-                <Ca>0</Ca>
-                <Ce>4</Ce>
-                <A>0</A>
-                <I>1</I>
-                <D>0</D>
-                <V>1</V>
-            </Stats>
-
-            <AbstractClasses>
-            </AbstractClasses>
-
-            <ConcreteClasses>
-                <Class sourceFile="Main.java">
-                    es.ull.etsii.MainProgram.Main
-                </Class>
-            </ConcreteClasses>
-
-            <DependsUpon>
-                <Package>es.ull.etsii.Rate</Package>
-                <Package>es.ull.etsii.Ratings</Package>
-                <Package>java.io</Package>
-                <Package>java.lang</Package>
-            </DependsUpon>
-
-            <UsedBy>
-            </UsedBy>
-        </Package>
-
-        <Package name="es.ull.etsii.Movies">
-            <Stats>
-                <TotalClasses>2</TotalClasses>
-                <ConcreteClasses>2</ConcreteClasses>
-                <AbstractClasses>0</AbstractClasses>
-                <Ca>3</Ca>
-                <Ce>4</Ce>
-                <A>0</A>
-                <I>0.57</I>
-                <D>0.43</D>
-                <V>1</V>
-            </Stats>
-
-            <AbstractClasses>
-            </AbstractClasses>
-
-            <ConcreteClasses>
                 <Class sourceFile="Movie.java">
-                    es.ull.etsii.Movies.Movie
+                    es.ull.etsii.Movie
                 </Class>
                 <Class sourceFile="MovieDatabase.java">
-                    es.ull.etsii.Movies.MovieDatabase
-                </Class>
-            </ConcreteClasses>
-
-            <DependsUpon>
-                <Package>es.ull.etsii.Filters</Package>
-                <Package>es.ull.etsii.Ratings</Package>
-                <Package>java.lang</Package>
-                <Package>java.util</Package>
-            </DependsUpon>
-
-            <UsedBy>
-                <Package>es.ull.etsii.Filters</Package>
-                <Package>es.ull.etsii.Ratings</Package>
-                <Package>es.ull.etsii.Recommendations</Package>
-            </UsedBy>
-        </Package>
-
-        <Package name="es.ull.etsii.Rate">
-            <Stats>
-                <TotalClasses>3</TotalClasses>
-                <ConcreteClasses>2</ConcreteClasses>
-                <AbstractClasses>1</AbstractClasses>
-                <Ca>2</Ca>
-                <Ce>5</Ce>
-                <A>0.33</A>
-                <I>0.71</I>
-                <D>0.05</D>
-                <V>1</V>
-            </Stats>
-
-            <AbstractClasses>
-                <Class sourceFile="Rater.java">
-                    es.ull.etsii.Rate.Rater
-                </Class>
-            </AbstractClasses>
-
-            <ConcreteClasses>
-                <Class sourceFile="EfficientRater.java">
-                    es.ull.etsii.Rate.EfficientRater
+                    es.ull.etsii.MovieDatabase
                 </Class>
                 <Class sourceFile="RaterDatabase.java">
-                    es.ull.etsii.Rate.RaterDatabase
-                </Class>
-            </ConcreteClasses>
-
-            <DependsUpon>
-                <Package>es.apachecsv.org.apache.commons.csv</Package>
-                <Package>es.courserajava.edu.duke</Package>
-                <Package>es.ull.etsii.Ratings</Package>
-                <Package>java.lang</Package>
-                <Package>java.util</Package>
-            </DependsUpon>
-
-            <UsedBy>
-                <Package>es.ull.etsii.MainProgram</Package>
-                <Package>es.ull.etsii.Ratings</Package>
-            </UsedBy>
-        </Package>
-
-        <Package name="es.ull.etsii.Ratings">
-            <Stats>
-                <TotalClasses>2</TotalClasses>
-                <ConcreteClasses>2</ConcreteClasses>
-                <AbstractClasses>0</AbstractClasses>
-                <Ca>4</Ca>
-                <Ce>7</Ce>
-                <A>0</A>
-                <I>0.64</I>
-                <D>0.36</D>
-                <V>1</V>
-            </Stats>
-
-            <AbstractClasses>
-            </AbstractClasses>
-
-            <ConcreteClasses>
-                <Class sourceFile="FirstRatings.java">
-                    es.ull.etsii.Ratings.FirstRatings
+                    es.ull.etsii.RaterDatabase
                 </Class>
                 <Class sourceFile="Rating.java">
-                    es.ull.etsii.Ratings.Rating
+                    es.ull.etsii.Rating
+                </Class>
+                <Class sourceFile="RecommendationRunner.java">
+                    es.ull.etsii.RecommendationRunner
+                </Class>
+                <Class sourceFile="TrueFilter.java">
+                    es.ull.etsii.TrueFilter
+                </Class>
+                <Class sourceFile="YearAfterFilter.java">
+                    es.ull.etsii.YearAfterFilter
                 </Class>
             </ConcreteClasses>
 
             <DependsUpon>
                 <Package>es.apachecsv.org.apache.commons.csv</Package>
                 <Package>es.courserajava.edu.duke</Package>
-                <Package>es.ull.etsii.Movies</Package>
-                <Package>es.ull.etsii.Rate</Package>
-                <Package>java.io</Package>
-                <Package>java.lang</Package>
-                <Package>java.util</Package>
-            </DependsUpon>
-
-            <UsedBy>
-                <Package>es.ull.etsii.MainProgram</Package>
-                <Package>es.ull.etsii.Movies</Package>
-                <Package>es.ull.etsii.Rate</Package>
-                <Package>es.ull.etsii.Recommendations</Package>
-            </UsedBy>
-        </Package>
-
-        <Package name="es.ull.etsii.Recommendations">
-            <Stats>
-                <TotalClasses>2</TotalClasses>
-                <ConcreteClasses>1</ConcreteClasses>
-                <AbstractClasses>1</AbstractClasses>
-                <Ca>0</Ca>
-                <Ce>6</Ce>
-                <A>0.5</A>
-                <I>1</I>
-                <D>0.5</D>
-                <V>1</V>
-            </Stats>
-
-            <AbstractClasses>
-                <Class sourceFile="Recommender.java">
-                    es.ull.etsii.Recommendations.Recommender
-                </Class>
-            </AbstractClasses>
-
-            <ConcreteClasses>
-                <Class sourceFile="RecommendationRunner.java">
-                    es.ull.etsii.Recommendations.RecommendationRunner
-                </Class>
-            </ConcreteClasses>
-
-            <DependsUpon>
-                <Package>es.ull.etsii.Filters</Package>
-                <Package>es.ull.etsii.Movies</Package>
-                <Package>es.ull.etsii.Ratings</Package>
                 <Package>java.io</Package>
                 <Package>java.lang</Package>
                 <Package>java.util</Package>
@@ -461,37 +294,5 @@
     </Packages>
 
     <Cycles>
-        <Package Name="es.ull.etsii.Filters">
-            <Package>es.ull.etsii.Movies</Package>
-            <Package>es.ull.etsii.Filters</Package>
-        </Package>
-
-        <Package Name="es.ull.etsii.MainProgram">
-            <Package>es.ull.etsii.Rate</Package>
-            <Package>es.ull.etsii.Ratings</Package>
-            <Package>es.ull.etsii.Rate</Package>
-        </Package>
-
-        <Package Name="es.ull.etsii.Movies">
-            <Package>es.ull.etsii.Filters</Package>
-            <Package>es.ull.etsii.Movies</Package>
-        </Package>
-
-        <Package Name="es.ull.etsii.Rate">
-            <Package>es.ull.etsii.Ratings</Package>
-            <Package>es.ull.etsii.Rate</Package>
-        </Package>
-
-        <Package Name="es.ull.etsii.Ratings">
-            <Package>es.ull.etsii.Rate</Package>
-            <Package>es.ull.etsii.Ratings</Package>
-        </Package>
-
-        <Package Name="es.ull.etsii.Recommendations">
-            <Package>es.ull.etsii.Movies</Package>
-            <Package>es.ull.etsii.Filters</Package>
-            <Package>es.ull.etsii.Movies</Package>
-        </Package>
-
     </Cycles>
 </JDepend>

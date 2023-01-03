@@ -1,8 +1,8 @@
 package es.ull.etsii.Recommendations;
 
 import es.ull.etsii.Filters.TrueFilter;
-import es.ull.etsii.Movies.MovieDatabase;
 import es.ull.etsii.Ratings.FourthRatings;
+import es.ull.etsii.Movies.MovieDatabase;
 import es.ull.etsii.Ratings.Rating;
 
 import java.util.ArrayList;

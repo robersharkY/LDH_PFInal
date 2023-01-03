@@ -1,22 +1,21 @@
 @options
 @packages
-@argfile
 -classpath
-'C:/Users/roberto/IdeaProjects/LDH_PFInal/target/classes;C:/Users/roberto/IdeaProjects/LDH_PFInal/target/test-classes;C:/Users/roberto/.m2/repository/junit/junit/4.11/junit-4.11.jar;C:/Users/roberto/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar;C:/Users/roberto/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar;C:/Users/roberto/.m2/repository/org/apache/commons/commons-csv/1.9.0/commons-csv-1.9.0.jar;C:/Users/roberto/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.1/junit-jupiter-5.9.1.jar;C:/Users/roberto/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.jar;C:/Users/roberto/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar;C:/Users/roberto/.m2/repository/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.jar;C:/Users/roberto/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar;C:/Users/roberto/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.1/junit-jupiter-params-5.9.1.jar;C:/Users/roberto/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.jar;C:/Users/roberto/.m2/repository/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.jar'
+'/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/classes:/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/test-classes:/home/rodrigo/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/rodrigo/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/rodrigo/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar:/home/rodrigo/.m2/repository/org/apache/commons/commons-csv/1.9.0/commons-csv-1.9.0.jar'
 -encoding
 'UTF-8'
 -protected
 -source
 '1.8'
 -sourcepath
-'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java'
+'/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/src/test/java:/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/generated-test-sources/test-annotations'
 -author
 -bottom
 'Copyright &#169; 2022. All rights reserved.'
 -charset
 'UTF-8'
 -d
-'C:/Users/roberto/IdeaProjects/LDH_PFInal/target/site/testapidocs'
+'/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/site/testapidocs'
 -docencoding
 'UTF-8'
 -Xdoclint:all,-missing
@@ -25,65 +24,37 @@
 -link
 '../apidocs'
 -linkoffline
-'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/roberto/IdeaProjects/LDH_PFInal/target/javadoc-bundle-options'
+'https://docs.oracle.com/javase/8/docs/api' '/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/javadoc-bundle-options'
 -use
 -version
 -windowtitle
 'Sistema recomendador de peliculas 1.0-SNAPSHOT Test API'
-es.ull.etsii.Filters
-es.ull.etsii.MainProgram
-es.ull.etsii.Movies
-es.ull.etsii.Rate
-es.ull.etsii.Ratings
-es.ull.etsii.Recommendations
-'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Filters/AllFiltersTest.java'
-'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Filters/DirectorsFilterTest.java'
-'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Filters/FilterTest.java'
-'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Filters/GenreFilterTest.java'
-'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Filters/MinutesFilterTest.java'
-'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Filters/TrueFilterTest.java'
-'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Filters/YearAfterFilterTest.java'
-'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/MainProgram/MainTest.java'
-'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Movies/MovieDatabaseTest.java'
-'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Movies/MovieTest.java'
-'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Rate/EfficientRaterTest.java'
-'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Rate/RaterDatabaseTest.java'
-'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Rate/RaterTest.java'
-'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Ratings/FirstRatingsTest.java'
-'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Ratings/FourthRatingsTest.java'
-'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Ratings/MovieRunnerSimilarRatingsTest.java'
-'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Ratings/RatingTest.java'
-'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Recommendations/RecommendationRunnerTest.java'
-'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Recommendations/RecommenderTest.java'
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\classes = 1672407403187
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\test-classes = 1672407602708
-C:\Users\roberto\.m2\repository\junit\junit\4.11\junit-4.11.jar = 1667473632464
-C:\Users\roberto\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar = 1667473632356
-C:\Users\roberto\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar = 1667475163954
-C:\Users\roberto\.m2\repository\org\apache\commons\commons-csv\1.9.0\commons-csv-1.9.0.jar = 1669635351848
-C:\Users\roberto\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar = 1670322968025
-C:\Users\roberto\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar = 1670322968155
-C:\Users\roberto\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar = 1670322968037
-C:\Users\roberto\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar = 1670322968109
-C:\Users\roberto\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar = 1670322968035
-C:\Users\roberto\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar = 1670322968393
-C:\Users\roberto\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar = 1670322968247
-C:\Users\roberto\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar = 1670322968231
-C:\Users\roberto\IdeaProjects\LDH_PFInal\src\test\java = 1672343090287
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\allclasses-index.html = 1672411537444
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\allpackages-index.html = 1672411537446
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\element-list = 1672411537313
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\help-doc.html = 1672411537489
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\index-all.html = 1672411537485
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\index.html = 1672411537427
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\jquery-ui.overrides.css = 1672411537510
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\member-search-index.js = 1672411537450
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\module-search-index.js = 1672411537447
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\overview-summary.html = 1672411537486
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\overview-tree.html = 1672411537424
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\package-search-index.js = 1672411537448
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\script.js = 1672411537493
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\search.js = 1672411537494
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\stylesheet.css = 1672411537492
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\tag-search-index.js = 1672411537452
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\type-search-index.js = 1672411537448
+es.ull.etsii
+/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/classes = 1672072948333
+/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/test-classes = 1672072949157
+/home/rodrigo/.m2/repository/junit/junit/4.11/junit-4.11.jar = 1667473497389
+/home/rodrigo/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar = 1667473497501
+/home/rodrigo/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar = 1669323120306
+/home/rodrigo/.m2/repository/org/apache/commons/commons-csv/1.9.0/commons-csv-1.9.0.jar = 1669830146009
+/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/src/test/java = 1670119174000
+/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/generated-test-sources/test-annotations = 1672072949105
+/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/site/testapidocs/constant-values.html = 1672073108957
+/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/site/testapidocs/index.html = 1672073109009
+/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/site/testapidocs/member-search-index.zip = 1672073109001
+/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/site/testapidocs/stylesheet.css = 1672073109013
+/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/site/testapidocs/allclasses-index.html = 1672073109005
+/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/site/testapidocs/deprecated-list.html = 1672073109009
+/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/site/testapidocs/package-search-index.zip = 1672073109001
+/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/site/testapidocs/allpackages-index.html = 1672073109005
+/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/site/testapidocs/overview-tree.html = 1672073108981
+/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/site/testapidocs/type-search-index.zip = 1672073109001
+/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/site/testapidocs/element-list = 1672073108945
+/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/site/testapidocs/script.js = 1672073109013
+/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/site/testapidocs/jquery-ui.overrides.css = 1672073109017
+/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/site/testapidocs/help-doc.html = 1672073109009
+/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/site/testapidocs/package-search-index.js = 1672073108997
+/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/site/testapidocs/index-all.html = 1672073109001
+/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/site/testapidocs/allclasses.html = 1672073109009
+/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/site/testapidocs/search.js = 1672073109013
+/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/site/testapidocs/type-search-index.js = 1672073109001
+/home/rodrigo/Documentos/LABORATORIO/LDH_PFInal/target/site/testapidocs/member-search-index.js = 1672073109001

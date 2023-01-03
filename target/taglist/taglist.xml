@@ -2,17 +2,57 @@
 <report xmlns="org.codehaus.mojo.taglist-maven-plugin">
   <tags>
     <tag name="@todo" count="0" />
-    <tag name="TODO" count="41">
+    <tag name="TODO" count="14">
       <files>
-        <file name="es.ull.etsii.Recommendations.RecommendationRunnerTest" count="2">
+        <file name="es.apachecsv.org.apache.commons.csv.CSVPrinter" count="1">
           <comments>
             <comment>
-              <lineNumber>77</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) at java.util.Objects.checkIndex(Objects.java:359) at java.util.ArrayList.get(ArrayList.java:427) at es.ull.etsii.Ratings.FourthRatings.hasMinRaters(FourthRatings.java:135) at es.ull.etsii.Ratings.FourthRatings.getSimilarRatingsByFilter(FourthRatings.java:154) at es.ull.etsii.Recommendations.RecommendationRunner.printRecommendationsFor(RecommendationRunner.java:25) In order to prevent printRecommendationsFor(String) from throwing IndexOutOfBoundsException, add constructors or factory methods that make it easier to construct fully initialized objects used in printRecommendationsFor(String). See https://diff.blue/R013 to resolve this issue.</comment>
+              <lineNumber>66</lineNumber>
+              <comment>Is it a good idea to do this here instead of on the first call to a print method? It seems a pain to have to track whether the header has already been printed or not.</comment>
+            </comment>
+          </comments>
+        </file>
+        <file name="es.apachecsv.org.apache.commons.csv.Assertions" count="1">
+          <comments>
+            <comment>
+              <lineNumber>23</lineNumber>
+              <comment>Replace usage with {@link Objects} when we switch to Java 7.</comment>
+            </comment>
+          </comments>
+        </file>
+        <file name="es.apachecsv.org.apache.commons.csv.CSVParser" count="1">
+          <comments>
+            <comment>
+              <lineNumber>443</lineNumber>
+              <comment>This is not great, throw an ISE instead?</comment>
+            </comment>
+          </comments>
+        </file>
+        <file name="es.apachecsv.org.apache.commons.csv.Lexer" count="4">
+          <comments>
+            <comment>
+              <lineNumber>308</lineNumber>
+              <comment>escape handling needs more work</comment>
             </comment>
             <comment>
-              <lineNumber>105</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) at java.util.Objects.checkIndex(Objects.java:359) at java.util.ArrayList.get(ArrayList.java:427) at es.ull.etsii.Ratings.FourthRatings.hasMinRaters(FourthRatings.java:135) at es.ull.etsii.Ratings.FourthRatings.getSimilarRatingsByFilter(FourthRatings.java:154) at es.ull.etsii.Recommendations.RecommendationRunner.printRecommendationsFor(RecommendationRunner.java:25) In order to prevent printRecommendationsFor(String) from throwing IndexOutOfBoundsException, add constructors or factory methods that make it easier to construct fully initialized objects used in printRecommendationsFor(String). See https://diff.blue/R013 to resolve this issue.</comment>
+              <lineNumber>336</lineNumber>
+              <comment>is this correct?</comment>
+            </comment>
+            <comment>
+              <lineNumber>337</lineNumber>
+              <comment>is this correct? Do tabs need to be escaped?</comment>
+            </comment>
+            <comment>
+              <lineNumber>338</lineNumber>
+              <comment>is this correct?</comment>
+            </comment>
+          </comments>
+        </file>
+        <file name="es.apachecsv.org.apache.commons.csv.CSVRecord" count="1">
+          <comments>
+            <comment>
+              <lineNumber>244</lineNumber>
+              <comment>Maybe make this public?</comment>
             </comment>
           </comments>
         </file>
@@ -41,182 +81,6 @@
             <comment>
               <lineNumber>991</lineNumber>
               <comment>where did this rule come from?</comment>
-            </comment>
-          </comments>
-        </file>
-        <file name="es.ull.etsii.Filters.MinutesFilterTest" count="4">
-          <comments>
-            <comment>
-              <lineNumber>26</lineNumber>
-              <comment>Complete this test. Reason: R002 Missing observers. Diffblue Cover was unable to create an assertion. Add getters for the following fields or make them package-private: MinutesFilter.minMinutes MinutesFilter.maxMinutes</comment>
-            </comment>
-            <comment>
-              <lineNumber>41</lineNumber>
-              <comment>Complete this test. Reason: R002 Missing observers. Diffblue Cover was unable to create an assertion. Add getters for the following fields or make them package-private: MinutesFilter.minMinutes MinutesFilter.maxMinutes</comment>
-            </comment>
-            <comment>
-              <lineNumber>58</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Movies.Movie.getMinutes()" because the return value of "com.diffblue.cover.agent.readwrite.RuntimeWrappers.map$get(java.util.Map, Object)" is null at es.ull.etsii.Movies.MovieDatabase.getMinutes(MovieDatabase.java:66) at es.ull.etsii.Filters.MinutesFilter.satisfies(MinutesFilter.java:28) In order to prevent satisfies(String) from throwing NullPointerException, add constructors or factory methods that make it easier to construct fully initialized objects used in satisfies(String). See https://diff.blue/R013 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>80</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Movies.Movie.getMinutes()" because the return value of "com.diffblue.cover.agent.readwrite.RuntimeWrappers.map$get(java.util.Map, Object)" is null at es.ull.etsii.Movies.MovieDatabase.getMinutes(MovieDatabase.java:66) at es.ull.etsii.Filters.MinutesFilter.satisfies(MinutesFilter.java:28) In order to prevent satisfies(String) from throwing NullPointerException, add constructors or factory methods that make it easier to construct fully initialized objects used in satisfies(String). See https://diff.blue/R013 to resolve this issue.</comment>
-            </comment>
-          </comments>
-        </file>
-        <file name="es.ull.etsii.Filters.YearAfterFilterTest" count="3">
-          <comments>
-            <comment>
-              <lineNumber>26</lineNumber>
-              <comment>Complete this test. Reason: R002 Missing observers. Diffblue Cover was unable to create an assertion. Add getters for the following fields or make them package-private: YearAfterFilter.myYear</comment>
-            </comment>
-            <comment>
-              <lineNumber>41</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Movies.Movie.getYear()" because the return value of "com.diffblue.cover.agent.readwrite.RuntimeWrappers.map$get(java.util.Map, Object)" is null at es.ull.etsii.Movies.MovieDatabase.getYear(MovieDatabase.java:41) at es.ull.etsii.Filters.YearAfterFilter.satisfies(YearAfterFilter.java:14) In order to prevent satisfies(String) from throwing NullPointerException, add constructors or factory methods that make it easier to construct fully initialized objects used in satisfies(String). See https://diff.blue/R013 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>63</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Movies.Movie.getYear()" because the return value of "com.diffblue.cover.agent.readwrite.RuntimeWrappers.map$get(java.util.Map, Object)" is null at es.ull.etsii.Movies.MovieDatabase.getYear(MovieDatabase.java:41) at es.ull.etsii.Filters.YearAfterFilter.satisfies(YearAfterFilter.java:14) In order to prevent satisfies(String) from throwing NullPointerException, add constructors or factory methods that make it easier to construct fully initialized objects used in satisfies(String). See https://diff.blue/R013 to resolve this issue.</comment>
-            </comment>
-          </comments>
-        </file>
-        <file name="es.apachecsv.org.apache.commons.csv.CSVPrinter" count="1">
-          <comments>
-            <comment>
-              <lineNumber>66</lineNumber>
-              <comment>Is it a good idea to do this here instead of on the first call to a print method? It seems a pain to have to track whether the header has already been printed or not.</comment>
-            </comment>
-          </comments>
-        </file>
-        <file name="es.ull.etsii.Filters.AllFiltersTest" count="4">
-          <comments>
-            <comment>
-              <lineNumber>77</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Filters.Filter.satisfies(String)" because "f" is null at es.ull.etsii.Filters.AllFilters.satisfies(AllFilters.java:19) In order to prevent satisfies(String) from throwing NullPointerException, add constructors or factory methods that make it easier to construct fully initialized objects used in satisfies(String). See https://diff.blue/R013 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>100</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Movies.Movie.getDirector()" because the return value of "com.diffblue.cover.agent.readwrite.RuntimeWrappers.map$get(java.util.Map, Object)" is null at es.ull.etsii.Movies.MovieDatabase.getDirector(MovieDatabase.java:76) at es.ull.etsii.Filters.DirectorsFilter.satisfies(DirectorsFilter.java:20) at es.ull.etsii.Filters.AllFilters.satisfies(AllFilters.java:19) In order to prevent satisfies(String) from throwing NullPointerException, add constructors or factory methods that make it easier to construct fully initialized objects used in satisfies(String). See https://diff.blue/R013 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>145</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Filters.Filter.satisfies(String)" because "f" is null at es.ull.etsii.Filters.AllFilters.satisfies(AllFilters.java:19) In order to prevent satisfies(String) from throwing NullPointerException, add constructors or factory methods that make it easier to construct fully initialized objects used in satisfies(String). See https://diff.blue/R013 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>168</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Movies.Movie.getDirector()" because the return value of "com.diffblue.cover.agent.readwrite.RuntimeWrappers.map$get(java.util.Map, Object)" is null at es.ull.etsii.Movies.MovieDatabase.getDirector(MovieDatabase.java:76) at es.ull.etsii.Filters.DirectorsFilter.satisfies(DirectorsFilter.java:20) at es.ull.etsii.Filters.AllFilters.satisfies(AllFilters.java:19) In order to prevent satisfies(String) from throwing NullPointerException, add constructors or factory methods that make it easier to construct fully initialized objects used in satisfies(String). See https://diff.blue/R013 to resolve this issue.</comment>
-            </comment>
-          </comments>
-        </file>
-        <file name="es.ull.etsii.Filters.GenreFilterTest" count="3">
-          <comments>
-            <comment>
-              <lineNumber>32</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Movies.Movie.getGenres()" because the return value of "com.diffblue.cover.agent.readwrite.RuntimeWrappers.map$get(java.util.Map, Object)" is null at es.ull.etsii.Movies.MovieDatabase.getGenres(MovieDatabase.java:46) at es.ull.etsii.Filters.GenreFilter.satisfies(GenreFilter.java:24) In order to prevent &lt;init>(String) from throwing NullPointerException, add constructors or factory methods that make it easier to construct fully initialized objects used in &lt;init>(String). See https://diff.blue/R013 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>59</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Movies.Movie.getGenres()" because the return value of "com.diffblue.cover.agent.readwrite.RuntimeWrappers.map$get(java.util.Map, Object)" is null at es.ull.etsii.Movies.MovieDatabase.getGenres(MovieDatabase.java:46) at es.ull.etsii.Filters.GenreFilter.satisfies(GenreFilter.java:24) In order to prevent &lt;init>(String) from throwing NullPointerException, add constructors or factory methods that make it easier to construct fully initialized objects used in &lt;init>(String). See https://diff.blue/R013 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>81</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Movies.Movie.getGenres()" because the return value of "com.diffblue.cover.agent.readwrite.RuntimeWrappers.map$get(java.util.Map, Object)" is null at es.ull.etsii.Movies.MovieDatabase.getGenres(MovieDatabase.java:46) at es.ull.etsii.Filters.GenreFilter.satisfies(GenreFilter.java:24) In order to prevent satisfies(String) from throwing NullPointerException, add constructors or factory methods that make it easier to construct fully initialized objects used in satisfies(String). See https://diff.blue/R013 to resolve this issue.</comment>
-            </comment>
-          </comments>
-        </file>
-        <file name="es.apachecsv.org.apache.commons.csv.CSVRecord" count="1">
-          <comments>
-            <comment>
-              <lineNumber>244</lineNumber>
-              <comment>Maybe make this public?</comment>
-            </comment>
-          </comments>
-        </file>
-        <file name="es.apachecsv.org.apache.commons.csv.Lexer" count="4">
-          <comments>
-            <comment>
-              <lineNumber>308</lineNumber>
-              <comment>escape handling needs more work</comment>
-            </comment>
-            <comment>
-              <lineNumber>336</lineNumber>
-              <comment>is this correct?</comment>
-            </comment>
-            <comment>
-              <lineNumber>337</lineNumber>
-              <comment>is this correct? Do tabs need to be escaped?</comment>
-            </comment>
-            <comment>
-              <lineNumber>338</lineNumber>
-              <comment>is this correct?</comment>
-            </comment>
-          </comments>
-        </file>
-        <file name="es.ull.etsii.Movies.MovieDatabaseTest" count="9">
-          <comments>
-            <comment>
-              <lineNumber>33</lineNumber>
-              <comment>Complete this test. Reason: R004 No meaningful assertions found. Diffblue Cover was unable to create an assertion. Make sure that fields modified by initialize(String) have package-private, protected, or public getters. See https://diff.blue/R004 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>66</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Movies.Movie.getYear()" because the return value of "com.diffblue.cover.agent.readwrite.RuntimeWrappers.map$get(java.util.Map, Object)" is null at es.ull.etsii.Movies.MovieDatabase.getYear(MovieDatabase.java:41) In order to prevent getYear(String) from throwing NullPointerException, add constructors or factory methods that make it easier to construct fully initialized objects used in getYear(String). See https://diff.blue/R013 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>87</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Movies.Movie.getGenres()" because the return value of "com.diffblue.cover.agent.readwrite.RuntimeWrappers.map$get(java.util.Map, Object)" is null at es.ull.etsii.Movies.MovieDatabase.getGenres(MovieDatabase.java:46) In order to prevent getGenres(String) from throwing NullPointerException, add constructors or factory methods that make it easier to construct fully initialized objects used in getGenres(String). See https://diff.blue/R013 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>108</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Movies.Movie.getTitle()" because the return value of "com.diffblue.cover.agent.readwrite.RuntimeWrappers.map$get(java.util.Map, Object)" is null at es.ull.etsii.Movies.MovieDatabase.getTitle(MovieDatabase.java:51) In order to prevent getTitle(String) from throwing NullPointerException, add constructors or factory methods that make it easier to construct fully initialized objects used in getTitle(String). See https://diff.blue/R013 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>137</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Movies.Movie.getPoster()" because the return value of "com.diffblue.cover.agent.readwrite.RuntimeWrappers.map$get(java.util.Map, Object)" is null at es.ull.etsii.Movies.MovieDatabase.getPoster(MovieDatabase.java:61) In order to prevent getPoster(String) from throwing NullPointerException, add constructors or factory methods that make it easier to construct fully initialized objects used in getPoster(String). See https://diff.blue/R013 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>158</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Movies.Movie.getMinutes()" because the return value of "com.diffblue.cover.agent.readwrite.RuntimeWrappers.map$get(java.util.Map, Object)" is null at es.ull.etsii.Movies.MovieDatabase.getMinutes(MovieDatabase.java:66) In order to prevent getMinutes(String) from throwing NullPointerException, add constructors or factory methods that make it easier to construct fully initialized objects used in getMinutes(String). See https://diff.blue/R013 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>179</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Movies.Movie.getCountry()" because the return value of "com.diffblue.cover.agent.readwrite.RuntimeWrappers.map$get(java.util.Map, Object)" is null at es.ull.etsii.Movies.MovieDatabase.getCountry(MovieDatabase.java:71) In order to prevent getCountry(String) from throwing NullPointerException, add constructors or factory methods that make it easier to construct fully initialized objects used in getCountry(String). See https://diff.blue/R013 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>200</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Movies.Movie.getDirector()" because the return value of "com.diffblue.cover.agent.readwrite.RuntimeWrappers.map$get(java.util.Map, Object)" is null at es.ull.etsii.Movies.MovieDatabase.getDirector(MovieDatabase.java:76) In order to prevent getDirector(String) from throwing NullPointerException, add constructors or factory methods that make it easier to construct fully initialized objects used in getDirector(String). See https://diff.blue/R013 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>250</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Filters.Filter.satisfies(String)" because "f" is null at es.ull.etsii.Movies.MovieDatabase.filterBy(MovieDatabase.java:87) In order to prevent filterBy(Filter) from throwing NullPointerException, add constructors or factory methods that make it easier to construct fully initialized objects used in filterBy(Filter). See https://diff.blue/R013 to resolve this issue.</comment>
-            </comment>
-          </comments>
-        </file>
-        <file name="es.apachecsv.org.apache.commons.csv.Assertions" count="1">
-          <comments>
-            <comment>
-              <lineNumber>23</lineNumber>
-              <comment>Replace usage with {@link Objects} when we switch to Java 7.</comment>
-            </comment>
-          </comments>
-        </file>
-        <file name="es.apachecsv.org.apache.commons.csv.CSVParser" count="1">
-          <comments>
-            <comment>
-              <lineNumber>443</lineNumber>
-              <comment>This is not great, throw an ISE instead?</comment>
-            </comment>
-          </comments>
-        </file>
-        <file name="es.ull.etsii.Filters.DirectorsFilterTest" count="2">
-          <comments>
-            <comment>
-              <lineNumber>36</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Movies.Movie.getDirector()" because the return value of "com.diffblue.cover.agent.readwrite.RuntimeWrappers.map$get(java.util.Map, Object)" is null at es.ull.etsii.Movies.MovieDatabase.getDirector(MovieDatabase.java:76) at es.ull.etsii.Filters.DirectorsFilter.satisfies(DirectorsFilter.java:20) In order to prevent satisfies(String) from throwing NullPointerException, add constructors or factory methods that make it easier to construct fully initialized objects used in satisfies(String). See https://diff.blue/R013 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>58</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Movies.Movie.getDirector()" because the return value of "com.diffblue.cover.agent.readwrite.RuntimeWrappers.map$get(java.util.Map, Object)" is null at es.ull.etsii.Movies.MovieDatabase.getDirector(MovieDatabase.java:76) at es.ull.etsii.Filters.DirectorsFilter.satisfies(DirectorsFilter.java:20) In order to prevent satisfies(String) from throwing NullPointerException, add constructors or factory methods that make it easier to construct fully initialized objects used in satisfies(String). See https://diff.blue/R013 to resolve this issue.</comment>
             </comment>
           </comments>
         </file>

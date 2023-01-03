@@ -1,5 +1,6 @@
 package es.ull.etsii.Rate;
 
+import es.ull.etsii.Rate.Rater;
 import es.ull.etsii.Ratings.Rating;
 
 import java.util.ArrayList;

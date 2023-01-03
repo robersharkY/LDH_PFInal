@@ -1,6 +1,10 @@
 package es.ull.etsii.Ratings;
 
-import es.ull.etsii.Filters.*;
+import es.ull.etsii.Filters.AllFilters;
+import es.ull.etsii.Filters.DirectorsFilter;
+import es.ull.etsii.Filters.GenreFilter;
+import es.ull.etsii.Filters.YearAfterFilter;
+import es.ull.etsii.Filters.MinutesFilter;
 import es.ull.etsii.Movies.MovieDatabase;
 import es.ull.etsii.Rate.RaterDatabase;
 

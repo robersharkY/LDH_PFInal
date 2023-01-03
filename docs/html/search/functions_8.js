@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['lines_0',['lines',['../classes_1_1courserajava_1_1edu_1_1duke_1_1_file_resource.html#ac13b129fad3e0d3bfc8b3c250802e6a0',1,'es.courserajava.edu.duke.FileResource.lines()'],['../classes_1_1courserajava_1_1edu_1_1duke_1_1_u_r_l_resource.html#a09af7a95831a133e235378c7e8bda7bd',1,'es.courserajava.edu.duke.URLResource.lines()']]],
-  ['loadmovies_1',['loadMovies',['../classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings.html#ab6dc4f37eba4b492b62cb5d9def87f46',1,'es::ull::etsii::Ratings::FirstRatings']]]
+  ['main_0',['main',['../classes_1_1ull_1_1etsii_1_1_main.html#aa8f4c9823ad4501883eb1479df28819d',1,'es::ull::etsii::Main']]],
+  ['minutesfilter_1',['MinutesFilter',['../classes_1_1ull_1_1etsii_1_1_minutes_filter.html#a4940e6164c8989dbda09d32a6dc3ce3f',1,'es.ull.etsii.MinutesFilter.MinutesFilter(int minMinutes, int maxMinutes)'],['../classes_1_1ull_1_1etsii_1_1_minutes_filter.html#ae9721d914b93e8864499629500dc5d37',1,'es.ull.etsii.MinutesFilter.MinutesFilter(int minMinutes)']]],
+  ['movie_2',['Movie',['../classes_1_1ull_1_1etsii_1_1_movie.html#aa64e2c0024ca4851e2323c89060fa029',1,'es.ull.etsii.Movie.Movie(String anID, String aTitle, String aYear, String theGenres)'],['../classes_1_1ull_1_1etsii_1_1_movie.html#aa797566705c40abade1286ef4efc14ff',1,'es.ull.etsii.Movie.Movie(String anID, String aTitle, String aYear, String theGenres, String aDirector, String aCountry, String aPoster, int theMinutes)']]]
 ];

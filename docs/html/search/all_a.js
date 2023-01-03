@@ -1,7 +1,11 @@
 var searchData=
 [
-  ['newformat_0',['newFormat',['../classes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_c_s_v_format.html#a424184822c21e9457d467b70c5279339',1,'es::apachecsv::org::apache::commons::csv::CSVFormat']]],
-  ['non_5fnumeric_1',['NON_NUMERIC',['../enumes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_quote_mode.html#a214213e45a6c8ce22cc12602fad306c8',1,'es::apachecsv::org::apache::commons::csv::QuoteMode']]],
-  ['none_2',['NONE',['../enumes_1_1apachecsv_1_1org_1_1apache_1_1commons_1_1csv_1_1_quote_mode.html#aec18e1763acdc1196c85989c56ac4132',1,'es::apachecsv::org::apache::commons::csv::QuoteMode']]],
-  ['numratings_3',['numRatings',['../classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater.html#a7f1f110d8cb859f63fe95d1a0d004573',1,'es.ull.etsii.Rate.EfficientRater.numRatings()'],['../interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater.html#a4b6d2f0739f00a2bb0f8fbba90adc010',1,'es.ull.etsii.Rate.Rater.numRatings()']]]
+  ['printaverageratings_0',['printAverageRatings',['../classes_1_1ull_1_1etsii_1_1_movie_runner_similar_ratings.html#a3957627b5ff8fe04145aaafd6721c920',1,'es::ull::etsii::MovieRunnerSimilarRatings']]],
+  ['printaverageratingsbyyearafterandgenre_1',['printAverageRatingsByYearAfterAndGenre',['../classes_1_1ull_1_1etsii_1_1_movie_runner_similar_ratings.html#a58336800efe3317c8faa4071f8382f03',1,'es::ull::etsii::MovieRunnerSimilarRatings']]],
+  ['printrecommendationsfor_2',['printRecommendationsFor',['../classes_1_1ull_1_1etsii_1_1_recommendation_runner.html#a7a62f9ae17a36a3d81a7b80f8cce4373',1,'es.ull.etsii.RecommendationRunner.printRecommendationsFor()'],['../interfacees_1_1ull_1_1etsii_1_1_recommender.html#a06cf6178e554f3b6e528bc27c85aac8d',1,'es.ull.etsii.Recommender.printRecommendationsFor()']]],
+  ['printsimilarratings_3',['printSimilarRatings',['../classes_1_1ull_1_1etsii_1_1_movie_runner_similar_ratings.html#accc439d5a46a4787f93a7e0c752f81bb',1,'es::ull::etsii::MovieRunnerSimilarRatings']]],
+  ['printsimilarratingsbydirector_4',['printSimilarRatingsByDirector',['../classes_1_1ull_1_1etsii_1_1_movie_runner_similar_ratings.html#adca514dc5fe7a65e54764e755b353d71',1,'es::ull::etsii::MovieRunnerSimilarRatings']]],
+  ['printsimilarratingsbygenre_5',['printSimilarRatingsByGenre',['../classes_1_1ull_1_1etsii_1_1_movie_runner_similar_ratings.html#a0e5611d0b194e7535c95f026ece24d3a',1,'es::ull::etsii::MovieRunnerSimilarRatings']]],
+  ['printsimilarratingsbygenreandminutes_6',['printSimilarRatingsByGenreAndMinutes',['../classes_1_1ull_1_1etsii_1_1_movie_runner_similar_ratings.html#a46a4e24645ad49f50595aebee82313c9',1,'es::ull::etsii::MovieRunnerSimilarRatings']]],
+  ['printsimilarratingsbyyearafterandminutes_7',['printSimilarRatingsByYearAfterAndMinutes',['../classes_1_1ull_1_1etsii_1_1_movie_runner_similar_ratings.html#a10e6837a8892719d33da1cf57fb324a8',1,'es::ull::etsii::MovieRunnerSimilarRatings']]]
 ];

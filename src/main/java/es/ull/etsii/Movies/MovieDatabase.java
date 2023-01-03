@@ -1,6 +1,7 @@
 package es.ull.etsii.Movies;
 
 import es.ull.etsii.Filters.Filter;
+import es.ull.etsii.Movies.Movie;
 import es.ull.etsii.Ratings.FirstRatings;
 
 import java.util.ArrayList;
@@ -12,18 +13,18 @@ public class MovieDatabase {
   public static void initialize(String moviefile) {
     if (ourMovies == null) {
       ourMovies = new HashMap<>();
-      loadMovies("data/" + moviefile);
+      loadMovies("src/main/resources/" + moviefile);
     }
   }
 
   private static void initialize() {
     if (ourMovies == null) {
       ourMovies = new HashMap<>();
-      loadMovies("data/ratedmoviesfull.csv");
+      loadMovies("src/main/resources/ratedmoviesfull.csv");
     }
   }
 
-  private static void loadMovies(String filename) {
+  public static void loadMovies(String filename) {
     FirstRatings fr = new FirstRatings();
     ArrayList<Movie> list = fr.loadMovies(filename);
     for (Movie m : list) {

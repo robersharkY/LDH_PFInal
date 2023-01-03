@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['efficientrater_2ejava_0',['EfficientRater.java',['../_efficient_rater_8java.html',1,'']]],
-  ['extendedbufferedreader_2ejava_1',['ExtendedBufferedReader.java',['../_extended_buffered_reader_8java.html',1,'']]]
+  ['filter_2ejava_0',['Filter.java',['../_filter_8java.html',1,'']]],
+  ['firstratings_2ejava_1',['FirstRatings.java',['../_first_ratings_8java.html',1,'']]],
+  ['fourthratings_2ejava_2',['FourthRatings.java',['../_fourth_ratings_8java.html',1,'']]]
 ];
