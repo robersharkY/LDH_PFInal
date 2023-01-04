@@ -1,5 +1,13 @@
 var searchData=
 [
-  ['satisfies_0',['satisfies',['../classes_1_1ull_1_1etsii_1_1_all_filters.html#a6bd45ff5679ce9cdf435536194525b4a',1,'es.ull.etsii.AllFilters.satisfies()'],['../classes_1_1ull_1_1etsii_1_1_directors_filter.html#ae8584937e75f6de0848f749e94670081',1,'es.ull.etsii.DirectorsFilter.satisfies()'],['../interfacees_1_1ull_1_1etsii_1_1_filter.html#a9d021c323f9f6eb4ddb35177b6584315',1,'es.ull.etsii.Filter.satisfies()'],['../classes_1_1ull_1_1etsii_1_1_genre_filter.html#aa9f7a6190e7d21bc25ca317ea247c7cf',1,'es.ull.etsii.GenreFilter.satisfies()'],['../classes_1_1ull_1_1etsii_1_1_minutes_filter.html#abcd51e99fc5b2b909d535e618d09d245',1,'es.ull.etsii.MinutesFilter.satisfies()'],['../classes_1_1ull_1_1etsii_1_1_true_filter.html#a031504775dd24bb2a857402d85f3fbdc',1,'es.ull.etsii.TrueFilter.satisfies()'],['../classes_1_1ull_1_1etsii_1_1_year_after_filter.html#af559f22e7cdc3f1ebe7c5314c273a79c',1,'es.ull.etsii.YearAfterFilter.satisfies()']]],
-  ['size_1',['size',['../classes_1_1ull_1_1etsii_1_1_movie_database.html#aa9e4822533752f9fd9addc9704da4fe7',1,'es.ull.etsii.MovieDatabase.size()'],['../classes_1_1ull_1_1etsii_1_1_rater_database.html#a9daff957d46787b8e2c170a6815f3d3d',1,'es.ull.etsii.RaterDatabase.size()']]]
+  ['rater_0',['Rater',['../interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater.html',1,'es::ull::etsii::Rate']]],
+  ['rater_2ejava_1',['Rater.java',['../_rater_8java.html',1,'']]],
+  ['raterdatabase_2',['RaterDatabase',['../classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database.html',1,'es::ull::etsii::Rate']]],
+  ['raterdatabase_2ejava_3',['RaterDatabase.java',['../_rater_database_8java.html',1,'']]],
+  ['rating_4',['Rating',['../classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating.html',1,'es.ull.etsii.Ratings.Rating'],['../classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating.html#ab6be5e45303b8d5fed6cd22f672628a8',1,'es.ull.etsii.Ratings.Rating.Rating()']]],
+  ['rating_2ejava_5',['Rating.java',['../_rating_8java.html',1,'']]],
+  ['recommendationrunner_6',['RecommendationRunner',['../classes_1_1ull_1_1etsii_1_1_recommendations_1_1_recommendation_runner.html',1,'es::ull::etsii::Recommendations']]],
+  ['recommendationrunner_2ejava_7',['RecommendationRunner.java',['../_recommendation_runner_8java.html',1,'']]],
+  ['recommender_8',['Recommender',['../interfacees_1_1ull_1_1etsii_1_1_recommendations_1_1_recommender.html',1,'es::ull::etsii::Recommendations']]],
+  ['recommender_2ejava_9',['Recommender.java',['../_recommender_8java.html',1,'']]]
 ];
