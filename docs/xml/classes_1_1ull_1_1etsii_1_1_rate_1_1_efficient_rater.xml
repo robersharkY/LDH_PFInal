@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="es">
+  <compounddef id="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater" kind="class" language="Java" prot="public">
+    <compoundname>es::ull::etsii::Rate::EfficientRater</compoundname>
+    <basecompoundref refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater" prot="public" virt="non-virtual">es.ull.etsii.Rate.Rater</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a8050b11270699a9ec0dbda21dddd7140" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String es.ull.etsii.Rate.EfficientRater.myID</definition>
+        <argsstring></argsstring>
+        <name>myID</name>
+        <qualifiedname>es.ull.etsii.Rate.EfficientRater.myID</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="16" column="24" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a93135243ce79d3785cac732b308c8b84" prot="private" static="no" mutable="no">
+        <type>final HashMap&lt; String, <ref refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating" kindref="compound">Rating</ref> &gt;</type>
+        <definition>final HashMap&lt;String, Rating&gt; es.ull.etsii.Rate.EfficientRater.myRatings</definition>
+        <argsstring></argsstring>
+        <name>myRatings</name>
+        <qualifiedname>es.ull.etsii.Rate.EfficientRater.myRatings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="17" column="25" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a508bd398184d2c615f1bffb2d3e49a81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>es.ull.etsii.Rate.EfficientRater.EfficientRater</definition>
+        <argsstring>(String id)</argsstring>
+        <name>EfficientRater</name>
+        <qualifiedname>es.ull.etsii.Rate.EfficientRater.EfficientRater</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="19" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1af54517edea8813b2ceaf83a29293e16c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.ull.etsii.Rate.EfficientRater.addRating</definition>
+        <argsstring>(String movieID, double rating)</argsstring>
+        <name>addRating</name>
+        <qualifiedname>es.ull.etsii.Rate.EfficientRater.addRating</qualifiedname>
+        <reimplements refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1a153ffa4e1c31404a3250d360d91aafd1">addRating</reimplements>
+        <param>
+          <type>String</type>
+          <declname>movieID</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rating</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="24" column="15" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a9d0d74175e5799102ac55b2983e517f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean es.ull.etsii.Rate.EfficientRater.hasRating</definition>
+        <argsstring>(String movieID)</argsstring>
+        <name>hasRating</name>
+        <qualifiedname>es.ull.etsii.Rate.EfficientRater.hasRating</qualifiedname>
+        <reimplements refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1abc44687050cad917872f8dcb2b389db2">hasRating</reimplements>
+        <param>
+          <type>String</type>
+          <declname>movieID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="28" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1ab1f5ed91322a37d6520fd793aedaac3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String es.ull.etsii.Rate.EfficientRater.getID</definition>
+        <argsstring>()</argsstring>
+        <name>getID</name>
+        <qualifiedname>es.ull.etsii.Rate.EfficientRater.getID</qualifiedname>
+        <reimplements refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1ab02f8e58a1349b99ceb32aa929243189">getID</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="32" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="32" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a2dd1c28ecf99d7a730a905efcfaafbd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double es.ull.etsii.Rate.EfficientRater.getRating</definition>
+        <argsstring>(String movieID)</argsstring>
+        <name>getRating</name>
+        <qualifiedname>es.ull.etsii.Rate.EfficientRater.getRating</qualifiedname>
+        <reimplements refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1a7bd9aacc55c576def41c084fbfa3a0d4">getRating</reimplements>
+        <param>
+          <type>String</type>
+          <declname>movieID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="36" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="36" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a7f1f110d8cb859f63fe95d1a0d004573" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int es.ull.etsii.Rate.EfficientRater.numRatings</definition>
+        <argsstring>()</argsstring>
+        <name>numRatings</name>
+        <qualifiedname>es.ull.etsii.Rate.EfficientRater.numRatings</qualifiedname>
+        <reimplements refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1a4b6d2f0739f00a2bb0f8fbba90adc010">numRatings</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="45" column="14" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="45" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1afc4c1e6a576c4e74add27d25c0104e8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; String &gt;</type>
+        <definition>ArrayList&lt; String &gt; es.ull.etsii.Rate.EfficientRater.getItemsRated</definition>
+        <argsstring>()</argsstring>
+        <name>getItemsRated</name>
+        <qualifiedname>es.ull.etsii.Rate.EfficientRater.getItemsRated</qualifiedname>
+        <reimplements refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1a40af9756054fa1c1c19214c383d34cf3">getItemsRated</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="49" column="20" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="49" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a2d63adff0982cb76cb15346ccf8e448a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>HashMap&lt; String, <ref refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating" kindref="compound">Rating</ref> &gt;</type>
+        <definition>HashMap&lt; String, Rating &gt; es.ull.etsii.Rate.EfficientRater.getMyRatings</definition>
+        <argsstring>()</argsstring>
+        <name>getMyRatings</name>
+        <qualifiedname>es.ull.etsii.Rate.EfficientRater.getMyRatings</qualifiedname>
+        <reimplements refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1a902a42e967bdde6733166cc44815cd7c">getMyRatings</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="53" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="53" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The class <ref refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater" kindref="compound">EfficientRater</ref> keeps track of one rater and all their ratings.</para>
+<para><simplesect kind="author"><para>Stanislav Rakitov </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>es.ull.etsii.Rate.EfficientRater</label>
+        <link refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.ull.etsii.Rate.Rater</label>
+        <link refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>es.ull.etsii.Rate.EfficientRater</label>
+        <link refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.ull.etsii.Rate.Rater</label>
+        <link refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="15" column="7" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="15" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1af54517edea8813b2ceaf83a29293e16c" prot="public" virt="non-virtual"><scope>es::ull::etsii::Rate::EfficientRater</scope><name>addRating</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a508bd398184d2c615f1bffb2d3e49a81" prot="public" virt="non-virtual"><scope>es::ull::etsii::Rate::EfficientRater</scope><name>EfficientRater</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1ab1f5ed91322a37d6520fd793aedaac3e" prot="public" virt="non-virtual"><scope>es::ull::etsii::Rate::EfficientRater</scope><name>getID</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1afc4c1e6a576c4e74add27d25c0104e8a" prot="public" virt="non-virtual"><scope>es::ull::etsii::Rate::EfficientRater</scope><name>getItemsRated</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a2d63adff0982cb76cb15346ccf8e448a" prot="public" virt="non-virtual"><scope>es::ull::etsii::Rate::EfficientRater</scope><name>getMyRatings</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a2dd1c28ecf99d7a730a905efcfaafbd4" prot="public" virt="non-virtual"><scope>es::ull::etsii::Rate::EfficientRater</scope><name>getRating</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a9d0d74175e5799102ac55b2983e517f2" prot="public" virt="non-virtual"><scope>es::ull::etsii::Rate::EfficientRater</scope><name>hasRating</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a8050b11270699a9ec0dbda21dddd7140" prot="private" virt="non-virtual"><scope>es::ull::etsii::Rate::EfficientRater</scope><name>myID</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a93135243ce79d3785cac732b308c8b84" prot="private" virt="non-virtual"><scope>es::ull::etsii::Rate::EfficientRater</scope><name>myRatings</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a7f1f110d8cb859f63fe95d1a0d004573" prot="public" virt="non-virtual"><scope>es::ull::etsii::Rate::EfficientRater</scope><name>numRatings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

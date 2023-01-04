@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="es">
+  <compounddef id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating" kind="class" language="Java" prot="public">
+    <compoundname>es::ull::etsii::Ratings::Rating</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Comparable&lt; Rating &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1a1e8c2edffddb094cc228b6dbee974621" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String es.ull.etsii.Ratings.Rating.item</definition>
+        <argsstring></argsstring>
+        <name>item</name>
+        <qualifiedname>es.ull.etsii.Ratings.Rating.item</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/Rating.java" line="5" column="24" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/Rating.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1ad5e95ea306fbe2990d063bf65c614f2d" prot="private" static="no" mutable="no">
+        <type>final double</type>
+        <definition>final double es.ull.etsii.Ratings.Rating.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>es.ull.etsii.Ratings.Rating.value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/Rating.java" line="6" column="24" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/Rating.java" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1ab6be5e45303b8d5fed6cd22f672628a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>es.ull.etsii.Ratings.Rating.Rating</definition>
+        <argsstring>(String anItem, double aValue)</argsstring>
+        <name>Rating</name>
+        <qualifiedname>es.ull.etsii.Ratings.Rating.Rating</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>anItem</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>aValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/Rating.java" line="8" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/Rating.java" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1a308d1aa3f743f27732d53548a4b1be38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String es.ull.etsii.Ratings.Rating.getItem</definition>
+        <argsstring>()</argsstring>
+        <name>getItem</name>
+        <qualifiedname>es.ull.etsii.Ratings.Rating.getItem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/Rating.java" line="14" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/Rating.java" bodystart="14" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1ae3e9e93b55d68b795faa733d30b72e55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double es.ull.etsii.Ratings.Rating.getValue</definition>
+        <argsstring>()</argsstring>
+        <name>getValue</name>
+        <qualifiedname>es.ull.etsii.Ratings.Rating.getValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/Rating.java" line="19" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/Rating.java" bodystart="19" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1adfb0a2c5f01eb3d49577f59bf9858a0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String es.ull.etsii.Ratings.Rating.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <qualifiedname>es.ull.etsii.Ratings.Rating.toString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/Rating.java" line="24" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/Rating.java" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1a74109e1725fb819c6b177b149a3b8c8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int es.ull.etsii.Ratings.Rating.compareTo</definition>
+        <argsstring>(Rating other)</argsstring>
+        <name>compareTo</name>
+        <qualifiedname>es.ull.etsii.Ratings.Rating.compareTo</qualifiedname>
+        <param>
+          <type><ref refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating" kindref="compound">Rating</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/Rating.java" line="28" column="14" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/Rating.java" bodystart="28" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Comparable&lt; Rating &gt;</label>
+      </node>
+      <node id="1">
+        <label>es.ull.etsii.Ratings.Rating</label>
+        <link refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Comparable&lt; Rating &gt;</label>
+      </node>
+      <node id="1">
+        <label>es.ull.etsii.Ratings.Rating</label>
+        <link refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/Rating.java" line="4" column="7" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/Rating.java" bodystart="4" bodyend="31"/>
+    <listofallmembers>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1a74109e1725fb819c6b177b149a3b8c8c" prot="public" virt="non-virtual"><scope>es::ull::etsii::Ratings::Rating</scope><name>compareTo</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1a308d1aa3f743f27732d53548a4b1be38" prot="public" virt="non-virtual"><scope>es::ull::etsii::Ratings::Rating</scope><name>getItem</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1ae3e9e93b55d68b795faa733d30b72e55" prot="public" virt="non-virtual"><scope>es::ull::etsii::Ratings::Rating</scope><name>getValue</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1a1e8c2edffddb094cc228b6dbee974621" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::Rating</scope><name>item</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1ab6be5e45303b8d5fed6cd22f672628a8" prot="public" virt="non-virtual"><scope>es::ull::etsii::Ratings::Rating</scope><name>Rating</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1adfb0a2c5f01eb3d49577f59bf9858a0c" prot="public" virt="non-virtual"><scope>es::ull::etsii::Ratings::Rating</scope><name>toString</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1ad5e95ea306fbe2990d063bf65c614f2d" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::Rating</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

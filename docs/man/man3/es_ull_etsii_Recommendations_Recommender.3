@@ -1,4 +1,4 @@
-.TH "es.ull.etsii.Recommendations.Recommender" 3 "Wed Jan 4 2023" "Version 1.0" "ProyectoFinalLDH" \" -*- nroff -*-
+.TH "es.ull.etsii.Recommendations.Recommender" 3 "Miércoles, 4 de Enero de 2023" "Version 1.0" "ProyectoFinalLDH" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -7,8 +7,8 @@ es.ull.etsii.Recommendations.Recommender
 .br
 .PP
 .PP
-Inherited by \fBes\&.ull\&.etsii\&.Recommendations\&.RecommendationRunner\fP\&.
-.SS "Public Member Functions"
+Heredado por \fBes\&.ull\&.etsii\&.Recommendations\&.RecommendationRunner\fP\&.
+.SS "Métodos públicos"
 
 .in +1c
 .ti -1c
@@ -18,14 +18,14 @@ Inherited by \fBes\&.ull\&.etsii\&.Recommendations\&.RecommendationRunner\fP\&.
 .RI "void \fBprintRecommendationsFor\fP (String webRaterID)"
 .br
 .in -1c
-.SH "Detailed Description"
+.SH "Descripción detallada"
 .PP 
 Implement this interface to allow your code to be integrated with our web site\&.
 .PP
 When users first visit the recommender website, our code will call the method \fC \fBgetItemsToRate()\fP\fP to get a list of movies to display on the web page for users to rate\&.
 .PP
 When a user submits their ratings, our code will call the method \fC printRecommendationsFor\fP to get your recommendations based on the user's ratings\&. The ID given to this method is for a new Rater that we have already added to the RaterDatabase with ratings for the movies returned by the first method\&. Whatever is printed from that method will be displayed on the web page: HTML, plain text, or debugging information\&. 
-.SH "Member Function Documentation"
+.SH "Documentación de las funciones miembro"
 .PP 
 .SS "ArrayList< String > es\&.ull\&.etsii\&.Recommendations\&.Recommender\&.getItemsToRate ()"
 This method returns a list of movie IDs that will be used to look up the movies in the MovieDatabase and present them to users to rate\&.
@@ -36,7 +36,7 @@ There are no restrictions on the method you use to generate this list of movies:
 .PP
 The ratings for these movies will make the profile for a new Rater that will be used to compare to for finding recommendations\&. 
 .PP
-Implemented in \fBes\&.ull\&.etsii\&.Recommendations\&.RecommendationRunner\fP\&.
+Implementado en \fBes\&.ull\&.etsii\&.Recommendations\&.RecommendationRunner\fP\&.
 .SS "void es\&.ull\&.etsii\&.Recommendations\&.Recommender\&.printRecommendationsFor (String webRaterID)"
 This method returns nothing, but prints out an HTML table of the movies recommended for the given rater\&.
 .PP
@@ -44,15 +44,15 @@ The HTML printed will be displayed on a web page, so the number you choose to di
 .PP
 You may also include CSS styling for your table using the <style> tag before you print the table\&. There are no restrictions on which movies you print, what order you print them in, or what information you include about each movie\&.
 .PP
-\fBParameters\fP
+\fBParámetros\fP
 .RS 4
 \fIwebRaterID\fP the ID of a new Rater that has been already added to the RaterDatabase with ratings for the movies returned by the method getItemsToRate 
 .RE
 .PP
 
 .PP
-Implemented in \fBes\&.ull\&.etsii\&.Recommendations\&.RecommendationRunner\fP\&.
+Implementado en \fBes\&.ull\&.etsii\&.Recommendations\&.RecommendationRunner\fP\&.
 
-.SH "Author"
+.SH "Autor"
 .PP 
-Generated automatically by Doxygen for ProyectoFinalLDH from the source code\&.
+Generado automáticamente por Doxygen para ProyectoFinalLDH del código fuente\&.

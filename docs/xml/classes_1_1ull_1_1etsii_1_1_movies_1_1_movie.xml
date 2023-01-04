@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="es">
+  <compounddef id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie" kind="class" language="Java" prot="public">
+    <compoundname>es::ull::etsii::Movies::Movie</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a880151386fdf1b6a9fa173df2160b3c7" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String es.ull.etsii.Movies.Movie.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>es.ull.etsii.Movies.Movie.id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="5" column="24" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a0962f83407b28b849f65d6494f9ca0e5" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String es.ull.etsii.Movies.Movie.title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <qualifiedname>es.ull.etsii.Movies.Movie.title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="6" column="24" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a2c48872b0204fb6d47085ced69f6249c" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int es.ull.etsii.Movies.Movie.year</definition>
+        <argsstring></argsstring>
+        <name>year</name>
+        <qualifiedname>es.ull.etsii.Movies.Movie.year</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="7" column="21" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1ac9090948adde50b31c285532cfe6ad86" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String es.ull.etsii.Movies.Movie.genres</definition>
+        <argsstring></argsstring>
+        <name>genres</name>
+        <qualifiedname>es.ull.etsii.Movies.Movie.genres</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="8" column="24" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a79a400ac22cd0bf1749fa413e4ededfd" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String es.ull.etsii.Movies.Movie.director</definition>
+        <argsstring></argsstring>
+        <name>director</name>
+        <qualifiedname>es.ull.etsii.Movies.Movie.director</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="9" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1afe0d5b8f795b63bf1f8535a464e4c422" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String es.ull.etsii.Movies.Movie.country</definition>
+        <argsstring></argsstring>
+        <name>country</name>
+        <qualifiedname>es.ull.etsii.Movies.Movie.country</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="10" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a57ae13aafd5790dc04d3664f7bd6aec0" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String es.ull.etsii.Movies.Movie.poster</definition>
+        <argsstring></argsstring>
+        <name>poster</name>
+        <qualifiedname>es.ull.etsii.Movies.Movie.poster</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="11" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a3ad9dd44726cf03dcde1cabf7babb7ee" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int es.ull.etsii.Movies.Movie.minutes</definition>
+        <argsstring></argsstring>
+        <name>minutes</name>
+        <qualifiedname>es.ull.etsii.Movies.Movie.minutes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="12" column="15" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a8a7ec75e4f42bb8cbb2d1c525d62329b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>es.ull.etsii.Movies.Movie.Movie</definition>
+        <argsstring>(String anID, String aTitle, String aYear, String theGenres)</argsstring>
+        <name>Movie</name>
+        <qualifiedname>es.ull.etsii.Movies.Movie.Movie</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>anID</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>aTitle</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>aYear</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>theGenres</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="14" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="14" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a575c0755ddeb0325de8d7f3b89af91ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>es.ull.etsii.Movies.Movie.Movie</definition>
+        <argsstring>(String anID, String aTitle, String aYear, String theGenres, String aDirector, String aCountry, String aPoster, int theMinutes)</argsstring>
+        <name>Movie</name>
+        <qualifiedname>es.ull.etsii.Movies.Movie.Movie</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>anID</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>aTitle</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>aYear</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>theGenres</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>aDirector</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>aCountry</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>aPoster</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>theMinutes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="22" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="22" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a5b5895c73cf39d5dbf6dba4c703f743a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String es.ull.etsii.Movies.Movie.getID</definition>
+        <argsstring>()</argsstring>
+        <name>getID</name>
+        <qualifiedname>es.ull.etsii.Movies.Movie.getID</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="43" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a48c3c4ff542dc5413fdd7eebde966d56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String es.ull.etsii.Movies.Movie.getTitle</definition>
+        <argsstring>()</argsstring>
+        <name>getTitle</name>
+        <qualifiedname>es.ull.etsii.Movies.Movie.getTitle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="48" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="48" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1ae6c13b7c9dd704599b3d6d4fd376d20e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int es.ull.etsii.Movies.Movie.getYear</definition>
+        <argsstring>()</argsstring>
+        <name>getYear</name>
+        <qualifiedname>es.ull.etsii.Movies.Movie.getYear</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="53" column="14" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1aa72f5ca5d581033d84d9a7726d548c10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String es.ull.etsii.Movies.Movie.getGenres</definition>
+        <argsstring>()</argsstring>
+        <name>getGenres</name>
+        <qualifiedname>es.ull.etsii.Movies.Movie.getGenres</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="58" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="58" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a0e30e36587c3e10b255d7ec5d0d6aaae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String es.ull.etsii.Movies.Movie.getCountry</definition>
+        <argsstring>()</argsstring>
+        <name>getCountry</name>
+        <qualifiedname>es.ull.etsii.Movies.Movie.getCountry</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="62" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="62" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1adaade0a062cc820e74b05a13d31489ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String es.ull.etsii.Movies.Movie.getDirector</definition>
+        <argsstring>()</argsstring>
+        <name>getDirector</name>
+        <qualifiedname>es.ull.etsii.Movies.Movie.getDirector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="66" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="66" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a32b28765a7bb0af346268997c18020f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String es.ull.etsii.Movies.Movie.getPoster</definition>
+        <argsstring>()</argsstring>
+        <name>getPoster</name>
+        <qualifiedname>es.ull.etsii.Movies.Movie.getPoster</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="70" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="70" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a212f5139c50645f8916f3726116152f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int es.ull.etsii.Movies.Movie.getMinutes</definition>
+        <argsstring>()</argsstring>
+        <name>getMinutes</name>
+        <qualifiedname>es.ull.etsii.Movies.Movie.getMinutes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="74" column="14" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="74" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a29177349be7cc07e76a060773e9bbbf0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String es.ull.etsii.Movies.Movie.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <qualifiedname>es.ull.etsii.Movies.Movie.toString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="79" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="79" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="4" column="7" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="4" bodyend="84"/>
+    <listofallmembers>
+      <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1afe0d5b8f795b63bf1f8535a464e4c422" prot="private" virt="non-virtual"><scope>es::ull::etsii::Movies::Movie</scope><name>country</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a79a400ac22cd0bf1749fa413e4ededfd" prot="private" virt="non-virtual"><scope>es::ull::etsii::Movies::Movie</scope><name>director</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1ac9090948adde50b31c285532cfe6ad86" prot="private" virt="non-virtual"><scope>es::ull::etsii::Movies::Movie</scope><name>genres</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a0e30e36587c3e10b255d7ec5d0d6aaae" prot="public" virt="non-virtual"><scope>es::ull::etsii::Movies::Movie</scope><name>getCountry</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1adaade0a062cc820e74b05a13d31489ee" prot="public" virt="non-virtual"><scope>es::ull::etsii::Movies::Movie</scope><name>getDirector</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1aa72f5ca5d581033d84d9a7726d548c10" prot="public" virt="non-virtual"><scope>es::ull::etsii::Movies::Movie</scope><name>getGenres</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a5b5895c73cf39d5dbf6dba4c703f743a" prot="public" virt="non-virtual"><scope>es::ull::etsii::Movies::Movie</scope><name>getID</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a212f5139c50645f8916f3726116152f2" prot="public" virt="non-virtual"><scope>es::ull::etsii::Movies::Movie</scope><name>getMinutes</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a32b28765a7bb0af346268997c18020f7" prot="public" virt="non-virtual"><scope>es::ull::etsii::Movies::Movie</scope><name>getPoster</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a48c3c4ff542dc5413fdd7eebde966d56" prot="public" virt="non-virtual"><scope>es::ull::etsii::Movies::Movie</scope><name>getTitle</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1ae6c13b7c9dd704599b3d6d4fd376d20e" prot="public" virt="non-virtual"><scope>es::ull::etsii::Movies::Movie</scope><name>getYear</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a880151386fdf1b6a9fa173df2160b3c7" prot="private" virt="non-virtual"><scope>es::ull::etsii::Movies::Movie</scope><name>id</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a3ad9dd44726cf03dcde1cabf7babb7ee" prot="private" virt="non-virtual"><scope>es::ull::etsii::Movies::Movie</scope><name>minutes</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a8a7ec75e4f42bb8cbb2d1c525d62329b" prot="public" virt="non-virtual"><scope>es::ull::etsii::Movies::Movie</scope><name>Movie</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a575c0755ddeb0325de8d7f3b89af91ce" prot="public" virt="non-virtual"><scope>es::ull::etsii::Movies::Movie</scope><name>Movie</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a57ae13aafd5790dc04d3664f7bd6aec0" prot="private" virt="non-virtual"><scope>es::ull::etsii::Movies::Movie</scope><name>poster</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a0962f83407b28b849f65d6494f9ca0e5" prot="private" virt="non-virtual"><scope>es::ull::etsii::Movies::Movie</scope><name>title</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a29177349be7cc07e76a060773e9bbbf0" prot="public" virt="non-virtual"><scope>es::ull::etsii::Movies::Movie</scope><name>toString</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a2c48872b0204fb6d47085ced69f6249c" prot="private" virt="non-virtual"><scope>es::ull::etsii::Movies::Movie</scope><name>year</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

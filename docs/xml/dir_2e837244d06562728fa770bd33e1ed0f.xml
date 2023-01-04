@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="es">
+  <compounddef id="dir_2e837244d06562728fa770bd33e1ed0f" kind="dir">
+    <compoundname>C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Recommendations</compoundname>
+    <innerfile refid="_recommendation_runner_8java">RecommendationRunner.java</innerfile>
+    <innerfile refid="_recommender_8java">Recommender.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Recommendations/"/>
+  </compounddef>
+</doxygen>

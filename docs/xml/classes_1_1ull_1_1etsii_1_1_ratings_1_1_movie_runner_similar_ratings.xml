@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="es">
+  <compounddef id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings" kind="class" language="Java" prot="public">
+    <compoundname>es::ull::etsii::Ratings::MovieRunnerSimilarRatings</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings_1a92ac470391aa96ec2339f03c3ce7308f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.ull.etsii.Ratings.MovieRunnerSimilarRatings.printAverageRatings</definition>
+        <argsstring>(int minimalRatings)</argsstring>
+        <name>printAverageRatings</name>
+        <qualifiedname>es.ull.etsii.Ratings.MovieRunnerSimilarRatings.printAverageRatings</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>minimalRatings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Print a list of movies and their average ratings sorted by averages</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>minimalRatings</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int specified number of ratings </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/MovieRunnerSimilarRatings.java" line="22" column="15" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/MovieRunnerSimilarRatings.java" bodystart="22" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings_1a7506c93bc0349799e7863346db8cade8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.ull.etsii.Ratings.MovieRunnerSimilarRatings.printAverageRatingsByYearAfterAndGenre</definition>
+        <argsstring>(int minimalRatings, int year, String genre)</argsstring>
+        <name>printAverageRatingsByYearAfterAndGenre</name>
+        <qualifiedname>es.ull.etsii.Ratings.MovieRunnerSimilarRatings.printAverageRatingsByYearAfterAndGenre</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>minimalRatings</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>genre</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/MovieRunnerSimilarRatings.java" line="47" column="15" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/MovieRunnerSimilarRatings.java" bodystart="47" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings_1a8b1d8a59864d7cbf7353f5d762c6dff7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.ull.etsii.Ratings.MovieRunnerSimilarRatings.printSimilarRatings</definition>
+        <argsstring>()</argsstring>
+        <name>printSimilarRatings</name>
+        <qualifiedname>es.ull.etsii.Ratings.MovieRunnerSimilarRatings.printSimilarRatings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/MovieRunnerSimilarRatings.java" line="71" column="15" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/MovieRunnerSimilarRatings.java" bodystart="71" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings_1a20a65d6c40fbf417e4a224aaea006051" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.ull.etsii.Ratings.MovieRunnerSimilarRatings.printSimilarRatingsByGenre</definition>
+        <argsstring>()</argsstring>
+        <name>printSimilarRatingsByGenre</name>
+        <qualifiedname>es.ull.etsii.Ratings.MovieRunnerSimilarRatings.printSimilarRatingsByGenre</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/MovieRunnerSimilarRatings.java" line="79" column="15" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/MovieRunnerSimilarRatings.java" bodystart="79" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings_1af9c85dd58fce3e8e1aa20eab4b56ec82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.ull.etsii.Ratings.MovieRunnerSimilarRatings.printSimilarRatingsByDirector</definition>
+        <argsstring>()</argsstring>
+        <name>printSimilarRatingsByDirector</name>
+        <qualifiedname>es.ull.etsii.Ratings.MovieRunnerSimilarRatings.printSimilarRatingsByDirector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/MovieRunnerSimilarRatings.java" line="88" column="15" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/MovieRunnerSimilarRatings.java" bodystart="88" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings_1add7c92337d05a6778a696e6b9e8a927e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.ull.etsii.Ratings.MovieRunnerSimilarRatings.printSimilarRatingsByGenreAndMinutes</definition>
+        <argsstring>()</argsstring>
+        <name>printSimilarRatingsByGenreAndMinutes</name>
+        <qualifiedname>es.ull.etsii.Ratings.MovieRunnerSimilarRatings.printSimilarRatingsByGenreAndMinutes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/MovieRunnerSimilarRatings.java" line="103" column="15" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/MovieRunnerSimilarRatings.java" bodystart="103" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings_1ac5db643bdb14352de1f2c5c04a035ed0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.ull.etsii.Ratings.MovieRunnerSimilarRatings.printSimilarRatingsByYearAfterAndMinutes</definition>
+        <argsstring>()</argsstring>
+        <name>printSimilarRatingsByYearAfterAndMinutes</name>
+        <qualifiedname>es.ull.etsii.Ratings.MovieRunnerSimilarRatings.printSimilarRatingsByYearAfterAndMinutes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/MovieRunnerSimilarRatings.java" line="115" column="15" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/MovieRunnerSimilarRatings.java" bodystart="115" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings_1ae0ad586afe0ef5db27e52d81ba58c1e8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.ull.etsii.Ratings.MovieRunnerSimilarRatings.printRatingsList</definition>
+        <argsstring>(ArrayList&lt; Rating &gt; averageRatingList)</argsstring>
+        <name>printRatingsList</name>
+        <qualifiedname>es.ull.etsii.Ratings.MovieRunnerSimilarRatings.printRatingsList</qualifiedname>
+        <param>
+          <type>ArrayList&lt; <ref refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating" kindref="compound">Rating</ref> &gt;</type>
+          <declname>averageRatingList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/MovieRunnerSimilarRatings.java" line="55" column="16" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/MovieRunnerSimilarRatings.java" bodystart="55" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Stanislav Rakitov </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/MovieRunnerSimilarRatings.java" line="15" column="7" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/MovieRunnerSimilarRatings.java" bodystart="15" bodyend="125"/>
+    <listofallmembers>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings_1a92ac470391aa96ec2339f03c3ce7308f" prot="public" virt="non-virtual"><scope>es::ull::etsii::Ratings::MovieRunnerSimilarRatings</scope><name>printAverageRatings</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings_1a7506c93bc0349799e7863346db8cade8" prot="public" virt="non-virtual"><scope>es::ull::etsii::Ratings::MovieRunnerSimilarRatings</scope><name>printAverageRatingsByYearAfterAndGenre</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings_1ae0ad586afe0ef5db27e52d81ba58c1e8" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::MovieRunnerSimilarRatings</scope><name>printRatingsList</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings_1a8b1d8a59864d7cbf7353f5d762c6dff7" prot="public" virt="non-virtual"><scope>es::ull::etsii::Ratings::MovieRunnerSimilarRatings</scope><name>printSimilarRatings</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings_1af9c85dd58fce3e8e1aa20eab4b56ec82" prot="public" virt="non-virtual"><scope>es::ull::etsii::Ratings::MovieRunnerSimilarRatings</scope><name>printSimilarRatingsByDirector</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings_1a20a65d6c40fbf417e4a224aaea006051" prot="public" virt="non-virtual"><scope>es::ull::etsii::Ratings::MovieRunnerSimilarRatings</scope><name>printSimilarRatingsByGenre</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings_1add7c92337d05a6778a696e6b9e8a927e" prot="public" virt="non-virtual"><scope>es::ull::etsii::Ratings::MovieRunnerSimilarRatings</scope><name>printSimilarRatingsByGenreAndMinutes</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings_1ac5db643bdb14352de1f2c5c04a035ed0" prot="public" virt="non-virtual"><scope>es::ull::etsii::Ratings::MovieRunnerSimilarRatings</scope><name>printSimilarRatingsByYearAfterAndMinutes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.5" xml:lang="es">
+  <compound refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters" kind="class"><name>es::ull::etsii::Filters::AllFilters</name>
+    <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters_1adf18fd49bca6837ba6243ca2c622c85f" kind="variable"><name>filters</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters_1afa175564979aa735af4cb0662f04ec60" kind="function"><name>AllFilters</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters_1ac584a7234a7742a2e4fc7fe1da969d79" kind="function"><name>addFilter</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters_1ae71d86079e47183c6426ffc4c10a0ba3" kind="function"><name>satisfies</name></member>
+  </compound>
+  <compound refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter" kind="class"><name>es::ull::etsii::Filters::DirectorsFilter</name>
+    <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter_1ac5f2148b499486b607712ace3d090307" kind="variable"><name>directors</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter_1a048d1708b83a2b1eb5ad22296455f412" kind="function"><name>DirectorsFilter</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter_1ac3a85d51bbcd0b0343ea99e8e640cf06" kind="function"><name>satisfies</name></member>
+  </compound>
+  <compound refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater" kind="class"><name>es::ull::etsii::Rate::EfficientRater</name>
+    <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a8050b11270699a9ec0dbda21dddd7140" kind="variable"><name>myID</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a93135243ce79d3785cac732b308c8b84" kind="variable"><name>myRatings</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a508bd398184d2c615f1bffb2d3e49a81" kind="function"><name>EfficientRater</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1af54517edea8813b2ceaf83a29293e16c" kind="function"><name>addRating</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a9d0d74175e5799102ac55b2983e517f2" kind="function"><name>hasRating</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1ab1f5ed91322a37d6520fd793aedaac3e" kind="function"><name>getID</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a2dd1c28ecf99d7a730a905efcfaafbd4" kind="function"><name>getRating</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a7f1f110d8cb859f63fe95d1a0d004573" kind="function"><name>numRatings</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1afc4c1e6a576c4e74add27d25c0104e8a" kind="function"><name>getItemsRated</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a2d63adff0982cb76cb15346ccf8e448a" kind="function"><name>getMyRatings</name></member>
+  </compound>
+  <compound refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter" kind="interface"><name>es::ull::etsii::Filters::Filter</name>
+    <member refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter_1a1edb801f34df197acf7584500c18c9ae" kind="function"><name>satisfies</name></member>
+  </compound>
+  <compound refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings" kind="class"><name>es::ull::etsii::Ratings::FirstRatings</name>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1af8eb51979c1c71eb36e382490399aaac" kind="variable"><name>movieArrayList</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a5ecdd509d3293fff5b502d56e043d5c6" kind="variable"><name>raterArrayList</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a4a9ba84a7ba5a15226583634c000416f" kind="variable"><name>directorsAndItsMovies</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1abf4f9b71e46b9673b0ba36922c98464c" kind="variable"><name>ratersWithIds</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1afb331410861ab1bd39de316ee680949a" kind="variable"><name>ratersAndCountOfRatings</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a9223a2323ecfe142e79145de8d1c9b2e" kind="variable"><name>moviesAndRatersMap</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a3310cb343df6a44004d8f0b96a78bf5d" kind="function"><name>FirstRatings</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a2a3a519d24b5e131ae8cbc2d8bec0b70" kind="function"><name>FirstRatings</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a9a5ee5cce07d5e1e29fc6752443f79b7" kind="function"><name>FirstRatings</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1ab6dc4f37eba4b492b62cb5d9def87f46" kind="function"><name>loadMovies</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1ae33cba4c508495521cd7b55599b02e77" kind="function"><name>testLoadMovies</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a977758f793f9c1ad8a0d4ef35101ef97" kind="function"><name>testLoadRaters</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a43913a0208e1fdee1b9599cd05973885" kind="function"><name>getFullFileName</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1afa10241e38d86e879842732a91abd26e" kind="function"><name>loadRaters</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1ae655ccad8fc496a00fb7516851720804" kind="function"><name>getAllMoviesAndRatesMap</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1abc46ecbfa8af904f6cec85a088bd8e46" kind="function"><name>loadRatersWithIDs</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a34300404507fa4e223d79aa48f00179c" kind="function"><name>getDirectorsAndMovies</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a82a37de57db118d36fe584724f5ae36a" kind="function"><name>parseMovieCSVRecord</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a3770d87c315b9c495860cfe6bef9e10c" kind="function"><name>maxFilmsOneDirectorName</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1ae68a91006964c167b491aa4bf39559c3" kind="function"><name>total150</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1acd68b7880223446019350af84aabf161" kind="function"><name>totalComedy</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a3e743dbf044a59fed8b8dd1dfe3eb167" kind="function"><name>printTotalNumberMoviesRated</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1ad81671cac42ec0f94977c427af9213e8" kind="function"><name>getNumberOfRatingsByMovie</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1ac6163fe8589f30c99dfe2859d8d24109" kind="function"><name>printMaxNumOfRatings</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1acf5ee057aee4a5c08473874144a18d6d" kind="function"><name>getMaxRatings</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a6196a701814e5daca10885cde71354ff" kind="function"><name>getAllRatersIdAndItsRatingsCounterMap</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1ab3a8eb4c896a7cea975581a003211b46" kind="function"><name>printNumberOfRatings</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a62965b808ffae0a35d61f77cff4d3ac4" kind="function"><name>getNumberOfRatingsByRaterID</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a8d52a09fb13c49e7100f6026ef856ec6" kind="function"><name>testPrintAllRaterWithRatings</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a4399395415dedd472fadbc2d5e06f582" kind="function"><name>printAllRaterRatings</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a9d70658c97ca44a41ec2fd26f0b97a5c" kind="function"><name>printAllRatingsByRater</name></member>
+  </compound>
+  <compound refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings" kind="class"><name>es::ull::etsii::Ratings::FourthRatings</name>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings_1a6d807b2ff968ac6bb7909b825179e1f4" kind="function"><name>getAverageByID</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings_1a5b77fd9dfab5bc7dd2cfaf298a6c4222" kind="function"><name>getSimilarities</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings_1a15fe8cd10f51a1a26be6e8d030e4805d" kind="function"><name>hasMinRaters</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings_1a03d62035114f7aa8735c8ed261d8c697" kind="function"><name>getAverageRatings</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings_1a1b4bb8bdbbf2950fb214ac1ebd21e282" kind="function"><name>getAverageRatingsByFilter</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings_1ab38c523a3d5313d9a29c8ede186f8016" kind="function"><name>dotProduct</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings_1ab3a8afcc5230c3709ca1665bf432dcac" kind="function"><name>getSimilarRatings</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings_1ab99a376641d7115d737e30408bf337fe" kind="function"><name>getSimilarRatingsByFilter</name></member>
+  </compound>
+  <compound refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_genre_filter" kind="class"><name>es::ull::etsii::Filters::GenreFilter</name>
+    <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_genre_filter_1af2423eaf3d413cdb43e156b64d967afc" kind="variable"><name>genre</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_genre_filter_1a53237cf71010c4e0d83276b4ea1d477f" kind="function"><name>GenreFilter</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_genre_filter_1abfa65b92bbe6ec97c10bbbefad3b3146" kind="function"><name>satisfies</name></member>
+  </compound>
+  <compound refid="classes_1_1ull_1_1etsii_1_1_main" kind="class"><name>es::ull::etsii::Main</name>
+    <member refid="classes_1_1ull_1_1etsii_1_1_main_1aa8f4c9823ad4501883eb1479df28819d" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter" kind="class"><name>es::ull::etsii::Filters::MinutesFilter</name>
+    <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1a43841c0b05c37dfe40ed781b3a75f645" kind="variable"><name>minMinutes</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1aba640ac38915a014a8e351f6a50aeae1" kind="variable"><name>maxMinutes</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1aa6adb964f98ed5cef388dee1b7618e66" kind="function"><name>MinutesFilter</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1a5ad1f28beff6d3179947955afd3c8357" kind="function"><name>MinutesFilter</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1ada0ff9ca5afc18941c7779c232263f37" kind="function"><name>satisfies</name></member>
+  </compound>
+  <compound refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie" kind="class"><name>es::ull::etsii::Movies::Movie</name>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a880151386fdf1b6a9fa173df2160b3c7" kind="variable"><name>id</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a0962f83407b28b849f65d6494f9ca0e5" kind="variable"><name>title</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a2c48872b0204fb6d47085ced69f6249c" kind="variable"><name>year</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1ac9090948adde50b31c285532cfe6ad86" kind="variable"><name>genres</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a79a400ac22cd0bf1749fa413e4ededfd" kind="variable"><name>director</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1afe0d5b8f795b63bf1f8535a464e4c422" kind="variable"><name>country</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a57ae13aafd5790dc04d3664f7bd6aec0" kind="variable"><name>poster</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a3ad9dd44726cf03dcde1cabf7babb7ee" kind="variable"><name>minutes</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a8a7ec75e4f42bb8cbb2d1c525d62329b" kind="function"><name>Movie</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a575c0755ddeb0325de8d7f3b89af91ce" kind="function"><name>Movie</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a5b5895c73cf39d5dbf6dba4c703f743a" kind="function"><name>getID</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a48c3c4ff542dc5413fdd7eebde966d56" kind="function"><name>getTitle</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1ae6c13b7c9dd704599b3d6d4fd376d20e" kind="function"><name>getYear</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1aa72f5ca5d581033d84d9a7726d548c10" kind="function"><name>getGenres</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a0e30e36587c3e10b255d7ec5d0d6aaae" kind="function"><name>getCountry</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1adaade0a062cc820e74b05a13d31489ee" kind="function"><name>getDirector</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a32b28765a7bb0af346268997c18020f7" kind="function"><name>getPoster</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a212f5139c50645f8916f3726116152f2" kind="function"><name>getMinutes</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a29177349be7cc07e76a060773e9bbbf0" kind="function"><name>toString</name></member>
+  </compound>
+  <compound refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database" kind="class"><name>es::ull::etsii::Movies::MovieDatabase</name>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_1a05ad6b3772b44edd8e602f7d967a98e3" kind="variable"><name>ourMovies</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_1a61e667fb59972fc76e9bdd74dded322e" kind="function"><name>initialize</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_1a286e1f5d0413d705090b483d84e939f5" kind="function"><name>loadMovies</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_1aee3433ffdb5400349364a9ae48177906" kind="function"><name>containsID</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_1a4dea0c04d1e2d01d16886f9f6a478b67" kind="function"><name>getYear</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_1a8c99101867f6ca06fd94d85f8ac30e19" kind="function"><name>getGenres</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_1ad105c17eabf7262757832260804975ce" kind="function"><name>getTitle</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_1ae4edb635a763ccbce8327b2d16ae512a" kind="function"><name>getMovie</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_1a7aa1053ba2a25b715423f1d45713ac35" kind="function"><name>getPoster</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_1a2c6f5a6bd66e94975464257f8e04ecfe" kind="function"><name>getMinutes</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_1a1c4e33ce31f85c7c973100a31ed59c8e" kind="function"><name>getCountry</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_1af5fa814893c293340c5a4c513d169414" kind="function"><name>getDirector</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_1af84f0de37a975f26f78cacb3cc726bc1" kind="function"><name>size</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_1a726594fb7963822662adf505292fd229" kind="function"><name>filterBy</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_1a43611d859ab051ed6368e3c0ed6b3f34" kind="function"><name>initialize</name></member>
+  </compound>
+  <compound refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings" kind="class"><name>es::ull::etsii::Ratings::MovieRunnerSimilarRatings</name>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings_1a92ac470391aa96ec2339f03c3ce7308f" kind="function"><name>printAverageRatings</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings_1a7506c93bc0349799e7863346db8cade8" kind="function"><name>printAverageRatingsByYearAfterAndGenre</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings_1a8b1d8a59864d7cbf7353f5d762c6dff7" kind="function"><name>printSimilarRatings</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings_1a20a65d6c40fbf417e4a224aaea006051" kind="function"><name>printSimilarRatingsByGenre</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings_1af9c85dd58fce3e8e1aa20eab4b56ec82" kind="function"><name>printSimilarRatingsByDirector</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings_1add7c92337d05a6778a696e6b9e8a927e" kind="function"><name>printSimilarRatingsByGenreAndMinutes</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings_1ac5db643bdb14352de1f2c5c04a035ed0" kind="function"><name>printSimilarRatingsByYearAfterAndMinutes</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings_1ae0ad586afe0ef5db27e52d81ba58c1e8" kind="function"><name>printRatingsList</name></member>
+  </compound>
+  <compound refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater" kind="interface"><name>es::ull::etsii::Rate::Rater</name>
+    <member refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1a153ffa4e1c31404a3250d360d91aafd1" kind="function"><name>addRating</name></member>
+    <member refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1abc44687050cad917872f8dcb2b389db2" kind="function"><name>hasRating</name></member>
+    <member refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1ab02f8e58a1349b99ceb32aa929243189" kind="function"><name>getID</name></member>
+    <member refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1a7bd9aacc55c576def41c084fbfa3a0d4" kind="function"><name>getRating</name></member>
+    <member refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1a4b6d2f0739f00a2bb0f8fbba90adc010" kind="function"><name>numRatings</name></member>
+    <member refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1a40af9756054fa1c1c19214c383d34cf3" kind="function"><name>getItemsRated</name></member>
+    <member refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1a902a42e967bdde6733166cc44815cd7c" kind="function"><name>getMyRatings</name></member>
+  </compound>
+  <compound refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database" kind="class"><name>es::ull::etsii::Rate::RaterDatabase</name>
+    <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_1a1567dad520223831c91d51bd05e0ffba" kind="variable"><name>ourRaters</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_1aad0a03007332efca4cc0853f2818b9c2" kind="function"><name>initialize</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_1a1e789409d6d388d909b249ffefe88069" kind="function"><name>initialize</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_1a3c13f83423e4e05e643591c57718635b" kind="function"><name>addRatings</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_1aac1de427a4785fc7bbabda62ff8a1938" kind="function"><name>addRaterRating</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_1a6964996ca231994e72c293b9676a9b27" kind="function"><name>getRater</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_1a5e96c9777a5a56a90410ebcf2cd19f36" kind="function"><name>getRaters</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_1ac63383382d9c8f5f9294bb29b1bf4ce0" kind="function"><name>size</name></member>
+  </compound>
+  <compound refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating" kind="class"><name>es::ull::etsii::Ratings::Rating</name>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1a1e8c2edffddb094cc228b6dbee974621" kind="variable"><name>item</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1ad5e95ea306fbe2990d063bf65c614f2d" kind="variable"><name>value</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1ab6be5e45303b8d5fed6cd22f672628a8" kind="function"><name>Rating</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1a308d1aa3f743f27732d53548a4b1be38" kind="function"><name>getItem</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1ae3e9e93b55d68b795faa733d30b72e55" kind="function"><name>getValue</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1adfb0a2c5f01eb3d49577f59bf9858a0c" kind="function"><name>toString</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1a74109e1725fb819c6b177b149a3b8c8c" kind="function"><name>compareTo</name></member>
+  </compound>
+  <compound refid="classes_1_1ull_1_1etsii_1_1_recommendations_1_1_recommendation_runner" kind="class"><name>es::ull::etsii::Recommendations::RecommendationRunner</name>
+    <member refid="classes_1_1ull_1_1etsii_1_1_recommendations_1_1_recommendation_runner_1a5ba1f6e100718a7c39563a5914dbd4e2" kind="function"><name>getItemsToRate</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_recommendations_1_1_recommendation_runner_1a5334f00f0218e45a0329194bc16f6d2d" kind="function"><name>printRecommendationsFor</name></member>
+  </compound>
+  <compound refid="interfacees_1_1ull_1_1etsii_1_1_recommendations_1_1_recommender" kind="interface"><name>es::ull::etsii::Recommendations::Recommender</name>
+    <member refid="interfacees_1_1ull_1_1etsii_1_1_recommendations_1_1_recommender_1aef786522bec45cfd560b214595f27890" kind="function"><name>getItemsToRate</name></member>
+    <member refid="interfacees_1_1ull_1_1etsii_1_1_recommendations_1_1_recommender_1a320d3b79717fe468bc4df5f1edbc410b" kind="function"><name>printRecommendationsFor</name></member>
+  </compound>
+  <compound refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_true_filter" kind="class"><name>es::ull::etsii::Filters::TrueFilter</name>
+    <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_true_filter_1af8b19fc013507e84cc322ddce49b542b" kind="function"><name>satisfies</name></member>
+  </compound>
+  <compound refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_after_filter" kind="class"><name>es::ull::etsii::Filters::YearAfterFilter</name>
+    <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_after_filter_1aa7c0c4a4ec1104f94c736a902eda12fc" kind="variable"><name>myYear</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_after_filter_1afe95bd77406590684268b7b7f27c79ed" kind="function"><name>YearAfterFilter</name></member>
+    <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_after_filter_1aa3c472f4c127128552831fa4f1046d5f" kind="function"><name>satisfies</name></member>
+  </compound>
+  <compound refid="namespacees" kind="namespace"><name>es</name>
+  </compound>
+  <compound refid="namespacees_1_1ull" kind="namespace"><name>es::ull</name>
+  </compound>
+  <compound refid="namespacees_1_1ull_1_1etsii" kind="namespace"><name>es::ull::etsii</name>
+  </compound>
+  <compound refid="namespacees_1_1ull_1_1etsii_1_1_filters" kind="namespace"><name>es::ull::etsii::Filters</name>
+  </compound>
+  <compound refid="namespacees_1_1ull_1_1etsii_1_1_movies" kind="namespace"><name>es::ull::etsii::Movies</name>
+  </compound>
+  <compound refid="namespacees_1_1ull_1_1etsii_1_1_rate" kind="namespace"><name>es::ull::etsii::Rate</name>
+  </compound>
+  <compound refid="namespacees_1_1ull_1_1etsii_1_1_ratings" kind="namespace"><name>es::ull::etsii::Ratings</name>
+  </compound>
+  <compound refid="namespacees_1_1ull_1_1etsii_1_1_recommendations" kind="namespace"><name>es::ull::etsii::Recommendations</name>
+  </compound>
+  <compound refid="namespacejava_1_1lang" kind="namespace"><name>java::lang</name>
+  </compound>
+  <compound refid="_all_filters_8java" kind="file"><name>AllFilters.java</name>
+  </compound>
+  <compound refid="_directors_filter_8java" kind="file"><name>DirectorsFilter.java</name>
+  </compound>
+  <compound refid="_filter_8java" kind="file"><name>Filter.java</name>
+  </compound>
+  <compound refid="_genre_filter_8java" kind="file"><name>GenreFilter.java</name>
+  </compound>
+  <compound refid="_minutes_filter_8java" kind="file"><name>MinutesFilter.java</name>
+  </compound>
+  <compound refid="_true_filter_8java" kind="file"><name>TrueFilter.java</name>
+  </compound>
+  <compound refid="_year_after_filter_8java" kind="file"><name>YearAfterFilter.java</name>
+  </compound>
+  <compound refid="_main_8java" kind="file"><name>Main.java</name>
+  </compound>
+  <compound refid="_movie_8java" kind="file"><name>Movie.java</name>
+  </compound>
+  <compound refid="_movie_database_8java" kind="file"><name>MovieDatabase.java</name>
+  </compound>
+  <compound refid="_efficient_rater_8java" kind="file"><name>EfficientRater.java</name>
+  </compound>
+  <compound refid="_rater_8java" kind="file"><name>Rater.java</name>
+  </compound>
+  <compound refid="_rater_database_8java" kind="file"><name>RaterDatabase.java</name>
+  </compound>
+  <compound refid="_first_ratings_8java" kind="file"><name>FirstRatings.java</name>
+  </compound>
+  <compound refid="_fourth_ratings_8java" kind="file"><name>FourthRatings.java</name>
+  </compound>
+  <compound refid="_movie_runner_similar_ratings_8java" kind="file"><name>MovieRunnerSimilarRatings.java</name>
+  </compound>
+  <compound refid="_rating_8java" kind="file"><name>Rating.java</name>
+  </compound>
+  <compound refid="_recommendation_runner_8java" kind="file"><name>RecommendationRunner.java</name>
+  </compound>
+  <compound refid="_recommender_8java" kind="file"><name>Recommender.java</name>
+  </compound>
+  <compound refid="dir_f9b1e2a59d62d001356ff527358589e3" kind="dir"><name>C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es</name>
+  </compound>
+  <compound refid="dir_c94c41bb30f76f04ad6b9dfc64d7220a" kind="dir"><name>C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii</name>
+  </compound>
+  <compound refid="dir_f56a7afeeae6abf39eb282922321dfea" kind="dir"><name>C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters</name>
+  </compound>
+  <compound refid="dir_fd3f6763802dee1ad875f6c80eac0bda" kind="dir"><name>C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java</name>
+  </compound>
+  <compound refid="dir_5eb159725f84c66aafd839904a4acdd0" kind="dir"><name>C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main</name>
+  </compound>
+  <compound refid="dir_a4787f5ba01c07711e35eff462d7fd6d" kind="dir"><name>C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies</name>
+  </compound>
+  <compound refid="dir_4bb3db0f197728ca0ac8780321fb6afb" kind="dir"><name>C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate</name>
+  </compound>
+  <compound refid="dir_54c1e440bacfb1409160194840c5a6e8" kind="dir"><name>C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings</name>
+  </compound>
+  <compound refid="dir_2e837244d06562728fa770bd33e1ed0f" kind="dir"><name>C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Recommendations</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>C:/Users/roberto/IdeaProjects/LDH_PFInal/src</name>
+  </compound>
+  <compound refid="dir_5e4a5b0330a43e454ff3ad9bcb612958" kind="dir"><name>C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull</name>
+  </compound>
+</doxygenindex>

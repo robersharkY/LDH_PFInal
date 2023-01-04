@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="es">
+  <compounddef id="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter" kind="interface" language="Java" prot="public">
+    <compoundname>es::ull::etsii::Filters::Filter</compoundname>
+    <derivedcompoundref refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters" prot="public" virt="non-virtual">es.ull.etsii.Filters.AllFilters</derivedcompoundref>
+    <derivedcompoundref refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter" prot="public" virt="non-virtual">es.ull.etsii.Filters.DirectorsFilter</derivedcompoundref>
+    <derivedcompoundref refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_genre_filter" prot="public" virt="non-virtual">es.ull.etsii.Filters.GenreFilter</derivedcompoundref>
+    <derivedcompoundref refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter" prot="public" virt="non-virtual">es.ull.etsii.Filters.MinutesFilter</derivedcompoundref>
+    <derivedcompoundref refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_true_filter" prot="public" virt="non-virtual">es.ull.etsii.Filters.TrueFilter</derivedcompoundref>
+    <derivedcompoundref refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_after_filter" prot="public" virt="non-virtual">es.ull.etsii.Filters.YearAfterFilter</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter_1a1edb801f34df197acf7584500c18c9ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean es.ull.etsii.Filters.Filter.satisfies</definition>
+        <argsstring>(String id)</argsstring>
+        <name>satisfies</name>
+        <qualifiedname>es.ull.etsii.Filters.Filter.satisfies</qualifiedname>
+        <reimplementedby refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters_1ae71d86079e47183c6426ffc4c10a0ba3">satisfies</reimplementedby>
+        <reimplementedby refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter_1ac3a85d51bbcd0b0343ea99e8e640cf06">satisfies</reimplementedby>
+        <reimplementedby refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_genre_filter_1abfa65b92bbe6ec97c10bbbefad3b3146">satisfies</reimplementedby>
+        <reimplementedby refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1ada0ff9ca5afc18941c7779c232263f37">satisfies</reimplementedby>
+        <reimplementedby refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_true_filter_1af8b19fc013507e84cc322ddce49b542b">satisfies</reimplementedby>
+        <reimplementedby refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_after_filter_1aa3c472f4c127128552831fa4f1046d5f">satisfies</reimplementedby>
+        <param>
+          <type>String</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/Filter.java" line="4" column="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>es.ull.etsii.Filters.Filter</label>
+        <link refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter"/>
+      </node>
+      <node id="2">
+        <label>es.ull.etsii.Filters.AllFilters</label>
+        <link refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>es.ull.etsii.Filters.DirectorsFilter</label>
+        <link refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>es.ull.etsii.Filters.GenreFilter</label>
+        <link refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_genre_filter"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>es.ull.etsii.Filters.MinutesFilter</label>
+        <link refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>es.ull.etsii.Filters.TrueFilter</label>
+        <link refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_true_filter"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>es.ull.etsii.Filters.YearAfterFilter</label>
+        <link refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_after_filter"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/Filter.java" line="3" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/Filter.java" bodystart="3" bodyend="5"/>
+    <listofallmembers>
+      <member refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter_1a1edb801f34df197acf7584500c18c9ae" prot="public" virt="non-virtual"><scope>es::ull::etsii::Filters::Filter</scope><name>satisfies</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

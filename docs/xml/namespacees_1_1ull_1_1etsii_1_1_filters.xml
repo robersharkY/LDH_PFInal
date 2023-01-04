@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="es">
+  <compounddef id="namespacees_1_1ull_1_1etsii_1_1_filters" kind="namespace" language="Java">
+    <compoundname>es::ull::etsii::Filters</compoundname>
+    <innerclass refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters" prot="public">es::ull::etsii::Filters::AllFilters</innerclass>
+    <innerclass refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter" prot="public">es::ull::etsii::Filters::DirectorsFilter</innerclass>
+    <innerclass refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter" prot="public">es::ull::etsii::Filters::Filter</innerclass>
+    <innerclass refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_genre_filter" prot="public">es::ull::etsii::Filters::GenreFilter</innerclass>
+    <innerclass refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter" prot="public">es::ull::etsii::Filters::MinutesFilter</innerclass>
+    <innerclass refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_true_filter" prot="public">es::ull::etsii::Filters::TrueFilter</innerclass>
+    <innerclass refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_after_filter" prot="public">es::ull::etsii::Filters::YearAfterFilter</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/AllFilters.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

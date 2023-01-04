@@ -23,15 +23,15 @@
  @licend  The above is the entire license notice for the JavaScript code in this file
 */
 var menudata={children:[
-{text:"Main Page",url:"index.html"},
-{text:"Packages",url:"namespaces.html",children:[
+{text:"Página principal",url:"index.html"},
+{text:"Paquetes",url:"namespaces.html",children:[
 {text:"Package List",url:"namespaces.html"}]},
-{text:"Classes",url:"annotated.html",children:[
-{text:"Class List",url:"annotated.html"},
-{text:"Class Index",url:"classes.html"},
-{text:"Class Hierarchy",url:"inherits.html"},
-{text:"Class Members",url:"functions.html",children:[
-{text:"All",url:"functions.html",children:[
+{text:"Clases",url:"annotated.html",children:[
+{text:"Lista de clases",url:"annotated.html"},
+{text:"Índice de clases",url:"classes.html"},
+{text:"Jerarquía de la clase",url:"inherits.html"},
+{text:"Miembros de las clases",url:"functions.html",children:[
+{text:"Todo",url:"functions.html",children:[
 {text:"a",url:"functions.html#index_a"},
 {text:"c",url:"functions.html#index_c"},
 {text:"d",url:"functions.html#index_d"},
@@ -48,7 +48,7 @@ var menudata={children:[
 {text:"s",url:"functions.html#index_s"},
 {text:"t",url:"functions.html#index_t"},
 {text:"y",url:"functions.html#index_y"}]},
-{text:"Functions",url:"functions_func.html",children:[
+{text:"Funciones",url:"functions_func.html",children:[
 {text:"a",url:"functions_func.html#index_a"},
 {text:"c",url:"functions_func.html#index_c"},
 {text:"d",url:"functions_func.html#index_d"},
@@ -65,5 +65,5 @@ var menudata={children:[
 {text:"s",url:"functions_func.html#index_s"},
 {text:"t",url:"functions_func.html#index_t"},
 {text:"y",url:"functions_func.html#index_y"}]}]}]},
-{text:"Files",url:"files.html",children:[
-{text:"File List",url:"files.html"}]}]}
+{text:"Archivos",url:"files.html",children:[
+{text:"Lista de archivos",url:"files.html"}]}]}

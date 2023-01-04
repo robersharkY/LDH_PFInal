@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="es">
+  <compounddef id="dir_c94c41bb30f76f04ad6b9dfc64d7220a" kind="dir">
+    <compoundname>C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii</compoundname>
+    <innerdir refid="dir_f56a7afeeae6abf39eb282922321dfea">C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters</innerdir>
+    <innerdir refid="dir_a4787f5ba01c07711e35eff462d7fd6d">C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies</innerdir>
+    <innerdir refid="dir_4bb3db0f197728ca0ac8780321fb6afb">C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate</innerdir>
+    <innerdir refid="dir_54c1e440bacfb1409160194840c5a6e8">C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings</innerdir>
+    <innerdir refid="dir_2e837244d06562728fa770bd33e1ed0f">C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Recommendations</innerdir>
+    <innerfile refid="_main_8java">Main.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/"/>
+  </compounddef>
+</doxygen>
