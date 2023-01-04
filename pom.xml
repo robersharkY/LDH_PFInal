@@ -18,6 +18,14 @@
     <maven.compiler.target>1.8</maven.compiler.target>
     <sonar.organization>robersharky</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+	<jacoco.report.ut>${project.build.directory}/jacoco-ut.exec</jacoco.report.ut>
+    <jacoco.report.it>${project.build.directory}/jacoco-it.exec</jacoco.report.it>
+
+    <sonar.language>java</sonar.language>
+    <sonar.sources>src/main/java/es/ull/etsii</sonar.sources>
+    <sonar.tests>src/test/java/es/ull/etsii</sonar.tests>
+    <sonar.junit.reportPaths>${project.build.directory}/surefire-reports</sonar.junit.reportPaths>
+    <sonar.jacoco.reportPaths>${jacoco.report.ut},${jacoco.report.it}</sonar.jacoco.reportPaths>
   </properties>
 
   <dependencies>
