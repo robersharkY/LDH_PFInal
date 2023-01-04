@@ -1,4 +1,4 @@
-package es.ull.etsii;
+package es.ull.etsii.Filters;
 
 import org.junit.jupiter.api.Assertions.*;
 import org.junit.*;

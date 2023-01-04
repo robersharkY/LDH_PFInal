@@ -1,4 +1,4 @@
-package es.ull.etsii;
+package es.ull.etsii.Recommendations;
 
 import org.junit.jupiter.api.Assertions.*;
 import org.junit.*;
@@ -12,15 +12,23 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
- * Unit test for TrueFilter class.
+ * Unit test for RecommendationRunner class.
  */
-public class TrueFilterTest {
+public class RecommendationRunnerTest {
 
     /**
      * should answer with true
      */
     @Test
-    public void satisfies() {
+    public void getItemsToRate() {
+        assertTrue( true );
+    }
+
+    /**
+     * should answer with true
+     */
+    @Test
+    public void printRecommendationsFor() {
         assertTrue( true );
     }
 }

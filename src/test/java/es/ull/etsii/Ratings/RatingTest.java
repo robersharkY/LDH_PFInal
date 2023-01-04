@@ -1,4 +1,4 @@
-package es.ull.etsii;
+package es.ull.etsii.Ratings;
 
 import org.junit.jupiter.api.Assertions.*;
 import org.junit.*;
@@ -10,17 +10,16 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-
 /**
- * Unit test for EfficientRater class.
+ * Unit test for Rating class.
  */
-public class EfficientRaterTest {
+public class RatingTest {
 
     /**
      * should answer with true
      */
     @Test
-    public void addRating() {
+    public void getItem() {
         assertTrue( true );
     }
 
@@ -28,7 +27,7 @@ public class EfficientRaterTest {
      * should answer with true
      */
     @Test
-    public void hasRating() {
+    public void getValue() {
         assertTrue( true );
     }
 
@@ -36,7 +35,7 @@ public class EfficientRaterTest {
      * should answer with true
      */
     @Test
-    public void getID() {
+    public void testToString() {
         assertTrue( true );
     }
 
@@ -44,31 +43,7 @@ public class EfficientRaterTest {
      * should answer with true
      */
     @Test
-    public void getRating() {
-        assertTrue( true );
-    }
-
-    /**
-     * should answer with true
-     */
-    @Test
-    public void numRatings() {
-        assertTrue( true );
-    }
-
-    /**
-     * should answer with true
-     */
-    @Test
-    public void getItemsRated() {
-        assertTrue( true );
-    }
-
-    /**
-     * should answer with true
-     */
-    @Test
-    public void getMyRatings() {
+    public void compareTo() {
         assertTrue( true );
     }
 }

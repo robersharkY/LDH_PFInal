@@ -1,4 +1,4 @@
-package es.ull.etsii;
+package es.ull.etsii.Recommendations;
 
 import org.junit.jupiter.api.Assertions.*;
 import org.junit.*;
@@ -12,15 +12,15 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
- * Unit test for FirstRatings class.
+ * Unit test for Recommender interface.
  */
-public class FourthRatingsTest {
+public class RecommenderTest {
 
     /**
      * should answer with true
      */
     @Test
-    public void getAverageRatings() {
+    public void getItemsToRate() {
         assertTrue( true );
     }
 
@@ -28,31 +28,7 @@ public class FourthRatingsTest {
      * should answer with true
      */
     @Test
-    public void getAverageRatingsByFilter() {
-        assertTrue( true );
-    }
-    
-    /**
-     * should answer with true
-     */
-    @Test
-    public void dotProduct() {
-        assertTrue( true );
-    }
-
-    /**
-     * should answer with true
-     */
-    @Test
-    public void getSimilarRatings() {
-        assertTrue( true );
-    }
-
-    /**
-     * should answer with true
-     */
-    @Test
-    public void getSimilarRatingsByFilter() {
+    public void printRecommendationsFor() {
         assertTrue( true );
     }
 }

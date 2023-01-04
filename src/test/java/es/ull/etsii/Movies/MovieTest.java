@@ -1,4 +1,4 @@
-package es.ull.etsii;
+package es.ull.etsii.Movies;
 
 import es.ull.etsii.Movies.Movie;
 import org.junit.jupiter.api.Assertions.*;

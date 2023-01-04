@@ -1,4 +1,4 @@
-package es.ull.etsii;
+package es.ull.etsii.Filters;
 
 import org.junit.jupiter.api.Assertions.*;
 import org.junit.*;
@@ -12,16 +12,15 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
- * Unit test for AllFilters class.
+ * Unit test for TrueFilter class.
  */
-public class AllFiltersTest {
+public class TrueFilterTest {
 
     /**
      * should answer with true
      */
     @Test
-    public void shouldAnswerWithTrue()
-    {
+    public void satisfies() {
         assertTrue( true );
     }
 }

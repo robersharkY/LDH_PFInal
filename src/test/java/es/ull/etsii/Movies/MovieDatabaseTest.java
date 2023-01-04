@@ -1,4 +1,4 @@
-package es.ull.etsii;
+package es.ull.etsii.Movies;
 
 import org.junit.jupiter.api.Assertions.*;
 import org.junit.*;
@@ -12,15 +12,15 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
- * Unit test for Rater interface.
+ * Unit test for MovieDatabase class.
  */
-public class RaterTest {
+public class MovieDatabaseTest {
 
     /**
      * should answer with true
      */
     @Test
-    public void addRating() {
+    public void initialize() {
         assertTrue( true );
     }
 
@@ -28,7 +28,7 @@ public class RaterTest {
      * should answer with true
      */
     @Test
-    public void hasRating() {
+    public void containsID() {
         assertTrue( true );
     }
 
@@ -36,7 +36,7 @@ public class RaterTest {
      * should answer with true
      */
     @Test
-    public void getID() {
+    public void getYear() {
         assertTrue( true );
     }
 
@@ -44,7 +44,7 @@ public class RaterTest {
      * should answer with true
      */
     @Test
-    public void getRating() {
+    public void getGenres() {
         assertTrue( true );
     }
 
@@ -52,7 +52,7 @@ public class RaterTest {
      * should answer with true
      */
     @Test
-    public void numRatings() {
+    public void getTitle() {
         assertTrue( true );
     }
 
@@ -60,7 +60,7 @@ public class RaterTest {
      * should answer with true
      */
     @Test
-    public void getItemsRated() {
+    public void getMovie() {
         assertTrue( true );
     }
 
@@ -68,7 +68,47 @@ public class RaterTest {
      * should answer with true
      */
     @Test
-    public void getMyRatings() {
+    public void getPoster() {
+        assertTrue( true );
+    }
+
+    /**
+     * should answer with true
+     */
+    @Test
+    public void getMinutes() {
+        assertTrue( true );
+    }
+
+    /**
+     * should answer with true
+     */
+    @Test
+    public void getCountry() {
+        assertTrue( true );
+    }
+
+    /**
+     * should answer with true
+     */
+    @Test
+    public void getDirector() {
+        assertTrue( true );
+    }
+
+    /**
+     * should answer with true
+     */
+    @Test
+    public void size() {
+        assertTrue( true );
+    }
+
+    /**
+     * should answer with true
+     */
+    @Test
+    public void filterBy() {
         assertTrue( true );
     }
 }

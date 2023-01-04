@@ -1,4 +1,4 @@
-package es.ull.etsii;
+package es.ull.etsii.Filters;
 
 import org.junit.jupiter.api.Assertions.*;
 import org.junit.*;
@@ -12,9 +12,9 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
- * Unit test for DirectorsFilter class.
+ * Unit test for Filter interface.
  */
-public class DirectorsFilterTest {
+public class FilterTest {
 
     /**
      * should answer with true

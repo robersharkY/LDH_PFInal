@@ -1,4 +1,4 @@
-package es.ull.etsii;
+package es.ull.etsii.Ratings;
 
 import org.junit.jupiter.api.Assertions.*;
 import org.junit.*;
@@ -12,15 +12,39 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
- * Unit test for GenreFilter class.
+ * Unit test for FirstRatings class.
  */
-public class GenreFilterTest {
+public class FirstRatingsTest {
 
     /**
      * should answer with true
      */
     @Test
-    public void satisfies() {
+    public void loadRaters() {
+        assertTrue( true );
+    }
+
+    /**
+     * should answer with true
+     */
+    @Test
+    public void loadMovies() {
+        assertTrue( true );
+    }
+
+    /**
+     * should answer with true
+     */
+    @Test
+    public void testLoadMovies() {
+        assertTrue( true );
+    }
+
+    /**
+     * should answer with true
+     */
+    @Test
+    public void testLoadRaters() {
         assertTrue( true );
     }
 }
