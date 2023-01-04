@@ -1,3 +1,5 @@
+package es.ull.etsii;
+
 import es.ull.etsii.Movies.Movie;
 import org.junit.jupiter.api.Assertions.*;
 import org.junit.*;
