@@ -20,7 +20,6 @@
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	<jacoco.report.ut>${project.build.directory}/jacoco-ut.exec</jacoco.report.ut>
     <jacoco.report.it>${project.build.directory}/jacoco-it.exec</jacoco.report.it>
-
     <sonar.language>java</sonar.language>
     <sonar.sources>src/main/java/es/ull/etsii</sonar.sources>
     <sonar.tests>src/test/java/es/ull/etsii</sonar.tests>
@@ -47,6 +46,18 @@
       <artifactId>commons-csv</artifactId>
       <version>1.9.0</version>
     </dependency>
+	        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.6.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.6.0</version>
+            <scope>test</scope>
+        </dependency>
         <dependency>
 		      <groupId>org.jacoco</groupId>
 		      <artifactId>jacoco-maven-plugin</artifactId>
