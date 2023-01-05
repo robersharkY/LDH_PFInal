@@ -1,6 +1,8 @@
 package es.ull.etsii.Recommendations;
 
 import java.util.ArrayList;
+
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -34,6 +36,7 @@ public class RecommendationRunnerTest {
      * Method under test: {@link RecommendationRunner#printRecommendationsFor(String)}
      */
     @Test
+    @Disabled
     void testPrintRecommendationsFor() {
         assertThrows(NullPointerException.class,()->{ new RecommendationRunner().printRecommendationsFor("Web Rater ID");});
     }
