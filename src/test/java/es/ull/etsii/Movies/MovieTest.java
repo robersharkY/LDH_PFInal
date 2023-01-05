@@ -1,16 +1,10 @@
 package es.ull.etsii.Movies;
 
-import es.ull.etsii.Movies.Movie;
-import org.junit.jupiter.api.Assertions.*;
-import org.junit.*;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  * Unit test for Movie class.
@@ -22,7 +16,7 @@ public class MovieTest {
      */
     @Test
     public void testConstructor() {
-        //assertThrows(NumberFormatException.class,()->{new Movie("An ID", "Dr", "42.2", "The Genres");} );
+        assertThrows(NumberFormatException.class,()->{new Movie("An ID", "Dr", "42.2", "The Genres");} );
     }
 
     /**
@@ -43,7 +37,7 @@ public class MovieTest {
      */
     @Test
     public void testConstructor3() {
-        //assertThrows(NumberFormatException.class,()->{new Movie("An ID", "Dr", "A Year", "The Genres", "A Director", "GB", "A Poster", 1);} );
+        assertThrows(NumberFormatException.class,()->{new Movie("An ID", "Dr", "A Year", "The Genres", "A Director", "GB", "A Poster", 1);} );
     }
 
     /**

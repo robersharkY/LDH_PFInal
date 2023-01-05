@@ -1,26 +1,51 @@
 package es.ull.etsii.Filters;
 
-import org.junit.jupiter.api.Assertions.*;
-import org.junit.*;
-import org.junit.jupiter.api.DisplayName;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  * Unit test for MinutesFilter class.
  */
 public class MinutesFilterTest {
 
+
     /**
-     * should answer with true
+     * Method under test: {@link MinutesFilter#MinutesFilter(int)}
      */
     @Test
-    public void satisfies() {
-        assertTrue( true );
+    void testConstructor() {
+        MinutesFilter actualMinutesFilter = new MinutesFilter(1);
+        assertEquals(1,actualMinutesFilter.getMinMinutes());
+        assertEquals(Integer.MAX_VALUE,actualMinutesFilter.getMaxMinutes());
     }
+
+    /**
+     * Method under test: {@link MinutesFilter#MinutesFilter(int, int)}
+     */
+    @Test
+    void testConstructor2() {
+        MinutesFilter actualMinutesFilter = new MinutesFilter(1,3);
+        assertEquals(1,actualMinutesFilter.getMinMinutes());
+        assertEquals(3,actualMinutesFilter.getMaxMinutes());
+    }
+
+    /**
+     * Method under test: {@link MinutesFilter#satisfies(String)}
+     */
+    @Test
+    void testSatisfies() {
+        assertThrows(NullPointerException.class,()->{ (new MinutesFilter(1)).satisfies("42");});
+    }
+
+    /**
+     * Method under test: {@link MinutesFilter#satisfies(String)}
+     */
+    @Test
+    void testSatisfies2() {
+        assertThrows(NullPointerException.class,()->{ (new MinutesFilter(1)).satisfies("foo");});
+    }
+
 }

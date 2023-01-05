@@ -1,15 +1,9 @@
 package es.ull.etsii.Filters;
 
-import org.junit.jupiter.api.Assertions.*;
-import org.junit.*;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  * Unit test for TrueFilter class.
@@ -17,10 +11,13 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class TrueFilterTest {
 
     /**
-     * should answer with true
+     * Method under test: {@link TrueFilter#satisfies(String)}
      */
     @Test
-    public void satisfies() {
-        assertTrue( true );
+    void testSatisfies() {
+        assertEquals(true,new TrueFilter().satisfies("42"));
+        assertEquals(true,new TrueFilter().satisfies("45"));
+        assertNotEquals(false,new TrueFilter().satisfies("45"));
     }
+
 }

@@ -17,7 +17,7 @@ public class MovieDatabase {
     }
   }
 
-  private static void initialize() {
+  public static void initialize() {
     if (ourMovies == null) {
       ourMovies = new HashMap<>();
       loadMovies("src/main/resources/ratedmoviesfull.csv");

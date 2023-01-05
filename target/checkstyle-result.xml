@@ -923,6 +923,8 @@
 <error line="369" column="9" severity="error" message="&apos;}&apos; at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
 <error line="371" severity="error" message="Line is longer than 80 characters (found 88)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
 </file>
+<file name="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\courserajava\edu\duke\package-info.java">
+</file>
 <file name="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\courserajava\edu\duke\Pixel.java">
 <error line="7" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
 <error line="10" severity="error" message="Line is longer than 80 characters (found 81)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>

@@ -16,31 +16,114 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  */
 public class MovieRunnerSimilarRatingsTest {
 
+    /**
+     * Method under test: {@link MovieRunnerSimilarRatings#printAverageRatings(int)}
+     */
     @Test
-    public void printAverageRatings() {
+    void testPrintAverageRatings() {
+        // TODO: Complete this test.
+        //   Reason: R004 No meaningful assertions found.
+        //   Diffblue Cover was unable to create an assertion.
+        //   Make sure that fields modified by printAverageRatings(int)
+        //   have package-private, protected, or public getters.
+        //   See https://diff.blue/R004 to resolve this issue.
+
+        (new MovieRunnerSimilarRatings()).printAverageRatings(1);
     }
 
+    /**
+     * Method under test: {@link MovieRunnerSimilarRatings#printAverageRatingsByYearAfterAndGenre(int, int, String)}
+     */
     @Test
-    public void printAverageRatingsByYearAfterAndGenre() {
+    void testPrintAverageRatingsByYearAfterAndGenre() {
+        // TODO: Complete this test.
+        //   Reason: R004 No meaningful assertions found.
+        //   Diffblue Cover was unable to create an assertion.
+        //   Make sure that fields modified by printAverageRatingsByYearAfterAndGenre(int, int, String)
+        //   have package-private, protected, or public getters.
+        //   See https://diff.blue/R004 to resolve this issue.
+
+        (new MovieRunnerSimilarRatings()).printAverageRatingsByYearAfterAndGenre(1, 1, "Genre");
     }
 
+    /**
+     * Method under test: {@link MovieRunnerSimilarRatings#printAverageRatingsByYearAfterAndGenre(int, int, String)}
+     */
     @Test
-    public void printSimilarRatings() {
+    void testPrintAverageRatingsByYearAfterAndGenre2() {
+        // TODO: Complete this test.
+        //   Reason: R004 No meaningful assertions found.
+        //   Diffblue Cover was unable to create an assertion.
+        //   Make sure that fields modified by printAverageRatingsByYearAfterAndGenre(int, int, String)
+        //   have package-private, protected, or public getters.
+        //   See https://diff.blue/R004 to resolve this issue.
+
+        (new MovieRunnerSimilarRatings()).printAverageRatingsByYearAfterAndGenre(1, 1, "");
     }
 
+    /**
+     * Method under test: {@link MovieRunnerSimilarRatings#printSimilarRatings()}
+     */
     @Test
-    public void printSimilarRatingsByGenre() {
+    void testPrintSimilarRatings() {
+        // TODO: Complete this test.
+        //   Reason: R002 Missing observers.
+        //   Diffblue Cover was unable to create an assertion.
+        //   There are no fields that could be asserted on.
+
+        (new MovieRunnerSimilarRatings()).printSimilarRatings();
     }
 
+    /**
+     * Method under test: {@link MovieRunnerSimilarRatings#printSimilarRatingsByGenre()}
+     */
     @Test
-    public void printSimilarRatingsByDirector() {
+    void testPrintSimilarRatingsByGenre() {
+        // TODO: Complete this test.
+        //   Reason: R002 Missing observers.
+        //   Diffblue Cover was unable to create an assertion.
+        //   There are no fields that could be asserted on.
+
+        (new MovieRunnerSimilarRatings()).printSimilarRatingsByGenre();
     }
 
+    /**
+     * Method under test: {@link MovieRunnerSimilarRatings#printSimilarRatingsByDirector()}
+     */
     @Test
-    public void printSimilarRatingsByGenreAndMinutes() {
+    void testPrintSimilarRatingsByDirector() {
+        // TODO: Complete this test.
+        //   Reason: R002 Missing observers.
+        //   Diffblue Cover was unable to create an assertion.
+        //   There are no fields that could be asserted on.
+
+        (new MovieRunnerSimilarRatings()).printSimilarRatingsByDirector();
     }
 
+    /**
+     * Method under test: {@link MovieRunnerSimilarRatings#printSimilarRatingsByGenreAndMinutes()}
+     */
     @Test
-    public void printSimilarRatingsByYearAfterAndMinutes() {
+    void testPrintSimilarRatingsByGenreAndMinutes() {
+        // TODO: Complete this test.
+        //   Reason: R002 Missing observers.
+        //   Diffblue Cover was unable to create an assertion.
+        //   There are no fields that could be asserted on.
+
+        (new MovieRunnerSimilarRatings()).printSimilarRatingsByGenreAndMinutes();
     }
+
+    /**
+     * Method under test: {@link MovieRunnerSimilarRatings#printSimilarRatingsByYearAfterAndMinutes()}
+     */
+    @Test
+    void testPrintSimilarRatingsByYearAfterAndMinutes() {
+        // TODO: Complete this test.
+        //   Reason: R002 Missing observers.
+        //   Diffblue Cover was unable to create an assertion.
+        //   There are no fields that could be asserted on.
+
+        (new MovieRunnerSimilarRatings()).printSimilarRatingsByYearAfterAndMinutes();
+    }
+
 }

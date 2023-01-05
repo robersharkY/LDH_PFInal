@@ -23,6 +23,14 @@ public class MinutesFilter implements Filter {
     this.maxMinutes = Integer.MAX_VALUE;
   }
 
+  public int getMinMinutes(){
+    return minMinutes;
+  }
+
+  public int getMaxMinutes(){
+    return maxMinutes;
+  }
+
   @Override
   public boolean satisfies(String id) {
     return MovieDatabase.getMinutes(id) >= minMinutes && MovieDatabase.getMinutes(id) <= maxMinutes;
