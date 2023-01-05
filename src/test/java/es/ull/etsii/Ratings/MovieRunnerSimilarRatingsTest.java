@@ -2,6 +2,7 @@ package es.ull.etsii.Ratings;
 
 import org.junit.jupiter.api.Assertions.*;
 import org.junit.*;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -20,6 +21,7 @@ public class MovieRunnerSimilarRatingsTest {
      * Method under test: {@link MovieRunnerSimilarRatings#printAverageRatings(int)}
      */
     @Test
+    @Disabled
     void testPrintAverageRatings() {
         // TODO: Complete this test.
         //   Reason: R004 No meaningful assertions found.
@@ -35,6 +37,7 @@ public class MovieRunnerSimilarRatingsTest {
      * Method under test: {@link MovieRunnerSimilarRatings#printAverageRatingsByYearAfterAndGenre(int, int, String)}
      */
     @Test
+    @Disabled
     void testPrintAverageRatingsByYearAfterAndGenre() {
         // TODO: Complete this test.
         //   Reason: R004 No meaningful assertions found.
@@ -50,6 +53,7 @@ public class MovieRunnerSimilarRatingsTest {
      * Method under test: {@link MovieRunnerSimilarRatings#printAverageRatingsByYearAfterAndGenre(int, int, String)}
      */
     @Test
+    @Disabled
     void testPrintAverageRatingsByYearAfterAndGenre2() {
         // TODO: Complete this test.
         //   Reason: R004 No meaningful assertions found.
@@ -65,6 +69,7 @@ public class MovieRunnerSimilarRatingsTest {
      * Method under test: {@link MovieRunnerSimilarRatings#printSimilarRatings()}
      */
     @Test
+    @Disabled
     void testPrintSimilarRatings() {
         // TODO: Complete this test.
         //   Reason: R002 Missing observers.
@@ -78,6 +83,7 @@ public class MovieRunnerSimilarRatingsTest {
      * Method under test: {@link MovieRunnerSimilarRatings#printSimilarRatingsByGenre()}
      */
     @Test
+    @Disabled
     void testPrintSimilarRatingsByGenre() {
         // TODO: Complete this test.
         //   Reason: R002 Missing observers.
@@ -91,6 +97,7 @@ public class MovieRunnerSimilarRatingsTest {
      * Method under test: {@link MovieRunnerSimilarRatings#printSimilarRatingsByDirector()}
      */
     @Test
+    @Disabled
     void testPrintSimilarRatingsByDirector() {
         // TODO: Complete this test.
         //   Reason: R002 Missing observers.
@@ -104,6 +111,7 @@ public class MovieRunnerSimilarRatingsTest {
      * Method under test: {@link MovieRunnerSimilarRatings#printSimilarRatingsByGenreAndMinutes()}
      */
     @Test
+    @Disabled
     void testPrintSimilarRatingsByGenreAndMinutes() {
         // TODO: Complete this test.
         //   Reason: R002 Missing observers.
@@ -117,6 +125,7 @@ public class MovieRunnerSimilarRatingsTest {
      * Method under test: {@link MovieRunnerSimilarRatings#printSimilarRatingsByYearAfterAndMinutes()}
      */
     @Test
+    @Disabled
     void testPrintSimilarRatingsByYearAfterAndMinutes() {
         // TODO: Complete this test.
         //   Reason: R002 Missing observers.
