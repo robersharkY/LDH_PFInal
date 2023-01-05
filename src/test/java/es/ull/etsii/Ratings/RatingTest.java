@@ -24,7 +24,7 @@ public class RatingTest {
     public void testgetValue() {
         Rating actualRating = new Rating("Item", 5);
         assertEquals(5, actualRating.getValue());
-        assertEquals("Item", actualRating.getValue());
+        assertEquals("Item", actualRating.getItem());
         assertNotEquals("An item", actualRating.getItem());
     }
 
