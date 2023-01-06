@@ -26,7 +26,6 @@ public class Main {
                 "Consider the method dotProduct in the FourthRatings class. What should the call "
                         + "dotProduct(“15”, “20”)  return? ");
         System.out.println(fourthRatings.dotProduct(meRater, otherRater));
-        System.out.println("hola");
         MovieRunnerSimilarRatings quiz = new MovieRunnerSimilarRatings();
         quiz.printSimilarRatings();
         System.out.println("---");
