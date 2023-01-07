@@ -4,15 +4,10 @@ import es.ull.etsii.Ratings.Rating;
 
 import java.util.HashMap;
 
-import org.junit.jupiter.api.Assertions.*;
-import org.junit.*;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -25,7 +20,8 @@ public class EfficientRaterTest {
      */
     @Test
     void testConstructor() {
-        assertEquals("42", (new EfficientRater("42")).getID());
+        EfficientRater rater = new EfficientRater("1");
+        assertEquals("1", rater.getID());
     }
 
     /**
@@ -33,13 +29,13 @@ public class EfficientRaterTest {
      */
     @Test
     void testAddRating() {
-        EfficientRater efficientRater = new EfficientRater("42");
-        efficientRater.addRating("Movie ID", 10.0d);
+        EfficientRater efficientRater = new EfficientRater("1");
+        efficientRater.addRating("0068646", 10);
         HashMap<String, Rating> myRatings = efficientRater.getMyRatings();
         assertEquals(1, myRatings.size());
-        Rating getResult = myRatings.get("Movie ID");
-        assertEquals("Movie ID", getResult.getItem());
-        assertEquals(10.0d, getResult.getValue());
+        Rating getResult = myRatings.get("0068646");
+        assertEquals("0068646", getResult.getItem());
+        assertEquals(10, getResult.getValue());
     }
 
     /**
@@ -47,17 +43,10 @@ public class EfficientRaterTest {
      */
     @Test
     void testHasRating() {
-        assertFalse((new EfficientRater("42")).hasRating("Movie ID"));
-    }
-
-    /**
-     * Method under test: {@link EfficientRater#hasRating(String)}
-     */
-    @Test
-    void testHasRating2() {
-        EfficientRater efficientRater = new EfficientRater("42");
-        efficientRater.addRating("Movie ID", 10.0d);
-        assertTrue(efficientRater.hasRating("Movie ID"));
+        EfficientRater efficientRater = new EfficientRater("1");
+        efficientRater.addRating("0068646", 10);
+        assertEquals(true,efficientRater.hasRating("0068646"));
+        assertNotEquals(true,efficientRater.hasRating("otro numero"));
     }
 
     /**
@@ -65,25 +54,26 @@ public class EfficientRaterTest {
      */
     @Test
     void testGetRating() {
-        assertEquals(-1.0d, (new EfficientRater("42")).getRating("Movie ID"));
+        EfficientRater efficientRater = new EfficientRater("1");
+        efficientRater.addRating("0068646", 10);
+        assertEquals(10,efficientRater.getRating("0068646"));
+        assertNotEquals(10,efficientRater.getRating("otro numero"));
+        assertEquals(-1,efficientRater.getRating("otro numero"));
     }
 
-    /**
-     * Method under test: {@link EfficientRater#getRating(String)}
-     */
-    @Test
-    void testGetRating2() {
-        EfficientRater efficientRater = new EfficientRater("42");
-        efficientRater.addRating("Movie ID", -1.0d);
-        assertEquals(-1.0d, efficientRater.getRating("Movie ID"));
-    }
 
     /**
      * Method under test: {@link EfficientRater#numRatings()}
      */
     @Test
     void testNumRatings() {
-        assertEquals(0, (new EfficientRater("42")).numRatings());
+        EfficientRater efficientRater = new EfficientRater("1");
+        efficientRater.addRating("0068646", 10);
+        assertEquals(1,efficientRater.numRatings());
+        assertNotEquals(0,efficientRater.numRatings());
+        efficientRater.addRating("0068641", 3);
+        assertEquals(2,efficientRater.numRatings());
+        assertNotEquals(1,efficientRater.numRatings());
     }
 
     /**

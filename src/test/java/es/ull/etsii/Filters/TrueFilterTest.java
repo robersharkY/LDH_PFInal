@@ -15,9 +15,9 @@ public class TrueFilterTest {
      */
     @Test
     void testSatisfies() {
-        assertEquals(true,new TrueFilter().satisfies("42"));
-        assertEquals(true,new TrueFilter().satisfies("45"));
-        assertNotEquals(false,new TrueFilter().satisfies("45"));
+        assertEquals(true,new TrueFilter().satisfies("3112654"));
+        assertEquals(true,new TrueFilter().satisfies("1188113"));
+        assertNotEquals(false,new TrueFilter().satisfies("1188113"));
     }
 
 }

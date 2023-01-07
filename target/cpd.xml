@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pmd-cpd>
    <duplication lines="15" tokens="135">
-      <file begintoken="17382" column="71" endcolumn="20" endline="112" endtoken="17516"
+      <file begintoken="17400" column="71" endcolumn="20" endline="112" endtoken="17534"
             line="98"
             path="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\Ratings\FourthRatings.java"/>
-      <file begintoken="17732" column="69" endcolumn="20" endline="165" endtoken="17866"
+      <file begintoken="17750" column="69" endcolumn="20" endline="165" endtoken="17884"
             line="151"
             path="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\Ratings\FourthRatings.java"/>
       <codefragment><![CDATA[    ArrayList<String> movies = MovieDatabase.filterBy(new TrueFilter());

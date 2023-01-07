@@ -1,6 +1,5 @@
 package es.ull.etsii.Filters;
 
-
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -37,7 +36,14 @@ public class MinutesFilterTest {
      */
     @Test
     void testSatisfies() {
-        assertThrows(NullPointerException.class,()->{ (new MinutesFilter(1)).satisfies("42");});
+        assertEquals(true,new MinutesFilter(90).satisfies("3112654"));
+        assertEquals(false,new MinutesFilter(92).satisfies("3112654"));
+        assertEquals(true,new MinutesFilter(89).satisfies("3112654"));
+
+        assertEquals(true,new MinutesFilter(90).satisfies("1188113"));
+        assertEquals(false,new MinutesFilter(91).satisfies("1188113"));
+        assertEquals(true,new MinutesFilter(1).satisfies("1188113"));
+
     }
 
     /**

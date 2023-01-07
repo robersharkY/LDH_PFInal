@@ -1,27 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: es.ull.etsii.Ratings.FourthRatingsTest
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 3, Errors: 2, Skipped: 2, Time elapsed: 0.034 s <<< FAILURE! - in es.ull.etsii.Ratings.FourthRatingsTest
-testGetAverageRatingsByFilter  Time elapsed: 0.016 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <3143> but was: <0>
-	at es.ull.etsii.Ratings.FourthRatingsTest.testGetAverageRatingsByFilter(FourthRatingsTest.java:119)
-
-testGetSimilarRatings2  Time elapsed: 0.002 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <java.lang.NullPointerException> but was: <java.lang.IndexOutOfBoundsException>
-	at es.ull.etsii.Ratings.FourthRatingsTest.testGetSimilarRatings2(FourthRatingsTest.java:267)
-Caused by: java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
-	at es.ull.etsii.Ratings.FourthRatingsTest.lambda$testGetSimilarRatings2$2(FourthRatingsTest.java:267)
-	at es.ull.etsii.Ratings.FourthRatingsTest.testGetSimilarRatings2(FourthRatingsTest.java:267)
-
-testGetSimilarRatings  Time elapsed: 0.001 s  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Rate.Rater.getID()" because "me" is null
-	at es.ull.etsii.Ratings.FourthRatingsTest.testGetSimilarRatings(FourthRatingsTest.java:222)
-
-testGetSimilarRatingsByFilter  Time elapsed: 0 s  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Rate.Rater.getID()" because "me" is null
-	at es.ull.etsii.Ratings.FourthRatingsTest.testGetSimilarRatingsByFilter(FourthRatingsTest.java:276)
-
-testGetAverageRatings2  Time elapsed: 0.011 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <3143> but was: <0>
-	at es.ull.etsii.Ratings.FourthRatingsTest.testGetAverageRatings2(FourthRatingsTest.java:73)
-
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 9, Time elapsed: 0.004 s - in es.ull.etsii.Ratings.FourthRatingsTest

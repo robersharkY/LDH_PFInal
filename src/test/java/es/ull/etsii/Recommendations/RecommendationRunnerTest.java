@@ -38,7 +38,7 @@ public class RecommendationRunnerTest {
     @Test
     @Disabled
     void testPrintRecommendationsFor() {
-        assertThrows(NullPointerException.class,()->{ new RecommendationRunner().printRecommendationsFor("Web Rater ID");});
+        new RecommendationRunner().printRecommendationsFor("0068646");
     }
 
 
