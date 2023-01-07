@@ -82,18 +82,4 @@ public class AllFiltersTest {
         assertThrows(NullPointerException.class,()->{allFilters.satisfies("42");});
     }
 
-    /**
-     * Method under test: {@link AllFilters#satisfies(String)}
-     */
-    @Test
-    @Disabled("TODO: Complete this test")
-    void testSatisfies5() {
-        MovieDatabase database = new MovieDatabase();
-        AllFilters allFilters = new AllFilters();
-        allFilters.addFilter(new TrueFilter());
-        assertTrue(allFilters.satisfies("42"));
-        allFilters = new AllFilters();
-        allFilters.addFilter(new YearAfterFilter(23));
-        assertEquals(true,allFilters.satisfies("23"));
-    }
 }

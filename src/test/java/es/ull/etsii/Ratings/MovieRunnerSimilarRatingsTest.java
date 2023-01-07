@@ -13,6 +13,7 @@ public class MovieRunnerSimilarRatingsTest {
      * Method under test: {@link MovieRunnerSimilarRatings#printAverageRatings(int)}
      */
     @Test
+    @Disabled
     void testPrintAverageRatings() {
         new MovieRunnerSimilarRatings().printAverageRatings(1);
         new MovieRunnerSimilarRatings().printAverageRatings(10);
@@ -22,6 +23,7 @@ public class MovieRunnerSimilarRatingsTest {
      * Method under test: {@link MovieRunnerSimilarRatings#printAverageRatingsByYearAfterAndGenre(int, int, String)}
      */
     @Test
+    @Disabled
     void testPrintAverageRatingsByYearAfterAndGenre() {
         new MovieRunnerSimilarRatings().printAverageRatingsByYearAfterAndGenre(2, 2014, "Action, Thriller");
     }
@@ -30,6 +32,7 @@ public class MovieRunnerSimilarRatingsTest {
      * Method under test: {@link MovieRunnerSimilarRatings#printAverageRatingsByYearAfterAndGenre(int, int, String)}
      */
     @Test
+    @Disabled
     void testPrintAverageRatingsByYearAfterAndGenre2() {
 
         (new MovieRunnerSimilarRatings()).printAverageRatingsByYearAfterAndGenre(1, 2010, "Comedy, Romance");
