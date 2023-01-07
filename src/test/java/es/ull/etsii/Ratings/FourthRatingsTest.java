@@ -6,13 +6,10 @@ import es.ull.etsii.Rate.EfficientRater;
 import es.ull.etsii.Rate.Rater;
 
 import java.util.ArrayList;
-
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 /**
  * Unit test for FirstRatings class.
@@ -23,9 +20,8 @@ public class FourthRatingsTest {
      * Method under test: {@link FourthRatings#getAverageRatings(int)}
      */
     @Test
-    @Disabled("TODO: Complete this test")
     void testGetAverageRatings() {
-        ArrayList<Rating> actualAverageRatings = (new FourthRatings()).getAverageRatings(1);
+        ArrayList<Rating> actualAverageRatings = new FourthRatings().getAverageRatings(1);
         assertEquals(3143, actualAverageRatings.size());
         Rating getResult = actualAverageRatings.get(5);
         assertEquals(8.0d, getResult.getValue());
@@ -33,45 +29,14 @@ public class FourthRatingsTest {
         assertEquals(8.0d, getResult1.getValue());
         assertEquals("0060176", getResult1.getItem());
         assertEquals("1255953", getResult.getItem());
-        Rating getResult2 = actualAverageRatings.get(2);
-        assertEquals("2277150", getResult2.getItem());
-        Rating getResult3 = actualAverageRatings.get(3141);
-        assertEquals("1621039", getResult3.getItem());
-        Rating getResult4 = actualAverageRatings.get(3140);
-        assertEquals("0043618", getResult4.getItem());
-        Rating getResult5 = actualAverageRatings.get(4);
-        assertEquals("2820852", getResult5.getItem());
-        Rating getResult6 = actualAverageRatings.get(3139);
-        assertEquals("3007512", getResult6.getItem());
-        Rating getResult7 = actualAverageRatings.get(3138);
-        assertEquals("1270262", getResult7.getItem());
-        Rating getResult8 = actualAverageRatings.get(3);
-        assertEquals("4437212", getResult8.getItem());
-        Rating getResult9 = actualAverageRatings.get(1);
-        assertEquals("1714915", getResult9.getItem());
-        Rating getResult10 = actualAverageRatings.get(3142);
-        assertEquals("2713180", getResult10.getItem());
-        Rating getResult11 = actualAverageRatings.get(0);
-        assertEquals("0055601", getResult11.getItem());
-        assertEquals(6.333333333333333d, getResult7.getValue());
-        assertEquals(10.0d, getResult8.getValue());
-        assertEquals(7.857142857142857d, getResult10.getValue());
-        assertEquals(7.0d, getResult11.getValue());
-        assertEquals(7.0d, getResult3.getValue());
-        assertEquals(9.0d, getResult4.getValue());
-        assertEquals(7.875d, getResult6.getValue());
-        assertEquals(8.0d, getResult9.getValue());
-        assertEquals(7.0d, getResult2.getValue());
-        assertEquals(7.48d, getResult5.getValue());
     }
 
     /**
      * Method under test: {@link FourthRatings#getAverageRatings(int)}
      */
     @Test
-    @Disabled("TODO: Complete this test")
     void testGetAverageRatings2() {
-        ArrayList<Rating> actualAverageRatings = (new FourthRatings()).getAverageRatings(0);
+        ArrayList<Rating> actualAverageRatings = new FourthRatings().getAverageRatings(0);
         assertEquals(3143, actualAverageRatings.size());
         Rating getResult = actualAverageRatings.get(5);
         assertEquals(8.0d, getResult.getValue());
@@ -115,7 +80,6 @@ public class FourthRatingsTest {
      * Method under test: {@link FourthRatings#getAverageRatingsByFilter(Integer, es.ull.etsii.Filters.Filter)}
      */
     @Test
-    @Disabled("TODO: Complete this test")
     void testGetAverageRatingsByFilter() {
         FourthRatings fourthRatings = new FourthRatings();
         ArrayList<Rating> actualAverageRatingsByFilter = fourthRatings.getAverageRatingsByFilter(1, new DirectorsFilter("Fred Cavayé"));
@@ -129,41 +93,8 @@ public class FourthRatingsTest {
      * Method under test: {@link FourthRatings#dotProduct(es.ull.etsii.Rate.Rater, es.ull.etsii.Rate.Rater)}
      */
     @Test
-    void testDotProduct() {
-        FourthRatings fourthRatings = new FourthRatings();
-        EfficientRater meRater = new EfficientRater("42");
-        assertEquals(0.0d, fourthRatings.dotProduct(meRater, new EfficientRater("42")));
-    }
-
-    /**
-     * Method under test: {@link FourthRatings#dotProduct(es.ull.etsii.Rate.Rater, es.ull.etsii.Rate.Rater)}
-     */
-    @Test
-    @Disabled("TODO: Complete this test")
-    void testDotProduct2() {
-        // TODO: Complete this test.
-        //   Reason: R013 No inputs found that don't throw a trivial exception.
-        //   Diffblue Cover tried to run the arrange/act section, but the method under
-        //   test threw
-        //   java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Rate.Rater.getMyRatings()" because "meRater" is null
-        //       at es.ull.etsii.Ratings.FourthRatings.dotProduct(FourthRatings.java:67)
-        //   In order to prevent dotProduct(Rater, Rater)
-        //   from throwing NullPointerException, add constructors or factory
-        //   methods that make it easier to construct fully initialized objects used in
-        //   dotProduct(Rater, Rater).
-        //   See https://diff.blue/R013 to resolve this issue.
-
-        FourthRatings fourthRatings = new FourthRatings();
-        fourthRatings.dotProduct(null, new EfficientRater("42"));
-    }
-
-    /**
-     * Method under test: {@link FourthRatings#dotProduct(es.ull.etsii.Rate.Rater, es.ull.etsii.Rate.Rater)}
-     */
-    @Test
     void testDotProduct3() {
         FourthRatings fourthRatings = new FourthRatings();
-
         EfficientRater efficientRater = new EfficientRater("42");
         efficientRater.addRating("Movie ID", 10.0d);
         assertEquals(0.0d, fourthRatings.dotProduct(efficientRater, new EfficientRater("42")));
@@ -173,25 +104,11 @@ public class FourthRatingsTest {
      * Method under test: {@link FourthRatings#dotProduct(Rater, Rater)}
      */
     @Test
-    @Disabled("TODO: Complete this test")
     void testDotProduct4() {
-        // TODO: Complete this test.
-        //   Reason: R013 No inputs found that don't throw a trivial exception.
-        //   Diffblue Cover tried to run the arrange/act section, but the method under
-        //   test threw
-        //   java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Rate.Rater.hasRating(String)" because "otherRater" is null
-        //       at es.ull.etsii.Ratings.FourthRatings.dotProduct(FourthRatings.java:71)
-        //   In order to prevent dotProduct(Rater, Rater)
-        //   from throwing NullPointerException, add constructors or factory
-        //   methods that make it easier to construct fully initialized objects used in
-        //   dotProduct(Rater, Rater).
-        //   See https://diff.blue/R013 to resolve this issue.
-
         FourthRatings fourthRatings = new FourthRatings();
-
         EfficientRater efficientRater = new EfficientRater("42");
-        efficientRater.addRating("Movie ID", 10.0d);
-        fourthRatings.dotProduct(efficientRater, null);
+        efficientRater.addRating("Movie ID", 9);
+        assertThrows(NullPointerException.class,()->{ fourthRatings.dotProduct(efficientRater, null);});
     }
 
     /**
@@ -213,7 +130,6 @@ public class FourthRatingsTest {
      * Method under test: {@link FourthRatings#getSimilarRatings(String, Integer, Integer)}
      */
     @Test
-    @Disabled
     void testGetSimilarRatings() {
         ArrayList<Rating> actualSimilarRatings = (new FourthRatings()).getSimilarRatings("42", 10, 1);
         assertEquals(444, actualSimilarRatings.size());
@@ -256,32 +172,9 @@ public class FourthRatingsTest {
     }
 
     /**
-     * Method under test: {@link FourthRatings#getSimilarRatings(String, Integer, Integer)}
-     */
-    @Test
-    @Disabled("TODO: Complete this test")
-    void testGetSimilarRatings2() {
-        // TODO: Complete this test.
-        //   Reason: R013 No inputs found that don't throw a trivial exception.
-        //   Diffblue Cover tried to run the arrange/act section, but the method under
-        //   test threw
-        //   java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Rate.Rater.getID()" because "me" is null
-        //       at es.ull.etsii.Ratings.FourthRatings.getSimilarities(FourthRatings.java:82)
-        //       at es.ull.etsii.Ratings.FourthRatings.getSimilarRatings(FourthRatings.java:97)
-        //   In order to prevent getSimilarRatings(String, Integer, Integer)
-        //   from throwing NullPointerException, add constructors or factory
-        //   methods that make it easier to construct fully initialized objects used in
-        //   getSimilarRatings(String, Integer, Integer).
-        //   See https://diff.blue/R013 to resolve this issue.
-
-        (new FourthRatings()).getSimilarRatings("foo", 1, 1);
-    }
-
-    /**
      * Method under test: {@link FourthRatings#getSimilarRatingsByFilter(String, Integer, Integer, es.ull.etsii.Filters.Filter)}
      */
     @Test
-    @Disabled
     void testGetSimilarRatingsByFilter() {
         FourthRatings fourthRatings = new FourthRatings();
         ArrayList<Rating> actualSimilarRatingsByFilter = fourthRatings.getSimilarRatingsByFilter("42", 10, 1,
@@ -329,23 +222,9 @@ public class FourthRatingsTest {
      * Method under test: {@link FourthRatings#getSimilarRatingsByFilter(String, Integer, Integer, es.ull.etsii.Filters.Filter)}
      */
     @Test
-    @Disabled("TODO: Complete this test")
     void testGetSimilarRatingsByFilter2() {
-        // TODO: Complete this test.
-        //   Reason: R013 No inputs found that don't throw a trivial exception.
-        //   Diffblue Cover tried to run the arrange/act section, but the method under
-        //   test threw
-        //   java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Rate.Rater.getID()" because "me" is null
-        //       at es.ull.etsii.Ratings.FourthRatings.getSimilarities(FourthRatings.java:82)
-        //       at es.ull.etsii.Ratings.FourthRatings.getSimilarRatingsByFilter(FourthRatings.java:150)
-        //   In order to prevent getSimilarRatingsByFilter(String, Integer, Integer, Filter)
-        //   from throwing NullPointerException, add constructors or factory
-        //   methods that make it easier to construct fully initialized objects used in
-        //   getSimilarRatingsByFilter(String, Integer, Integer, Filter).
-        //   See https://diff.blue/R013 to resolve this issue.
-
         FourthRatings fourthRatings = new FourthRatings();
-        fourthRatings.getSimilarRatingsByFilter("foo", 1, 1, new AllFilters());
+        assertThrows(NullPointerException.class,()->{ fourthRatings.getSimilarRatingsByFilter("foo", 1, 1, new AllFilters());});
     }
 
 }

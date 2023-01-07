@@ -44,24 +44,9 @@ public class MovieDatabaseTest {
      * Method under test: {@link MovieDatabase#loadMovies(String)}
      */
     @Test
-    @Disabled("TODO: Complete this test")
     void testLoadMovies() {
-        // TODO: Complete this test.
-        //   Reason: R013 No inputs found that don't throw a trivial exception.
-        //   Diffblue Cover tried to run the arrange/act section, but the method under
-        //   test threw
-        //   es.courserajava.edu.duke.ResourceException: FileResource: cannot access foo.txt
-        //       at es.courserajava.edu.duke.FileResource.initRead(FileResource.java:370)
-        //       at es.courserajava.edu.duke.FileResource.<init>(FileResource.java:95)
-        //       at es.ull.etsii.Ratings.FirstRatings.loadMovies(FirstRatings.java:150)
-        //       at es.ull.etsii.Movies.MovieDatabase.loadMovies(MovieDatabase.java:29)
-        //   In order to prevent loadMovies(String)
-        //   from throwing ResourceException, add constructors or factory
-        //   methods that make it easier to construct fully initialized objects used in
-        //   loadMovies(String).
-        //   See https://diff.blue/R013 to resolve this issue.
 
-        MovieDatabase.loadMovies("foo.txt");
+        MovieDatabase.loadMovies("ratedmoviesfull.csv");
     }
 
     /**

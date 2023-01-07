@@ -32,14 +32,5 @@ public class RecommendationRunnerTest {
         assertEquals("1193138", actualItemsToRate.get(24));
     }
 
-    /**
-     * Method under test: {@link RecommendationRunner#printRecommendationsFor(String)}
-     */
-    @Test
-    @Disabled
-    void testPrintRecommendationsFor() {
-        new RecommendationRunner().printRecommendationsFor("0068646");
-    }
-
 
 }
