@@ -31,3 +31,4 @@ Aparte de ponernos en una situación lo mas real posible de que pueda ocurrir un
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=robersharkY_LDH_PFInal&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=robersharkY_LDH_PFInal) <br>
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=robersharkY_LDH_PFInal&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=robersharkY_LDH_PFInal) <br>
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=robersharkY_LDH_PFInal&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=robersharkY_LDH_PFInal) <br>
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=robersharkY_LDH_PFInal&metric=coverage)](https://sonarcloud.io/summary/new_code?id=robersharkY_LDH_PFInal) <br>
