@@ -8,6 +8,15 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 public class RaterDatabaseTest {
 
+    /**
+     * Method under test: {@link RaterDatabase#initialize(String)}
+     */
+    @Test
+    void testInitialize() {
+        RaterDatabase database = new RaterDatabase();
+        database.initialize("ratings.csv");
+        assertNotEquals(null,database.getRaters());
+    }
 
     /**
      * Method under test: {@link RaterDatabase#addRatings(String)}

@@ -49,8 +49,8 @@ public class FirstRatings {
   // Make full filename for any OS types
   private static String getFullFileName(String fileName) {
     if (!(new File(fileName).exists())) {
-      fileName =
-          System.getProperty("user.dir") + File.separator + "data" + File.separator + fileName;
+      fileName = System.getProperty("user.dir") + File.separator + "src" + File.separator +"main"+ File.separator + "resources" +
+                      File.separator + fileName;
     }
     return fileName;
   }

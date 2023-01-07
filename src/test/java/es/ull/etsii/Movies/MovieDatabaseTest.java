@@ -10,11 +10,7 @@ import es.ull.etsii.Filters.YearAfterFilter;
 
 import java.util.ArrayList;
 
-import es.ull.etsii.Rate.EfficientRater;
-import org.junit.jupiter.api.Assertions.*;
-import org.junit.*;
 import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
