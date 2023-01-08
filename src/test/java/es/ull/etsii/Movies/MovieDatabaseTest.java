@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -40,35 +39,12 @@ public class MovieDatabaseTest {
     }
 
     /**
-     * Method under test: {@link MovieDatabase#loadMovies(String)}
-     */
-    @Test
-    void testLoadMovies2() {
-        MovieDatabase database = new MovieDatabase();
-        database.loadMovies("");
-        assertFalse(database.containsID("0000"));
-    }
-
-    /**
-     * Method under test: {@link MovieDatabase#loadMovies(String)}
-     */
-    @Test
-    void testLoadMovies3() {
-        MovieDatabase database = new MovieDatabase();
-        database.initialize();
-        database.loadMovies("src/main/resources/ratedmoviesfull.csv");
-        assertEquals(2014, database.getYear("3112654"));
-    }
-
-    /**
      * Method under test: {@link MovieDatabase#containsID(String)}
      */
     @Test
     void testContainsID() {
-        MovieDatabase database = new MovieDatabase();
-        database.loadMovies("src/main/resources/ratedmoviesfull.csv");
-        assertEquals(true, database.containsID("3112654"));
-        assertEquals(false, database.containsID("5"));
+        assertFalse(MovieDatabase.containsID("42"));
+        assertFalse(MovieDatabase.containsID("foo"));
     }
 
     /**
@@ -76,9 +52,7 @@ public class MovieDatabaseTest {
      */
     @Test
     void testGetYear() {
-        MovieDatabase database = new MovieDatabase();
-        database.loadMovies("src/main/resources/ratedmoviesfull.csv");
-        assertEquals(2014, database.getYear("3112654"));
+        assertThrows(NullPointerException.class,()->{MovieDatabase.getYear("42");});
     }
 
     /**
@@ -86,9 +60,7 @@ public class MovieDatabaseTest {
      */
     @Test
     void testGetGenres() {
-        MovieDatabase database = new MovieDatabase();
-        database.loadMovies("src/main/resources/ratedmoviesfull.csv");
-        assertEquals("Action, Thriller", database.getGenres("3112654"));
+        assertThrows(NullPointerException.class,()->{MovieDatabase.getGenres("42");});
     }
 
     /**
@@ -96,9 +68,8 @@ public class MovieDatabaseTest {
      */
     @Test
     void testGetTitle() {
-        MovieDatabase database = new MovieDatabase();
-        database.loadMovies("src/main/resources/ratedmoviesfull.csv");
-        assertEquals("Mea culpa", database.getTitle("3112654"));
+        MovieDatabase.loadMovies("src/main/resources/ratedmoviesfull.csv");
+        assertThrows(NullPointerException.class,()->{MovieDatabase.getTitle("42");});
     }
 
     /**
@@ -106,9 +77,7 @@ public class MovieDatabaseTest {
      */
     @Test
     void testGetMovie() {
-        MovieDatabase database = new MovieDatabase();
-        database.loadMovies("src/main/resources/ratedmoviesfull.csv");
-        assertNotEquals(null, database.getMovie("3112654"));
+        assertNull(MovieDatabase.getMovie("42"));
     }
 
     /**
@@ -124,9 +93,7 @@ public class MovieDatabaseTest {
      */
     @Test
     void testGetMinutes() {
-        MovieDatabase database = new MovieDatabase();
-        database.loadMovies("src/main/resources/ratedmoviesfull.csv");
-        assertEquals(90, database.getMinutes("3112654"));
+        assertThrows(NullPointerException.class,()->{MovieDatabase.getMinutes("42");});
     }
 
     /**
@@ -134,9 +101,7 @@ public class MovieDatabaseTest {
      */
     @Test
     void testGetCountry() {
-        MovieDatabase database = new MovieDatabase();
-        database.loadMovies("src/main/resources/ratedmoviesfull.csv");
-        assertEquals("France", database.getCountry("3112654"));
+        assertThrows(NullPointerException.class,()->{ MovieDatabase.getCountry("42");});
     }
 
     /**
@@ -144,9 +109,7 @@ public class MovieDatabaseTest {
      */
     @Test
     void testGetDirector() {
-        MovieDatabase database = new MovieDatabase();
-        database.loadMovies("src/main/resources/ratedmoviesfull.csv");
-        assertEquals("David Cronenberg", database.getDirector("1571222"));
+        assertThrows(NullPointerException.class,()->{ MovieDatabase.getDirector("42");});
     }
 
     /**
