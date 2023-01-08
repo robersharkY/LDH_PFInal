@@ -125,7 +125,7 @@ public class MovieDatabaseTest {
     void testGetMinutes() {
         MovieDatabase database = new MovieDatabase();
         database.loadMovies("src/main/resources/ratedmoviesfull.csv");
-        assertNotEquals(90, database.getMinutes("3112654"));
+        assertEquals(90, database.getMinutes("3112654"));
     }
 
     /**
