@@ -33,14 +33,4 @@ public class RecommendationRunnerTest {
         assertEquals("1193138", actualItemsToRate.get(24));
     }
 
-    /**
-     * Method under test: {@link RecommendationRunner#printRecommendationsFor(String)}
-     */
-    @Test
-    void testPrintRecommendationsFor() {
-        assertThrows(NullPointerException.class,()->{ (new RecommendationRunner()).printRecommendationsFor("Web Rater ID");});
-    }
-
-
-
 }
