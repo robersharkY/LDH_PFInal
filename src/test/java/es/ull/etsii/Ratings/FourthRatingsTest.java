@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 /**
  * Unit test for FirstRatings class.
  */
- class FourthRatingsTest {
+ public class FourthRatingsTest {
 
     /**
      * Method under test: {@link FourthRatings#getAverageRatings(int)}

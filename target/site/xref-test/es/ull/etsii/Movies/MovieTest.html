@@ -17,13 +17,13 @@
 <a class="jxr_linenumber" name="L9" href="#L9">9</a>   <em class="jxr_javadoccomment">/**</em>
 <a class="jxr_linenumber" name="L10" href="#L10">10</a>  <em class="jxr_javadoccomment"> * Unit test for Movie class.</em>
 <a class="jxr_linenumber" name="L11" href="#L11">11</a>  <em class="jxr_javadoccomment"> */</em>
-<a class="jxr_linenumber" name="L12" href="#L12">12</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a name="MovieTest" href="../../../../es/ull/etsii/Movies/MovieTest.html#MovieTest">MovieTest</a> {
+<a class="jxr_linenumber" name="L12" href="#L12">12</a>   <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a name="MovieTest" href="../../../../es/ull/etsii/Movies/MovieTest.html#MovieTest">MovieTest</a> {
 <a class="jxr_linenumber" name="L13" href="#L13">13</a>  
 <a class="jxr_linenumber" name="L14" href="#L14">14</a>      <em class="jxr_javadoccomment">/**</em>
 <a class="jxr_linenumber" name="L15" href="#L15">15</a>  <em class="jxr_javadoccomment">     * Method under test: {@link Movie#Movie(String, String, String, String)}</em>
 <a class="jxr_linenumber" name="L16" href="#L16">16</a>  <em class="jxr_javadoccomment">     */</em>
 <a class="jxr_linenumber" name="L17" href="#L17">17</a>      @Test
-<a class="jxr_linenumber" name="L18" href="#L18">18</a>      <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> testConstructor() {
+<a class="jxr_linenumber" name="L18" href="#L18">18</a>       <strong class="jxr_keyword">void</strong> testConstructor() {
 <a class="jxr_linenumber" name="L19" href="#L19">19</a>          assertThrows(NumberFormatException.<strong class="jxr_keyword">class</strong>,()-&gt;{<strong class="jxr_keyword">new</strong> Movie(<span class="jxr_string">"An ID"</span>, <span class="jxr_string">"Dr"</span>, <span class="jxr_string">"42.2"</span>, <span class="jxr_string">"The Genres"</span>);} );
 <a class="jxr_linenumber" name="L20" href="#L20">20</a>      }
 <a class="jxr_linenumber" name="L21" href="#L21">21</a>  
@@ -31,7 +31,7 @@
 <a class="jxr_linenumber" name="L23" href="#L23">23</a>  <em class="jxr_javadoccomment">     * Method under test: {@link Movie#Movie(String, String, String, String)}</em>
 <a class="jxr_linenumber" name="L24" href="#L24">24</a>  <em class="jxr_javadoccomment">     */</em>
 <a class="jxr_linenumber" name="L25" href="#L25">25</a>      @Test
-<a class="jxr_linenumber" name="L26" href="#L26">26</a>      <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> testConstructor2() {
+<a class="jxr_linenumber" name="L26" href="#L26">26</a>       <strong class="jxr_keyword">void</strong> testConstructor2() {
 <a class="jxr_linenumber" name="L27" href="#L27">27</a>          Movie actualMovie = <strong class="jxr_keyword">new</strong> Movie(<span class="jxr_string">"An ID"</span>, <span class="jxr_string">"Dr"</span>, <span class="jxr_string">"42"</span>, <span class="jxr_string">"The Genres"</span>);
 <a class="jxr_linenumber" name="L28" href="#L28">28</a>  
 <a class="jxr_linenumber" name="L29" href="#L29">29</a>          assertEquals(42, actualMovie.getYear());
@@ -44,7 +44,7 @@
 <a class="jxr_linenumber" name="L36" href="#L36">36</a>  <em class="jxr_javadoccomment">     * Method under test: {@link Movie#Movie(String, String, String, String, String, String, String, int)}</em>
 <a class="jxr_linenumber" name="L37" href="#L37">37</a>  <em class="jxr_javadoccomment">     */</em>
 <a class="jxr_linenumber" name="L38" href="#L38">38</a>      @Test
-<a class="jxr_linenumber" name="L39" href="#L39">39</a>      <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> testConstructor3() {
+<a class="jxr_linenumber" name="L39" href="#L39">39</a>       <strong class="jxr_keyword">void</strong> testConstructor3() {
 <a class="jxr_linenumber" name="L40" href="#L40">40</a>          assertThrows(NumberFormatException.<strong class="jxr_keyword">class</strong>,()-&gt;{<strong class="jxr_keyword">new</strong> Movie(<span class="jxr_string">"An ID"</span>, <span class="jxr_string">"Dr"</span>, <span class="jxr_string">"A Year"</span>, <span class="jxr_string">"The Genres"</span>, <span class="jxr_string">"A Director"</span>, <span class="jxr_string">"GB"</span>, <span class="jxr_string">"A Poster"</span>, 1);} );
 <a class="jxr_linenumber" name="L41" href="#L41">41</a>      }
 <a class="jxr_linenumber" name="L42" href="#L42">42</a>  
@@ -52,7 +52,7 @@
 <a class="jxr_linenumber" name="L44" href="#L44">44</a>  <em class="jxr_javadoccomment">     * Method under test: {@link Movie#Movie(String, String, String, String, String, String, String, int)}</em>
 <a class="jxr_linenumber" name="L45" href="#L45">45</a>  <em class="jxr_javadoccomment">     */</em>
 <a class="jxr_linenumber" name="L46" href="#L46">46</a>      @Test
-<a class="jxr_linenumber" name="L47" href="#L47">47</a>      <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> testConstructor4() {
+<a class="jxr_linenumber" name="L47" href="#L47">47</a>       <strong class="jxr_keyword">void</strong> testConstructor4() {
 <a class="jxr_linenumber" name="L48" href="#L48">48</a>          Movie actualMovie = <strong class="jxr_keyword">new</strong> Movie(<span class="jxr_string">"An ID"</span>, <span class="jxr_string">"Dr"</span>, <span class="jxr_string">"42"</span>, <span class="jxr_string">"The Genres"</span>, <span class="jxr_string">"A Director"</span>, <span class="jxr_string">"GB"</span>, <span class="jxr_string">"A Poster"</span>, 1);
 <a class="jxr_linenumber" name="L49" href="#L49">49</a>  
 <a class="jxr_linenumber" name="L50" href="#L50">50</a>          assertEquals(<span class="jxr_string">"GB"</span>, actualMovie.getCountry());
@@ -69,7 +69,7 @@
 <a class="jxr_linenumber" name="L61" href="#L61">61</a>  <em class="jxr_javadoccomment">     * should answer with true</em>
 <a class="jxr_linenumber" name="L62" href="#L62">62</a>  <em class="jxr_javadoccomment">     */</em>
 <a class="jxr_linenumber" name="L63" href="#L63">63</a>      @Test
-<a class="jxr_linenumber" name="L64" href="#L64">64</a>      <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> getID() {
+<a class="jxr_linenumber" name="L64" href="#L64">64</a>       <strong class="jxr_keyword">void</strong> getID() {
 <a class="jxr_linenumber" name="L65" href="#L65">65</a>          Movie actualMovie = <strong class="jxr_keyword">new</strong> Movie(<span class="jxr_string">"An ID"</span>, <span class="jxr_string">"Dr"</span>, <span class="jxr_string">"42"</span>, <span class="jxr_string">"The Genres"</span>, <span class="jxr_string">"A Director"</span>, <span class="jxr_string">"GB"</span>, <span class="jxr_string">"A Poster"</span>, 1);
 <a class="jxr_linenumber" name="L66" href="#L66">66</a>          assertEquals(actualMovie.getID(),<span class="jxr_string">"An ID"</span>);
 <a class="jxr_linenumber" name="L67" href="#L67">67</a>          assertNotEquals(actualMovie.getID(),<span class="jxr_string">"other ID"</span>);
@@ -79,7 +79,7 @@
 <a class="jxr_linenumber" name="L71" href="#L71">71</a>  <em class="jxr_javadoccomment">     * should answer with true</em>
 <a class="jxr_linenumber" name="L72" href="#L72">72</a>  <em class="jxr_javadoccomment">     */</em>
 <a class="jxr_linenumber" name="L73" href="#L73">73</a>      @Test
-<a class="jxr_linenumber" name="L74" href="#L74">74</a>      <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> getTitle() {
+<a class="jxr_linenumber" name="L74" href="#L74">74</a>       <strong class="jxr_keyword">void</strong> getTitle() {
 <a class="jxr_linenumber" name="L75" href="#L75">75</a>          Movie actualMovie = <strong class="jxr_keyword">new</strong> Movie(<span class="jxr_string">"An ID"</span>, <span class="jxr_string">"Dr"</span>, <span class="jxr_string">"42"</span>, <span class="jxr_string">"The Genres"</span>, <span class="jxr_string">"A Director"</span>, <span class="jxr_string">"GB"</span>, <span class="jxr_string">"A Poster"</span>, 1);
 <a class="jxr_linenumber" name="L76" href="#L76">76</a>          assertEquals(actualMovie.getTitle(),<span class="jxr_string">"Dr"</span>);
 <a class="jxr_linenumber" name="L77" href="#L77">77</a>          assertNotEquals(actualMovie.getTitle(),<span class="jxr_string">"another Dr"</span>);
@@ -89,7 +89,7 @@
 <a class="jxr_linenumber" name="L81" href="#L81">81</a>  <em class="jxr_javadoccomment">     * should answer with true</em>
 <a class="jxr_linenumber" name="L82" href="#L82">82</a>  <em class="jxr_javadoccomment">     */</em>
 <a class="jxr_linenumber" name="L83" href="#L83">83</a>      @Test
-<a class="jxr_linenumber" name="L84" href="#L84">84</a>      <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> getYear() {
+<a class="jxr_linenumber" name="L84" href="#L84">84</a>       <strong class="jxr_keyword">void</strong> getYear() {
 <a class="jxr_linenumber" name="L85" href="#L85">85</a>          Movie actualMovie = <strong class="jxr_keyword">new</strong> Movie(<span class="jxr_string">"An ID"</span>, <span class="jxr_string">"Dr"</span>, <span class="jxr_string">"42"</span>, <span class="jxr_string">"The Genres"</span>, <span class="jxr_string">"A Director"</span>, <span class="jxr_string">"GB"</span>, <span class="jxr_string">"A Poster"</span>, 1);
 <a class="jxr_linenumber" name="L86" href="#L86">86</a>          assertEquals(actualMovie.getYear(),42);
 <a class="jxr_linenumber" name="L87" href="#L87">87</a>          assertNotEquals(actualMovie.getYear(),45);
@@ -99,7 +99,7 @@
 <a class="jxr_linenumber" name="L91" href="#L91">91</a>  <em class="jxr_javadoccomment">     * should answer with true</em>
 <a class="jxr_linenumber" name="L92" href="#L92">92</a>  <em class="jxr_javadoccomment">     */</em>
 <a class="jxr_linenumber" name="L93" href="#L93">93</a>      @Test
-<a class="jxr_linenumber" name="L94" href="#L94">94</a>      <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> getGenres() {
+<a class="jxr_linenumber" name="L94" href="#L94">94</a>       <strong class="jxr_keyword">void</strong> getGenres() {
 <a class="jxr_linenumber" name="L95" href="#L95">95</a>          Movie actualMovie = <strong class="jxr_keyword">new</strong> Movie(<span class="jxr_string">"An ID"</span>, <span class="jxr_string">"Dr"</span>, <span class="jxr_string">"42"</span>, <span class="jxr_string">"The Genres"</span>, <span class="jxr_string">"A Director"</span>, <span class="jxr_string">"GB"</span>, <span class="jxr_string">"A Poster"</span>, 1);
 <a class="jxr_linenumber" name="L96" href="#L96">96</a>          assertEquals(actualMovie.getGenres(),<span class="jxr_string">"The Genres"</span>);
 <a class="jxr_linenumber" name="L97" href="#L97">97</a>          assertNotEquals(actualMovie.getGenres(),<span class="jxr_string">"Another genres"</span>);
@@ -109,7 +109,7 @@
 <a class="jxr_linenumber" name="L101" href="#L101">101</a> <em class="jxr_javadoccomment">     * should answer with true</em>
 <a class="jxr_linenumber" name="L102" href="#L102">102</a> <em class="jxr_javadoccomment">     */</em>
 <a class="jxr_linenumber" name="L103" href="#L103">103</a>     @Test
-<a class="jxr_linenumber" name="L104" href="#L104">104</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> getCountry() {
+<a class="jxr_linenumber" name="L104" href="#L104">104</a>      <strong class="jxr_keyword">void</strong> getCountry() {
 <a class="jxr_linenumber" name="L105" href="#L105">105</a>         Movie actualMovie = <strong class="jxr_keyword">new</strong> Movie(<span class="jxr_string">"An ID"</span>, <span class="jxr_string">"Dr"</span>, <span class="jxr_string">"42"</span>, <span class="jxr_string">"The Genres"</span>, <span class="jxr_string">"A Director"</span>, <span class="jxr_string">"GB"</span>, <span class="jxr_string">"A Poster"</span>, 1);
 <a class="jxr_linenumber" name="L106" href="#L106">106</a>         assertEquals(actualMovie.getCountry(),<span class="jxr_string">"GB"</span>);
 <a class="jxr_linenumber" name="L107" href="#L107">107</a>         assertNotEquals(actualMovie.getCountry(),<span class="jxr_string">"another country"</span>);
@@ -119,7 +119,7 @@
 <a class="jxr_linenumber" name="L111" href="#L111">111</a> <em class="jxr_javadoccomment">     * should answer with true</em>
 <a class="jxr_linenumber" name="L112" href="#L112">112</a> <em class="jxr_javadoccomment">     */</em>
 <a class="jxr_linenumber" name="L113" href="#L113">113</a>     @Test
-<a class="jxr_linenumber" name="L114" href="#L114">114</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> getDirector() {
+<a class="jxr_linenumber" name="L114" href="#L114">114</a>      <strong class="jxr_keyword">void</strong> getDirector() {
 <a class="jxr_linenumber" name="L115" href="#L115">115</a>         Movie actualMovie = <strong class="jxr_keyword">new</strong> Movie(<span class="jxr_string">"An ID"</span>, <span class="jxr_string">"Dr"</span>, <span class="jxr_string">"42"</span>, <span class="jxr_string">"The Genres"</span>, <span class="jxr_string">"A Director"</span>, <span class="jxr_string">"GB"</span>, <span class="jxr_string">"A Poster"</span>, 1);
 <a class="jxr_linenumber" name="L116" href="#L116">116</a>         assertEquals(actualMovie.getDirector(),<span class="jxr_string">"A Director"</span>);
 <a class="jxr_linenumber" name="L117" href="#L117">117</a>         assertNotEquals(actualMovie.getDirector(),<span class="jxr_string">"another director"</span>);
@@ -129,7 +129,7 @@
 <a class="jxr_linenumber" name="L121" href="#L121">121</a> <em class="jxr_javadoccomment">     * should answer with true</em>
 <a class="jxr_linenumber" name="L122" href="#L122">122</a> <em class="jxr_javadoccomment">     */</em>
 <a class="jxr_linenumber" name="L123" href="#L123">123</a>     @Test
-<a class="jxr_linenumber" name="L124" href="#L124">124</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> getPoster() {
+<a class="jxr_linenumber" name="L124" href="#L124">124</a>      <strong class="jxr_keyword">void</strong> getPoster() {
 <a class="jxr_linenumber" name="L125" href="#L125">125</a>         Movie actualMovie = <strong class="jxr_keyword">new</strong> Movie(<span class="jxr_string">"An ID"</span>, <span class="jxr_string">"Dr"</span>, <span class="jxr_string">"42"</span>, <span class="jxr_string">"The Genres"</span>, <span class="jxr_string">"A Director"</span>, <span class="jxr_string">"GB"</span>, <span class="jxr_string">"A Poster"</span>, 1);
 <a class="jxr_linenumber" name="L126" href="#L126">126</a>         assertEquals(actualMovie.getPoster(),<span class="jxr_string">"A Poster"</span>);
 <a class="jxr_linenumber" name="L127" href="#L127">127</a>         assertNotEquals(actualMovie.getPoster(),<span class="jxr_string">"another poster"</span>);
@@ -139,7 +139,7 @@
 <a class="jxr_linenumber" name="L131" href="#L131">131</a> <em class="jxr_javadoccomment">     * should answer with true</em>
 <a class="jxr_linenumber" name="L132" href="#L132">132</a> <em class="jxr_javadoccomment">     */</em>
 <a class="jxr_linenumber" name="L133" href="#L133">133</a>     @Test
-<a class="jxr_linenumber" name="L134" href="#L134">134</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> getMinutes() {
+<a class="jxr_linenumber" name="L134" href="#L134">134</a>      <strong class="jxr_keyword">void</strong> getMinutes() {
 <a class="jxr_linenumber" name="L135" href="#L135">135</a>         Movie actualMovie = <strong class="jxr_keyword">new</strong> Movie(<span class="jxr_string">"An ID"</span>, <span class="jxr_string">"Dr"</span>, <span class="jxr_string">"42"</span>, <span class="jxr_string">"The Genres"</span>, <span class="jxr_string">"A Director"</span>, <span class="jxr_string">"GB"</span>, <span class="jxr_string">"A Poster"</span>, 1);
 <a class="jxr_linenumber" name="L136" href="#L136">136</a>         assertEquals(actualMovie.getMinutes(),1);
 <a class="jxr_linenumber" name="L137" href="#L137">137</a>         assertNotEquals(actualMovie.getMinutes(),3);
@@ -149,7 +149,7 @@
 <a class="jxr_linenumber" name="L141" href="#L141">141</a> <em class="jxr_javadoccomment">     * should answer with true</em>
 <a class="jxr_linenumber" name="L142" href="#L142">142</a> <em class="jxr_javadoccomment">     */</em>
 <a class="jxr_linenumber" name="L143" href="#L143">143</a>     @Test
-<a class="jxr_linenumber" name="L144" href="#L144">144</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> testToString() {
+<a class="jxr_linenumber" name="L144" href="#L144">144</a>     <strong class="jxr_keyword">void</strong> testToString() {
 <a class="jxr_linenumber" name="L145" href="#L145">145</a>         Movie actualMovie = <strong class="jxr_keyword">new</strong> Movie(<span class="jxr_string">"An ID"</span>, <span class="jxr_string">"Dr"</span>, <span class="jxr_string">"42"</span>, <span class="jxr_string">"The Genres"</span>, <span class="jxr_string">"A Director"</span>, <span class="jxr_string">"GB"</span>, <span class="jxr_string">"A Poster"</span>, 1);
 <a class="jxr_linenumber" name="L146" href="#L146">146</a>         String frase =<span class="jxr_string">"Movie [id=An ID, title=Dr, year=42, genres= The Genres]"</span>;
 <a class="jxr_linenumber" name="L147" href="#L147">147</a>         assertEquals(actualMovie.toString(),frase);

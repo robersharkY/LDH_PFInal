@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 /**
  * Unit test for YearAfterFilter class.
  */
- class YearFilterTest {
+ public class YearFilterTest {
 
     /**
      * Method under test: default or parameterless constructor of {@link YearFilter}
@@ -32,6 +32,15 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
         assertEquals(true,new YearFilter(2010).satisfies("1188113"));
         assertEquals(false,new YearFilter(2011).satisfies("1188113"));
         assertEquals(true,new YearFilter(2009).satisfies("1188113"));
+
+        assertEquals(true,new YearFilter(2014,'e').satisfies("3112654"));
+        assertEquals(false,new YearFilter(2014,'b').satisfies("3112654"));
+        assertEquals(true,new YearFilter(2013,'b').satisfies("3112654"));
+        assertEquals(true,new YearFilter(2015,'l').satisfies("3112654"));
+        assertEquals(true,new YearFilter(2013,'n').satisfies("3112654"));
+        assertEquals(true,new YearFilter(2014,'1').satisfies("3112654"));
+        assertEquals(true,new YearFilter(2014,'2').satisfies("3112654"));
+        assertEquals(true,new YearFilter(2010,2020).satisfies("3112654"));
     }
 
 

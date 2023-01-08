@@ -48,7 +48,6 @@ es.ull.etsii.Recommendations
 'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Rate/RaterDatabaseTest.java'
 'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Ratings/FirstRatingsTest.java'
 'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Ratings/FourthRatingsTest.java'
-'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Ratings/MovieRunnerSimilarRatingsTest.java'
 'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Ratings/RatingTest.java'
 'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Recommendations/RecommendationRunnerTest.java'
 C:\Users\roberto\IdeaProjects\LDH_PFInal\target\classes = 1673207630154
@@ -99,20 +98,21 @@ C:\Users\roberto\.m2\repository\org\ow2\asm\asm-analysis\9.1\asm-analysis-9.1.ja
 C:\Users\roberto\.m2\repository\org\ow2\asm\asm-tree\9.1\asm-tree-9.1.jar = 1671295341575
 C:\Users\roberto\.m2\repository\org\jacoco\org.jacoco.report\0.8.7\org.jacoco.report-0.8.7.jar = 1671295341628
 C:\Users\roberto\IdeaProjects\LDH_PFInal\src\test\java = 1672838836589
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\allclasses-index.html = 1673208947296
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\allpackages-index.html = 1673208947299
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\element-list = 1673208947158
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\help-doc.html = 1673208947332
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\index-all.html = 1673208947326
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\index.html = 1673208947280
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\jquery-ui.overrides.css = 1673208947367
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\member-search-index.js = 1673208947308
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\module-search-index.js = 1673208947302
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\overview-summary.html = 1673208947328
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\overview-tree.html = 1673208947275
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\package-search-index.js = 1673208947305
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\script.js = 1673208947338
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\search.js = 1673208947341
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\stylesheet.css = 1673208947335
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\tag-search-index.js = 1673208947309
-C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\type-search-index.js = 1673208947306
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\allclasses-index.html = 1673220560407
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\allpackages-index.html = 1673220560418
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\element-list = 1673220560193
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\help-doc.html = 1673220560505
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\index-all.html = 1673220560491
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\index.html = 1673220560351
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\javadoc.bat = 1673220226744
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\jquery-ui.overrides.css = 1673220560569
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\member-search-index.js = 1673220560440
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\module-search-index.js = 1673220560424
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\overview-summary.html = 1673220560495
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\overview-tree.html = 1673220560345
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\package-search-index.js = 1673220560428
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\script.js = 1673220560512
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\search.js = 1673220560518
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\stylesheet.css = 1673220560509
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\tag-search-index.js = 1673220560454
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\type-search-index.js = 1673220560435

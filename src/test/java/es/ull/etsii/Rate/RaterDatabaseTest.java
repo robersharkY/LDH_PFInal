@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 
- class RaterDatabaseTest {
+ public class RaterDatabaseTest {
 
     /**
      * Method under test: {@link RaterDatabase#initialize(String)}

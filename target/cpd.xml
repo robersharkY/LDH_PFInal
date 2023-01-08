@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pmd-cpd>
    <duplication lines="15" tokens="135">
-      <file begintoken="17717" column="71" endcolumn="20" endline="112" endtoken="17851"
+      <file begintoken="17716" column="71" endcolumn="20" endline="112" endtoken="17850"
             line="98"
             path="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\Ratings\FourthRatings.java"/>
-      <file begintoken="18067" column="69" endcolumn="20" endline="165" endtoken="18201"
+      <file begintoken="18066" column="69" endcolumn="20" endline="165" endtoken="18200"
             line="151"
             path="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\Ratings\FourthRatings.java"/>
       <codefragment><![CDATA[    ArrayList<String> movies = MovieDatabase.filterBy(new TrueFilter());
     for (String movie_id : movies) {
-      int md_id = Integer.parseInt(movie_id);
+      int mdid = Integer.parseInt(movie_id);
       if (hasMinRaters(movie_id, minimalRaters, numSimilarRaters, ratingRater)) {
         double sum = 0.0;
         double ave;
@@ -18,8 +18,8 @@
           Rater rater = RaterDatabase.getRater(ratingRater.get(i).getItem());
           HashMap<String, Rating> movieRated = rater.getMyRatings();
           for (String mo_id : movieRated.keySet()) {
-            int rm_id = Integer.parseInt(mo_id);
-            if (rm_id == md_id) {
+            int rmid = Integer.parseInt(mo_id);
+            if (rmid == mdid) {
               sum += ratingRater.get(i).getValue() * rater.getRating(mo_id);
               num += 1;]]></codefragment>
    </duplication>

@@ -1,7 +1,5 @@
 package es.ull.etsii.Filters;
 
-import es.ull.etsii.Movies.MovieDatabase;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -12,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 /**
  * Unit test for AllFilters class.
  */
- class AllFiltersTest {
+ public class AllFiltersTest {
 
     /**
      * should answer with true

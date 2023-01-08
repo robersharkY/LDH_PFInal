@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class CountryFilterTest {
+public class CountryFilterTest {
 
     /**
      * Method under test: {@link CountryFilter#satisfies(String)}

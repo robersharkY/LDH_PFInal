@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
 /**
  * Unit test for Rating class.
  */
- class RatingTest {
+ public class RatingTest {
 
 
     @Test

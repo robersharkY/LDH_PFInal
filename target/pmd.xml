@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.49.0" timestamp="2023-01-08T20:15:38.959">
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.49.0" timestamp="2023-01-08T23:29:11.355">
 <file name="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\apachecsv\org\apache\commons\csv\CSVFormat.java">
 <violation beginline="18" endline="1767" begincolumn="1" endcolumn="3" rule="TooManyStaticImports" ruleset="Code Style" package="es.apachecsv.org.apache.commons.csv" class="CSVFormat" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#toomanystaticimports" priority="3">
 Too many static imports may lead to messy code
@@ -77,6 +77,17 @@ Empty while statement
 Avoid empty catch blocks
 </violation>
 </file>
+<file name="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\Filters\MinutesFilter.java">
+<violation beginline="79" endline="79" begincolumn="17" endcolumn="108" rule="UselessParentheses" ruleset="Code Style" package="es.ull.etsii.Filters" class="MinutesFilter" method="satisfies" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="79" endline="79" begincolumn="18" endcolumn="59" rule="UselessParentheses" ruleset="Code Style" package="es.ull.etsii.Filters" class="MinutesFilter" method="satisfies" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="79" endline="79" begincolumn="66" endcolumn="107" rule="UselessParentheses" ruleset="Code Style" package="es.ull.etsii.Filters" class="MinutesFilter" method="satisfies" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
 <file name="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\Filters\YearFilter.java">
 <violation beginline="75" endline="76" begincolumn="17" endcolumn="61" rule="UselessParentheses" ruleset="Code Style" package="es.ull.etsii.Filters" class="YearFilter" method="satisfies" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
 Useless parentheses.
@@ -96,11 +107,6 @@ Unnecessary import from the current package 'es.ull.etsii.Movies.Movie'
 <file name="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\Rate\EfficientRater.java">
 <violation beginline="3" endline="3" begincolumn="1" endcolumn="31" rule="UnnecessaryImport" ruleset="Code Style" package="es.ull.etsii.Rate" class="EfficientRater" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
 Unnecessary import from the current package 'es.ull.etsii.Rate.Rater'
-</violation>
-</file>
-<file name="C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\Ratings\FirstRatings.java">
-<violation beginline="353" endline="353" begincolumn="16" endcolumn="37" rule="UnusedPrivateMethod" ruleset="Best Practices" package="es.ull.etsii.Ratings" class="FirstRatings" method="printAllRaterRatings" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
-Avoid unused private methods such as 'printAllRaterRatings()'.
 </violation>
 </file>
 </pmd>

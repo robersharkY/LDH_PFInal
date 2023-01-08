@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 /**
  * Unit test for MovieDatabase class.
  */
- class MovieDatabaseTest {
+ public class MovieDatabaseTest {
 
     /**
      * Method under test: {@link MovieDatabase#initialize(String)}

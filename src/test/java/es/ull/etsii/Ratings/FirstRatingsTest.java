@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 /**
  * Unit test for FirstRatings class.
  */
- class FirstRatingsTest {
+ public class FirstRatingsTest {
 
     /**
      * Method under test: {@link FirstRatings#FirstRatings()}

@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
 /**
  * Unit test for Movie class.
  */
- class MovieTest {
+ public class MovieTest {
 
     /**
      * Method under test: {@link Movie#Movie(String, String, String, String)}

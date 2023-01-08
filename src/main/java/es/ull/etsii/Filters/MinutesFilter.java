@@ -76,7 +76,7 @@ public class MinutesFilter implements Filter {
     switch (option) {
       // Equal
       case 'r':
-        return MovieDatabase.getMinutes(id) >= minMinutes && MovieDatabase.getMinutes(id) <= maxMinutes;
+        return ((MovieDatabase.getMinutes(id) >= minMinutes) && (MovieDatabase.getMinutes(id) <= maxMinutes));
       case 'b':
         return MovieDatabase.getMinutes(id) >= minMinutes;
       case 'l':

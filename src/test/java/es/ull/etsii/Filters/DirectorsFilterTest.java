@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 /**
  * Unit test for DirectorsFilter class.
  */
- class DirectorsFilterTest {
+ public class DirectorsFilterTest {
 
     /**
      * Method under test: default or parameterless constructor of {@link DirectorsFilter}

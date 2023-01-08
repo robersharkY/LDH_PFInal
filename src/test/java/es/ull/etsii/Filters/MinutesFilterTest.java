@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 /**
  * Unit test for MinutesFilter class.
  */
-class MinutesFilterTest {
+public class MinutesFilterTest {
 
 
     /**
@@ -43,6 +43,18 @@ class MinutesFilterTest {
         assertEquals(true,new MinutesFilter(90).satisfies("1188113"));
         assertEquals(false,new MinutesFilter(91).satisfies("1188113"));
         assertEquals(true,new MinutesFilter(1).satisfies("1188113"));
+
+        assertEquals(true,new MinutesFilter(90,'b').satisfies("3112654"));
+        assertEquals(true,new MinutesFilter(89,'b').satisfies("3112654"));
+        assertEquals(false,new MinutesFilter(91,'b').satisfies("3112654"));
+
+        assertEquals(true,new MinutesFilter(90,'l').satisfies("3112654"));
+        assertEquals(true,new MinutesFilter(91,'l').satisfies("3112654"));
+        assertEquals(false,new MinutesFilter(89,'l').satisfies("3112654"));
+
+        assertEquals(true,new MinutesFilter(25,91).satisfies("3112654"));
+        assertEquals(true,new MinutesFilter(25,90).satisfies("3112654"));
+        assertEquals(false,new MinutesFilter(25,89).satisfies("3112654"));
 
     }
 

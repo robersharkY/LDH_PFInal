@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 /**
  * Unit test for GenreFilter class.
  */
- class GenreFilterTest {
+ public class GenreFilterTest {
 
     /**
      * Methods under test:
