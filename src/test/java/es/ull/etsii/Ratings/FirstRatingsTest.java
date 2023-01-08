@@ -17,6 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
     void testConstructor() {
         FirstRatings ratings = new FirstRatings(); // no hace nada
         ratings.loadMovies("ratedmoviesfull.csv");
+        assertThrows(NullPointerException.class,()->{ (new FirstRatings()).testLoadMovies();});
     }
 
     /**
@@ -25,6 +26,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
     @Test
     void testConstructor2() {
         FirstRatings ratings = new FirstRatings("ratedmoviesfull.csv");
+        assertThrows(NullPointerException.class,()->{ (new FirstRatings()).testLoadMovies();});
     }
 
     /**
@@ -33,6 +35,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
     @Test
     void testConstructor3() {
         new FirstRatings("ratedmoviesfull.csv", "ratings.csv");
+        assertThrows(NullPointerException.class,()->{ (new FirstRatings()).testLoadMovies();});
 
     }
 
@@ -42,6 +45,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
     @Test
     void testLoadRaters() {
         (new FirstRatings()).loadRaters("ratings.csv");
+        assertThrows(NullPointerException.class,()->{ (new FirstRatings()).testLoadMovies();});
     }
 
     /**

@@ -85,7 +85,6 @@ public class RaterDatabase {
    */
   public static Rater getRater(String id) {
     initialize();
-
     return ourRaters.get(id);
   }
 
@@ -94,9 +93,7 @@ public class RaterDatabase {
    */
   public static ArrayList<Rater> getRaters() {
     initialize();
-    ArrayList<Rater> list = new ArrayList<Rater>(ourRaters.values());
-
-    return list;
+    return new ArrayList<Rater>(ourRaters.values());
   }
 
   /**
