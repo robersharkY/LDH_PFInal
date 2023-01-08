@@ -97,7 +97,7 @@ public class FourthRatings {
     ArrayList<Rating> ratingRater = getSimilarities(id);
     ArrayList<String> movies = MovieDatabase.filterBy(new TrueFilter());
     for (String movie_id : movies) {
-      int md_id = Integer.parseInt(movie_id);
+      int mdid = Integer.parseInt(movie_id);
       if (hasMinRaters(movie_id, minimalRaters, numSimilarRaters, ratingRater)) {
         double sum = 0.0;
         double ave;
@@ -106,8 +106,8 @@ public class FourthRatings {
           Rater rater = RaterDatabase.getRater(ratingRater.get(i).getItem());
           HashMap<String, Rating> movieRated = rater.getMyRatings();
           for (String mo_id : movieRated.keySet()) {
-            int rm_id = Integer.parseInt(mo_id);
-            if (rm_id == md_id) {
+            int rmid = Integer.parseInt(mo_id);
+            if (rmid == mdid) {
               sum += ratingRater.get(i).getValue() * rater.getRating(mo_id);
               num += 1;
             }
@@ -130,13 +130,13 @@ public class FourthRatings {
       Integer numSimilarRaters,
       ArrayList<Rating> ratingRater) {
     int numOfRaters = 0;
-    int md_id = Integer.parseInt(movie_id);
+    int mdid = Integer.parseInt(movie_id);
     for (int i = 0; i < numSimilarRaters; i++) {
       Rater rater = RaterDatabase.getRater(ratingRater.get(i).getItem());
       HashMap<String, Rating> movieRated = rater.getMyRatings();
       for (String mo_id : movieRated.keySet()) {
-        int rm_id = Integer.parseInt(mo_id);
-        if (rm_id == md_id) {
+        int rmid = Integer.parseInt(mo_id);
+        if (rmid == mdid) {
           numOfRaters += 1;
         }
       }
@@ -150,7 +150,7 @@ public class FourthRatings {
     ArrayList<Rating> ratingRater = getSimilarities(id);
     ArrayList<String> movies = MovieDatabase.filterBy(filterCriteria);
     for (String movie_id : movies) {
-      int md_id = Integer.parseInt(movie_id);
+      int mdid = Integer.parseInt(movie_id);
       if (hasMinRaters(movie_id, minimalRaters, numSimilarRaters, ratingRater)) {
         double sum = 0.0;
         double ave;
@@ -159,8 +159,8 @@ public class FourthRatings {
           Rater rater = RaterDatabase.getRater(ratingRater.get(i).getItem());
           HashMap<String, Rating> movieRated = rater.getMyRatings();
           for (String mo_id : movieRated.keySet()) {
-            int rm_id = Integer.parseInt(mo_id);
-            if (rm_id == md_id) {
+            int rmid = Integer.parseInt(mo_id);
+            if (rmid == mdid) {
               sum += ratingRater.get(i).getValue() * rater.getRating(mo_id);
               num += 1.0;
             }
