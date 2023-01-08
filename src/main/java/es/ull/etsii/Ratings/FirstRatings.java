@@ -325,7 +325,6 @@ public class FirstRatings {
   private void printNumberOfRatings(String id) {
     int ratingsCount = getNumberOfRatingsByRaterID(id);
     System.out.printf("How many ratings does the rater number %s have? > %s\n", id, ratingsCount);
-    //    System.out.printf("Rater id: %s has %d ratings\n", id, ratingsCount);
   }
 
   // Get total number of rates for specific rater's id
@@ -344,13 +343,10 @@ public class FirstRatings {
     int totalRaterCount = raterArrayList.size();
     System.out.printf("Note there are %d raters in this file.\n", totalRaterCount);
 
-    // Then for each rater, print the rater’s ID
-    // and the number of ratings they did on one line
-    //    printAllRaterRatings();
   }
 
   // Print out number o rates for all raters
-  private void printAllRaterRatings() {
+  public void printAllRaterRatings() {
     for (Map.Entry<String, Integer> entry : ratersAndCountOfRatings.entrySet()) {
       String raterId = entry.getKey();
       int ratingsCount = entry.getValue();
@@ -360,7 +356,7 @@ public class FirstRatings {
   }
 
   // Print all ratings for specific Rater ID
-  private void printAllRatingsByRater(String raterID) {
+  public void printAllRatingsByRater(String raterID) {
     Rater rater = ratersWithIds.get(raterID);
     ArrayList<String> allRatedMoviesIDs = rater.getItemsRated();
     for (String id : allRatedMoviesIDs) {
@@ -368,4 +364,4 @@ public class FirstRatings {
       System.out.printf("Movie ID: %s, rating: %f\n", id, rating);
     }
   }
-} // class
+}
