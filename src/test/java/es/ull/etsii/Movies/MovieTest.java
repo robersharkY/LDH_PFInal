@@ -9,13 +9,13 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
 /**
  * Unit test for Movie class.
  */
-public class MovieTest {
+ class MovieTest {
 
     /**
      * Method under test: {@link Movie#Movie(String, String, String, String)}
      */
     @Test
-    public void testConstructor() {
+     void testConstructor() {
         assertThrows(NumberFormatException.class,()->{new Movie("An ID", "Dr", "42.2", "The Genres");} );
     }
 
@@ -23,7 +23,7 @@ public class MovieTest {
      * Method under test: {@link Movie#Movie(String, String, String, String)}
      */
     @Test
-    public void testConstructor2() {
+     void testConstructor2() {
         Movie actualMovie = new Movie("An ID", "Dr", "42", "The Genres");
 
         assertEquals(42, actualMovie.getYear());
@@ -36,7 +36,7 @@ public class MovieTest {
      * Method under test: {@link Movie#Movie(String, String, String, String, String, String, String, int)}
      */
     @Test
-    public void testConstructor3() {
+     void testConstructor3() {
         assertThrows(NumberFormatException.class,()->{new Movie("An ID", "Dr", "A Year", "The Genres", "A Director", "GB", "A Poster", 1);} );
     }
 
@@ -44,7 +44,7 @@ public class MovieTest {
      * Method under test: {@link Movie#Movie(String, String, String, String, String, String, String, int)}
      */
     @Test
-    public void testConstructor4() {
+     void testConstructor4() {
         Movie actualMovie = new Movie("An ID", "Dr", "42", "The Genres", "A Director", "GB", "A Poster", 1);
 
         assertEquals("GB", actualMovie.getCountry());
@@ -61,7 +61,7 @@ public class MovieTest {
      * should answer with true
      */
     @Test
-    public void getID() {
+     void getID() {
         Movie actualMovie = new Movie("An ID", "Dr", "42", "The Genres", "A Director", "GB", "A Poster", 1);
         assertEquals(actualMovie.getID(),"An ID");
         assertNotEquals(actualMovie.getID(),"other ID");
@@ -71,7 +71,7 @@ public class MovieTest {
      * should answer with true
      */
     @Test
-    public void getTitle() {
+     void getTitle() {
         Movie actualMovie = new Movie("An ID", "Dr", "42", "The Genres", "A Director", "GB", "A Poster", 1);
         assertEquals(actualMovie.getTitle(),"Dr");
         assertNotEquals(actualMovie.getTitle(),"another Dr");
@@ -81,7 +81,7 @@ public class MovieTest {
      * should answer with true
      */
     @Test
-    public void getYear() {
+     void getYear() {
         Movie actualMovie = new Movie("An ID", "Dr", "42", "The Genres", "A Director", "GB", "A Poster", 1);
         assertEquals(actualMovie.getYear(),42);
         assertNotEquals(actualMovie.getYear(),45);
@@ -91,7 +91,7 @@ public class MovieTest {
      * should answer with true
      */
     @Test
-    public void getGenres() {
+     void getGenres() {
         Movie actualMovie = new Movie("An ID", "Dr", "42", "The Genres", "A Director", "GB", "A Poster", 1);
         assertEquals(actualMovie.getGenres(),"The Genres");
         assertNotEquals(actualMovie.getGenres(),"Another genres");
@@ -101,7 +101,7 @@ public class MovieTest {
      * should answer with true
      */
     @Test
-    public void getCountry() {
+     void getCountry() {
         Movie actualMovie = new Movie("An ID", "Dr", "42", "The Genres", "A Director", "GB", "A Poster", 1);
         assertEquals(actualMovie.getCountry(),"GB");
         assertNotEquals(actualMovie.getCountry(),"another country");
@@ -111,7 +111,7 @@ public class MovieTest {
      * should answer with true
      */
     @Test
-    public void getDirector() {
+     void getDirector() {
         Movie actualMovie = new Movie("An ID", "Dr", "42", "The Genres", "A Director", "GB", "A Poster", 1);
         assertEquals(actualMovie.getDirector(),"A Director");
         assertNotEquals(actualMovie.getDirector(),"another director");
@@ -121,7 +121,7 @@ public class MovieTest {
      * should answer with true
      */
     @Test
-    public void getPoster() {
+     void getPoster() {
         Movie actualMovie = new Movie("An ID", "Dr", "42", "The Genres", "A Director", "GB", "A Poster", 1);
         assertEquals(actualMovie.getPoster(),"A Poster");
         assertNotEquals(actualMovie.getPoster(),"another poster");
@@ -131,7 +131,7 @@ public class MovieTest {
      * should answer with true
      */
     @Test
-    public void getMinutes() {
+     void getMinutes() {
         Movie actualMovie = new Movie("An ID", "Dr", "42", "The Genres", "A Director", "GB", "A Poster", 1);
         assertEquals(actualMovie.getMinutes(),1);
         assertNotEquals(actualMovie.getMinutes(),3);
@@ -141,7 +141,7 @@ public class MovieTest {
      * should answer with true
      */
     @Test
-    public void testToString() {
+    void testToString() {
         Movie actualMovie = new Movie("An ID", "Dr", "42", "The Genres", "A Director", "GB", "A Poster", 1);
         String frase ="Movie [id=An ID, title=Dr, year=42, genres= The Genres]";
         assertEquals(actualMovie.toString(),frase);

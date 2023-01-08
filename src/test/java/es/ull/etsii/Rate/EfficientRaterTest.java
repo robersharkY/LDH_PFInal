@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 /**
  * Unit test for EfficientRater class.
  */
-public class EfficientRaterTest {
+ class EfficientRaterTest {
 
     /**
      * Method under test: default or parameterless constructor of {@link EfficientRater}

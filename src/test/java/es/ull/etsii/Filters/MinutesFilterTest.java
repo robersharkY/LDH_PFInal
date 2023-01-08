@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 /**
  * Unit test for MinutesFilter class.
  */
-public class MinutesFilterTest {
+class MinutesFilterTest {
 
 
     /**

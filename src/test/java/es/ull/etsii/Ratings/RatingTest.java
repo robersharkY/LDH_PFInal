@@ -9,11 +9,11 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
 /**
  * Unit test for Rating class.
  */
-public class RatingTest {
+ class RatingTest {
 
 
     @Test
-    public void testgetItem() {
+     void testgetItem() {
         Rating actualRating = new Rating("Item", 10.0d);
         assertEquals("Item", actualRating.getItem());
         assertNotEquals("An Item", actualRating.getItem());
@@ -21,7 +21,7 @@ public class RatingTest {
 
 
     @Test
-    public void testgetValue() {
+    void testgetValue() {
         Rating actualRating = new Rating("Item", 5);
         assertEquals(5, actualRating.getValue());
         assertEquals("Item", actualRating.getItem());
@@ -30,7 +30,7 @@ public class RatingTest {
 
 
     @Test
-    public void testToString() {
+    void testToString() {
         String cadena = "[Item, 5.0]";
         Rating actualRating = new Rating("Item", 5);
         assertEquals(actualRating.toString(), cadena);
@@ -40,7 +40,7 @@ public class RatingTest {
 
 
     @Test
-    public void testcompareTo() {
+     void testcompareTo() {
         Rating rating = new Rating("An Item", 10.0d);
         assertEquals(0, rating.compareTo(new Rating("An Item", 10.0d)));
         assertEquals(1, rating.compareTo(new Rating("An Item", 5)));

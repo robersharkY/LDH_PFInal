@@ -12,13 +12,13 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 /**
  * Unit test for AllFilters class.
  */
-public class AllFiltersTest {
+ class AllFiltersTest {
 
     /**
      * should answer with true
      */
     @Test
-    public void shouldAnswerWithTrue() {
+    void shouldAnswerWithTrue() {
         assertTrue(true);
     }
 

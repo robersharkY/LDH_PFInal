@@ -1,16 +1,12 @@
 package es.ull.etsii.Recommendations;
 
 import java.util.ArrayList;
-
-import es.ull.etsii.Ratings.Rating;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
 
 
-public class RecommendationRunnerTest {
+class RecommendationRunnerTest {
 
     /**
      * Method under test: {@link RecommendationRunner#getItemsToRate()}

@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 /**
  * Unit test for YearAfterFilter class.
  */
-public class YearFilterTest {
+ class YearFilterTest {
 
     /**
      * Method under test: default or parameterless constructor of {@link YearFilter}

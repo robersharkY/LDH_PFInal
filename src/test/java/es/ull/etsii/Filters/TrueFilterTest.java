@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
 /**
  * Unit test for TrueFilter class.
  */
-public class TrueFilterTest {
+ class TrueFilterTest {
 
     /**
      * Method under test: {@link TrueFilter#satisfies(String)}

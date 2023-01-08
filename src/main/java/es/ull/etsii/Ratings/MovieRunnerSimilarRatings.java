@@ -14,6 +14,8 @@ import java.util.Collections;
 /** @author Stanislav Rakitov */
 public class MovieRunnerSimilarRatings {
 
+  private final String archivo_peliculas = "ratedmoviesfull.csv";
+  private final String archivo_ratings = "ratings.csv";
   /**
    * Print a list of movies and their average ratings sorted by averages
    *
@@ -70,16 +72,16 @@ public class MovieRunnerSimilarRatings {
 
   public void printSimilarRatings() {
     FourthRatings fourthR = new FourthRatings();
-    MovieDatabase.initialize("ratedmoviesfull.csv");
-    RaterDatabase.initialize("ratings.csv");
+    MovieDatabase.initialize(archivo_peliculas);
+    RaterDatabase.initialize(archivo_ratings);
     ArrayList<Rating> ratingList = fourthR.getSimilarRatings("71", 20, 5);
     System.out.println(MovieDatabase.getTitle(ratingList.get(0).getItem()));
   }
 
   public void printSimilarRatingsByGenre() {
     FourthRatings fourthR = new FourthRatings();
-    MovieDatabase.initialize("ratedmoviesfull.csv");
-    RaterDatabase.initialize("ratings.csv");
+    MovieDatabase.initialize(archivo_peliculas);
+    RaterDatabase.initialize(archivo_ratings);
     ArrayList<Rating> ratingList =
         fourthR.getSimilarRatingsByFilter("964", 20, 5, new GenreFilter("Mystery"));
     System.out.println(MovieDatabase.getTitle(ratingList.get(0).getItem()));
@@ -87,8 +89,8 @@ public class MovieRunnerSimilarRatings {
 
   public void printSimilarRatingsByDirector() {
     FourthRatings fourthR = new FourthRatings();
-    MovieDatabase.initialize("ratedmoviesfull.csv");
-    RaterDatabase.initialize("ratings.csv");
+    MovieDatabase.initialize(archivo_peliculas);
+    RaterDatabase.initialize(archivo_ratings);
     ArrayList<Rating> ratingList =
         fourthR.getSimilarRatingsByFilter(
             "120",
@@ -102,8 +104,8 @@ public class MovieRunnerSimilarRatings {
 
   public void printSimilarRatingsByGenreAndMinutes() {
     FourthRatings fourthR = new FourthRatings();
-    MovieDatabase.initialize("ratedmoviesfull.csv");
-    RaterDatabase.initialize("ratings.csv");
+    MovieDatabase.initialize(archivo_peliculas);
+    RaterDatabase.initialize(archivo_ratings);
     AllFilters allFilters = new AllFilters();
     allFilters.addFilter(new MinutesFilter(80, 160));
     allFilters.addFilter(new GenreFilter("Drama"));
@@ -114,8 +116,8 @@ public class MovieRunnerSimilarRatings {
 
   public void printSimilarRatingsByYearAfterAndMinutes() {
     FourthRatings fourthR = new FourthRatings();
-    MovieDatabase.initialize("ratedmoviesfull.csv");
-    RaterDatabase.initialize("ratings.csv");
+    MovieDatabase.initialize(archivo_peliculas);
+    RaterDatabase.initialize(archivo_ratings);
     AllFilters allFilters = new AllFilters();
     allFilters.addFilter(new MinutesFilter(70, 200));
     allFilters.addFilter(new YearFilter(1975));
