@@ -2,6 +2,7 @@ package es.ull.etsii.Recommendations;
 
 import java.util.ArrayList;
 
+import es.ull.etsii.Ratings.Rating;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
@@ -31,6 +32,15 @@ public class RecommendationRunnerTest {
         assertEquals("3477480", actualItemsToRate.get(23));
         assertEquals("1193138", actualItemsToRate.get(24));
     }
+
+    /**
+     * Method under test: {@link RecommendationRunner#printRecommendationsFor(String)}
+     */
+    @Test
+    void testPrintRecommendationsFor() {
+        assertThrows(NullPointerException.class,()->{ (new RecommendationRunner()).printRecommendationsFor("Web Rater ID");});
+    }
+
 
 
 }
