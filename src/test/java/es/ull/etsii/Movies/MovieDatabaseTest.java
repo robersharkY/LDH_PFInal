@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -21,7 +22,11 @@ public class MovieDatabaseTest {
      */
     @Test
     void testInitialize() {
+        MovieDatabase database = new MovieDatabase();
         MovieDatabase.initialize();
+        database.loadMovies("src/main/resources/ratedmoviesfull.csv");
+        assertFalse(database.containsID("0000"));
+
     }
 
     /**
@@ -29,7 +34,9 @@ public class MovieDatabaseTest {
      */
     @Test
     void testLoadMovies() {
-        MovieDatabase.loadMovies("ratedmoviesfull.csv");
+        MovieDatabase database = new MovieDatabase();
+        database.loadMovies("ratedmoviesfull.csv");
+        assertFalse(database.containsID("0000"));
     }
 
     /**
@@ -37,7 +44,9 @@ public class MovieDatabaseTest {
      */
     @Test
     void testLoadMovies2() {
-        MovieDatabase.loadMovies("");
+        MovieDatabase database = new MovieDatabase();
+        database.loadMovies("");
+        assertFalse(database.containsID("0000"));
     }
 
     /**
@@ -45,7 +54,9 @@ public class MovieDatabaseTest {
      */
     @Test
     void testLoadMovies3() {
-        MovieDatabase.loadMovies("src/main/resources/ratedmoviesfull.csv");
+        MovieDatabase database = new MovieDatabase();
+        database.loadMovies("src/main/resources/ratedmoviesfull.csv");
+        assertEquals(2014, database.getYear("3112654"));
     }
 
     /**
@@ -53,8 +64,10 @@ public class MovieDatabaseTest {
      */
     @Test
     void testContainsID() {
-        assertFalse(MovieDatabase.containsID("42"));
-        assertFalse(MovieDatabase.containsID("foo"));
+        MovieDatabase database = new MovieDatabase();
+        database.loadMovies("src/main/resources/ratedmoviesfull.csv");
+        assertEquals(true, database.containsID("3112654"));
+        assertEquals(false, database.containsID("5"));
     }
 
     /**
@@ -62,7 +75,9 @@ public class MovieDatabaseTest {
      */
     @Test
     void testGetYear() {
-        assertThrows(NullPointerException.class,()->{MovieDatabase.getYear("42");});
+        MovieDatabase database = new MovieDatabase();
+        database.loadMovies("src/main/resources/ratedmoviesfull.csv");
+        assertEquals(2014, database.getYear("3112654"));
     }
 
     /**
@@ -70,7 +85,9 @@ public class MovieDatabaseTest {
      */
     @Test
     void testGetGenres() {
-        assertThrows(NullPointerException.class,()->{MovieDatabase.getGenres("42");});
+        MovieDatabase database = new MovieDatabase();
+        database.loadMovies("src/main/resources/ratedmoviesfull.csv");
+        assertEquals("Action, Thriller", database.getGenres("3112654"));
     }
 
     /**
@@ -78,7 +95,9 @@ public class MovieDatabaseTest {
      */
     @Test
     void testGetTitle() {
-        assertThrows(NullPointerException.class,()->{MovieDatabase.getTitle("42");});
+        MovieDatabase database = new MovieDatabase();
+        database.loadMovies("src/main/resources/ratedmoviesfull.csv");
+        assertEquals("Mea culpa", database.getTitle("3112654"));
     }
 
     /**
@@ -86,7 +105,9 @@ public class MovieDatabaseTest {
      */
     @Test
     void testGetMovie() {
-        assertNull(MovieDatabase.getMovie("42"));
+        MovieDatabase database = new MovieDatabase();
+        database.loadMovies("src/main/resources/ratedmoviesfull.csv");
+        assertNotEquals(null, database.getMovie("3112654"));
     }
 
     /**
@@ -102,7 +123,9 @@ public class MovieDatabaseTest {
      */
     @Test
     void testGetMinutes() {
-        assertThrows(NullPointerException.class,()->{MovieDatabase.getMinutes("42");});
+        MovieDatabase database = new MovieDatabase();
+        database.loadMovies("src/main/resources/ratedmoviesfull.csv");
+        assertNotEquals(90, database.getMinutes("3112654"));
     }
 
     /**
@@ -110,7 +133,9 @@ public class MovieDatabaseTest {
      */
     @Test
     void testGetCountry() {
-        assertThrows(NullPointerException.class,()->{ MovieDatabase.getCountry("42");});
+        MovieDatabase database = new MovieDatabase();
+        database.loadMovies("src/main/resources/ratedmoviesfull.csv");
+        assertEquals("France", database.getCountry("3112654"));
     }
 
     /**
@@ -118,7 +143,9 @@ public class MovieDatabaseTest {
      */
     @Test
     void testGetDirector() {
-        assertThrows(NullPointerException.class,()->{ MovieDatabase.getDirector("42");});
+        MovieDatabase database = new MovieDatabase();
+        database.loadMovies("src/main/resources/ratedmoviesfull.csv");
+        assertEquals("David Cronenberg", database.getDirector("1571222"));
     }
 
     /**

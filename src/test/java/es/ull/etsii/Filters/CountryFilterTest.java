@@ -1,24 +1,9 @@
 package es.ull.etsii.Filters;
-
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class CountryFilterTest {
-    /**
-     * Methods under test:
-     *
-     * <ul>
-     *   <li>{@link CountryFilter#CountryFilter(String)}
-     *   <li>{@link CountryFilter#satisfies(String)}
-     * </ul>
-     */
-    @Test
-    void testConstructor() {
-    CountryFilter filter = new CountryFilter("France");
-    }
-
 
     /**
      * Method under test: {@link CountryFilter#satisfies(String)}
