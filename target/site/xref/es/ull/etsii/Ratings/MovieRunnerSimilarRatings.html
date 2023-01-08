@@ -11,7 +11,7 @@
 <a class="jxr_linenumber" name="L3" href="#L3">3</a>   <strong class="jxr_keyword">import</strong> es.ull.etsii.Filters.AllFilters;
 <a class="jxr_linenumber" name="L4" href="#L4">4</a>   <strong class="jxr_keyword">import</strong> es.ull.etsii.Filters.DirectorsFilter;
 <a class="jxr_linenumber" name="L5" href="#L5">5</a>   <strong class="jxr_keyword">import</strong> es.ull.etsii.Filters.GenreFilter;
-<a class="jxr_linenumber" name="L6" href="#L6">6</a>   <strong class="jxr_keyword">import</strong> es.ull.etsii.Filters.YearAfterFilter;
+<a class="jxr_linenumber" name="L6" href="#L6">6</a>   <strong class="jxr_keyword">import</strong> es.ull.etsii.Filters.YearFilter;
 <a class="jxr_linenumber" name="L7" href="#L7">7</a>   <strong class="jxr_keyword">import</strong> es.ull.etsii.Filters.MinutesFilter;
 <a class="jxr_linenumber" name="L8" href="#L8">8</a>   <strong class="jxr_keyword">import</strong> es.ull.etsii.Movies.MovieDatabase;
 <a class="jxr_linenumber" name="L9" href="#L9">9</a>   <strong class="jxr_keyword">import</strong> es.ull.etsii.Rate.RaterDatabase;
@@ -56,7 +56,7 @@
 <a class="jxr_linenumber" name="L48" href="#L48">48</a>      <a name="FourthRatings" href="../../../../es/ull/etsii/Ratings/FourthRatings.html#FourthRatings">FourthRatings</a> fourthRatings = <strong class="jxr_keyword">new</strong> <a name="FourthRatings" href="../../../../es/ull/etsii/Ratings/FourthRatings.html#FourthRatings">FourthRatings</a>();
 <a class="jxr_linenumber" name="L49" href="#L49">49</a>      <a name="AllFilters" href="../../../../es/ull/etsii/Filters/AllFilters.html#AllFilters">AllFilters</a> filters = <strong class="jxr_keyword">new</strong> <a name="AllFilters" href="../../../../es/ull/etsii/Filters/AllFilters.html#AllFilters">AllFilters</a>();
 <a class="jxr_linenumber" name="L50" href="#L50">50</a>      filters.addFilter(<strong class="jxr_keyword">new</strong> <a name="GenreFilter" href="../../../../es/ull/etsii/Filters/GenreFilter.html#GenreFilter">GenreFilter</a>(genre));
-<a class="jxr_linenumber" name="L51" href="#L51">51</a>      filters.addFilter(<strong class="jxr_keyword">new</strong> <a name="YearAfterFilter" href="../../../../es/ull/etsii/Filters/YearAfterFilter.html#YearAfterFilter">YearAfterFilter</a>(year));
+<a class="jxr_linenumber" name="L51" href="#L51">51</a>      filters.addFilter(<strong class="jxr_keyword">new</strong> <a name="YearFilter" href="../../../../es/ull/etsii/Filters/YearFilter.html#YearFilter">YearFilter</a>(year));
 <a class="jxr_linenumber" name="L52" href="#L52">52</a>      System.out.println(fourthRatings.getAverageRatingsByFilter(minimalRatings, filters).size());
 <a class="jxr_linenumber" name="L53" href="#L53">53</a>    }
 <a class="jxr_linenumber" name="L54" href="#L54">54</a>  
@@ -126,7 +126,7 @@
 <a class="jxr_linenumber" name="L118" href="#L118">118</a>     RaterDatabase.initialize(<span class="jxr_string">"ratings.csv"</span>);
 <a class="jxr_linenumber" name="L119" href="#L119">119</a>     <a name="AllFilters" href="../../../../es/ull/etsii/Filters/AllFilters.html#AllFilters">AllFilters</a> allFilters = <strong class="jxr_keyword">new</strong> <a name="AllFilters" href="../../../../es/ull/etsii/Filters/AllFilters.html#AllFilters">AllFilters</a>();
 <a class="jxr_linenumber" name="L120" href="#L120">120</a>     allFilters.addFilter(<strong class="jxr_keyword">new</strong> <a name="MinutesFilter" href="../../../../es/ull/etsii/Filters/MinutesFilter.html#MinutesFilter">MinutesFilter</a>(70, 200));
-<a class="jxr_linenumber" name="L121" href="#L121">121</a>     allFilters.addFilter(<strong class="jxr_keyword">new</strong> <a name="YearAfterFilter" href="../../../../es/ull/etsii/Filters/YearAfterFilter.html#YearAfterFilter">YearAfterFilter</a>(1975));
+<a class="jxr_linenumber" name="L121" href="#L121">121</a>     allFilters.addFilter(<strong class="jxr_keyword">new</strong> <a name="YearFilter" href="../../../../es/ull/etsii/Filters/YearFilter.html#YearFilter">YearFilter</a>(1975));
 <a class="jxr_linenumber" name="L122" href="#L122">122</a>     ArrayList&lt;Rating&gt; ratingList = fourthR.getSimilarRatingsByFilter(<span class="jxr_string">"314"</span>, 10, 5, allFilters);
 <a class="jxr_linenumber" name="L123" href="#L123">123</a>     System.out.println(MovieDatabase.getTitle(ratingList.get(0).getItem()));
 <a class="jxr_linenumber" name="L124" href="#L124">124</a>   }

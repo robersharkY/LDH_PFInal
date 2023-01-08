@@ -1,6 +1,7 @@
 C:\Users\roberto\IdeaProjects\LDH_PFInal\src\test\java\es\ull\etsii\Recommendations\RecommendationRunnerTest.java
 C:\Users\roberto\IdeaProjects\LDH_PFInal\src\test\java\es\ull\etsii\Filters\MinutesFilterTest.java
-C:\Users\roberto\IdeaProjects\LDH_PFInal\src\test\java\es\ull\etsii\Filters\YearAfterFilterTest.java
+C:\Users\roberto\IdeaProjects\LDH_PFInal\src\test\java\es\ull\etsii\Filters\CountryFilterTest.java
+C:\Users\roberto\IdeaProjects\LDH_PFInal\src\test\java\es\ull\etsii\Filters\YearFilterTest.java
 C:\Users\roberto\IdeaProjects\LDH_PFInal\src\test\java\es\ull\etsii\Ratings\MovieRunnerSimilarRatingsTest.java
 C:\Users\roberto\IdeaProjects\LDH_PFInal\src\test\java\es\ull\etsii\Filters\AllFiltersTest.java
 C:\Users\roberto\IdeaProjects\LDH_PFInal\src\test\java\es\ull\etsii\Ratings\FourthRatingsTest.java

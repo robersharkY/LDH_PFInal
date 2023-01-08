@@ -21,18 +21,22 @@ public class EfficientRater implements Rater {
     myRatings = new HashMap<>();
   }
 
+  @Override
   public void addRating(String movieID, double rating) {
     myRatings.put(movieID, new Rating(movieID, rating));
   }
 
+  @Override
   public boolean hasRating(String movieID) {
     return myRatings.containsKey(movieID);
   }
 
+  @Override
   public String getID() {
     return myID;
   }
 
+  @Override
   public double getRating(String movieID) {
     Rating rating = myRatings.get(movieID);
     if (rating != null) {
@@ -42,14 +46,17 @@ public class EfficientRater implements Rater {
     }
   }
 
+  @Override
   public int numRatings() {
     return myRatings.size();
   }
 
+  @Override
   public ArrayList<String> getItemsRated() {
     return new ArrayList<>(myRatings.keySet());
   }
 
+  @Override
   public HashMap<String, Rating> getMyRatings() {
     return myRatings;
   }

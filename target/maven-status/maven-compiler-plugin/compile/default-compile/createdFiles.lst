@@ -3,7 +3,6 @@ es\ull\etsii\Filters\MinutesFilter.class
 es\apachecsv\org\apache\commons\csv\CSVFormat.class
 es\courserajava\edu\duke\FileSelector$ChooserFilter.class
 es\ull\etsii\Movies\Movie.class
-es\ull\etsii\Filters\YearAfterFilter.class
 es\courserajava\edu\duke\FileSelector$1.class
 es\ull\etsii\Main.class
 es\apachecsv\org\apache\commons\csv\Lexer.class
@@ -18,6 +17,7 @@ es\ull\etsii\Recommendations\Recommender.class
 es\apachecsv\org\apache\commons\csv\CSVFormat$Predefined.class
 es\apachecsv\org\apache\commons\csv\CSVParser$2.class
 es\courserajava\edu\duke\URLResource.class
+es\ull\etsii\Filters\YearFilter.class
 es\courserajava\edu\duke\FileSelector.class
 es\ull\etsii\Ratings\MovieRunnerSimilarRatings.class
 es\ull\etsii\Rate\EfficientRater.class

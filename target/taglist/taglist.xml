@@ -2,7 +2,7 @@
 <report xmlns="org.codehaus.mojo.taglist-maven-plugin">
   <tags>
     <tag name="@todo" count="0" />
-    <tag name="TODO" count="32">
+    <tag name="TODO" count="14">
       <files>
         <file name="es.apachecsv.org.apache.commons.csv.CSVFormat" count="6">
           <comments>
@@ -60,75 +60,11 @@
             </comment>
           </comments>
         </file>
-        <file name="es.ull.etsii.Movies.MovieDatabaseTest" count="4">
-          <comments>
-            <comment>
-              <lineNumber>37</lineNumber>
-              <comment>Complete this test. Reason: R004 No meaningful assertions found. Diffblue Cover was unable to create an assertion. Make sure that fields modified by initialize(String) have package-private, protected, or public getters. See https://diff.blue/R004 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>53</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw es.courserajava.edu.duke.ResourceException: FileResource: cannot access foo.txt at es.courserajava.edu.duke.FileResource.initRead(FileResource.java:370) at es.courserajava.edu.duke.FileResource.&lt;init>(FileResource.java:95) at es.ull.etsii.Ratings.FirstRatings.loadMovies(FirstRatings.java:150) at es.ull.etsii.Movies.MovieDatabase.loadMovies(MovieDatabase.java:29) In order to prevent loadMovies(String) from throwing ResourceException, add constructors or factory methods that make it easier to construct fully initialized objects used in loadMovies(String). See https://diff.blue/R013 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>76</lineNumber>
-              <comment>Complete this test. Reason: R004 No meaningful assertions found. Diffblue Cover was unable to create an assertion. Make sure that fields modified by loadMovies(String) have package-private, protected, or public getters. See https://diff.blue/R004 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>91</lineNumber>
-              <comment>Complete this test. Reason: R004 No meaningful assertions found. Diffblue Cover was unable to create an assertion. Make sure that fields modified by loadMovies(String) have package-private, protected, or public getters. See https://diff.blue/R004 to resolve this issue.</comment>
-            </comment>
-          </comments>
-        </file>
         <file name="es.apachecsv.org.apache.commons.csv.Assertions" count="1">
           <comments>
             <comment>
               <lineNumber>23</lineNumber>
               <comment>Replace usage with {@link Objects} when we switch to Java 7.</comment>
-            </comment>
-          </comments>
-        </file>
-        <file name="es.ull.etsii.Rate.RaterDatabaseTest" count="10">
-          <comments>
-            <comment>
-              <lineNumber>23</lineNumber>
-              <comment>Complete this test. Reason: R004 No meaningful assertions found. Diffblue Cover was unable to create an assertion. Make sure that fields modified by initialize(String) have package-private, protected, or public getters. See https://diff.blue/R004 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>39</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw es.courserajava.edu.duke.ResourceException: FileResource: cannot access foo.txt at es.courserajava.edu.duke.FileResource.initRead(FileResource.java:370) at es.courserajava.edu.duke.FileResource.&lt;init>(FileResource.java:95) at es.ull.etsii.Rate.RaterDatabase.addRatings(RaterDatabase.java:34) In order to prevent addRatings(String) from throwing ResourceException, add constructors or factory methods that make it easier to construct fully initialized objects used in addRatings(String). See https://diff.blue/R013 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>62</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw es.courserajava.edu.duke.ResourceException: FileResource: cannot access null at es.courserajava.edu.duke.FileResource.initRead(FileResource.java:370) at es.courserajava.edu.duke.FileResource.&lt;init>(FileResource.java:95) at es.ull.etsii.Rate.RaterDatabase.addRatings(RaterDatabase.java:34) In order to prevent addRatings(String) from throwing ResourceException, add constructors or factory methods that make it easier to construct fully initialized objects used in addRatings(String). See https://diff.blue/R013 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>84</lineNumber>
-              <comment>Complete this test. Reason: R004 No meaningful assertions found. Diffblue Cover was unable to create an assertion. Make sure that fields modified by addRatings(String) have package-private, protected, or public getters. See https://diff.blue/R004 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>99</lineNumber>
-              <comment>Complete this test. Reason: R004 No meaningful assertions found. Diffblue Cover was unable to create an assertion. Make sure that fields modified by addRaterRating(String, String, double) have package-private, protected, or public getters. See https://diff.blue/R004 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>114</lineNumber>
-              <comment>Complete this test. Reason: R004 No meaningful assertions found. Diffblue Cover was unable to create an assertion. Make sure that fields modified by addRaterRating(String, String, double) have package-private, protected, or public getters. See https://diff.blue/R004 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>129</lineNumber>
-              <comment>Complete this test. Reason: R004 No meaningful assertions found. Diffblue Cover was unable to create an assertion. Make sure that fields modified by addRaterRating(String, String, double) have package-private, protected, or public getters. See https://diff.blue/R004 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>144</lineNumber>
-              <comment>Complete this test. Reason: R004 No meaningful assertions found. Diffblue Cover was unable to create an assertion. Make sure that fields modified by addRaterRating(String, String, double) have package-private, protected, or public getters. See https://diff.blue/R004 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>159</lineNumber>
-              <comment>Complete this test. Reason: R004 No meaningful assertions found. Diffblue Cover was unable to create an assertion. Make sure that fields modified by addRaterRating(String, String, double) have package-private, protected, or public getters. See https://diff.blue/R004 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>174</lineNumber>
-              <comment>Complete this test. Reason: R004 No meaningful assertions found. Diffblue Cover was unable to create an assertion. Make sure that fields modified by addRaterRating(String, String, double) have package-private, protected, or public getters. See https://diff.blue/R004 to resolve this issue.</comment>
             </comment>
           </comments>
         </file>
@@ -145,26 +81,6 @@
             <comment>
               <lineNumber>66</lineNumber>
               <comment>Is it a good idea to do this here instead of on the first call to a print method? It seems a pain to have to track whether the header has already been printed or not.</comment>
-            </comment>
-          </comments>
-        </file>
-        <file name="es.ull.etsii.Ratings.FourthRatingsTest" count="4">
-          <comments>
-            <comment>
-              <lineNumber>144</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Rate.Rater.getMyRatings()" because "meRater" is null at es.ull.etsii.Ratings.FourthRatings.dotProduct(FourthRatings.java:67) In order to prevent dotProduct(Rater, Rater) from throwing NullPointerException, add constructors or factory methods that make it easier to construct fully initialized objects used in dotProduct(Rater, Rater). See https://diff.blue/R013 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>178</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Rate.Rater.hasRating(String)" because "otherRater" is null at es.ull.etsii.Ratings.FourthRatings.dotProduct(FourthRatings.java:71) In order to prevent dotProduct(Rater, Rater) from throwing NullPointerException, add constructors or factory methods that make it easier to construct fully initialized objects used in dotProduct(Rater, Rater). See https://diff.blue/R013 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>264</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Rate.Rater.getID()" because "me" is null at es.ull.etsii.Ratings.FourthRatings.getSimilarities(FourthRatings.java:82) at es.ull.etsii.Ratings.FourthRatings.getSimilarRatings(FourthRatings.java:97) In order to prevent getSimilarRatings(String, Integer, Integer) from throwing NullPointerException, add constructors or factory methods that make it easier to construct fully initialized objects used in getSimilarRatings(String, Integer, Integer). See https://diff.blue/R013 to resolve this issue.</comment>
-            </comment>
-            <comment>
-              <lineNumber>334</lineNumber>
-              <comment>Complete this test. Reason: R013 No inputs found that don't throw a trivial exception. Diffblue Cover tried to run the arrange/act section, but the method under test threw java.lang.NullPointerException: Cannot invoke "es.ull.etsii.Rate.Rater.getID()" because "me" is null at es.ull.etsii.Ratings.FourthRatings.getSimilarities(FourthRatings.java:82) at es.ull.etsii.Ratings.FourthRatings.getSimilarRatingsByFilter(FourthRatings.java:150) In order to prevent getSimilarRatingsByFilter(String, Integer, Integer, Filter) from throwing NullPointerException, add constructors or factory methods that make it easier to construct fully initialized objects used in getSimilarRatingsByFilter(String, Integer, Integer, Filter). See https://diff.blue/R013 to resolve this issue.</comment>
             </comment>
           </comments>
         </file>

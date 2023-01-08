@@ -3,7 +3,7 @@ package es.ull.etsii.Ratings;
 import es.ull.etsii.Filters.AllFilters;
 import es.ull.etsii.Filters.DirectorsFilter;
 import es.ull.etsii.Filters.GenreFilter;
-import es.ull.etsii.Filters.YearAfterFilter;
+import es.ull.etsii.Filters.YearFilter;
 import es.ull.etsii.Filters.MinutesFilter;
 import es.ull.etsii.Movies.MovieDatabase;
 import es.ull.etsii.Rate.RaterDatabase;
@@ -48,7 +48,7 @@ public class MovieRunnerSimilarRatings {
     FourthRatings fourthRatings = new FourthRatings();
     AllFilters filters = new AllFilters();
     filters.addFilter(new GenreFilter(genre));
-    filters.addFilter(new YearAfterFilter(year));
+    filters.addFilter(new YearFilter(year));
     System.out.println(fourthRatings.getAverageRatingsByFilter(minimalRatings, filters).size());
   }
 
@@ -118,7 +118,7 @@ public class MovieRunnerSimilarRatings {
     RaterDatabase.initialize("ratings.csv");
     AllFilters allFilters = new AllFilters();
     allFilters.addFilter(new MinutesFilter(70, 200));
-    allFilters.addFilter(new YearAfterFilter(1975));
+    allFilters.addFilter(new YearFilter(1975));
     ArrayList<Rating> ratingList = fourthR.getSimilarRatingsByFilter("314", 10, 5, allFilters);
     System.out.println(MovieDatabase.getTitle(ratingList.get(0).getItem()));
   }

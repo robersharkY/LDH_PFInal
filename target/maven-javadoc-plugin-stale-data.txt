@@ -1,0 +1,118 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/roberto/IdeaProjects/LDH_PFInal/target/classes;C:/Users/roberto/IdeaProjects/LDH_PFInal/target/test-classes;C:/Users/roberto/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar;C:/Users/roberto/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar;C:/Users/roberto/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar;C:/Users/roberto/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar;C:/Users/roberto/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar;C:/Users/roberto/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar;C:/Users/roberto/.m2/repository/org/jacoco/jacoco-maven-plugin/0.8.7/jacoco-maven-plugin-0.8.7.jar;C:/Users/roberto/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar;C:/Users/roberto/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar;C:/Users/roberto/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar;C:/Users/roberto/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar;C:/Users/roberto/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar;C:/Users/roberto/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar;C:/Users/roberto/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar;C:/Users/roberto/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar;C:/Users/roberto/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar;C:/Users/roberto/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar;C:/Users/roberto/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar;C:/Users/roberto/.m2/repository/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar;C:/Users/roberto/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar;C:/Users/roberto/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar;C:/Users/roberto/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar;C:/Users/roberto/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar;C:/Users/roberto/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar;C:/Users/roberto/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar;C:/Users/roberto/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar;C:/Users/roberto/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar;C:/Users/roberto/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar;C:/Users/roberto/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.jar;C:/Users/roberto/.m2/repository/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar;C:/Users/roberto/.m2/repository/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar;C:/Users/roberto/.m2/repository/org/apache/maven/maven-artifact-manager/2.0.2/maven-artifact-manager-2.0.2.jar;C:/Users/roberto/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar;C:/Users/roberto/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9/plexus-container-default-1.0-alpha-9.jar;C:/Users/roberto/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar;C:/Users/roberto/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar;C:/Users/roberto/.m2/repository/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar;C:/Users/roberto/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.jar;C:/Users/roberto/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar;C:/Users/roberto/.m2/repository/org/jacoco/org.jacoco.core/0.8.7/org.jacoco.core-0.8.7.jar;C:/Users/roberto/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar;C:/Users/roberto/.m2/repository/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar;C:/Users/roberto/.m2/repository/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar;C:/Users/roberto/.m2/repository/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar;C:/Users/roberto/.m2/repository/org/jacoco/org.jacoco.report/0.8.7/org.jacoco.report-0.8.7.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/roberto/IdeaProjects/LDH_PFInal/target/site/testapidocs'
+-docencoding
+'UTF-8'
+-Xdoclint:all,-missing
+-doctitle
+'Sistema recomendador de peliculas 1.0-SNAPSHOT Test API'
+-link
+'../apidocs'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/roberto/IdeaProjects/LDH_PFInal/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'Sistema recomendador de peliculas 1.0-SNAPSHOT Test API'
+es.ull.etsii.Filters
+es.ull.etsii.Movies
+es.ull.etsii.Rate
+es.ull.etsii.Ratings
+es.ull.etsii.Recommendations
+'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Filters/AllFiltersTest.java'
+'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Filters/CountryFilterTest.java'
+'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Filters/DirectorsFilterTest.java'
+'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Filters/GenreFilterTest.java'
+'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Filters/MinutesFilterTest.java'
+'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Filters/TrueFilterTest.java'
+'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Filters/YearFilterTest.java'
+'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Movies/MovieDatabaseTest.java'
+'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Movies/MovieTest.java'
+'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Rate/EfficientRaterTest.java'
+'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Rate/RaterDatabaseTest.java'
+'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Ratings/FirstRatingsTest.java'
+'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Ratings/FourthRatingsTest.java'
+'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Ratings/MovieRunnerSimilarRatingsTest.java'
+'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Ratings/RatingTest.java'
+'C:/Users/roberto/IdeaProjects/LDH_PFInal/src/test/java/es/ull/etsii/Recommendations/RecommendationRunnerTest.java'
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\classes = 1673207630154
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\test-classes = 1673125725906
+C:\Users\roberto\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar = 1670586957862
+C:\Users\roberto\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar = 1670586321108
+C:\Users\roberto\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar = 1670322968037
+C:\Users\roberto\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar = 1670586959475
+C:\Users\roberto\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar = 1670586962031
+C:\Users\roberto\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar = 1670586962265
+C:\Users\roberto\.m2\repository\org\jacoco\jacoco-maven-plugin\0.8.7\jacoco-maven-plugin-0.8.7.jar = 1671295339425
+C:\Users\roberto\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar = 1667473637041
+C:\Users\roberto\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar = 1667473637467
+C:\Users\roberto\.m2\repository\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.jar = 1667473637004
+C:\Users\roberto\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar = 1667473080500
+C:\Users\roberto\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar = 1667473080485
+C:\Users\roberto\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar = 1667473080896
+C:\Users\roberto\.m2\repository\org\apache\maven\maven-core\3.0\maven-core-3.0.jar = 1667473637461
+C:\Users\roberto\.m2\repository\org\apache\maven\maven-settings\3.0\maven-settings-3.0.jar = 1667473637093
+C:\Users\roberto\.m2\repository\org\apache\maven\maven-settings-builder\3.0\maven-settings-builder-3.0.jar = 1667473637064
+C:\Users\roberto\.m2\repository\org\apache\maven\maven-repository-metadata\3.0\maven-repository-metadata-3.0.jar = 1667473080049
+C:\Users\roberto\.m2\repository\org\apache\maven\maven-model-builder\3.0\maven-model-builder-3.0.jar = 1667473080105
+C:\Users\roberto\.m2\repository\org\apache\maven\maven-aether-provider\3.0\maven-aether-provider-3.0.jar = 1667473079942
+C:\Users\roberto\.m2\repository\org\sonatype\aether\aether-impl\1.7\aether-impl-1.7.jar = 1667473637246
+C:\Users\roberto\.m2\repository\org\sonatype\aether\aether-spi\1.7\aether-spi-1.7.jar = 1667473637153
+C:\Users\roberto\.m2\repository\org\sonatype\aether\aether-api\1.7\aether-api-1.7.jar = 1667473637221
+C:\Users\roberto\.m2\repository\org\sonatype\aether\aether-util\1.7\aether-util-1.7.jar = 1667473080146
+C:\Users\roberto\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.14\plexus-interpolation-1.14.jar = 1667473642899
+C:\Users\roberto\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar = 1667473080606
+C:\Users\roberto\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar = 1667475158868
+C:\Users\roberto\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar = 1667473637269
+C:\Users\roberto\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar = 1667473637335
+C:\Users\roberto\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.22\plexus-utils-3.0.22.jar = 1671295341356
+C:\Users\roberto\.m2\repository\org\apache\maven\shared\file-management\1.2.1\file-management-1.2.1.jar = 1671295341311
+C:\Users\roberto\.m2\repository\org\apache\maven\shared\maven-shared-io\1.1\maven-shared-io-1.1.jar = 1671295341343
+C:\Users\roberto\.m2\repository\org\apache\maven\maven-artifact-manager\2.0.2\maven-artifact-manager-2.0.2.jar = 1671295341367
+C:\Users\roberto\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0-alpha-6\wagon-provider-api-1.0-alpha-6.jar = 1671295341327
+C:\Users\roberto\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9\plexus-container-default-1.0-alpha-9.jar = 1669483766075
+C:\Users\roberto\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar = 1667475148404
+C:\Users\roberto\.m2\repository\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar = 1667475150723
+C:\Users\roberto\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.jar = 1667473647261
+C:\Users\roberto\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.0\doxia-sink-api-1.0.jar = 1671295341392
+C:\Users\roberto\.m2\repository\org\jacoco\org.jacoco.agent\0.8.7\org.jacoco.agent-0.8.7-runtime.jar = 1671295341522
+C:\Users\roberto\.m2\repository\org\jacoco\org.jacoco.core\0.8.7\org.jacoco.core-0.8.7.jar = 1671295341509
+C:\Users\roberto\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar = 1671295341503
+C:\Users\roberto\.m2\repository\org\ow2\asm\asm-commons\9.1\asm-commons-9.1.jar = 1671295341529
+C:\Users\roberto\.m2\repository\org\ow2\asm\asm-analysis\9.1\asm-analysis-9.1.jar = 1671295341557
+C:\Users\roberto\.m2\repository\org\ow2\asm\asm-tree\9.1\asm-tree-9.1.jar = 1671295341575
+C:\Users\roberto\.m2\repository\org\jacoco\org.jacoco.report\0.8.7\org.jacoco.report-0.8.7.jar = 1671295341628
+C:\Users\roberto\IdeaProjects\LDH_PFInal\src\test\java = 1672838836589
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\allclasses-index.html = 1673208947296
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\allpackages-index.html = 1673208947299
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\element-list = 1673208947158
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\help-doc.html = 1673208947332
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\index-all.html = 1673208947326
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\index.html = 1673208947280
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\jquery-ui.overrides.css = 1673208947367
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\member-search-index.js = 1673208947308
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\module-search-index.js = 1673208947302
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\overview-summary.html = 1673208947328
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\overview-tree.html = 1673208947275
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\package-search-index.js = 1673208947305
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\script.js = 1673208947338
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\search.js = 1673208947341
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\stylesheet.css = 1673208947335
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\tag-search-index.js = 1673208947309
+C:\Users\roberto\IdeaProjects\LDH_PFInal\target\site\testapidocs\type-search-index.js = 1673208947306

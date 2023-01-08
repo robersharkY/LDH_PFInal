@@ -203,14 +203,14 @@
 
         <Package name="es.ull.etsii.Filters">
             <Stats>
-                <TotalClasses>7</TotalClasses>
-                <ConcreteClasses>6</ConcreteClasses>
+                <TotalClasses>8</TotalClasses>
+                <ConcreteClasses>7</ConcreteClasses>
                 <AbstractClasses>1</AbstractClasses>
                 <Ca>2</Ca>
                 <Ce>3</Ce>
-                <A>0.14</A>
+                <A>0.12</A>
                 <I>0.6</I>
-                <D>0.26</D>
+                <D>0.27</D>
                 <V>1</V>
             </Stats>
 
@@ -224,6 +224,9 @@
                 <Class sourceFile="AllFilters.java">
                     es.ull.etsii.Filters.AllFilters
                 </Class>
+                <Class sourceFile="CountryFilter.java">
+                    es.ull.etsii.Filters.CountryFilter
+                </Class>
                 <Class sourceFile="DirectorsFilter.java">
                     es.ull.etsii.Filters.DirectorsFilter
                 </Class>
@@ -236,8 +239,8 @@
                 <Class sourceFile="TrueFilter.java">
                     es.ull.etsii.Filters.TrueFilter
                 </Class>
-                <Class sourceFile="YearAfterFilter.java">
-                    es.ull.etsii.Filters.YearAfterFilter
+                <Class sourceFile="YearFilter.java">
+                    es.ull.etsii.Filters.YearFilter
                 </Class>
             </ConcreteClasses>
 

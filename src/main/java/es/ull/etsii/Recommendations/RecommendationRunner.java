@@ -31,11 +31,11 @@ public class RecommendationRunner implements Recommender {
     System.out.println("<tr><th>Rank</th><th>Movie Title</th></tr>");
     for (int i = 0; i < 15; i++) {
       System.out.println(
-          "<tr><td>"
-              + (i + 1)
-              + "</td><td>"
-              + MovieDatabase.getTitle(movies.get(i).getItem())
-              + "</td></tr>");
+              "<tr><td>"
+                      + (i + 1)
+                      + "</td><td>"
+                      + MovieDatabase.getTitle(movies.get(i).getItem())
+                      + "</td></tr>");
     }
     System.out.println("</table>");
   }

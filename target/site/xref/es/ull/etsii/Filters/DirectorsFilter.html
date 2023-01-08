@@ -11,30 +11,42 @@
 <a class="jxr_linenumber" name="L3" href="#L3">3</a>   <strong class="jxr_keyword">import</strong> es.ull.etsii.Movies.MovieDatabase;
 <a class="jxr_linenumber" name="L4" href="#L4">4</a>   
 <a class="jxr_linenumber" name="L5" href="#L5">5</a>   <em class="jxr_javadoccomment">/**</em>
-<a class="jxr_linenumber" name="L6" href="#L6">6</a>   <em class="jxr_javadoccomment"> * A class for filter movies by directors</em>
-<a class="jxr_linenumber" name="L7" href="#L7">7</a>   <em class="jxr_javadoccomment"> *</em>
-<a class="jxr_linenumber" name="L8" href="#L8">8</a>   <em class="jxr_javadoccomment"> * @author Stanislav Rakitov</em>
-<a class="jxr_linenumber" name="L9" href="#L9">9</a>   <em class="jxr_javadoccomment"> * @version 1.0</em>
-<a class="jxr_linenumber" name="L10" href="#L10">10</a>  <em class="jxr_javadoccomment"> */</em>
-<a class="jxr_linenumber" name="L11" href="#L11">11</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a name="DirectorsFilter" href="../../../../es/ull/etsii/Filters/DirectorsFilter.html#DirectorsFilter">DirectorsFilter</a> <strong class="jxr_keyword">implements</strong> <a name="Filter" href="../../../../es/ull/etsii/Filters/Filter.html#Filter">Filter</a> {
-<a class="jxr_linenumber" name="L12" href="#L12">12</a>    String directors;
-<a class="jxr_linenumber" name="L13" href="#L13">13</a>  
-<a class="jxr_linenumber" name="L14" href="#L14">14</a>    <strong class="jxr_keyword">public</strong> <a name="DirectorsFilter" href="../../../../es/ull/etsii/Filters/DirectorsFilter.html#DirectorsFilter">DirectorsFilter</a>(String directors) {
-<a class="jxr_linenumber" name="L15" href="#L15">15</a>      <strong class="jxr_keyword">this</strong>.directors = directors;
-<a class="jxr_linenumber" name="L16" href="#L16">16</a>    }
-<a class="jxr_linenumber" name="L17" href="#L17">17</a>  
-<a class="jxr_linenumber" name="L18" href="#L18">18</a>    @Override
-<a class="jxr_linenumber" name="L19" href="#L19">19</a>    <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">boolean</strong> satisfies(String id) {
-<a class="jxr_linenumber" name="L20" href="#L20">20</a>      String movieDirectors = MovieDatabase.getDirector(id);
-<a class="jxr_linenumber" name="L21" href="#L21">21</a>      String[] filterDirectors = directors.split(<span class="jxr_string">","</span>);
-<a class="jxr_linenumber" name="L22" href="#L22">22</a>      <strong class="jxr_keyword">for</strong> (String direcor : filterDirectors) {
-<a class="jxr_linenumber" name="L23" href="#L23">23</a>        <strong class="jxr_keyword">if</strong> (movieDirectors.contains(direcor)) {
-<a class="jxr_linenumber" name="L24" href="#L24">24</a>          <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">true</strong>;
-<a class="jxr_linenumber" name="L25" href="#L25">25</a>        }
-<a class="jxr_linenumber" name="L26" href="#L26">26</a>      }
-<a class="jxr_linenumber" name="L27" href="#L27">27</a>      <strong class="jxr_keyword">return</strong> false;
-<a class="jxr_linenumber" name="L28" href="#L28">28</a>    }
-<a class="jxr_linenumber" name="L29" href="#L29">29</a>  }
+<a class="jxr_linenumber" name="L6" href="#L6">6</a>   <em class="jxr_javadoccomment"> * Clase DirectorsFilter que implementa la interfaz 'Filter'</em>
+<a class="jxr_linenumber" name="L7" href="#L7">7</a>   <em class="jxr_javadoccomment"> * Clase que con la que filtrar las peliculas mediante su director.</em>
+<a class="jxr_linenumber" name="L8" href="#L8">8</a>   <em class="jxr_javadoccomment"> */</em>
+<a class="jxr_linenumber" name="L9" href="#L9">9</a>   <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a name="DirectorsFilter" href="../../../../es/ull/etsii/Filters/DirectorsFilter.html#DirectorsFilter">DirectorsFilter</a> <strong class="jxr_keyword">implements</strong> <a name="Filter" href="../../../../es/ull/etsii/Filters/Filter.html#Filter">Filter</a> {
+<a class="jxr_linenumber" name="L10" href="#L10">10</a>    String directors;
+<a class="jxr_linenumber" name="L11" href="#L11">11</a>  
+<a class="jxr_linenumber" name="L12" href="#L12">12</a>    <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="L13" href="#L13">13</a>  <em class="jxr_javadoccomment">   * Constructor de la clase DirectorsFilter al que se le pasa una string que</em>
+<a class="jxr_linenumber" name="L14" href="#L14">14</a>  <em class="jxr_javadoccomment">   * contiene el nombre o el apellido de un director</em>
+<a class="jxr_linenumber" name="L15" href="#L15">15</a>  <em class="jxr_javadoccomment">   * @param directors Nombre del director a filtrar</em>
+<a class="jxr_linenumber" name="L16" href="#L16">16</a>  <em class="jxr_javadoccomment">   */</em>
+<a class="jxr_linenumber" name="L17" href="#L17">17</a>    <strong class="jxr_keyword">public</strong> <a name="DirectorsFilter" href="../../../../es/ull/etsii/Filters/DirectorsFilter.html#DirectorsFilter">DirectorsFilter</a>(String directors) {
+<a class="jxr_linenumber" name="L18" href="#L18">18</a>      <strong class="jxr_keyword">this</strong>.directors = directors;
+<a class="jxr_linenumber" name="L19" href="#L19">19</a>    }
+<a class="jxr_linenumber" name="L20" href="#L20">20</a>  
+<a class="jxr_linenumber" name="L21" href="#L21">21</a>    <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="L22" href="#L22">22</a>  <em class="jxr_javadoccomment">   * Método de la interfaz 'Filter' heredado.</em>
+<a class="jxr_linenumber" name="L23" href="#L23">23</a>  <em class="jxr_javadoccomment">   * Recorre el array de 'Filter' y comprueba que para el identificador que se</em>
+<a class="jxr_linenumber" name="L24" href="#L24">24</a>  <em class="jxr_javadoccomment">   * le pasa por parametro, el director de esa pelicula es igual al director</em>
+<a class="jxr_linenumber" name="L25" href="#L25">25</a>  <em class="jxr_javadoccomment">   * del filtro</em>
+<a class="jxr_linenumber" name="L26" href="#L26">26</a>  <em class="jxr_javadoccomment">   *</em>
+<a class="jxr_linenumber" name="L27" href="#L27">27</a>  <em class="jxr_javadoccomment">   * @param id Identificador de la película</em>
+<a class="jxr_linenumber" name="L28" href="#L28">28</a>  <em class="jxr_javadoccomment">   * @return Boolean True si se cumple con el filtro.</em>
+<a class="jxr_linenumber" name="L29" href="#L29">29</a>  <em class="jxr_javadoccomment">   */</em>
+<a class="jxr_linenumber" name="L30" href="#L30">30</a>    @Override
+<a class="jxr_linenumber" name="L31" href="#L31">31</a>    <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">boolean</strong> satisfies(String id) {
+<a class="jxr_linenumber" name="L32" href="#L32">32</a>      String movieDirectors = MovieDatabase.getDirector(id);
+<a class="jxr_linenumber" name="L33" href="#L33">33</a>      String[] filterDirectors = directors.split(<span class="jxr_string">","</span>);
+<a class="jxr_linenumber" name="L34" href="#L34">34</a>      <strong class="jxr_keyword">for</strong> (String director : filterDirectors) {
+<a class="jxr_linenumber" name="L35" href="#L35">35</a>        <strong class="jxr_keyword">if</strong> (movieDirectors.contains(director)) {
+<a class="jxr_linenumber" name="L36" href="#L36">36</a>          <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">true</strong>;
+<a class="jxr_linenumber" name="L37" href="#L37">37</a>        }
+<a class="jxr_linenumber" name="L38" href="#L38">38</a>      }
+<a class="jxr_linenumber" name="L39" href="#L39">39</a>      <strong class="jxr_keyword">return</strong> false;
+<a class="jxr_linenumber" name="L40" href="#L40">40</a>    }
+<a class="jxr_linenumber" name="L41" href="#L41">41</a>  }
 </pre>
 <hr/>
 <div id="footer">Copyright &#169; 2023. All rights reserved.</div>

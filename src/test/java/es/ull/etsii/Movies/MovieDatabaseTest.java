@@ -1,22 +1,13 @@
 package es.ull.etsii.Movies;
 
-import es.ull.etsii.Filters.AllFilters;
-import es.ull.etsii.Filters.DirectorsFilter;
-import es.ull.etsii.Filters.Filter;
-import es.ull.etsii.Filters.GenreFilter;
-import es.ull.etsii.Filters.MinutesFilter;
-import es.ull.etsii.Filters.TrueFilter;
-import es.ull.etsii.Filters.YearAfterFilter;
+import es.ull.etsii.Filters.*;
 
 import java.util.ArrayList;
-
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -30,13 +21,6 @@ public class MovieDatabaseTest {
      */
     @Test
     void testInitialize() {
-        // TODO: Complete this test.
-        //   Reason: R004 No meaningful assertions found.
-        //   Diffblue Cover was unable to create an assertion.
-        //   Make sure that fields modified by initialize(String)
-        //   have package-private, protected, or public getters.
-        //   See https://diff.blue/R004 to resolve this issue.
-
         MovieDatabase.initialize();
     }
 
@@ -45,7 +29,6 @@ public class MovieDatabaseTest {
      */
     @Test
     void testLoadMovies() {
-
         MovieDatabase.loadMovies("ratedmoviesfull.csv");
     }
 
@@ -54,13 +37,6 @@ public class MovieDatabaseTest {
      */
     @Test
     void testLoadMovies2() {
-        // TODO: Complete this test.
-        //   Reason: R004 No meaningful assertions found.
-        //   Diffblue Cover was unable to create an assertion.
-        //   Make sure that fields modified by loadMovies(String)
-        //   have package-private, protected, or public getters.
-        //   See https://diff.blue/R004 to resolve this issue.
-
         MovieDatabase.loadMovies("");
     }
 
@@ -69,13 +45,6 @@ public class MovieDatabaseTest {
      */
     @Test
     void testLoadMovies3() {
-        // TODO: Complete this test.
-        //   Reason: R004 No meaningful assertions found.
-        //   Diffblue Cover was unable to create an assertion.
-        //   Make sure that fields modified by loadMovies(String)
-        //   have package-private, protected, or public getters.
-        //   See https://diff.blue/R004 to resolve this issue.
-
         MovieDatabase.loadMovies("src/main/resources/ratedmoviesfull.csv");
     }
 
@@ -257,7 +226,7 @@ public class MovieDatabaseTest {
     @Test
     void testFilterBy7() {
         AllFilters allFilters = new AllFilters();
-        allFilters.addFilter(new YearAfterFilter(1));
+        allFilters.addFilter(new YearFilter(1));
         ArrayList<String> actualFilterByResult = MovieDatabase.filterBy(allFilters);
         assertEquals(3143, actualFilterByResult.size());
         assertEquals("0055601", actualFilterByResult.get(0));
@@ -316,7 +285,7 @@ public class MovieDatabaseTest {
     void testFilterBy10() {
         AllFilters allFilters = new AllFilters();
         allFilters.addFilter(new MinutesFilter(1));
-        allFilters.addFilter(new YearAfterFilter(1));
+        allFilters.addFilter(new YearFilter(1));
         ArrayList<String> actualFilterByResult = MovieDatabase.filterBy(allFilters);
         assertEquals(3120, actualFilterByResult.size());
         assertEquals("0055601", actualFilterByResult.get(0));
