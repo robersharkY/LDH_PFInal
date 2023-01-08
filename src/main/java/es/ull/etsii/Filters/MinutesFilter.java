@@ -49,11 +49,9 @@ public class MinutesFilter implements Filter {
     option = paramOption;
     if (option == 'b') {
       this.minMinutes = minutes;
-      //this.maxMinutes = Integer.MAX_VALUE;
     }
     if (option == 'l') {
       this.maxMinutes = minutes;
-      //this.minMinutes = Integer.MIN_VALUE;
     }
   }
 

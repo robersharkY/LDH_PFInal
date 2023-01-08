@@ -54,6 +54,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
     @Test
     void testLoadMovies() {
         (new FirstRatings()).loadMovies("ratedmoviesfull.csv");
+        assertThrows(NullPointerException.class,()->{ (new FirstRatings()).testLoadMovies();});
     }
 
     /**
