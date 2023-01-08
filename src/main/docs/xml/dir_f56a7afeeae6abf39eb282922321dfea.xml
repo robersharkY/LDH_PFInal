@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="es">
+  <compounddef id="dir_f56a7afeeae6abf39eb282922321dfea" kind="dir">
+    <compoundname>C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters</compoundname>
+    <innerfile refid="_all_filters_8java">AllFilters.java</innerfile>
+    <innerfile refid="_directors_filter_8java">DirectorsFilter.java</innerfile>
+    <innerfile refid="_filter_8java">Filter.java</innerfile>
+    <innerfile refid="_genre_filter_8java">GenreFilter.java</innerfile>
+    <innerfile refid="_minutes_filter_8java">MinutesFilter.java</innerfile>
+    <innerfile refid="_true_filter_8java">TrueFilter.java</innerfile>
+    <innerfile refid="_year_after_filter_8java">YearAfterFilter.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/"/>
+  </compounddef>
+</doxygen>

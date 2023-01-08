@@ -1,0 +1,71 @@
+\hypertarget{interfacees_1_1ull_1_1etsii_1_1_recommender}{}\doxysection{es.\+ull.\+etsii.\+Recommender Interface Reference}
+\label{interfacees_1_1ull_1_1etsii_1_1_recommender}\index{es.ull.etsii.Recommendations.Recommender@{es.ull.etsii.Recommendations.Recommender}}
+
+
+Inheritance diagram for es.\+ull.\+etsii.\+Recommender\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=220pt]{interfacees_1_1ull_1_1etsii_1_1_recommender__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Array\+List$<$ String $>$ \mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_recommender_ade3f96b2d0d21e5afd90dcbc55ac3750}{get\+Items\+To\+Rate}} ()
+\item 
+void \mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_recommender_a06cf6178e554f3b6e528bc27c85aac8d}{print\+Recommendations\+For}} (String web\+Rater\+ID)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implement this interface to allow your code to be integrated with our web site.
+
+When users first visit the recommender website, our code will call the method {\ttfamily  \mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_recommender_ade3f96b2d0d21e5afd90dcbc55ac3750}{get\+Items\+To\+Rate()}}} to get a list of movies to display on the web page for users to rate.
+
+When a user submits their ratings, our code will call the method {\ttfamily  print\+Recommendations\+For} to get your recommendations based on the user\textquotesingle{}s ratings. The ID given to this method is for a new \mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_rater}{Rater}} that we have already added to the \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_rater_database}{Rater\+Database}} with ratings for the movies returned by the first method. Whatever is printed from that method will be displayed on the web page\+: HTML, plain text, or debugging information. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interfacees_1_1ull_1_1etsii_1_1_recommender_ade3f96b2d0d21e5afd90dcbc55ac3750}\label{interfacees_1_1ull_1_1etsii_1_1_recommender_ade3f96b2d0d21e5afd90dcbc55ac3750}} 
+\index{es.ull.etsii.Recommendations.Recommender@{es.ull.etsii.Recommendations.Recommender}!getItemsToRate@{getItemsToRate}}
+\index{getItemsToRate@{getItemsToRate}!es.ull.etsii.Recommendations.Recommender@{es.ull.etsii.Recommendations.Recommender}}
+\doxysubsubsection{\texorpdfstring{getItemsToRate()}{getItemsToRate()}}
+{\footnotesize\ttfamily Array\+List$<$ String $>$ es.\+ull.\+etsii.\+Recommender.\+get\+Items\+To\+Rate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+This method returns a list of movie IDs that will be used to look up the movies in the \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_movie_database}{Movie\+Database}} and present them to users to rate.
+
+The movies returned in the list will be displayed on a web page, so the number you choose may affect how long the page takes to load and how willing users are to rate the movies. For example, 10-\/20 should be fine, 50 or more would be too many.
+
+There are no restrictions on the method you use to generate this list of movies\+: the most recent movies, movies from a specific genre, randomly chosen movies, or simply your favorite movies.
+
+The ratings for these movies will make the profile for a new \mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_rater}{Rater}} that will be used to compare to for finding recommendations. 
+
+Implemented in \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_recommendation_runner_ad9813146a2d481482ee2f004bab7d7b6}{es.\+ull.\+etsii.\+Recommendation\+Runner}}.
+
+\mbox{\Hypertarget{interfacees_1_1ull_1_1etsii_1_1_recommender_a06cf6178e554f3b6e528bc27c85aac8d}\label{interfacees_1_1ull_1_1etsii_1_1_recommender_a06cf6178e554f3b6e528bc27c85aac8d}} 
+\index{es.ull.etsii.Recommendations.Recommender@{es.ull.etsii.Recommendations.Recommender}!printRecommendationsFor@{printRecommendationsFor}}
+\index{printRecommendationsFor@{printRecommendationsFor}!es.ull.etsii.Recommendations.Recommender@{es.ull.etsii.Recommendations.Recommender}}
+\doxysubsubsection{\texorpdfstring{printRecommendationsFor()}{printRecommendationsFor()}}
+{\footnotesize\ttfamily void es.\+ull.\+etsii.\+Recommender.\+print\+Recommendations\+For (\begin{DoxyParamCaption}\item[{String}]{web\+Rater\+ID }\end{DoxyParamCaption})}
+
+This method returns nothing, but prints out an HTML table of the movies recommended for the given rater.
+
+The HTML printed will be displayed on a web page, so the number you choose to display may affect how long the page takes to load. For example, you may want to limit the number printed to only the top 20-\/50 movies recommended or to movies not rater by the given rater.
+
+You may also include CSS styling for your table using the \texorpdfstring{$<$}{<}style\texorpdfstring{$>$}{>} tag before you print the table. There are no restrictions on which movies you print, what order you print them in, or what information you include about each movie.
+
+
+\begin{DoxyParams}{Parameters}
+{\em web\+Rater\+ID} & the ID of a new \mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_rater}{Rater}} that has been already added to the \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_rater_database}{Rater\+Database}} with ratings for the movies returned by the method get\+Items\+To\+Rate \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_recommendation_runner_a7a62f9ae17a36a3d81a7b80f8cce4373}{es.\+ull.\+etsii.\+Recommendation\+Runner}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/roberto/\+Idea\+Projects/\+LDH\+\_\+\+PFInal/src/main/java/es/ull/etsii/\mbox{\hyperlink{_recommender_8java}{Recommender.\+java}}\end{DoxyCompactItemize}

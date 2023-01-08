@@ -1,0 +1,169 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Namespace Index}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Package List}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Hierarchical Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Class Hierarchy}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Class Index}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Class List}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}File Index}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}File List}{7}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Namespace Documentation}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Package ull}{9}{section.5.1}%
+\contentsline {chapter}{\numberline {6}Class Documentation}{11}{chapter.6}%
+\contentsline {section}{\numberline {6.1}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}All\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filters Class Reference}{11}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Constructor \& Destructor Documentation}{12}{subsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.1.1}AllFilters()}{12}{subsubsection.6.1.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Member Function Documentation}{12}{subsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.2.1}addFilter()}{12}{subsubsection.6.1.2.1}%
+\contentsline {subsubsection}{\numberline {6.1.2.2}satisfies()}{12}{subsubsection.6.1.2.2}%
+\contentsline {section}{\numberline {6.2}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Directors\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter Class Reference}{13}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Detailed Description}{13}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Constructor \& Destructor Documentation}{14}{subsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.2.1}DirectorsFilter()}{14}{subsubsection.6.2.2.1}%
+\contentsline {subsection}{\numberline {6.2.3}Member Function Documentation}{14}{subsection.6.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.3.1}satisfies()}{14}{subsubsection.6.2.3.1}%
+\contentsline {section}{\numberline {6.3}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Efficient\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rater Class Reference}{14}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Detailed Description}{15}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Constructor \& Destructor Documentation}{15}{subsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.2.1}EfficientRater()}{15}{subsubsection.6.3.2.1}%
+\contentsline {subsection}{\numberline {6.3.3}Member Function Documentation}{16}{subsection.6.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.3.1}addRating()}{16}{subsubsection.6.3.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.3.2}getID()}{16}{subsubsection.6.3.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.3.3}getItemsRated()}{16}{subsubsection.6.3.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.3.4}getMyRatings()}{16}{subsubsection.6.3.3.4}%
+\contentsline {subsubsection}{\numberline {6.3.3.5}getRating()}{16}{subsubsection.6.3.3.5}%
+\contentsline {subsubsection}{\numberline {6.3.3.6}hasRating()}{17}{subsubsection.6.3.3.6}%
+\contentsline {subsubsection}{\numberline {6.3.3.7}numRatings()}{17}{subsubsection.6.3.3.7}%
+\contentsline {section}{\numberline {6.4}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter Interface Reference}{17}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Member Function Documentation}{18}{subsection.6.4.1}%
+\contentsline {subsubsection}{\numberline {6.4.1.1}satisfies()}{18}{subsubsection.6.4.1.1}%
+\contentsline {section}{\numberline {6.5}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}First\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ratings Class Reference}{18}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Detailed Description}{18}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}Constructor \& Destructor Documentation}{18}{subsection.6.5.2}%
+\contentsline {subsubsection}{\numberline {6.5.2.1}FirstRatings()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{18}{subsubsection.6.5.2.1}%
+\contentsline {subsubsection}{\numberline {6.5.2.2}FirstRatings()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{19}{subsubsection.6.5.2.2}%
+\contentsline {subsubsection}{\numberline {6.5.2.3}FirstRatings()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{19}{subsubsection.6.5.2.3}%
+\contentsline {subsection}{\numberline {6.5.3}Member Function Documentation}{19}{subsection.6.5.3}%
+\contentsline {subsubsection}{\numberline {6.5.3.1}testLoadMovies()}{19}{subsubsection.6.5.3.1}%
+\contentsline {subsubsection}{\numberline {6.5.3.2}testLoadRaters()}{19}{subsubsection.6.5.3.2}%
+\contentsline {section}{\numberline {6.6}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Fourth\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ratings Class Reference}{20}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Detailed Description}{20}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}Member Function Documentation}{20}{subsection.6.6.2}%
+\contentsline {subsubsection}{\numberline {6.6.2.1}dotProduct()}{20}{subsubsection.6.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.6.2.2}getAverageRatings()}{20}{subsubsection.6.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.6.2.3}getAverageRatingsByFilter()}{20}{subsubsection.6.6.2.3}%
+\contentsline {subsubsection}{\numberline {6.6.2.4}getSimilarRatings()}{21}{subsubsection.6.6.2.4}%
+\contentsline {subsubsection}{\numberline {6.6.2.5}getSimilarRatingsByFilter()}{21}{subsubsection.6.6.2.5}%
+\contentsline {section}{\numberline {6.7}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Genre\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter Class Reference}{21}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}Detailed Description}{22}{subsection.6.7.1}%
+\contentsline {subsection}{\numberline {6.7.2}Constructor \& Destructor Documentation}{22}{subsection.6.7.2}%
+\contentsline {subsubsection}{\numberline {6.7.2.1}GenreFilter()}{22}{subsubsection.6.7.2.1}%
+\contentsline {subsection}{\numberline {6.7.3}Member Function Documentation}{22}{subsection.6.7.3}%
+\contentsline {subsubsection}{\numberline {6.7.3.1}satisfies()}{22}{subsubsection.6.7.3.1}%
+\contentsline {section}{\numberline {6.8}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Minutes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter Class Reference}{23}{section.6.8}%
+\contentsline {subsection}{\numberline {6.8.1}Detailed Description}{23}{subsection.6.8.1}%
+\contentsline {subsection}{\numberline {6.8.2}Constructor \& Destructor Documentation}{24}{subsection.6.8.2}%
+\contentsline {subsubsection}{\numberline {6.8.2.1}MinutesFilter()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{24}{subsubsection.6.8.2.1}%
+\contentsline {subsubsection}{\numberline {6.8.2.2}MinutesFilter()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{24}{subsubsection.6.8.2.2}%
+\contentsline {subsection}{\numberline {6.8.3}Member Function Documentation}{24}{subsection.6.8.3}%
+\contentsline {subsubsection}{\numberline {6.8.3.1}satisfies()}{24}{subsubsection.6.8.3.1}%
+\contentsline {section}{\numberline {6.9}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Movie Class Reference}{24}{section.6.9}%
+\contentsline {subsection}{\numberline {6.9.1}Constructor \& Destructor Documentation}{25}{subsection.6.9.1}%
+\contentsline {subsubsection}{\numberline {6.9.1.1}Movie()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{25}{subsubsection.6.9.1.1}%
+\contentsline {subsubsection}{\numberline {6.9.1.2}Movie()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{25}{subsubsection.6.9.1.2}%
+\contentsline {subsection}{\numberline {6.9.2}Member Function Documentation}{25}{subsection.6.9.2}%
+\contentsline {subsubsection}{\numberline {6.9.2.1}getCountry()}{25}{subsubsection.6.9.2.1}%
+\contentsline {subsubsection}{\numberline {6.9.2.2}getDirector()}{25}{subsubsection.6.9.2.2}%
+\contentsline {subsubsection}{\numberline {6.9.2.3}getGenres()}{25}{subsubsection.6.9.2.3}%
+\contentsline {subsubsection}{\numberline {6.9.2.4}getID()}{26}{subsubsection.6.9.2.4}%
+\contentsline {subsubsection}{\numberline {6.9.2.5}getMinutes()}{26}{subsubsection.6.9.2.5}%
+\contentsline {subsubsection}{\numberline {6.9.2.6}getPoster()}{26}{subsubsection.6.9.2.6}%
+\contentsline {subsubsection}{\numberline {6.9.2.7}getTitle()}{26}{subsubsection.6.9.2.7}%
+\contentsline {subsubsection}{\numberline {6.9.2.8}getYear()}{26}{subsubsection.6.9.2.8}%
+\contentsline {subsubsection}{\numberline {6.9.2.9}toString()}{26}{subsubsection.6.9.2.9}%
+\contentsline {section}{\numberline {6.10}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Movie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database Class Reference}{27}{section.6.10}%
+\contentsline {subsection}{\numberline {6.10.1}Member Function Documentation}{27}{subsection.6.10.1}%
+\contentsline {subsubsection}{\numberline {6.10.1.1}containsID()}{27}{subsubsection.6.10.1.1}%
+\contentsline {subsubsection}{\numberline {6.10.1.2}filterBy()}{27}{subsubsection.6.10.1.2}%
+\contentsline {subsubsection}{\numberline {6.10.1.3}getCountry()}{27}{subsubsection.6.10.1.3}%
+\contentsline {subsubsection}{\numberline {6.10.1.4}getDirector()}{27}{subsubsection.6.10.1.4}%
+\contentsline {subsubsection}{\numberline {6.10.1.5}getGenres()}{28}{subsubsection.6.10.1.5}%
+\contentsline {subsubsection}{\numberline {6.10.1.6}getMinutes()}{28}{subsubsection.6.10.1.6}%
+\contentsline {subsubsection}{\numberline {6.10.1.7}getMovie()}{28}{subsubsection.6.10.1.7}%
+\contentsline {subsubsection}{\numberline {6.10.1.8}getPoster()}{28}{subsubsection.6.10.1.8}%
+\contentsline {subsubsection}{\numberline {6.10.1.9}getTitle()}{28}{subsubsection.6.10.1.9}%
+\contentsline {subsubsection}{\numberline {6.10.1.10}getYear()}{28}{subsubsection.6.10.1.10}%
+\contentsline {subsubsection}{\numberline {6.10.1.11}initialize()}{28}{subsubsection.6.10.1.11}%
+\contentsline {subsubsection}{\numberline {6.10.1.12}size()}{29}{subsubsection.6.10.1.12}%
+\contentsline {section}{\numberline {6.11}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Movie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Runner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Similar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ratings Class Reference}{29}{section.6.11}%
+\contentsline {subsection}{\numberline {6.11.1}Detailed Description}{29}{subsection.6.11.1}%
+\contentsline {subsection}{\numberline {6.11.2}Member Function Documentation}{29}{subsection.6.11.2}%
+\contentsline {subsubsection}{\numberline {6.11.2.1}printAverageRatings()}{29}{subsubsection.6.11.2.1}%
+\contentsline {subsubsection}{\numberline {6.11.2.2}printAverageRatingsByYearAfterAndGenre()}{29}{subsubsection.6.11.2.2}%
+\contentsline {subsubsection}{\numberline {6.11.2.3}printSimilarRatings()}{30}{subsubsection.6.11.2.3}%
+\contentsline {subsubsection}{\numberline {6.11.2.4}printSimilarRatingsByDirector()}{30}{subsubsection.6.11.2.4}%
+\contentsline {subsubsection}{\numberline {6.11.2.5}printSimilarRatingsByGenre()}{30}{subsubsection.6.11.2.5}%
+\contentsline {subsubsection}{\numberline {6.11.2.6}printSimilarRatingsByGenreAndMinutes()}{30}{subsubsection.6.11.2.6}%
+\contentsline {subsubsection}{\numberline {6.11.2.7}printSimilarRatingsByYearAfterAndMinutes()}{30}{subsubsection.6.11.2.7}%
+\contentsline {section}{\numberline {6.12}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rater Interface Reference}{31}{section.6.12}%
+\contentsline {subsection}{\numberline {6.12.1}Member Function Documentation}{31}{subsection.6.12.1}%
+\contentsline {subsubsection}{\numberline {6.12.1.1}addRating()}{31}{subsubsection.6.12.1.1}%
+\contentsline {subsubsection}{\numberline {6.12.1.2}getID()}{31}{subsubsection.6.12.1.2}%
+\contentsline {subsubsection}{\numberline {6.12.1.3}getItemsRated()}{32}{subsubsection.6.12.1.3}%
+\contentsline {subsubsection}{\numberline {6.12.1.4}getMyRatings()}{32}{subsubsection.6.12.1.4}%
+\contentsline {subsubsection}{\numberline {6.12.1.5}getRating()}{32}{subsubsection.6.12.1.5}%
+\contentsline {subsubsection}{\numberline {6.12.1.6}hasRating()}{32}{subsubsection.6.12.1.6}%
+\contentsline {subsubsection}{\numberline {6.12.1.7}numRatings()}{32}{subsubsection.6.12.1.7}%
+\contentsline {section}{\numberline {6.13}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rater\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database Class Reference}{33}{section.6.13}%
+\contentsline {subsection}{\numberline {6.13.1}Member Function Documentation}{33}{subsection.6.13.1}%
+\contentsline {subsubsection}{\numberline {6.13.1.1}addRaterRating()}{33}{subsubsection.6.13.1.1}%
+\contentsline {subsubsection}{\numberline {6.13.1.2}addRatings()}{33}{subsubsection.6.13.1.2}%
+\contentsline {subsubsection}{\numberline {6.13.1.3}getRater()}{33}{subsubsection.6.13.1.3}%
+\contentsline {subsubsection}{\numberline {6.13.1.4}getRaters()}{33}{subsubsection.6.13.1.4}%
+\contentsline {subsubsection}{\numberline {6.13.1.5}initialize()}{34}{subsubsection.6.13.1.5}%
+\contentsline {subsubsection}{\numberline {6.13.1.6}size()}{34}{subsubsection.6.13.1.6}%
+\contentsline {section}{\numberline {6.14}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rating Class Reference}{34}{section.6.14}%
+\contentsline {subsection}{\numberline {6.14.1}Constructor \& Destructor Documentation}{35}{subsection.6.14.1}%
+\contentsline {subsubsection}{\numberline {6.14.1.1}Rating()}{35}{subsubsection.6.14.1.1}%
+\contentsline {subsection}{\numberline {6.14.2}Member Function Documentation}{35}{subsection.6.14.2}%
+\contentsline {subsubsection}{\numberline {6.14.2.1}compareTo()}{35}{subsubsection.6.14.2.1}%
+\contentsline {subsubsection}{\numberline {6.14.2.2}getItem()}{35}{subsubsection.6.14.2.2}%
+\contentsline {subsubsection}{\numberline {6.14.2.3}getValue()}{35}{subsubsection.6.14.2.3}%
+\contentsline {subsubsection}{\numberline {6.14.2.4}toString()}{35}{subsubsection.6.14.2.4}%
+\contentsline {section}{\numberline {6.15}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Recommendation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Runner Class Reference}{36}{section.6.15}%
+\contentsline {subsection}{\numberline {6.15.1}Detailed Description}{36}{subsection.6.15.1}%
+\contentsline {subsection}{\numberline {6.15.2}Member Function Documentation}{36}{subsection.6.15.2}%
+\contentsline {subsubsection}{\numberline {6.15.2.1}getItemsToRate()}{37}{subsubsection.6.15.2.1}%
+\contentsline {subsubsection}{\numberline {6.15.2.2}printRecommendationsFor()}{37}{subsubsection.6.15.2.2}%
+\contentsline {section}{\numberline {6.16}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Recommender Interface Reference}{38}{section.6.16}%
+\contentsline {subsection}{\numberline {6.16.1}Detailed Description}{38}{subsection.6.16.1}%
+\contentsline {subsection}{\numberline {6.16.2}Member Function Documentation}{38}{subsection.6.16.2}%
+\contentsline {subsubsection}{\numberline {6.16.2.1}getItemsToRate()}{38}{subsubsection.6.16.2.1}%
+\contentsline {subsubsection}{\numberline {6.16.2.2}printRecommendationsFor()}{39}{subsubsection.6.16.2.2}%
+\contentsline {section}{\numberline {6.17}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}True\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter Class Reference}{39}{section.6.17}%
+\contentsline {subsection}{\numberline {6.17.1}Member Function Documentation}{40}{subsection.6.17.1}%
+\contentsline {subsubsection}{\numberline {6.17.1.1}satisfies()}{40}{subsubsection.6.17.1.1}%
+\contentsline {section}{\numberline {6.18}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Year\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}After\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter Class Reference}{40}{section.6.18}%
+\contentsline {subsection}{\numberline {6.18.1}Constructor \& Destructor Documentation}{41}{subsection.6.18.1}%
+\contentsline {subsubsection}{\numberline {6.18.1.1}YearAfterFilter()}{41}{subsubsection.6.18.1.1}%
+\contentsline {subsection}{\numberline {6.18.2}Member Function Documentation}{41}{subsection.6.18.2}%
+\contentsline {subsubsection}{\numberline {6.18.2.1}satisfies()}{41}{subsubsection.6.18.2.1}%
+\contentsline {chapter}{\numberline {7}File Documentation}{43}{chapter.7}%
+\contentsline {section}{\numberline {7.1}src/main/java/ull/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}All\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filters.java File Reference}{43}{section.7.1}%
+\contentsline {section}{\numberline {7.2}src/main/java/ull/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Directors\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter.java File Reference}{43}{section.7.2}%
+\contentsline {section}{\numberline {7.3}src/main/java/ull/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Efficient\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rater.java File Reference}{43}{section.7.3}%
+\contentsline {section}{\numberline {7.4}src/main/java/ull/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter.java File Reference}{44}{section.7.4}%
+\contentsline {section}{\numberline {7.5}src/main/java/ull/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}First\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ratings.java File Reference}{44}{section.7.5}%
+\contentsline {section}{\numberline {7.6}src/main/java/ull/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Fourth\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ratings.java File Reference}{44}{section.7.6}%
+\contentsline {section}{\numberline {7.7}src/main/java/ull/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Genre\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter.java File Reference}{44}{section.7.7}%
+\contentsline {section}{\numberline {7.8}src/main/java/ull/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Minutes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter.java File Reference}{45}{section.7.8}%
+\contentsline {section}{\numberline {7.9}src/main/java/ull/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Movie.java File Reference}{45}{section.7.9}%
+\contentsline {section}{\numberline {7.10}src/main/java/ull/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Movie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database.java File Reference}{45}{section.7.10}%
+\contentsline {section}{\numberline {7.11}src/main/java/ull/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Movie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Runner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Similar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ratings.java File Reference}{45}{section.7.11}%
+\contentsline {section}{\numberline {7.12}src/main/java/ull/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rater.java File Reference}{46}{section.7.12}%
+\contentsline {section}{\numberline {7.13}src/main/java/ull/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rater\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database.java File Reference}{46}{section.7.13}%
+\contentsline {section}{\numberline {7.14}src/main/java/ull/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rating.java File Reference}{46}{section.7.14}%
+\contentsline {section}{\numberline {7.15}src/main/java/ull/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Recommendation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Runner.java File Reference}{46}{section.7.15}%
+\contentsline {section}{\numberline {7.16}src/main/java/ull/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Recommender.java File Reference}{47}{section.7.16}%
+\contentsline {section}{\numberline {7.17}src/main/java/ull/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}True\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter.java File Reference}{47}{section.7.17}%
+\contentsline {section}{\numberline {7.18}src/main/java/ull/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Year\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}After\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter.java File Reference}{47}{section.7.18}%

@@ -1,0 +1,570 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="es">
+  <compounddef id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings" kind="class" language="Java" prot="public">
+    <compoundname>es::ull::etsii::Ratings::FirstRatings</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1af8eb51979c1c71eb36e382490399aaac" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie" kindref="compound">Movie</ref> &gt;</type>
+        <definition>ArrayList&lt;Movie&gt; es.ull.etsii.Ratings.FirstRatings.movieArrayList</definition>
+        <argsstring></argsstring>
+        <name>movieArrayList</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.movieArrayList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="23" column="21" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a5ecdd509d3293fff5b502d56e043d5c6" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater" kindref="compound">Rater</ref> &gt;</type>
+        <definition>ArrayList&lt;Rater&gt; es.ull.etsii.Ratings.FirstRatings.raterArrayList</definition>
+        <argsstring></argsstring>
+        <name>raterArrayList</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.raterArrayList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="24" column="21" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a4a9ba84a7ba5a15226583634c000416f" prot="private" static="no" mutable="no">
+        <type>HashMap&lt; String, HashSet&lt; String &gt; &gt;</type>
+        <definition>HashMap&lt;String, HashSet&lt;String&gt; &gt; es.ull.etsii.Ratings.FirstRatings.directorsAndItsMovies</definition>
+        <argsstring></argsstring>
+        <name>directorsAndItsMovies</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.directorsAndItsMovies</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="25" column="19" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1abf4f9b71e46b9673b0ba36922c98464c" prot="private" static="no" mutable="no">
+        <type>HashMap&lt; String, <ref refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater" kindref="compound">Rater</ref> &gt;</type>
+        <definition>HashMap&lt;String, Rater&gt; es.ull.etsii.Ratings.FirstRatings.ratersWithIds</definition>
+        <argsstring></argsstring>
+        <name>ratersWithIds</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.ratersWithIds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="26" column="19" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1afb331410861ab1bd39de316ee680949a" prot="private" static="no" mutable="no">
+        <type>HashMap&lt; String, Integer &gt;</type>
+        <definition>HashMap&lt;String, Integer&gt; es.ull.etsii.Ratings.FirstRatings.ratersAndCountOfRatings</definition>
+        <argsstring></argsstring>
+        <name>ratersAndCountOfRatings</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.ratersAndCountOfRatings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="27" column="19" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a9223a2323ecfe142e79145de8d1c9b2e" prot="private" static="no" mutable="no">
+        <type>HashMap&lt; String, ArrayList&lt; String &gt; &gt;</type>
+        <definition>HashMap&lt;String, ArrayList&lt;String&gt; &gt; es.ull.etsii.Ratings.FirstRatings.moviesAndRatersMap</definition>
+        <argsstring></argsstring>
+        <name>moviesAndRatersMap</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.moviesAndRatersMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="28" column="19" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a3310cb343df6a44004d8f0b96a78bf5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>es.ull.etsii.Ratings.FirstRatings.FirstRatings</definition>
+        <argsstring>(String fileName)</argsstring>
+        <name>FirstRatings</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.FirstRatings</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="30" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="30" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a2a3a519d24b5e131ae8cbc2d8bec0b70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>es.ull.etsii.Ratings.FirstRatings.FirstRatings</definition>
+        <argsstring>(String fileNameMovies, String fileNameRaters)</argsstring>
+        <name>FirstRatings</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.FirstRatings</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>fileNameMovies</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>fileNameRaters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="36" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="36" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a9a5ee5cce07d5e1e29fc6752443f79b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>es.ull.etsii.Ratings.FirstRatings.FirstRatings</definition>
+        <argsstring>()</argsstring>
+        <name>FirstRatings</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.FirstRatings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="45" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="45" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1ab6dc4f37eba4b492b62cb5d9def87f46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; <ref refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie" kindref="compound">Movie</ref> &gt;</type>
+        <definition>ArrayList&lt; Movie &gt; es.ull.etsii.Ratings.FirstRatings.loadMovies</definition>
+        <argsstring>(String filename)</argsstring>
+        <name>loadMovies</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.loadMovies</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="144" column="20" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="144" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1ae33cba4c508495521cd7b55599b02e77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.ull.etsii.Ratings.FirstRatings.testLoadMovies</definition>
+        <argsstring>()</argsstring>
+        <name>testLoadMovies</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.testLoadMovies</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A void method for tests cases.</para>
+<para><itemizedlist>
+<listitem>
+<para>determine how many movies in total. </para>
+</listitem>
+<listitem>
+<para>determine how many movies include the Comedy genre. </para>
+</listitem>
+<listitem>
+<para>determine how many movies are greater than 150 minutes in length. </para>
+</listitem>
+<listitem>
+<para>determine the maximum number of movies by any director, and who the directors are that directed that many movies. </para>
+</listitem>
+</itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="192" column="15" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="192" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a977758f793f9c1ad8a0d4ef35101ef97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.ull.etsii.Ratings.FirstRatings.testLoadRaters</definition>
+        <argsstring>(String raterID, String movieID)</argsstring>
+        <name>testLoadRaters</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.testLoadRaters</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>raterID</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>movieID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="250" column="15" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="250" bodyend="270"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a43913a0208e1fdee1b9599cd05973885" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String es.ull.etsii.Ratings.FirstRatings.getFullFileName</definition>
+        <argsstring>(String fileName)</argsstring>
+        <name>getFullFileName</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.getFullFileName</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="50" column="25" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="50" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1afa10241e38d86e879842732a91abd26e" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; <ref refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater" kindref="compound">Rater</ref> &gt;</type>
+        <definition>static ArrayList&lt; Rater &gt; es.ull.etsii.Ratings.FirstRatings.loadRaters</definition>
+        <argsstring>(String fileName)</argsstring>
+        <name>loadRaters</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.loadRaters</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="62" column="20" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="62" bodyend="95"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1ae655ccad8fc496a00fb7516851720804" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>HashMap&lt; String, ArrayList&lt; String &gt; &gt;</type>
+        <definition>HashMap&lt; String, ArrayList&lt; String &gt; &gt; es.ull.etsii.Ratings.FirstRatings.getAllMoviesAndRatesMap</definition>
+        <argsstring>(ArrayList&lt; Movie &gt; moviesList)</argsstring>
+        <name>getAllMoviesAndRatesMap</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.getAllMoviesAndRatesMap</qualifiedname>
+        <param>
+          <type>ArrayList&lt; <ref refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie" kindref="compound">Movie</ref> &gt;</type>
+          <declname>moviesList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="97" column="19" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="97" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1abc46ecbfa8af904f6cec85a088bd8e46" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>HashMap&lt; String, <ref refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater" kindref="compound">Rater</ref> &gt;</type>
+        <definition>HashMap&lt; String, Rater &gt; es.ull.etsii.Ratings.FirstRatings.loadRatersWithIDs</definition>
+        <argsstring>(ArrayList&lt; Rater &gt; ratersList)</argsstring>
+        <name>loadRatersWithIDs</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.loadRatersWithIDs</qualifiedname>
+        <param>
+          <type>ArrayList&lt; <ref refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater" kindref="compound">Rater</ref> &gt;</type>
+          <declname>ratersList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="114" column="19" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="114" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a34300404507fa4e223d79aa48f00179c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>HashMap&lt; String, HashSet&lt; String &gt; &gt;</type>
+        <definition>HashMap&lt; String, HashSet&lt; String &gt; &gt; es.ull.etsii.Ratings.FirstRatings.getDirectorsAndMovies</definition>
+        <argsstring>()</argsstring>
+        <name>getDirectorsAndMovies</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.getDirectorsAndMovies</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="123" column="19" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="123" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a82a37de57db118d36fe584724f5ae36a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie" kindref="compound">Movie</ref></type>
+        <definition>Movie es.ull.etsii.Ratings.FirstRatings.parseMovieCSVRecord</definition>
+        <argsstring>(CSVRecord record)</argsstring>
+        <name>parseMovieCSVRecord</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.parseMovieCSVRecord</qualifiedname>
+        <param>
+          <type>CSVRecord</type>
+          <declname>record</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="163" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="163" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a3770d87c315b9c495860cfe6bef9e10c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String[]</type>
+        <definition>String[] es.ull.etsii.Ratings.FirstRatings.maxFilmsOneDirectorName</definition>
+        <argsstring>()</argsstring>
+        <name>maxFilmsOneDirectorName</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.maxFilmsOneDirectorName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="215" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="215" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1ae68a91006964c167b491aa4bf39559c3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int es.ull.etsii.Ratings.FirstRatings.total150</definition>
+        <argsstring>()</argsstring>
+        <name>total150</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.total150</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="229" column="15" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="229" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1acd68b7880223446019350af84aabf161" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int es.ull.etsii.Ratings.FirstRatings.totalComedy</definition>
+        <argsstring>()</argsstring>
+        <name>totalComedy</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.totalComedy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="240" column="15" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="240" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a3e743dbf044a59fed8b8dd1dfe3eb167" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.ull.etsii.Ratings.FirstRatings.printTotalNumberMoviesRated</definition>
+        <argsstring>()</argsstring>
+        <name>printTotalNumberMoviesRated</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.printTotalNumberMoviesRated</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="273" column="16" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="273" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1ad81671cac42ec0f94977c427af9213e8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int es.ull.etsii.Ratings.FirstRatings.getNumberOfRatingsByMovie</definition>
+        <argsstring>(String movieID)</argsstring>
+        <name>getNumberOfRatingsByMovie</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.getNumberOfRatingsByMovie</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>movieID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="285" column="15" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="285" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1ac6163fe8589f30c99dfe2859d8d24109" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.ull.etsii.Ratings.FirstRatings.printMaxNumOfRatings</definition>
+        <argsstring>()</argsstring>
+        <name>printMaxNumOfRatings</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.printMaxNumOfRatings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="290" column="16" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="290" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1acf5ee057aee4a5c08473874144a18d6d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int es.ull.etsii.Ratings.FirstRatings.getMaxRatings</definition>
+        <argsstring>()</argsstring>
+        <name>getMaxRatings</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.getMaxRatings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="304" column="15" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="304" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a6196a701814e5daca10885cde71354ff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>HashMap&lt; String, Integer &gt;</type>
+        <definition>HashMap&lt; String, Integer &gt; es.ull.etsii.Ratings.FirstRatings.getAllRatersIdAndItsRatingsCounterMap</definition>
+        <argsstring>()</argsstring>
+        <name>getAllRatersIdAndItsRatingsCounterMap</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.getAllRatersIdAndItsRatingsCounterMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="315" column="19" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="315" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1ab3a8eb4c896a7cea975581a003211b46" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.ull.etsii.Ratings.FirstRatings.printNumberOfRatings</definition>
+        <argsstring>(String id)</argsstring>
+        <name>printNumberOfRatings</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.printNumberOfRatings</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="325" column="16" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="325" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a62965b808ffae0a35d61f77cff4d3ac4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int es.ull.etsii.Ratings.FirstRatings.getNumberOfRatingsByRaterID</definition>
+        <argsstring>(String id)</argsstring>
+        <name>getNumberOfRatingsByRaterID</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.getNumberOfRatingsByRaterID</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="332" column="15" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="332" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a8d52a09fb13c49e7100f6026ef856ec6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.ull.etsii.Ratings.FirstRatings.testPrintAllRaterWithRatings</definition>
+        <argsstring>()</argsstring>
+        <name>testPrintAllRaterWithRatings</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.testPrintAllRaterWithRatings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="342" column="16" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="342" bodyend="350"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a4399395415dedd472fadbc2d5e06f582" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.ull.etsii.Ratings.FirstRatings.printAllRaterRatings</definition>
+        <argsstring>()</argsstring>
+        <name>printAllRaterRatings</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.printAllRaterRatings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="353" column="16" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="353" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a9d70658c97ca44a41ec2fd26f0b97a5c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void es.ull.etsii.Ratings.FirstRatings.printAllRatingsByRater</definition>
+        <argsstring>(String raterID)</argsstring>
+        <name>printAllRatingsByRater</name>
+        <qualifiedname>es.ull.etsii.Ratings.FirstRatings.printAllRatingsByRater</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>raterID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="363" column="16" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="363" bodyend="370"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A class to process the movie and ratings data and to answer questions about them.</para>
+<para><simplesect kind="author"><para>Stanislav Rakitov </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" line="22" column="7" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FirstRatings.java" bodystart="22" bodyend="371"/>
+    <listofallmembers>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a4a9ba84a7ba5a15226583634c000416f" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>directorsAndItsMovies</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a3310cb343df6a44004d8f0b96a78bf5d" prot="public" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>FirstRatings</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a2a3a519d24b5e131ae8cbc2d8bec0b70" prot="public" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>FirstRatings</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a9a5ee5cce07d5e1e29fc6752443f79b7" prot="public" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>FirstRatings</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1ae655ccad8fc496a00fb7516851720804" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>getAllMoviesAndRatesMap</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a6196a701814e5daca10885cde71354ff" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>getAllRatersIdAndItsRatingsCounterMap</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a34300404507fa4e223d79aa48f00179c" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>getDirectorsAndMovies</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a43913a0208e1fdee1b9599cd05973885" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>getFullFileName</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1acf5ee057aee4a5c08473874144a18d6d" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>getMaxRatings</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1ad81671cac42ec0f94977c427af9213e8" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>getNumberOfRatingsByMovie</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a62965b808ffae0a35d61f77cff4d3ac4" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>getNumberOfRatingsByRaterID</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1ab6dc4f37eba4b492b62cb5d9def87f46" prot="public" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>loadMovies</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1afa10241e38d86e879842732a91abd26e" prot="package" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>loadRaters</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1abc46ecbfa8af904f6cec85a088bd8e46" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>loadRatersWithIDs</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a3770d87c315b9c495860cfe6bef9e10c" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>maxFilmsOneDirectorName</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1af8eb51979c1c71eb36e382490399aaac" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>movieArrayList</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a9223a2323ecfe142e79145de8d1c9b2e" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>moviesAndRatersMap</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a82a37de57db118d36fe584724f5ae36a" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>parseMovieCSVRecord</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a4399395415dedd472fadbc2d5e06f582" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>printAllRaterRatings</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a9d70658c97ca44a41ec2fd26f0b97a5c" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>printAllRatingsByRater</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1ac6163fe8589f30c99dfe2859d8d24109" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>printMaxNumOfRatings</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1ab3a8eb4c896a7cea975581a003211b46" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>printNumberOfRatings</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a3e743dbf044a59fed8b8dd1dfe3eb167" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>printTotalNumberMoviesRated</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a5ecdd509d3293fff5b502d56e043d5c6" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>raterArrayList</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1afb331410861ab1bd39de316ee680949a" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>ratersAndCountOfRatings</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1abf4f9b71e46b9673b0ba36922c98464c" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>ratersWithIds</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1ae33cba4c508495521cd7b55599b02e77" prot="public" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>testLoadMovies</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a977758f793f9c1ad8a0d4ef35101ef97" prot="public" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>testLoadRaters</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1a8d52a09fb13c49e7100f6026ef856ec6" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>testPrintAllRaterWithRatings</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1ae68a91006964c167b491aa4bf39559c3" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>total150</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings_1acd68b7880223446019350af84aabf161" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FirstRatings</scope><name>totalComedy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="es">
+  <compounddef id="_rating_8java" kind="file" language="Java">
+    <compoundname>Rating.java</compoundname>
+    <innerclass refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating" prot="public">es::ull::etsii::Ratings::Rating</innerclass>
+    <innernamespace refid="namespacees_1_1ull_1_1etsii_1_1_ratings">es::ull::etsii::Ratings</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">es.ull.etsii.Ratings;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>An<sp/>immutable<sp/>passive<sp/>data<sp/>object<sp/>(PDO)<sp/>to<sp/>represent<sp/>the<sp/>rating<sp/>data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating" kindref="compound">Rating</ref><sp/></highlight><highlight class="keyword">implements</highlight><highlight class="normal"><sp/>Comparable&lt;Rating&gt;<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>String<sp/>item;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating" kindref="compound">Rating</ref>(String<sp/>anItem,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>aValue)<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>item<sp/>=<sp/>anItem;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>value<sp/>=<sp/>aValue;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Returns<sp/>item<sp/>being<sp/>rated</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>String<sp/><ref refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1a308d1aa3f743f27732d53548a4b1be38" kindref="member">getItem</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>item;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Returns<sp/>the<sp/>value<sp/>of<sp/>this<sp/>rating<sp/>(as<sp/>a<sp/>number<sp/>so<sp/>it<sp/>can<sp/>be<sp/>used<sp/>in<sp/>calculations)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1ae3e9e93b55d68b795faa733d30b72e55" kindref="member">getValue</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>value;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Returns<sp/>a<sp/>string<sp/>of<sp/>all<sp/>the<sp/>rating<sp/>information</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>String<sp/><ref refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1adfb0a2c5f01eb3d49577f59bf9858a0c" kindref="member">toString</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;[&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1a308d1aa3f743f27732d53548a4b1be38" kindref="member">getItem</ref>()<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;,<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1ae3e9e93b55d68b795faa733d30b72e55" kindref="member">getValue</ref>()<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;]&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating_1a74109e1725fb819c6b177b149a3b8c8c" kindref="member">compareTo</ref>(<ref refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating" kindref="compound">Rating</ref><sp/>other)<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Double.compare(value,<sp/>other.value);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/Rating.java"/>
+  </compounddef>
+</doxygen>

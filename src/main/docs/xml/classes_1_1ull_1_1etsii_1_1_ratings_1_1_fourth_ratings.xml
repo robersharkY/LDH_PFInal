@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="es">
+  <compounddef id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings" kind="class" language="Java" prot="public">
+    <compoundname>es::ull::etsii::Ratings::FourthRatings</compoundname>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings_1a6d807b2ff968ac6bb7909b825179e1f4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Double</type>
+        <definition>Double es.ull.etsii.Ratings.FourthRatings.getAverageByID</definition>
+        <argsstring>(String movieID, Integer minimalRaters)</argsstring>
+        <name>getAverageByID</name>
+        <qualifiedname>es.ull.etsii.Ratings.FourthRatings.getAverageByID</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>movieID</declname>
+        </param>
+        <param>
+          <type>Integer</type>
+          <declname>minimalRaters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FourthRatings.java" line="23" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FourthRatings.java" bodystart="23" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings_1a5b77fd9dfab5bc7dd2cfaf298a6c4222" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; <ref refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating" kindref="compound">Rating</ref> &gt;</type>
+        <definition>ArrayList&lt; Rating &gt; es.ull.etsii.Ratings.FourthRatings.getSimilarities</definition>
+        <argsstring>(String id)</argsstring>
+        <name>getSimilarities</name>
+        <qualifiedname>es.ull.etsii.Ratings.FourthRatings.getSimilarities</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FourthRatings.java" line="78" column="21" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FourthRatings.java" bodystart="78" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings_1a15fe8cd10f51a1a26be6e8d030e4805d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean es.ull.etsii.Ratings.FourthRatings.hasMinRaters</definition>
+        <argsstring>(String movie_id, Integer minimalRaters, Integer numSimilarRaters, ArrayList&lt; Rating &gt; ratingRater)</argsstring>
+        <name>hasMinRaters</name>
+        <qualifiedname>es.ull.etsii.Ratings.FourthRatings.hasMinRaters</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>movie_id</declname>
+        </param>
+        <param>
+          <type>Integer</type>
+          <declname>minimalRaters</declname>
+        </param>
+        <param>
+          <type>Integer</type>
+          <declname>numSimilarRaters</declname>
+        </param>
+        <param>
+          <type>ArrayList&lt; <ref refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating" kindref="compound">Rating</ref> &gt;</type>
+          <declname>ratingRater</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FourthRatings.java" line="127" column="19" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FourthRatings.java" bodystart="127" bodyend="145"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings_1a03d62035114f7aa8735c8ed261d8c697" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; <ref refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating" kindref="compound">Rating</ref> &gt;</type>
+        <definition>ArrayList&lt; Rating &gt; es.ull.etsii.Ratings.FourthRatings.getAverageRatings</definition>
+        <argsstring>(int minimalRaters)</argsstring>
+        <name>getAverageRatings</name>
+        <qualifiedname>es.ull.etsii.Ratings.FourthRatings.getAverageRatings</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>minimalRaters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FourthRatings.java" line="38" column="20" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FourthRatings.java" bodystart="38" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings_1a1b4bb8bdbbf2950fb214ac1ebd21e282" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; <ref refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating" kindref="compound">Rating</ref> &gt;</type>
+        <definition>ArrayList&lt; Rating &gt; es.ull.etsii.Ratings.FourthRatings.getAverageRatingsByFilter</definition>
+        <argsstring>(Integer minimalRaters, Filter filterCriteria)</argsstring>
+        <name>getAverageRatingsByFilter</name>
+        <qualifiedname>es.ull.etsii.Ratings.FourthRatings.getAverageRatingsByFilter</qualifiedname>
+        <param>
+          <type>Integer</type>
+          <declname>minimalRaters</declname>
+        </param>
+        <param>
+          <type><ref refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter" kindref="compound">Filter</ref></type>
+          <declname>filterCriteria</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FourthRatings.java" line="51" column="20" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FourthRatings.java" bodystart="51" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings_1ab38c523a3d5313d9a29c8ede186f8016" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double es.ull.etsii.Ratings.FourthRatings.dotProduct</definition>
+        <argsstring>(Rater meRater, Rater otherRater)</argsstring>
+        <name>dotProduct</name>
+        <qualifiedname>es.ull.etsii.Ratings.FourthRatings.dotProduct</qualifiedname>
+        <param>
+          <type><ref refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater" kindref="compound">Rater</ref></type>
+          <declname>meRater</declname>
+        </param>
+        <param>
+          <type><ref refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater" kindref="compound">Rater</ref></type>
+          <declname>otherRater</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FourthRatings.java" line="66" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FourthRatings.java" bodystart="66" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings_1ab3a8afcc5230c3709ca1665bf432dcac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; <ref refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating" kindref="compound">Rating</ref> &gt;</type>
+        <definition>ArrayList&lt; Rating &gt; es.ull.etsii.Ratings.FourthRatings.getSimilarRatings</definition>
+        <argsstring>(String id, Integer numSimilarRaters, Integer minimalRaters)</argsstring>
+        <name>getSimilarRatings</name>
+        <qualifiedname>es.ull.etsii.Ratings.FourthRatings.getSimilarRatings</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>Integer</type>
+          <declname>numSimilarRaters</declname>
+        </param>
+        <param>
+          <type>Integer</type>
+          <declname>minimalRaters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FourthRatings.java" line="94" column="20" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FourthRatings.java" bodystart="94" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings_1ab99a376641d7115d737e30408bf337fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; <ref refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating" kindref="compound">Rating</ref> &gt;</type>
+        <definition>ArrayList&lt; Rating &gt; es.ull.etsii.Ratings.FourthRatings.getSimilarRatingsByFilter</definition>
+        <argsstring>(String id, Integer numSimilarRaters, Integer minimalRaters, Filter filterCriteria)</argsstring>
+        <name>getSimilarRatingsByFilter</name>
+        <qualifiedname>es.ull.etsii.Ratings.FourthRatings.getSimilarRatingsByFilter</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>Integer</type>
+          <declname>numSimilarRaters</declname>
+        </param>
+        <param>
+          <type>Integer</type>
+          <declname>minimalRaters</declname>
+        </param>
+        <param>
+          <type><ref refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter" kindref="compound">Filter</ref></type>
+          <declname>filterCriteria</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FourthRatings.java" line="147" column="20" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FourthRatings.java" bodystart="147" bodyend="178"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The week 4 class</para>
+<para><simplesect kind="author"><para>Stanislav Rakitov </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FourthRatings.java" line="21" column="7" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/FourthRatings.java" bodystart="21" bodyend="179"/>
+    <listofallmembers>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings_1ab38c523a3d5313d9a29c8ede186f8016" prot="public" virt="non-virtual"><scope>es::ull::etsii::Ratings::FourthRatings</scope><name>dotProduct</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings_1a6d807b2ff968ac6bb7909b825179e1f4" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FourthRatings</scope><name>getAverageByID</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings_1a03d62035114f7aa8735c8ed261d8c697" prot="public" virt="non-virtual"><scope>es::ull::etsii::Ratings::FourthRatings</scope><name>getAverageRatings</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings_1a1b4bb8bdbbf2950fb214ac1ebd21e282" prot="public" virt="non-virtual"><scope>es::ull::etsii::Ratings::FourthRatings</scope><name>getAverageRatingsByFilter</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings_1a5b77fd9dfab5bc7dd2cfaf298a6c4222" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FourthRatings</scope><name>getSimilarities</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings_1ab3a8afcc5230c3709ca1665bf432dcac" prot="public" virt="non-virtual"><scope>es::ull::etsii::Ratings::FourthRatings</scope><name>getSimilarRatings</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings_1ab99a376641d7115d737e30408bf337fe" prot="public" virt="non-virtual"><scope>es::ull::etsii::Ratings::FourthRatings</scope><name>getSimilarRatingsByFilter</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings_1a15fe8cd10f51a1a26be6e8d030e4805d" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::FourthRatings</scope><name>hasMinRaters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

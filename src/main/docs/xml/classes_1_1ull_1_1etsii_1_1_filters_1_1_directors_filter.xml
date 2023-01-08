@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="es">
+  <compounddef id="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter" kind="class" language="Java" prot="public">
+    <compoundname>es::ull::etsii::Filters::DirectorsFilter</compoundname>
+    <basecompoundref refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter" prot="public" virt="non-virtual">es.ull.etsii.Filters.Filter</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter_1ac5f2148b499486b607712ace3d090307" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String es.ull.etsii.Filters.DirectorsFilter.directors</definition>
+        <argsstring></argsstring>
+        <name>directors</name>
+        <qualifiedname>es.ull.etsii.Filters.DirectorsFilter.directors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/DirectorsFilter.java" line="12" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/DirectorsFilter.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter_1a048d1708b83a2b1eb5ad22296455f412" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>es.ull.etsii.Filters.DirectorsFilter.DirectorsFilter</definition>
+        <argsstring>(String directors)</argsstring>
+        <name>DirectorsFilter</name>
+        <qualifiedname>es.ull.etsii.Filters.DirectorsFilter.DirectorsFilter</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>directors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/DirectorsFilter.java" line="14" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/DirectorsFilter.java" bodystart="14" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter_1ac3a85d51bbcd0b0343ea99e8e640cf06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean es.ull.etsii.Filters.DirectorsFilter.satisfies</definition>
+        <argsstring>(String id)</argsstring>
+        <name>satisfies</name>
+        <qualifiedname>es.ull.etsii.Filters.DirectorsFilter.satisfies</qualifiedname>
+        <reimplements refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter_1a1edb801f34df197acf7584500c18c9ae">satisfies</reimplements>
+        <param>
+          <type>String</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/DirectorsFilter.java" line="19" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/DirectorsFilter.java" bodystart="19" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A class for filter movies by directors</para>
+<para><simplesect kind="author"><para>Stanislav Rakitov </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>es.ull.etsii.Filters.DirectorsFilter</label>
+        <link refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.ull.etsii.Filters.Filter</label>
+        <link refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>es.ull.etsii.Filters.DirectorsFilter</label>
+        <link refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.ull.etsii.Filters.Filter</label>
+        <link refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/DirectorsFilter.java" line="11" column="7" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/DirectorsFilter.java" bodystart="11" bodyend="29"/>
+    <listofallmembers>
+      <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter_1ac5f2148b499486b607712ace3d090307" prot="package" virt="non-virtual"><scope>es::ull::etsii::Filters::DirectorsFilter</scope><name>directors</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter_1a048d1708b83a2b1eb5ad22296455f412" prot="public" virt="non-virtual"><scope>es::ull::etsii::Filters::DirectorsFilter</scope><name>DirectorsFilter</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter_1ac3a85d51bbcd0b0343ea99e8e640cf06" prot="public" virt="non-virtual"><scope>es::ull::etsii::Filters::DirectorsFilter</scope><name>satisfies</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="es">
+  <compounddef id="namespacees_1_1ull_1_1etsii_1_1_movies" kind="namespace" language="Java">
+    <compoundname>es::ull::etsii::Movies</compoundname>
+    <innerclass refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie" prot="public">es::ull::etsii::Movies::Movie</innerclass>
+    <innerclass refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database" prot="public">es::ull::etsii::Movies::MovieDatabase</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>
