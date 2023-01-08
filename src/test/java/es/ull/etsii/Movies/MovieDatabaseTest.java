@@ -55,6 +55,7 @@ public class MovieDatabaseTest {
     @Test
     void testLoadMovies3() {
         MovieDatabase database = new MovieDatabase();
+        database.initialize();
         database.loadMovies("src/main/resources/ratedmoviesfull.csv");
         assertEquals(2014, database.getYear("3112654"));
     }
