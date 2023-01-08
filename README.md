@@ -23,6 +23,7 @@ Aparte de ponernos en una situación lo mas real posible de que pueda ocurrir un
 - Realizadas pruebas unitarias con JUnit5.<br>
 - Limpieza de Code Smells y verificación de la calidad del código mediante SonarCloud.<br>
 - Adición de librerías no añadidas.<br>
+- Adición de funcionalidades extra.<br>
 
 ## 🏆 Resultados de SonarCloud [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=robersharkY_LDH_PFInal) <br>
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=robersharkY_LDH_PFInal&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=robersharkY_LDH_PFInal)<br>
