@@ -17,6 +17,9 @@ static int \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_
 \end{DoxyCompactItemize}
 
 
+\doxysubsection{Descripción detallada}
+Clase \textquotesingle{}\mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database}{Rater\+Database}}\textquotesingle{} que funciona como una base de datos de los objetos \textquotesingle{}\mbox{\hyperlink{namespacees_1_1ull_1_1etsii_1_1_movies}{Movies}}\textquotesingle{} con su valoración 
+
 \doxysubsection{Documentación de las funciones miembro}
 \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_aac1de427a4785fc7bbabda62ff8a1938}\label{classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_aac1de427a4785fc7bbabda62ff8a1938}} 
 \index{es.ull.etsii.Rate.RaterDatabase@{es.ull.etsii.Rate.RaterDatabase}!addRaterRating@{addRaterRating}}
@@ -24,36 +27,77 @@ static int \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_
 \doxysubsubsection{\texorpdfstring{addRaterRating()}{addRaterRating()}}
 {\footnotesize\ttfamily static void es.\+ull.\+etsii.\+Rate.\+Rater\+Database.\+add\+Rater\+Rating (\begin{DoxyParamCaption}\item[{String}]{rater\+ID,  }\item[{String}]{movie\+ID,  }\item[{double}]{rating }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
+Método que añde una valoración de una película a la tabla Hash \textquotesingle{}our\+Raters\textquotesingle{} y recibe como parámetros\+:
+
+
+\begin{DoxyParams}{Parámetros}
+{\em rater\+ID} & Identificador del valorador \\
+\hline
+{\em movie\+ID} & Identificador de la película \\
+\hline
+{\em rating} & Nota de la valoración \\
+\hline
+\end{DoxyParams}
 \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_a3c13f83423e4e05e643591c57718635b}\label{classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_a3c13f83423e4e05e643591c57718635b}} 
 \index{es.ull.etsii.Rate.RaterDatabase@{es.ull.etsii.Rate.RaterDatabase}!addRatings@{addRatings}}
 \index{addRatings@{addRatings}!es.ull.etsii.Rate.RaterDatabase@{es.ull.etsii.Rate.RaterDatabase}}
 \doxysubsubsection{\texorpdfstring{addRatings()}{addRatings()}}
 {\footnotesize\ttfamily static void es.\+ull.\+etsii.\+Rate.\+Rater\+Database.\+add\+Ratings (\begin{DoxyParamCaption}\item[{String}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
+Método que, a partir de un archivo CSV pasado por parámetro, lee cada una de sus líneas y llama al método \textquotesingle{}add\+Rater\+Rating\textquotesingle{} pasándole cada uno de sus parámetros obtenidos de cada línea del fichero.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em filename} & Nombre de archivo CSV \\
+\hline
+\end{DoxyParams}
 \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_a6964996ca231994e72c293b9676a9b27}\label{classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_a6964996ca231994e72c293b9676a9b27}} 
 \index{es.ull.etsii.Rate.RaterDatabase@{es.ull.etsii.Rate.RaterDatabase}!getRater@{getRater}}
 \index{getRater@{getRater}!es.ull.etsii.Rate.RaterDatabase@{es.ull.etsii.Rate.RaterDatabase}}
 \doxysubsubsection{\texorpdfstring{getRater()}{getRater()}}
 {\footnotesize\ttfamily static \mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater}{Rater}} es.\+ull.\+etsii.\+Rate.\+Rater\+Database.\+get\+Rater (\begin{DoxyParamCaption}\item[{String}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
+Método que devuelve un objeto valorador a través de su identificador
+
+
+\begin{DoxyParams}{Parámetros}
+{\em id} & Identificador del valorador \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Objeto valorador 
+\end{DoxyReturn}
 \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_a5e96c9777a5a56a90410ebcf2cd19f36}\label{classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_a5e96c9777a5a56a90410ebcf2cd19f36}} 
 \index{es.ull.etsii.Rate.RaterDatabase@{es.ull.etsii.Rate.RaterDatabase}!getRaters@{getRaters}}
 \index{getRaters@{getRaters}!es.ull.etsii.Rate.RaterDatabase@{es.ull.etsii.Rate.RaterDatabase}}
 \doxysubsubsection{\texorpdfstring{getRaters()}{getRaters()}}
 {\footnotesize\ttfamily static Array\+List$<$ \mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater}{Rater}} $>$ es.\+ull.\+etsii.\+Rate.\+Rater\+Database.\+get\+Raters (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
+\begin{DoxyReturn}{Devuelve}
+Lista de objetos calificadores 
+\end{DoxyReturn}
 \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_a1e789409d6d388d909b249ffefe88069}\label{classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_a1e789409d6d388d909b249ffefe88069}} 
 \index{es.ull.etsii.Rate.RaterDatabase@{es.ull.etsii.Rate.RaterDatabase}!initialize@{initialize}}
 \index{initialize@{initialize}!es.ull.etsii.Rate.RaterDatabase@{es.ull.etsii.Rate.RaterDatabase}}
 \doxysubsubsection{\texorpdfstring{initialize()}{initialize()}}
 {\footnotesize\ttfamily static void es.\+ull.\+etsii.\+Rate.\+Rater\+Database.\+initialize (\begin{DoxyParamCaption}\item[{String}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
+Método que inicializa las valoraciones a través de un archivo CSV pasado por parámetro
+
+
+\begin{DoxyParams}{Parámetros}
+{\em filename} & Nombre fichero CSV \\
+\hline
+\end{DoxyParams}
 \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_ac63383382d9c8f5f9294bb29b1bf4ce0}\label{classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_ac63383382d9c8f5f9294bb29b1bf4ce0}} 
 \index{es.ull.etsii.Rate.RaterDatabase@{es.ull.etsii.Rate.RaterDatabase}!size@{size}}
 \index{size@{size}!es.ull.etsii.Rate.RaterDatabase@{es.ull.etsii.Rate.RaterDatabase}}
 \doxysubsubsection{\texorpdfstring{size()}{size()}}
 {\footnotesize\ttfamily static int es.\+ull.\+etsii.\+Rate.\+Rater\+Database.\+size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
+\begin{DoxyReturn}{Devuelve}
+Número de películas valoradas 
+\end{DoxyReturn}
 
 
 La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}

@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="es">
+  <compounddef id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_personal_rating_option" kind="class" language="Java" prot="public">
+    <compoundname>es::ull::etsii::Ratings::PersonalRatingOption</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_personal_rating_option_1a7c4ebae9283f0369d907a936d10ee271" prot="private" static="yes" mutable="no">
+        <type>String</type>
+        <definition>String es.ull.etsii.Ratings.PersonalRatingOption.userName</definition>
+        <argsstring></argsstring>
+        <name>userName</name>
+        <qualifiedname>es.ull.etsii.Ratings.PersonalRatingOption.userName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/PersonalRatingOption.java" line="15" column="27" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/PersonalRatingOption.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_personal_rating_option_1a9dea4a914197ae06f5d66d19cb4392f3" prot="private" static="yes" mutable="no">
+        <type>String</type>
+        <definition>String es.ull.etsii.Ratings.PersonalRatingOption.fileName</definition>
+        <argsstring></argsstring>
+        <name>fileName</name>
+        <qualifiedname>es.ull.etsii.Ratings.PersonalRatingOption.fileName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/PersonalRatingOption.java" line="16" column="27" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/PersonalRatingOption.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_personal_rating_option_1a140d541a60cb8b2d5371710dabbe8d1b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void es.ull.etsii.Ratings.PersonalRatingOption.menu</definition>
+        <argsstring>()</argsstring>
+        <name>menu</name>
+        <qualifiedname>es.ull.etsii.Ratings.PersonalRatingOption.menu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/PersonalRatingOption.java" line="18" column="24" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/PersonalRatingOption.java" bodystart="18" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_personal_rating_option_1acf8d03e59886ccf8407fdfffa0dd8b05" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void es.ull.etsii.Ratings.PersonalRatingOption.searchTitle</definition>
+        <argsstring>()</argsstring>
+        <name>searchTitle</name>
+        <qualifiedname>es.ull.etsii.Ratings.PersonalRatingOption.searchTitle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/PersonalRatingOption.java" line="40" column="25" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/PersonalRatingOption.java" bodystart="40" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_personal_rating_option_1a5ed8d08562865175932f910f16ab842d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void es.ull.etsii.Ratings.PersonalRatingOption.rateMovie</definition>
+        <argsstring>(ArrayList&lt; Movie &gt; movies)</argsstring>
+        <name>rateMovie</name>
+        <qualifiedname>es.ull.etsii.Ratings.PersonalRatingOption.rateMovie</qualifiedname>
+        <param>
+          <type>ArrayList&lt; <ref refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie" kindref="compound">Movie</ref> &gt;</type>
+          <declname>movies</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/PersonalRatingOption.java" line="58" column="25" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/PersonalRatingOption.java" bodystart="58" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_ratings_1_1_personal_rating_option_1a47d87d4f5ab5a53cd294e5fd80537bc9" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void es.ull.etsii.Ratings.PersonalRatingOption.writeInFile</definition>
+        <argsstring>(Movie m, Integer rate)</argsstring>
+        <name>writeInFile</name>
+        <qualifiedname>es.ull.etsii.Ratings.PersonalRatingOption.writeInFile</qualifiedname>
+        <param>
+          <type><ref refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie" kindref="compound">Movie</ref></type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>Integer</type>
+          <declname>rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/PersonalRatingOption.java" line="77" column="25" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/PersonalRatingOption.java" bodystart="77" bodyend="101"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/PersonalRatingOption.java" line="13" column="7" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Ratings/PersonalRatingOption.java" bodystart="13" bodyend="102"/>
+    <listofallmembers>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_personal_rating_option_1a9dea4a914197ae06f5d66d19cb4392f3" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::PersonalRatingOption</scope><name>fileName</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_personal_rating_option_1a140d541a60cb8b2d5371710dabbe8d1b" prot="public" virt="non-virtual"><scope>es::ull::etsii::Ratings::PersonalRatingOption</scope><name>menu</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_personal_rating_option_1a5ed8d08562865175932f910f16ab842d" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::PersonalRatingOption</scope><name>rateMovie</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_personal_rating_option_1acf8d03e59886ccf8407fdfffa0dd8b05" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::PersonalRatingOption</scope><name>searchTitle</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_personal_rating_option_1a7c4ebae9283f0369d907a936d10ee271" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::PersonalRatingOption</scope><name>userName</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_personal_rating_option_1a47d87d4f5ab5a53cd294e5fd80537bc9" prot="private" virt="non-virtual"><scope>es::ull::etsii::Ratings::PersonalRatingOption</scope><name>writeInFile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

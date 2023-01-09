@@ -110,7 +110,9 @@ Métodos públicos</h2></td></tr>
 <tr class="memitem:a1edb801f34df197acf7584500c18c9ae"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter.html#a1edb801f34df197acf7584500c18c9ae">satisfies</a> (String id)</td></tr>
 <tr class="separator:a1edb801f34df197acf7584500c18c9ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p >Clase <a class="el" href="classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters.html">AllFilters</a> que implementa la interfaz '<a class="el" href="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter.html">Filter</a>' Clase que almacena todos los tipos de filtro aplicables a una pelicula </p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
 <a id="afa175564979aa735af4cb0662f04ec60" name="afa175564979aa735af4cb0662f04ec60"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afa175564979aa735af4cb0662f04ec60">&#9670;&#160;</a></span>AllFilters()</h2>
 
@@ -125,6 +127,7 @@ Métodos públicos</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >Constructor de la clase <a class="el" href="classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters.html">AllFilters</a> </p>
 
 </div>
 </div>
@@ -144,6 +147,12 @@ Métodos públicos</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >Método que añade un filtro al vector de interfaz '<a class="el" href="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter.html">Filter</a>' </p><dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>Filtro a añadir </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -162,6 +171,14 @@ Métodos públicos</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >Método de la interfaz '<a class="el" href="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter.html">Filter</a>' heredado. Recorre el array de '<a class="el" href="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter.html">Filter</a>' y comprueba que para el identificador que se le pasa por parametro, el elemento del array devuelve true. Si cualquiera de los filtros retorna false, el método devuelve false.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Identificador de la película </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Boolean True si se cumple con el filtro. </dd></dl>
 
 <p>Implementa <a class="el" href="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter.html#a1edb801f34df197acf7584500c18c9ae">es.ull.etsii.Filters.Filter</a>.</p>
 

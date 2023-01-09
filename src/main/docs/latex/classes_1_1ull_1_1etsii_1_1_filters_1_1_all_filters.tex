@@ -29,6 +29,9 @@ boolean \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters_ae7
 \end{DoxyCompactItemize}
 
 
+\doxysubsection{Descripción detallada}
+Clase \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters}{All\+Filters}} que implementa la interfaz \textquotesingle{}\mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter}{Filter}}\textquotesingle{} Clase que almacena todos los tipos de filtro aplicables a una pelicula 
+
 \doxysubsection{Documentación del constructor y destructor}
 \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters_afa175564979aa735af4cb0662f04ec60}\label{classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters_afa175564979aa735af4cb0662f04ec60}} 
 \index{es.ull.etsii.Filters.AllFilters@{es.ull.etsii.Filters.AllFilters}!AllFilters@{AllFilters}}
@@ -36,7 +39,7 @@ boolean \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters_ae7
 \doxysubsubsection{\texorpdfstring{AllFilters()}{AllFilters()}}
 {\footnotesize\ttfamily es.\+ull.\+etsii.\+Filters.\+All\+Filters.\+All\+Filters (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-
+Constructor de la clase \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters}{All\+Filters}} 
 
 \doxysubsection{Documentación de las funciones miembro}
 \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters_ac584a7234a7742a2e4fc7fe1da969d79}\label{classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters_ac584a7234a7742a2e4fc7fe1da969d79}} 
@@ -45,12 +48,27 @@ boolean \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters_ae7
 \doxysubsubsection{\texorpdfstring{addFilter()}{addFilter()}}
 {\footnotesize\ttfamily void es.\+ull.\+etsii.\+Filters.\+All\+Filters.\+add\+Filter (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter}{Filter}}}]{f }\end{DoxyParamCaption})}
 
+Método que añade un filtro al vector de interfaz \textquotesingle{}\mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter}{Filter}}\textquotesingle{} 
+\begin{DoxyParams}{Parámetros}
+{\em f} & Filtro a añadir \\
+\hline
+\end{DoxyParams}
 \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters_ae71d86079e47183c6426ffc4c10a0ba3}\label{classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters_ae71d86079e47183c6426ffc4c10a0ba3}} 
 \index{es.ull.etsii.Filters.AllFilters@{es.ull.etsii.Filters.AllFilters}!satisfies@{satisfies}}
 \index{satisfies@{satisfies}!es.ull.etsii.Filters.AllFilters@{es.ull.etsii.Filters.AllFilters}}
 \doxysubsubsection{\texorpdfstring{satisfies()}{satisfies()}}
 {\footnotesize\ttfamily boolean es.\+ull.\+etsii.\+Filters.\+All\+Filters.\+satisfies (\begin{DoxyParamCaption}\item[{String}]{id }\end{DoxyParamCaption})}
 
+Método de la interfaz \textquotesingle{}\mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter}{Filter}}\textquotesingle{} heredado. Recorre el array de \textquotesingle{}\mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter}{Filter}}\textquotesingle{} y comprueba que para el identificador que se le pasa por parametro, el elemento del array devuelve true. Si cualquiera de los filtros retorna false, el método devuelve false.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em id} & Identificador de la película \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Boolean True si se cumple con el filtro. 
+\end{DoxyReturn}
 
 
 Implementa \mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter_a1edb801f34df197acf7584500c18c9ae}{es.\+ull.\+etsii.\+Filters.\+Filter}}.

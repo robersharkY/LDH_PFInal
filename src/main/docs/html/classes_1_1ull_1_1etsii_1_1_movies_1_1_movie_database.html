@@ -84,6 +84,8 @@ $(function() {
 Métodos públicos estáticos</h2></td></tr>
 <tr class="memitem:a61e667fb59972fc76e9bdd74dded322e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database.html#a61e667fb59972fc76e9bdd74dded322e">initialize</a> (String moviefile)</td></tr>
 <tr class="separator:a61e667fb59972fc76e9bdd74dded322e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43611d859ab051ed6368e3c0ed6b3f34"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database.html#a43611d859ab051ed6368e3c0ed6b3f34">initialize</a> ()</td></tr>
+<tr class="separator:a43611d859ab051ed6368e3c0ed6b3f34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a286e1f5d0413d705090b483d84e939f5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database.html#a286e1f5d0413d705090b483d84e939f5">loadMovies</a> (String filename)</td></tr>
 <tr class="separator:a286e1f5d0413d705090b483d84e939f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee3433ffdb5400349364a9ae48177906"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database.html#aee3433ffdb5400349364a9ae48177906">containsID</a> (String id)</td></tr>
@@ -108,8 +110,12 @@ Métodos públicos estáticos</h2></td></tr>
 <tr class="separator:af84f0de37a975f26f78cacb3cc726bc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a726594fb7963822662adf505292fd229"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database.html#a726594fb7963822662adf505292fd229">filterBy</a> (<a class="el" href="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter.html">Filter</a> f)</td></tr>
 <tr class="separator:a726594fb7963822662adf505292fd229"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a229dcc96cc32062607ce615295fa7672"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; <a class="el" href="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie.html">Movie</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database.html#a229dcc96cc32062607ce615295fa7672">getMoviesByTitle</a> (String paramTitle)</td></tr>
+<tr class="separator:a229dcc96cc32062607ce615295fa7672"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p >Clase '<a class="el" href="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database.html">MovieDatabase</a>' que funciona base de datos de objetos '<a class="el" href="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie.html">Movie</a>' almacenados en fichero CSV </p>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
 <a id="aee3433ffdb5400349364a9ae48177906" name="aee3433ffdb5400349364a9ae48177906"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aee3433ffdb5400349364a9ae48177906">&#9670;&#160;</a></span>containsID()</h2>
 
@@ -133,6 +139,14 @@ Métodos públicos estáticos</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >Método que indica si una película se encuentra en la base de datos</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Identificador de la película </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Indica si se encuentra o no se encuentra </dd></dl>
 
 </div>
 </div>
@@ -159,6 +173,13 @@ Métodos públicos estáticos</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >Método que filtra péliculas a través de un objeto 'Filter' pasado por parámetro </p><dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>Filtro a emplear </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Vector de películas que cumplen la condición de filtrado </dd></dl>
 
 </div>
 </div>
@@ -185,6 +206,13 @@ Métodos públicos estáticos</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >Método que devuelve el país de rodaje de una película a través de su identificador </p><dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Identificador de una película </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>País(es) de la película </dd></dl>
 
 </div>
 </div>
@@ -211,6 +239,13 @@ Métodos públicos estáticos</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >Método que devuelve el director de una película a través de su identificador </p><dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Identificador de una película </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Director de la película </dd></dl>
 
 </div>
 </div>
@@ -237,6 +272,13 @@ Métodos públicos estáticos</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >Método que devuelve los género de una película a través de su identificador </p><dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Identificador de una película </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Género(s) de la película </dd></dl>
 
 </div>
 </div>
@@ -263,6 +305,13 @@ Métodos públicos estáticos</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >Método que devuelve la duración en minutos de una película a través de su identificador </p><dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Identificador de una película </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Duración en minutos </dd></dl>
 
 </div>
 </div>
@@ -280,6 +329,40 @@ Métodos públicos estáticos</h2></td></tr>
           <td>(</td>
           <td class="paramtype">String&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Método que devuelve el objeto '<a class="el" href="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie.html">Movie</a>' a través de su identificador</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Identificador de una película </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd><a class="el" href="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie.html">Movie</a> Objeto '<a class="el" href="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie.html">Movie</a>' </dd></dl>
+
+</div>
+</div>
+<a id="a229dcc96cc32062607ce615295fa7672" name="a229dcc96cc32062607ce615295fa7672"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a229dcc96cc32062607ce615295fa7672">&#9670;&#160;</a></span>getMoviesByTitle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static ArrayList&lt; <a class="el" href="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie.html">Movie</a> &gt; es.ull.etsii.Movies.MovieDatabase.getMoviesByTitle </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>paramTitle</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -315,6 +398,13 @@ Métodos públicos estáticos</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >Método que devuelve la URL que muestra el cartel de una película a través de su identificador </p><dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Identificador de una película </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>URL que guarda el cartel de la película </dd></dl>
 
 </div>
 </div>
@@ -341,6 +431,13 @@ Métodos públicos estáticos</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >Método que devuelve el título de una película a través de su identificador </p><dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Identificador de una película </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Título de la película </dd></dl>
 
 </div>
 </div>
@@ -367,11 +464,45 @@ Métodos públicos estáticos</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >Método que devuelve el año de una película a través de su identificador</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Identificador de una película </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Año de la película </dd></dl>
+
+</div>
+</div>
+<a id="a43611d859ab051ed6368e3c0ed6b3f34" name="a43611d859ab051ed6368e3c0ed6b3f34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43611d859ab051ed6368e3c0ed6b3f34">&#9670;&#160;</a></span>initialize() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void es.ull.etsii.Movies.MovieDatabase.initialize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Método privado estático que funciona igual que pero escoge un fichero por defecto </p>
 
 </div>
 </div>
 <a id="a61e667fb59972fc76e9bdd74dded322e" name="a61e667fb59972fc76e9bdd74dded322e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61e667fb59972fc76e9bdd74dded322e">&#9670;&#160;</a></span>initialize()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a61e667fb59972fc76e9bdd74dded322e">&#9670;&#160;</a></span>initialize() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -393,6 +524,13 @@ Métodos públicos estáticos</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >Método estático para inicializar una base da datos a partir de un fichero que almacena películas. En este caso se cuenta con varias ficheros básicos o de ejemplo.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">moviefile</td><td>Fichero donde se almacenan x películas </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -419,6 +557,13 @@ Métodos públicos estáticos</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >Método estático que dado un fichero con películas, las evalúa con el objeto FirstRating e inserta su valoración en el atributo privado</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>Nombre fichero con películas. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -444,6 +589,7 @@ Métodos públicos estáticos</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >Método que devuelve el número de películas del atributo </p><dl class="section return"><dt>Devuelve</dt><dd>Director de la película </dd></dl>
 
 </div>
 </div>

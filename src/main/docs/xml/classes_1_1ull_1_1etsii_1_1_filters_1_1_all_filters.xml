@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/AllFilters.java" line="6" column="13" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/AllFilters.java" bodystart="6" bodyend="-1"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/AllFilters.java" line="10" column="13" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/AllFilters.java" bodystart="10" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -29,10 +29,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Constructor de la clase <ref refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters" kindref="compound">AllFilters</ref> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/AllFilters.java" line="8" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/AllFilters.java" bodystart="8" bodyend="10"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/AllFilters.java" line="15" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/AllFilters.java" bodystart="15" bodyend="17"/>
       </memberdef>
       <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters_1ac584a7234a7742a2e4fc7fe1da969d79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -47,10 +48,20 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Método que añade un filtro al vector de interfaz &apos;<ref refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter" kindref="compound">Filter</ref>&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>f</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Filtro a añadir </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/AllFilters.java" line="12" column="15" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/AllFilters.java" bodystart="12" bodyend="14"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/AllFilters.java" line="23" column="15" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/AllFilters.java" bodystart="23" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters_1ae71d86079e47183c6426ffc4c10a0ba3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>boolean</type>
@@ -66,15 +77,29 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Método de la interfaz &apos;<ref refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter" kindref="compound">Filter</ref>&apos; heredado. Recorre el array de &apos;<ref refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter" kindref="compound">Filter</ref>&apos; y comprueba que para el identificador que se le pasa por parametro, el elemento del array devuelve true. Si cualquiera de los filtros retorna false, el método devuelve false.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador de la película </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Boolean True si se cumple con el filtro. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/AllFilters.java" line="17" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/AllFilters.java" bodystart="17" bodyend="25"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/AllFilters.java" line="37" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/AllFilters.java" bodystart="37" bodyend="44"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
+<para>Clase <ref refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters" kindref="compound">AllFilters</ref> que implementa la interfaz &apos;<ref refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter" kindref="compound">Filter</ref>&apos; Clase que almacena todos los tipos de filtro aplicables a una pelicula </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -106,7 +131,7 @@
         <link refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter"/>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/AllFilters.java" line="5" column="7" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/AllFilters.java" bodystart="5" bodyend="26"/>
+    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/AllFilters.java" line="9" column="7" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/AllFilters.java" bodystart="9" bodyend="45"/>
     <listofallmembers>
       <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters_1ac584a7234a7742a2e4fc7fe1da969d79" prot="public" virt="non-virtual"><scope>es::ull::etsii::Filters::AllFilters</scope><name>addFilter</name></member>
       <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters_1afa175564979aa735af4cb0662f04ec60" prot="public" virt="non-virtual"><scope>es::ull::etsii::Filters::AllFilters</scope><name>AllFilters</name></member>

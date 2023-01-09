@@ -5,6 +5,7 @@
     <innerclass refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_first_ratings" prot="public">es::ull::etsii::Ratings::FirstRatings</innerclass>
     <innerclass refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_fourth_ratings" prot="public">es::ull::etsii::Ratings::FourthRatings</innerclass>
     <innerclass refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_movie_runner_similar_ratings" prot="public">es::ull::etsii::Ratings::MovieRunnerSimilarRatings</innerclass>
+    <innerclass refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_personal_rating_option" prot="public">es::ull::etsii::Ratings::PersonalRatingOption</innerclass>
     <innerclass refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating" prot="public">es::ull::etsii::Ratings::Rating</innerclass>
     <briefdescription>
     </briefdescription>

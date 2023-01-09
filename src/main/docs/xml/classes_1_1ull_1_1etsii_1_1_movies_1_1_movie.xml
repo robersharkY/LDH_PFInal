@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="5" column="24" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="5" bodyend="-1"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="9" column="24" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="9" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a0962f83407b28b849f65d6494f9ca0e5" prot="private" static="no" mutable="no">
         <type>final String</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="6" column="24" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="6" bodyend="-1"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="10" column="24" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="10" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a2c48872b0204fb6d47085ced69f6249c" prot="private" static="no" mutable="no">
         <type>final int</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="7" column="21" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="7" bodyend="-1"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="11" column="21" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="11" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1ac9090948adde50b31c285532cfe6ad86" prot="private" static="no" mutable="no">
         <type>final String</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="8" column="24" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="8" bodyend="-1"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="12" column="24" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="12" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a79a400ac22cd0bf1749fa413e4ededfd" prot="private" static="no" mutable="no">
         <type>String</type>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="9" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="9" bodyend="-1"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="13" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1afe0d5b8f795b63bf1f8535a464e4c422" prot="private" static="no" mutable="no">
         <type>String</type>
@@ -85,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="10" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="10" bodyend="-1"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="14" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a57ae13aafd5790dc04d3664f7bd6aec0" prot="private" static="no" mutable="no">
         <type>String</type>
@@ -99,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="11" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="11" bodyend="-1"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="15" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a3ad9dd44726cf03dcde1cabf7babb7ee" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="12" column="15" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="12" bodyend="-1"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="16" column="15" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="16" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -142,10 +142,45 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Constructor con los atributos mínimos que debe tener una película</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>anID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aTitle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Título </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aYear</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Año </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>theGenres</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Género(s) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="14" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="14" bodyend="20"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="26" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="26" bodyend="32"/>
       </memberdef>
       <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a575c0755ddeb0325de8d7f3b89af91ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -188,10 +223,77 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Constructor con los todos los atributos que puede tener una película</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>anID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aTitle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Título </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aYear</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Año </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>theGenres</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Género(s) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aDirector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Director </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aCountry</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>País </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aPoster</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Póster de la pelicula </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>theMinutes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Duración en minutos </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="22" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="22" bodyend="40"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="46" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="46" bodyend="64"/>
       </memberdef>
       <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a5b5895c73cf39d5dbf6dba4c703f743a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -202,10 +304,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Método getter que devuelve el atributo identificador</para>
+<para><simplesect kind="return"><para>String Identificador </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="43" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="43" bodyend="45"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="72" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="72" bodyend="74"/>
       </memberdef>
       <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a48c3c4ff542dc5413fdd7eebde966d56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -216,10 +322,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Método getter que devuelve el atributo título</para>
+<para><simplesect kind="return"><para>String Título </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="48" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="48" bodyend="50"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="82" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="82" bodyend="84"/>
       </memberdef>
       <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1ae6c13b7c9dd704599b3d6d4fd376d20e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -230,10 +340,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Método getter que devuelve el atributo año</para>
+<para><simplesect kind="return"><para>Integer Año de lanzamiento </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="53" column="14" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="53" bodyend="55"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="92" column="14" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="92" bodyend="94"/>
       </memberdef>
       <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1aa72f5ca5d581033d84d9a7726d548c10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -244,10 +358,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Método getter que devuelve el atributo género</para>
+<para><simplesect kind="return"><para>String Género(s) </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="58" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="58" bodyend="60"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="102" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="102" bodyend="104"/>
       </memberdef>
       <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a0e30e36587c3e10b255d7ec5d0d6aaae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -258,10 +376,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Método getter que devuelve el atributo país</para>
+<para><simplesect kind="return"><para>String País(es) donde se ha rodado la película </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="62" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="62" bodyend="64"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="111" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="111" bodyend="113"/>
       </memberdef>
       <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1adaade0a062cc820e74b05a13d31489ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -272,10 +394,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Método getter que devuelve el atributo director</para>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="66" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="66" bodyend="68"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="120" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="120" bodyend="122"/>
       </memberdef>
       <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a32b28765a7bb0af346268997c18020f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -286,10 +412,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Método getter que devuelve el atributo póster</para>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="70" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="70" bodyend="72"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="129" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="129" bodyend="131"/>
       </memberdef>
       <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a212f5139c50645f8916f3726116152f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -300,10 +430,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Método getter que devuelve el atributo minutos (de duración)</para>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="74" column="14" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="74" bodyend="76"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="138" column="14" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="138" bodyend="140"/>
       </memberdef>
       <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a29177349be7cc07e76a060773e9bbbf0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -314,17 +448,22 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Método getter que devuelve una descripción de la película con sus atributos obligatorios</para>
+<para><simplesect kind="return"><para>Descripción de la película en siguiente formato: </para>
+</simplesect>
+&quot;Movie [id=&quot; &quot;, title=&quot; &quot;, year=&quot; &quot;, genres= &quot; &quot;]&quot; </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="79" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="79" bodyend="83"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="151" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="151" bodyend="155"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
+<para>Clase &apos;<ref refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie" kindref="compound">Movie</ref>&apos; para representar el objeto película. Es un objeto pasivo, actúa como contenedor de información. </para>
     </detaileddescription>
-    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="4" column="7" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="4" bodyend="84"/>
+    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" line="8" column="7" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Movies/Movie.java" bodystart="8" bodyend="156"/>
     <listofallmembers>
       <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1afe0d5b8f795b63bf1f8535a464e4c422" prot="private" virt="non-virtual"><scope>es::ull::etsii::Movies::Movie</scope><name>country</name></member>
       <member refid="classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_1a79a400ac22cd0bf1749fa413e4ededfd" prot="private" virt="non-virtual"><scope>es::ull::etsii::Movies::Movie</scope><name>director</name></member>

@@ -25,43 +25,94 @@ Diagrama de colaboración para es.\+ull.\+etsii.\+Filters.\+Minutes\+Filter\+:\n
 \item 
 \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_a5ad1f28beff6d3179947955afd3c8357}{Minutes\+Filter}} (int min\+Minutes)
 \item 
+\mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_a1df9316792893cf96ac60a9a11d473f1}{Minutes\+Filter}} (int minutes, char param\+Option)
+\item 
+int \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_a3636522e2575c157d1e570a74ffec7b8}{get\+Min\+Minutes}} ()
+\item 
+int \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_a24c54881ccb1da18c55266fcc36f2952}{get\+Max\+Minutes}} ()
+\item 
 boolean \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_ada0ff9ca5afc18941c7779c232263f37}{satisfies}} (String id)
 \end{DoxyCompactItemize}
 
 
 \doxysubsection{Descripción detallada}
-A class for filter movies by time
-
-\begin{DoxyAuthor}{Autor}
-Stanislav Rakitov 
-\end{DoxyAuthor}
-\begin{DoxyVersion}{Versión}
-1.\+0 
-\end{DoxyVersion}
-
+Clase \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter}{Minutes\+Filter}} que implementa la interfaz \textquotesingle{}\mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter}{Filter}}\textquotesingle{} Clase que con la que filtrar las peliculas mediante su duración mínima y máxima en minutos. 
 
 \doxysubsection{Documentación del constructor y destructor}
 \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_aa6adb964f98ed5cef388dee1b7618e66}\label{classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_aa6adb964f98ed5cef388dee1b7618e66}} 
 \index{es.ull.etsii.Filters.MinutesFilter@{es.ull.etsii.Filters.MinutesFilter}!MinutesFilter@{MinutesFilter}}
 \index{MinutesFilter@{MinutesFilter}!es.ull.etsii.Filters.MinutesFilter@{es.ull.etsii.Filters.MinutesFilter}}
-\doxysubsubsection{\texorpdfstring{MinutesFilter()}{MinutesFilter()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\doxysubsubsection{\texorpdfstring{MinutesFilter()}{MinutesFilter()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily es.\+ull.\+etsii.\+Filters.\+Minutes\+Filter.\+Minutes\+Filter (\begin{DoxyParamCaption}\item[{int}]{min\+Minutes,  }\item[{int}]{max\+Minutes }\end{DoxyParamCaption})}
 
+Constructor de la clase \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter}{Minutes\+Filter}}. Se establece como opcion del filtro la duracion que se encuentra entre dos tiempos en minutos.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em min\+Minutes} & Mínimo de minutos de duración \\
+\hline
+{\em max\+Minutes} & Máximo de minutos de duración \\
+\hline
+\end{DoxyParams}
 \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_a5ad1f28beff6d3179947955afd3c8357}\label{classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_a5ad1f28beff6d3179947955afd3c8357}} 
 \index{es.ull.etsii.Filters.MinutesFilter@{es.ull.etsii.Filters.MinutesFilter}!MinutesFilter@{MinutesFilter}}
 \index{MinutesFilter@{MinutesFilter}!es.ull.etsii.Filters.MinutesFilter@{es.ull.etsii.Filters.MinutesFilter}}
-\doxysubsubsection{\texorpdfstring{MinutesFilter()}{MinutesFilter()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\doxysubsubsection{\texorpdfstring{MinutesFilter()}{MinutesFilter()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
 {\footnotesize\ttfamily es.\+ull.\+etsii.\+Filters.\+Minutes\+Filter.\+Minutes\+Filter (\begin{DoxyParamCaption}\item[{int}]{min\+Minutes }\end{DoxyParamCaption})}
 
+Constructor de la clase \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter}{Minutes\+Filter}}. Se establece como opcion del filtro la duracion superior al tiempo en minutos pasado por parametro.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em min\+Minutes} & Mínimo de minutos de duración \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_a1df9316792893cf96ac60a9a11d473f1}\label{classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_a1df9316792893cf96ac60a9a11d473f1}} 
+\index{es.ull.etsii.Filters.MinutesFilter@{es.ull.etsii.Filters.MinutesFilter}!MinutesFilter@{MinutesFilter}}
+\index{MinutesFilter@{MinutesFilter}!es.ull.etsii.Filters.MinutesFilter@{es.ull.etsii.Filters.MinutesFilter}}
+\doxysubsubsection{\texorpdfstring{MinutesFilter()}{MinutesFilter()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily es.\+ull.\+etsii.\+Filters.\+Minutes\+Filter.\+Minutes\+Filter (\begin{DoxyParamCaption}\item[{int}]{minutes,  }\item[{char}]{param\+Option }\end{DoxyParamCaption})}
+
+Constructor de la clase \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter}{Minutes\+Filter}}. Se establece como opcion del filtro la duracion superior o inferior al tiempo en minutos pasado por parametro.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em minutes} & Mínimo de minutos de duración \\
+\hline
+{\em param\+Option} & Opcion elegida. Puede ser maximo de minutos o minimo de minutos \\
+\hline
+\end{DoxyParams}
 
 
 \doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_a24c54881ccb1da18c55266fcc36f2952}\label{classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_a24c54881ccb1da18c55266fcc36f2952}} 
+\index{es.ull.etsii.Filters.MinutesFilter@{es.ull.etsii.Filters.MinutesFilter}!getMaxMinutes@{getMaxMinutes}}
+\index{getMaxMinutes@{getMaxMinutes}!es.ull.etsii.Filters.MinutesFilter@{es.ull.etsii.Filters.MinutesFilter}}
+\doxysubsubsection{\texorpdfstring{getMaxMinutes()}{getMaxMinutes()}}
+{\footnotesize\ttfamily int es.\+ull.\+etsii.\+Filters.\+Minutes\+Filter.\+get\+Max\+Minutes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_a3636522e2575c157d1e570a74ffec7b8}\label{classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_a3636522e2575c157d1e570a74ffec7b8}} 
+\index{es.ull.etsii.Filters.MinutesFilter@{es.ull.etsii.Filters.MinutesFilter}!getMinMinutes@{getMinMinutes}}
+\index{getMinMinutes@{getMinMinutes}!es.ull.etsii.Filters.MinutesFilter@{es.ull.etsii.Filters.MinutesFilter}}
+\doxysubsubsection{\texorpdfstring{getMinMinutes()}{getMinMinutes()}}
+{\footnotesize\ttfamily int es.\+ull.\+etsii.\+Filters.\+Minutes\+Filter.\+get\+Min\+Minutes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
 \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_ada0ff9ca5afc18941c7779c232263f37}\label{classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_ada0ff9ca5afc18941c7779c232263f37}} 
 \index{es.ull.etsii.Filters.MinutesFilter@{es.ull.etsii.Filters.MinutesFilter}!satisfies@{satisfies}}
 \index{satisfies@{satisfies}!es.ull.etsii.Filters.MinutesFilter@{es.ull.etsii.Filters.MinutesFilter}}
 \doxysubsubsection{\texorpdfstring{satisfies()}{satisfies()}}
 {\footnotesize\ttfamily boolean es.\+ull.\+etsii.\+Filters.\+Minutes\+Filter.\+satisfies (\begin{DoxyParamCaption}\item[{String}]{id }\end{DoxyParamCaption})}
 
+Método de la interfaz \textquotesingle{}\mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter}{Filter}}\textquotesingle{} heredado. Comprueba si la(s) duración(es) seleccionada(s) coincide(n) y/u opción seleccionada coincide con el año de cierta película
+
+
+\begin{DoxyParams}{Parámetros}
+{\em id} & Identificador de la película \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Boolean True si se cumple con el filtro. 
+\end{DoxyReturn}
 
 
 Implementa \mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter_a1edb801f34df197acf7584500c18c9ae}{es.\+ull.\+etsii.\+Filters.\+Filter}}.

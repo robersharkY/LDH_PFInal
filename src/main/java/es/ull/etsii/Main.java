@@ -5,8 +5,9 @@ import es.ull.etsii.Rate.Rater;
 import es.ull.etsii.Ratings.FourthRatings;
 import es.ull.etsii.Ratings.MovieRunnerSimilarRatings;
 import es.ull.etsii.Ratings.PersonalRatingOption;
+import es.ull.etsii.Recommendations.RecommendationRunner;
 
-import java.io.IOException;
+import java.util.ArrayList;
 
 /** @author Stanislav Rakitov */
 public class Main {
@@ -42,6 +43,10 @@ public class Main {
         System.out.println("---");
         quiz.printSimilarRatingsByYearAfterAndMinutes();
 
-        PersonalRatingOption.menu();
+
+        RecommendationRunner recomendation = new RecommendationRunner();
+        ArrayList<String> lista = recomendation.getItemsToRate();
+        System.out.println(lista.toString());
+        recomendation.printRecommendationsFor("32");
     }
 }

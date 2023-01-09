@@ -1,0 +1,84 @@
+.TH "es.ull.etsii.Filters.YearFilter" 3 "Lunes, 9 de Enero de 2023" "Version 1.0" "ProyectoFinalLDH" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+es.ull.etsii.Filters.YearFilter
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Herencias \fBes\&.ull\&.etsii\&.Filters\&.Filter\fP\&.
+.SS "Métodos públicos"
+
+.in +1c
+.ti -1c
+.RI "\fBYearFilter\fP (int year)"
+.br
+.ti -1c
+.RI "\fBYearFilter\fP (int year, char optionParam)"
+.br
+.ti -1c
+.RI "\fBYearFilter\fP (int year1, int year2)"
+.br
+.ti -1c
+.RI "boolean \fBsatisfies\fP (String id)"
+.br
+.in -1c
+.SH "Descripción detallada"
+.PP 
+Clase YearAfterFilter que implementa la interfaz '\fBFilter\fP' Clase que con la que filtrar las peliculas mediante su año de lanzamiento 
+.SH "Documentación del constructor y destructor"
+.PP 
+.SS "es\&.ull\&.etsii\&.Filters\&.YearFilter\&.YearFilter (int year)"
+Constructor que, por defecto, establece el año del filtro igual al año por parametro 
+.PP
+\fBParámetros\fP
+.RS 4
+\fIyear\fP Año igual a 
+.RE
+.PP
+
+.SS "es\&.ull\&.etsii\&.Filters\&.YearFilter\&.YearFilter (int year, char optionParam)"
+Constructor para filtrar a través de año y opción
+.PP
+\fBParámetros\fP
+.RS 4
+\fIyear\fP Año limite 
+.br
+\fIoptionParam\fP Opción a ejecutar 
+.RE
+.PP
+
+.SS "es\&.ull\&.etsii\&.Filters\&.YearFilter\&.YearFilter (int year1, int year2)"
+Constructor que selecciona películas comprendidas entre dos años, estos incluidos\&.
+.PP
+\fBParámetros\fP
+.RS 4
+\fIyear1\fP 
+.br
+\fIyear2\fP 
+.RE
+.PP
+
+.SH "Documentación de las funciones miembro"
+.PP 
+.SS "boolean es\&.ull\&.etsii\&.Filters\&.YearFilter\&.satisfies (String id)"
+Método de la interfaz '\fBFilter\fP' heredado\&. Comprueba si un año y opción o un rango de años coinciden con el año de una pelicula\&.
+.PP
+\fBParámetros\fP
+.RS 4
+\fIid\fP Identificador de la película 
+.RE
+.PP
+\fBDevuelve\fP
+.RS 4
+Boolean True si se cumple con el filtro\&. 
+.RE
+.PP
+
+.PP
+Implementa \fBes\&.ull\&.etsii\&.Filters\&.Filter\fP\&.
+
+.SH "Autor"
+.PP 
+Generado automáticamente por Doxygen para ProyectoFinalLDH del código fuente\&.

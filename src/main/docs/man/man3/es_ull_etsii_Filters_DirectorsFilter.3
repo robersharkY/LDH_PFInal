@@ -1,4 +1,4 @@
-.TH "es.ull.etsii.Filters.DirectorsFilter" 3 "Miércoles, 4 de Enero de 2023" "Version 1.0" "ProyectoFinalLDH" \" -*- nroff -*-
+.TH "es.ull.etsii.Filters.DirectorsFilter" 3 "Lunes, 9 de Enero de 2023" "Version 1.0" "ProyectoFinalLDH" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -20,26 +20,33 @@ Herencias \fBes\&.ull\&.etsii\&.Filters\&.Filter\fP\&.
 .in -1c
 .SH "Descripción detallada"
 .PP 
-A class for filter movies by directors
-.PP
-\fBAutor\fP
-.RS 4
-Stanislav Rakitov 
-.RE
-.PP
-\fBVersión\fP
-.RS 4
-1\&.0 
-.RE
-.PP
-
+Clase \fBDirectorsFilter\fP que implementa la interfaz '\fBFilter\fP' Clase que con la que filtrar las peliculas mediante su director\&. 
 .SH "Documentación del constructor y destructor"
 .PP 
 .SS "es\&.ull\&.etsii\&.Filters\&.DirectorsFilter\&.DirectorsFilter (String directors)"
+Constructor de la clase \fBDirectorsFilter\fP al que se le pasa una string que contiene el nombre o el apellido de un director 
+.PP
+\fBParámetros\fP
+.RS 4
+\fIdirectors\fP Nombre del director a filtrar 
+.RE
+.PP
 
 .SH "Documentación de las funciones miembro"
 .PP 
 .SS "boolean es\&.ull\&.etsii\&.Filters\&.DirectorsFilter\&.satisfies (String id)"
+Método de la interfaz '\fBFilter\fP' heredado\&. Recorre el array de '\fBFilter\fP' y comprueba que para el identificador que se le pasa por parametro, el director de esa pelicula es igual al director del filtro
+.PP
+\fBParámetros\fP
+.RS 4
+\fIid\fP Identificador de la película 
+.RE
+.PP
+\fBDevuelve\fP
+.RS 4
+Boolean True si se cumple con el filtro\&. 
+.RE
+.PP
 
 .PP
 Implementa \fBes\&.ull\&.etsii\&.Filters\&.Filter\fP\&.

@@ -3,11 +3,12 @@
   <compounddef id="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter" kind="interface" language="Java" prot="public">
     <compoundname>es::ull::etsii::Filters::Filter</compoundname>
     <derivedcompoundref refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters" prot="public" virt="non-virtual">es.ull.etsii.Filters.AllFilters</derivedcompoundref>
+    <derivedcompoundref refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_country_filter" prot="public" virt="non-virtual">es.ull.etsii.Filters.CountryFilter</derivedcompoundref>
     <derivedcompoundref refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter" prot="public" virt="non-virtual">es.ull.etsii.Filters.DirectorsFilter</derivedcompoundref>
     <derivedcompoundref refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_genre_filter" prot="public" virt="non-virtual">es.ull.etsii.Filters.GenreFilter</derivedcompoundref>
     <derivedcompoundref refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter" prot="public" virt="non-virtual">es.ull.etsii.Filters.MinutesFilter</derivedcompoundref>
     <derivedcompoundref refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_true_filter" prot="public" virt="non-virtual">es.ull.etsii.Filters.TrueFilter</derivedcompoundref>
-    <derivedcompoundref refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_after_filter" prot="public" virt="non-virtual">es.ull.etsii.Filters.YearAfterFilter</derivedcompoundref>
+    <derivedcompoundref refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_filter" prot="public" virt="non-virtual">es.ull.etsii.Filters.YearFilter</derivedcompoundref>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter_1a1edb801f34df197acf7584500c18c9ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>boolean</type>
@@ -16,11 +17,12 @@
         <name>satisfies</name>
         <qualifiedname>es.ull.etsii.Filters.Filter.satisfies</qualifiedname>
         <reimplementedby refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters_1ae71d86079e47183c6426ffc4c10a0ba3">satisfies</reimplementedby>
+        <reimplementedby refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_country_filter_1afafb29e8677a6043dade57ed1cf23e97">satisfies</reimplementedby>
         <reimplementedby refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter_1ac3a85d51bbcd0b0343ea99e8e640cf06">satisfies</reimplementedby>
         <reimplementedby refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_genre_filter_1abfa65b92bbe6ec97c10bbbefad3b3146">satisfies</reimplementedby>
         <reimplementedby refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1ada0ff9ca5afc18941c7779c232263f37">satisfies</reimplementedby>
         <reimplementedby refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_true_filter_1af8b19fc013507e84cc322ddce49b542b">satisfies</reimplementedby>
-        <reimplementedby refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_after_filter_1aa3c472f4c127128552831fa4f1046d5f">satisfies</reimplementedby>
+        <reimplementedby refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_filter_1adc509805fe7632f8c8478b346c385ba1">satisfies</reimplementedby>
         <param>
           <type>String</type>
           <declname>id</declname>
@@ -28,15 +30,26 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Interfaz filtro <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador de una película </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/Filter.java" line="4" column="11"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/Filter.java" line="12" column="11"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
+<para>Interfaz filtro </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -50,37 +63,43 @@
         </childnode>
       </node>
       <node id="3">
+        <label>es.ull.etsii.Filters.CountryFilter</label>
+        <link refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_country_filter"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
         <label>es.ull.etsii.Filters.DirectorsFilter</label>
         <link refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="4">
+      <node id="5">
         <label>es.ull.etsii.Filters.GenreFilter</label>
         <link refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_genre_filter"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="5">
+      <node id="6">
         <label>es.ull.etsii.Filters.MinutesFilter</label>
         <link refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="6">
+      <node id="7">
         <label>es.ull.etsii.Filters.TrueFilter</label>
         <link refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_true_filter"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="7">
-        <label>es.ull.etsii.Filters.YearAfterFilter</label>
-        <link refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_after_filter"/>
+      <node id="8">
+        <label>es.ull.etsii.Filters.YearFilter</label>
+        <link refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_filter"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/Filter.java" line="3" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/Filter.java" bodystart="3" bodyend="5"/>
+    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/Filter.java" line="6" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/Filter.java" bodystart="6" bodyend="13"/>
     <listofallmembers>
       <member refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter_1a1edb801f34df197acf7584500c18c9ae" prot="public" virt="non-virtual"><scope>es::ull::etsii::Filters::Filter</scope><name>satisfies</name></member>
     </listofallmembers>

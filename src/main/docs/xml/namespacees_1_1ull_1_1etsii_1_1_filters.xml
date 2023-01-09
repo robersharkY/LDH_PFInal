@@ -3,12 +3,13 @@
   <compounddef id="namespacees_1_1ull_1_1etsii_1_1_filters" kind="namespace" language="Java">
     <compoundname>es::ull::etsii::Filters</compoundname>
     <innerclass refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_all_filters" prot="public">es::ull::etsii::Filters::AllFilters</innerclass>
+    <innerclass refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_country_filter" prot="public">es::ull::etsii::Filters::CountryFilter</innerclass>
     <innerclass refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter" prot="public">es::ull::etsii::Filters::DirectorsFilter</innerclass>
     <innerclass refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter" prot="public">es::ull::etsii::Filters::Filter</innerclass>
     <innerclass refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_genre_filter" prot="public">es::ull::etsii::Filters::GenreFilter</innerclass>
     <innerclass refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter" prot="public">es::ull::etsii::Filters::MinutesFilter</innerclass>
     <innerclass refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_true_filter" prot="public">es::ull::etsii::Filters::TrueFilter</innerclass>
-    <innerclass refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_after_filter" prot="public">es::ull::etsii::Filters::YearAfterFilter</innerclass>
+    <innerclass refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_filter" prot="public">es::ull::etsii::Filters::YearFilter</innerclass>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

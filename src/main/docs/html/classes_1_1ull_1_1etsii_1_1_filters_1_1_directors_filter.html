@@ -108,9 +108,7 @@ Métodos públicos</h2></td></tr>
 <tr class="separator:a1edb801f34df197acf7584500c18c9ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
-<div class="textblock"><p >A class for filter movies by directors</p>
-<dl class="section author"><dt>Autor</dt><dd>Stanislav Rakitov </dd></dl>
-<dl class="section version"><dt>Versión</dt><dd>1.0 </dd></dl>
+<div class="textblock"><p >Clase <a class="el" href="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter.html">DirectorsFilter</a> que implementa la interfaz '<a class="el" href="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter.html">Filter</a>' Clase que con la que filtrar las peliculas mediante su director. </p>
 </div><h2 class="groupheader">Documentación del constructor y destructor</h2>
 <a id="a048d1708b83a2b1eb5ad22296455f412" name="a048d1708b83a2b1eb5ad22296455f412"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a048d1708b83a2b1eb5ad22296455f412">&#9670;&#160;</a></span>DirectorsFilter()</h2>
@@ -127,6 +125,12 @@ Métodos públicos</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >Constructor de la clase <a class="el" href="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter.html">DirectorsFilter</a> al que se le pasa una string que contiene el nombre o el apellido de un director </p><dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">directors</td><td>Nombre del director a filtrar </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -146,6 +150,14 @@ Métodos públicos</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >Método de la interfaz '<a class="el" href="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter.html">Filter</a>' heredado. Recorre el array de '<a class="el" href="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter.html">Filter</a>' y comprueba que para el identificador que se le pasa por parametro, el director de esa pelicula es igual al director del filtro</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Identificador de la película </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Boolean True si se cumple con el filtro. </dd></dl>
 
 <p>Implementa <a class="el" href="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter.html#a1edb801f34df197acf7584500c18c9ae">es.ull.etsii.Filters.Filter</a>.</p>
 

@@ -1,4 +1,4 @@
-.TH "es.ull.etsii.Filters.AllFilters" 3 "Miércoles, 4 de Enero de 2023" "Version 1.0" "ProyectoFinalLDH" \" -*- nroff -*-
+.TH "es.ull.etsii.Filters.AllFilters" 3 "Lunes, 9 de Enero de 2023" "Version 1.0" "ProyectoFinalLDH" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -21,15 +21,37 @@ Herencias \fBes\&.ull\&.etsii\&.Filters\&.Filter\fP\&.
 .RI "boolean \fBsatisfies\fP (String id)"
 .br
 .in -1c
+.SH "Descripción detallada"
+.PP 
+Clase \fBAllFilters\fP que implementa la interfaz '\fBFilter\fP' Clase que almacena todos los tipos de filtro aplicables a una pelicula 
 .SH "Documentación del constructor y destructor"
 .PP 
 .SS "es\&.ull\&.etsii\&.Filters\&.AllFilters\&.AllFilters ()"
-
+Constructor de la clase \fBAllFilters\fP 
 .SH "Documentación de las funciones miembro"
 .PP 
 .SS "void es\&.ull\&.etsii\&.Filters\&.AllFilters\&.addFilter (\fBFilter\fP f)"
+Método que añade un filtro al vector de interfaz '\fBFilter\fP' 
+.PP
+\fBParámetros\fP
+.RS 4
+\fIf\fP Filtro a añadir 
+.RE
+.PP
 
 .SS "boolean es\&.ull\&.etsii\&.Filters\&.AllFilters\&.satisfies (String id)"
+Método de la interfaz '\fBFilter\fP' heredado\&. Recorre el array de '\fBFilter\fP' y comprueba que para el identificador que se le pasa por parametro, el elemento del array devuelve true\&. Si cualquiera de los filtros retorna false, el método devuelve false\&.
+.PP
+\fBParámetros\fP
+.RS 4
+\fIid\fP Identificador de la película 
+.RE
+.PP
+\fBDevuelve\fP
+.RS 4
+Boolean True si se cumple con el filtro\&. 
+.RE
+.PP
 
 .PP
 Implementa \fBes\&.ull\&.etsii\&.Filters\&.Filter\fP\&.

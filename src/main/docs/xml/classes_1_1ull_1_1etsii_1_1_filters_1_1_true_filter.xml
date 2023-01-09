@@ -18,10 +18,21 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Clase <ref refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_true_filter" kindref="compound">TrueFilter</ref> que implementa la interfaz &apos;<ref refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter" kindref="compound">Filter</ref>&apos; Clase que con la que filtrar las peliculas...</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador de la película a filtrar </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/TrueFilter.java" line="5" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/TrueFilter.java" bodystart="5" bodyend="7"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/TrueFilter.java" line="13" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/TrueFilter.java" bodystart="13" bodyend="15"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -52,7 +63,7 @@
         <link refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter"/>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/TrueFilter.java" line="3" column="7" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/TrueFilter.java" bodystart="3" bodyend="8"/>
+    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/TrueFilter.java" line="4" column="7" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/TrueFilter.java" bodystart="4" bodyend="16"/>
     <listofallmembers>
       <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_true_filter_1af8b19fc013507e84cc322ddce49b542b" prot="public" virt="non-virtual"><scope>es::ull::etsii::Filters::TrueFilter</scope><name>satisfies</name></member>
     </listofallmembers>

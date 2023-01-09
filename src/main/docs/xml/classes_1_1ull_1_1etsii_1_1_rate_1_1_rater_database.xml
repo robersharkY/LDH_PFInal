@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" line="16" column="26" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" bodystart="16" bodyend="-1"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" line="15" column="26" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" bodystart="15" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-static-func">
@@ -28,10 +28,13 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Este método solo es llamado por: <simplesect kind="see"><para>public static void <ref refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_1a3c13f83423e4e05e643591c57718635b" kindref="member">addRatings(String filename)</ref> </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" line="18" column="23" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" bodystart="18" bodyend="23"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" line="21" column="23" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" bodystart="21" bodyend="26"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -48,10 +51,21 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Método que inicializa las valoraciones a través de un archivo CSV pasado por parámetro</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nombre fichero CSV </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" line="25" column="22" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" bodystart="25" bodyend="30"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" line="34" column="22" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" bodystart="34" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_1a3c13f83423e4e05e643591c57718635b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -66,10 +80,21 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Método que, a partir de un archivo CSV pasado por parámetro, lee cada una de sus líneas y llama al método &apos;addRaterRating&apos; pasándole cada uno de sus parámetros obtenidos de cada línea del fichero.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nombre de archivo CSV </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" line="32" column="22" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" bodystart="32" bodyend="42"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" line="48" column="22" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" bodystart="48" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_1aac1de427a4785fc7bbabda62ff8a1938" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -92,10 +117,37 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Método que añde una valoración de una película a la tabla Hash &apos;ourRaters&apos; y recibe como parámetros:</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>raterID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador del valorador </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>movieID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador de la película </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rating</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nota de la valoración </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" line="44" column="22" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" bodystart="44" bodyend="54"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" line="68" column="22" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" bodystart="68" bodyend="78"/>
       </memberdef>
       <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_1a6964996ca231994e72c293b9676a9b27" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater" kindref="compound">Rater</ref></type>
@@ -110,10 +162,23 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Método que devuelve un objeto valorador a través de su identificador</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador del valorador </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Objeto valorador </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" line="56" column="23" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" bodystart="56" bodyend="60"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" line="86" column="23" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" bodystart="86" bodyend="89"/>
       </memberdef>
       <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_1a5e96c9777a5a56a90410ebcf2cd19f36" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>ArrayList&lt; <ref refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater" kindref="compound">Rater</ref> &gt;</type>
@@ -124,10 +189,13 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Lista de objetos calificadores </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" line="62" column="27" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" bodystart="62" bodyend="67"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" line="94" column="27" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" bodystart="94" bodyend="97"/>
       </memberdef>
       <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_1ac63383382d9c8f5f9294bb29b1bf4ce0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -138,17 +206,21 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Número de películas valoradas </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" line="69" column="21" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" bodystart="69" bodyend="71"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" line="102" column="21" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" bodystart="102" bodyend="104"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
+<para>Clase &apos;<ref refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database" kindref="compound">RaterDatabase</ref>&apos; que funciona como una base de datos de los objetos &apos;<ref refid="namespacees_1_1ull_1_1etsii_1_1_movies" kindref="compound">Movies</ref>&apos; con su valoración </para>
     </detaileddescription>
-    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" line="15" column="7" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" bodystart="15" bodyend="72"/>
+    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" line="14" column="7" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/RaterDatabase.java" bodystart="14" bodyend="105"/>
     <listofallmembers>
       <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_1aac1de427a4785fc7bbabda62ff8a1938" prot="public" virt="non-virtual"><scope>es::ull::etsii::Rate::RaterDatabase</scope><name>addRaterRating</name></member>
       <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database_1a3c13f83423e4e05e643591c57718635b" prot="public" virt="non-virtual"><scope>es::ull::etsii::Rate::RaterDatabase</scope><name>addRatings</name></member>

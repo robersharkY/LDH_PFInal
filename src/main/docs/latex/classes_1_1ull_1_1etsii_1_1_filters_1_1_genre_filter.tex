@@ -28,15 +28,7 @@ boolean \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_filters_1_1_genre_filter_ab
 
 
 \doxysubsection{Descripción detallada}
-A class for filter movies by genre
-
-\begin{DoxyAuthor}{Autor}
-Stanislav Rakitov 
-\end{DoxyAuthor}
-\begin{DoxyVersion}{Versión}
-1.\+0 
-\end{DoxyVersion}
-
+Clase \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_filters_1_1_genre_filter}{Genre\+Filter}} que implementa la interfaz \textquotesingle{}\mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter}{Filter}}\textquotesingle{} Clase que con la que filtrar las peliculas mediante su género cinematográfico. 
 
 \doxysubsection{Documentación del constructor y destructor}
 \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_filters_1_1_genre_filter_a53237cf71010c4e0d83276b4ea1d477f}\label{classes_1_1ull_1_1etsii_1_1_filters_1_1_genre_filter_a53237cf71010c4e0d83276b4ea1d477f}} 
@@ -45,6 +37,11 @@ Stanislav Rakitov
 \doxysubsubsection{\texorpdfstring{GenreFilter()}{GenreFilter()}}
 {\footnotesize\ttfamily es.\+ull.\+etsii.\+Filters.\+Genre\+Filter.\+Genre\+Filter (\begin{DoxyParamCaption}\item[{String}]{genre }\end{DoxyParamCaption})}
 
+Constructor de la clase \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_filters_1_1_genre_filter}{Genre\+Filter}}. Se establece el género a partir del cuál se filtrarán las películas. 
+\begin{DoxyParams}{Parámetros}
+{\em genre} & Género a filtrar \\
+\hline
+\end{DoxyParams}
 
 
 \doxysubsection{Documentación de las funciones miembro}
@@ -54,6 +51,16 @@ Stanislav Rakitov
 \doxysubsubsection{\texorpdfstring{satisfies()}{satisfies()}}
 {\footnotesize\ttfamily boolean es.\+ull.\+etsii.\+Filters.\+Genre\+Filter.\+satisfies (\begin{DoxyParamCaption}\item[{String}]{id }\end{DoxyParamCaption})}
 
+Método de la interfaz \textquotesingle{}\mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter}{Filter}}\textquotesingle{} heredado. Comprueba si el genero seleccionado coincide con el conjunto de metodos que tiene una pelicula
+
+
+\begin{DoxyParams}{Parámetros}
+{\em id} & Identificador de la película \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Boolean True si se cumple con el filtro. 
+\end{DoxyReturn}
 
 
 Implementa \mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter_a1edb801f34df197acf7584500c18c9ae}{es.\+ull.\+etsii.\+Filters.\+Filter}}.

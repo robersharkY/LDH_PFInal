@@ -1,4 +1,4 @@
-.TH "es.ull.etsii.Rate.RaterDatabase" 3 "Miércoles, 4 de Enero de 2023" "Version 1.0" "ProyectoFinalLDH" \" -*- nroff -*-
+.TH "es.ull.etsii.Rate.RaterDatabase" 3 "Lunes, 9 de Enero de 2023" "Version 1.0" "ProyectoFinalLDH" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -28,19 +28,73 @@ es.ull.etsii.Rate.RaterDatabase
 .RI "static int \fBsize\fP ()"
 .br
 .in -1c
+.SH "Descripción detallada"
+.PP 
+Clase '\fBRaterDatabase\fP' que funciona como una base de datos de los objetos '\fBMovies\fP' con su valoración 
 .SH "Documentación de las funciones miembro"
 .PP 
 .SS "static void es\&.ull\&.etsii\&.Rate\&.RaterDatabase\&.addRaterRating (String raterID, String movieID, double rating)\fC [static]\fP"
+Método que añde una valoración de una película a la tabla Hash 'ourRaters' y recibe como parámetros:
+.PP
+\fBParámetros\fP
+.RS 4
+\fIraterID\fP Identificador del valorador 
+.br
+\fImovieID\fP Identificador de la película 
+.br
+\fIrating\fP Nota de la valoración 
+.RE
+.PP
 
 .SS "static void es\&.ull\&.etsii\&.Rate\&.RaterDatabase\&.addRatings (String filename)\fC [static]\fP"
+Método que, a partir de un archivo CSV pasado por parámetro, lee cada una de sus líneas y llama al método 'addRaterRating' pasándole cada uno de sus parámetros obtenidos de cada línea del fichero\&.
+.PP
+\fBParámetros\fP
+.RS 4
+\fIfilename\fP Nombre de archivo CSV 
+.RE
+.PP
 
 .SS "static \fBRater\fP es\&.ull\&.etsii\&.Rate\&.RaterDatabase\&.getRater (String id)\fC [static]\fP"
+Método que devuelve un objeto valorador a través de su identificador
+.PP
+\fBParámetros\fP
+.RS 4
+\fIid\fP Identificador del valorador 
+.RE
+.PP
+\fBDevuelve\fP
+.RS 4
+Objeto valorador 
+.RE
+.PP
 
 .SS "static ArrayList< \fBRater\fP > es\&.ull\&.etsii\&.Rate\&.RaterDatabase\&.getRaters ()\fC [static]\fP"
 
+.PP
+\fBDevuelve\fP
+.RS 4
+Lista de objetos calificadores 
+.RE
+.PP
+
 .SS "static void es\&.ull\&.etsii\&.Rate\&.RaterDatabase\&.initialize (String filename)\fC [static]\fP"
+Método que inicializa las valoraciones a través de un archivo CSV pasado por parámetro
+.PP
+\fBParámetros\fP
+.RS 4
+\fIfilename\fP Nombre fichero CSV 
+.RE
+.PP
 
 .SS "static int es\&.ull\&.etsii\&.Rate\&.RaterDatabase\&.size ()\fC [static]\fP"
+
+.PP
+\fBDevuelve\fP
+.RS 4
+Número de películas valoradas 
+.RE
+.PP
 
 
 .SH "Autor"

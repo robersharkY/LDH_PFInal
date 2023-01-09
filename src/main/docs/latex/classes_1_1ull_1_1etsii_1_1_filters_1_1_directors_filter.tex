@@ -28,15 +28,7 @@ boolean \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filte
 
 
 \doxysubsection{Descripción detallada}
-A class for filter movies by directors
-
-\begin{DoxyAuthor}{Autor}
-Stanislav Rakitov 
-\end{DoxyAuthor}
-\begin{DoxyVersion}{Versión}
-1.\+0 
-\end{DoxyVersion}
-
+Clase \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter}{Directors\+Filter}} que implementa la interfaz \textquotesingle{}\mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter}{Filter}}\textquotesingle{} Clase que con la que filtrar las peliculas mediante su director. 
 
 \doxysubsection{Documentación del constructor y destructor}
 \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter_a048d1708b83a2b1eb5ad22296455f412}\label{classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter_a048d1708b83a2b1eb5ad22296455f412}} 
@@ -45,6 +37,11 @@ Stanislav Rakitov
 \doxysubsubsection{\texorpdfstring{DirectorsFilter()}{DirectorsFilter()}}
 {\footnotesize\ttfamily es.\+ull.\+etsii.\+Filters.\+Directors\+Filter.\+Directors\+Filter (\begin{DoxyParamCaption}\item[{String}]{directors }\end{DoxyParamCaption})}
 
+Constructor de la clase \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter}{Directors\+Filter}} al que se le pasa una string que contiene el nombre o el apellido de un director 
+\begin{DoxyParams}{Parámetros}
+{\em directors} & Nombre del director a filtrar \\
+\hline
+\end{DoxyParams}
 
 
 \doxysubsection{Documentación de las funciones miembro}
@@ -54,6 +51,16 @@ Stanislav Rakitov
 \doxysubsubsection{\texorpdfstring{satisfies()}{satisfies()}}
 {\footnotesize\ttfamily boolean es.\+ull.\+etsii.\+Filters.\+Directors\+Filter.\+satisfies (\begin{DoxyParamCaption}\item[{String}]{id }\end{DoxyParamCaption})}
 
+Método de la interfaz \textquotesingle{}\mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter}{Filter}}\textquotesingle{} heredado. Recorre el array de \textquotesingle{}\mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter}{Filter}}\textquotesingle{} y comprueba que para el identificador que se le pasa por parametro, el director de esa pelicula es igual al director del filtro
+
+
+\begin{DoxyParams}{Parámetros}
+{\em id} & Identificador de la película \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Boolean True si se cumple con el filtro. 
+\end{DoxyReturn}
 
 
 Implementa \mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter_a1edb801f34df197acf7584500c18c9ae}{es.\+ull.\+etsii.\+Filters.\+Filter}}.

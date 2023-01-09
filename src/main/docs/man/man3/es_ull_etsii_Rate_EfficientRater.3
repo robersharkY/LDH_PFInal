@@ -1,4 +1,4 @@
-.TH "es.ull.etsii.Rate.EfficientRater" 3 "Miércoles, 4 de Enero de 2023" "Version 1.0" "ProyectoFinalLDH" \" -*- nroff -*-
+.TH "es.ull.etsii.Rate.EfficientRater" 3 "Lunes, 9 de Enero de 2023" "Version 1.0" "ProyectoFinalLDH" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -58,30 +58,91 @@ Stanislav Rakitov
 .SH "Documentación de las funciones miembro"
 .PP 
 .SS "void es\&.ull\&.etsii\&.Rate\&.EfficientRater\&.addRating (String movieID, double rating)"
+Método que añade la valoración de una película
+.PP
+\fBParámetros\fP
+.RS 4
+\fImovieID\fP Identificador de una película 
+.br
+\fIrating\fP Valoración de la película 
+.RE
+.PP
 
 .PP
 Implementa \fBes\&.ull\&.etsii\&.Rate\&.Rater\fP\&.
 .SS "String es\&.ull\&.etsii\&.Rate\&.EfficientRater\&.getID ()"
 
 .PP
+\fBDevuelve\fP
+.RS 4
+myID Identificador del valorador 
+.RE
+.PP
+
+.PP
 Implementa \fBes\&.ull\&.etsii\&.Rate\&.Rater\fP\&.
 .SS "ArrayList< String > es\&.ull\&.etsii\&.Rate\&.EfficientRater\&.getItemsRated ()"
+
+.PP
+\fBDevuelve\fP
+.RS 4
+Lista de películas que han sido valoradas 
+.RE
+.PP
 
 .PP
 Implementa \fBes\&.ull\&.etsii\&.Rate\&.Rater\fP\&.
 .SS "HashMap< String, \fBRating\fP > es\&.ull\&.etsii\&.Rate\&.EfficientRater\&.getMyRatings ()"
 
 .PP
+\fBDevuelve\fP
+.RS 4
+Lista de películas con su título y valoración 
+.RE
+.PP
+
+.PP
 Implementa \fBes\&.ull\&.etsii\&.Rate\&.Rater\fP\&.
 .SS "double es\&.ull\&.etsii\&.Rate\&.EfficientRater\&.getRating (String movieID)"
+Método que devuelve la valoración de una película a través de su identificador
+.PP
+\fBParámetros\fP
+.RS 4
+\fImovieID\fP Identificador de la película 
+.RE
+.PP
+\fBDevuelve\fP
+.RS 4
+Valoración númerica de la película 
+.RE
+.PP
 
 .PP
 Implementa \fBes\&.ull\&.etsii\&.Rate\&.Rater\fP\&.
 .SS "boolean es\&.ull\&.etsii\&.Rate\&.EfficientRater\&.hasRating (String movieID)"
+Método que compueba si una película tiene valoración
+.PP
+\fBParámetros\fP
+.RS 4
+\fImovieID\fP Identificador de la película 
+.RE
+.PP
+\fBDevuelve\fP
+.RS 4
+True si la película tiene valoración, false si no se ha encontrado la valoración 
+.RE
+.PP
 
 .PP
 Implementa \fBes\&.ull\&.etsii\&.Rate\&.Rater\fP\&.
 .SS "int es\&.ull\&.etsii\&.Rate\&.EfficientRater\&.numRatings ()"
+
+.PP
+\fBDevuelve\fP
+.RS 4
+Integer Número de valoraciones que tiene un valorador 
+.RE
+.PP
 
 .PP
 Implementa \fBes\&.ull\&.etsii\&.Rate\&.Rater\fP\&.

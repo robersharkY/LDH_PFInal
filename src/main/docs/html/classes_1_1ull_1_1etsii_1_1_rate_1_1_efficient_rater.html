@@ -118,12 +118,12 @@ Métodos públicos</h2></td></tr>
 <tr class="separator:a2d63adff0982cb76cb15346ccf8e448a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a153ffa4e1c31404a3250d360d91aafd1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater.html#a153ffa4e1c31404a3250d360d91aafd1">addRating</a> (String movieID, double rating)</td></tr>
 <tr class="separator:a153ffa4e1c31404a3250d360d91aafd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc44687050cad917872f8dcb2b389db2"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater.html#abc44687050cad917872f8dcb2b389db2">hasRating</a> (String item)</td></tr>
-<tr class="separator:abc44687050cad917872f8dcb2b389db2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1ca7c4c3fcc36cfca180df53f23ad37"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater.html#ab1ca7c4c3fcc36cfca180df53f23ad37">hasRating</a> (String movieID)</td></tr>
+<tr class="separator:ab1ca7c4c3fcc36cfca180df53f23ad37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab02f8e58a1349b99ceb32aa929243189"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater.html#ab02f8e58a1349b99ceb32aa929243189">getID</a> ()</td></tr>
 <tr class="separator:ab02f8e58a1349b99ceb32aa929243189"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7bd9aacc55c576def41c084fbfa3a0d4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater.html#a7bd9aacc55c576def41c084fbfa3a0d4">getRating</a> (String item)</td></tr>
-<tr class="separator:a7bd9aacc55c576def41c084fbfa3a0d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a581b61d1155e8db9c508259ef921e56d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater.html#a581b61d1155e8db9c508259ef921e56d">getRating</a> (String movieID)</td></tr>
+<tr class="separator:a581b61d1155e8db9c508259ef921e56d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b6d2f0739f00a2bb0f8fbba90adc010"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater.html#a4b6d2f0739f00a2bb0f8fbba90adc010">numRatings</a> ()</td></tr>
 <tr class="separator:a4b6d2f0739f00a2bb0f8fbba90adc010"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40af9756054fa1c1c19214c383d34cf3"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater.html#a40af9756054fa1c1c19214c383d34cf3">getItemsRated</a> ()</td></tr>
@@ -180,6 +180,14 @@ Métodos públicos</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >Método que añade la valoración de una película</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">movieID</td><td>Identificador de una película </td></tr>
+    <tr><td class="paramname">rating</td><td>Valoración de la película </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implementa <a class="el" href="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater.html#a153ffa4e1c31404a3250d360d91aafd1">es.ull.etsii.Rate.Rater</a>.</p>
 
@@ -199,6 +207,7 @@ Métodos públicos</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>myID Identificador del valorador </dd></dl>
 
 <p>Implementa <a class="el" href="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater.html#ab02f8e58a1349b99ceb32aa929243189">es.ull.etsii.Rate.Rater</a>.</p>
 
@@ -218,6 +227,7 @@ Métodos públicos</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>Lista de películas que han sido valoradas </dd></dl>
 
 <p>Implementa <a class="el" href="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater.html#a40af9756054fa1c1c19214c383d34cf3">es.ull.etsii.Rate.Rater</a>.</p>
 
@@ -237,6 +247,7 @@ Métodos públicos</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>Lista de películas con su título y valoración </dd></dl>
 
 <p>Implementa <a class="el" href="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater.html#a902a42e967bdde6733166cc44815cd7c">es.ull.etsii.Rate.Rater</a>.</p>
 
@@ -257,8 +268,16 @@ Métodos públicos</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >Método que devuelve la valoración de una película a través de su identificador</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">movieID</td><td>Identificador de la película </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Valoración númerica de la película </dd></dl>
 
-<p>Implementa <a class="el" href="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater.html#a7bd9aacc55c576def41c084fbfa3a0d4">es.ull.etsii.Rate.Rater</a>.</p>
+<p>Implementa <a class="el" href="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater.html#a581b61d1155e8db9c508259ef921e56d">es.ull.etsii.Rate.Rater</a>.</p>
 
 </div>
 </div>
@@ -277,8 +296,16 @@ Métodos públicos</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >Método que compueba si una película tiene valoración</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">movieID</td><td>Identificador de la película </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>True si la película tiene valoración, false si no se ha encontrado la valoración </dd></dl>
 
-<p>Implementa <a class="el" href="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater.html#abc44687050cad917872f8dcb2b389db2">es.ull.etsii.Rate.Rater</a>.</p>
+<p>Implementa <a class="el" href="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater.html#ab1ca7c4c3fcc36cfca180df53f23ad37">es.ull.etsii.Rate.Rater</a>.</p>
 
 </div>
 </div>
@@ -296,6 +323,7 @@ Métodos públicos</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>Integer Número de valoraciones que tiene un valorador </dd></dl>
 
 <p>Implementa <a class="el" href="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater.html#a4b6d2f0739f00a2bb0f8fbba90adc010">es.ull.etsii.Rate.Rater</a>.</p>
 

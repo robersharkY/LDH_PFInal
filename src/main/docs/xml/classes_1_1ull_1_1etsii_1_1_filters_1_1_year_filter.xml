@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="es">
+  <compounddef id="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_filter" kind="class" language="Java" prot="public">
+    <compoundname>es::ull::etsii::Filters::YearFilter</compoundname>
+    <basecompoundref refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter" prot="public" virt="non-virtual">es.ull.etsii.Filters.Filter</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_filter_1abefd7f9633103c350d1de8c279e34e8a" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int es.ull.etsii.Filters.YearFilter.lowerBoundYear</definition>
+        <argsstring></argsstring>
+        <name>lowerBoundYear</name>
+        <qualifiedname>es.ull.etsii.Filters.YearFilter.lowerBoundYear</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/YearFilter.java" line="11" column="21" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/YearFilter.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_filter_1a79b54a785097ed5fc74d9313a328adaf" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int es.ull.etsii.Filters.YearFilter.upperBoundYear</definition>
+        <argsstring></argsstring>
+        <name>upperBoundYear</name>
+        <qualifiedname>es.ull.etsii.Filters.YearFilter.upperBoundYear</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/YearFilter.java" line="12" column="15" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/YearFilter.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_filter_1af77be3292b2b4e75a27c6a70e7dac68a" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char es.ull.etsii.Filters.YearFilter.option</definition>
+        <argsstring></argsstring>
+        <name>option</name>
+        <qualifiedname>es.ull.etsii.Filters.YearFilter.option</qualifiedname>
+        <initializer>= &apos;d&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/YearFilter.java" line="15" column="16" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/YearFilter.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_filter_1a0eefa099180a5a418c1649b9fe970b28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>es.ull.etsii.Filters.YearFilter.YearFilter</definition>
+        <argsstring>(int year)</argsstring>
+        <name>YearFilter</name>
+        <qualifiedname>es.ull.etsii.Filters.YearFilter.YearFilter</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor que, por defecto, establece el año del filtro igual al año por parametro <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>year</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Año igual a </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/YearFilter.java" line="21" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/YearFilter.java" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_filter_1a3dd89d4b7b5d2c2370bc1355522058dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>es.ull.etsii.Filters.YearFilter.YearFilter</definition>
+        <argsstring>(int year, char optionParam)</argsstring>
+        <name>YearFilter</name>
+        <qualifiedname>es.ull.etsii.Filters.YearFilter.YearFilter</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>optionParam</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor para filtrar a través de año y opción</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>year</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Año limite </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>optionParam</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Opción a ejecutar </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/YearFilter.java" line="32" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/YearFilter.java" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_filter_1a2b1ebecbf19e59a2e9c8863329ed13ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>es.ull.etsii.Filters.YearFilter.YearFilter</definition>
+        <argsstring>(int year1, int year2)</argsstring>
+        <name>YearFilter</name>
+        <qualifiedname>es.ull.etsii.Filters.YearFilter.YearFilter</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>year1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>year2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor que selecciona películas comprendidas entre dos años, estos incluidos.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>year1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>year2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/YearFilter.java" line="44" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/YearFilter.java" bodystart="44" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_filter_1adc509805fe7632f8c8478b346c385ba1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean es.ull.etsii.Filters.YearFilter.satisfies</definition>
+        <argsstring>(String id)</argsstring>
+        <name>satisfies</name>
+        <qualifiedname>es.ull.etsii.Filters.YearFilter.satisfies</qualifiedname>
+        <reimplements refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter_1a1edb801f34df197acf7584500c18c9ae">satisfies</reimplements>
+        <param>
+          <type>String</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Método de la interfaz &apos;<ref refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter" kindref="compound">Filter</ref>&apos; heredado. Comprueba si un año y opción o un rango de años coinciden con el año de una pelicula.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador de la película </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Boolean True si se cumple con el filtro. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/YearFilter.java" line="59" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/YearFilter.java" bodystart="59" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Clase YearAfterFilter que implementa la interfaz &apos;<ref refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter" kindref="compound">Filter</ref>&apos; Clase que con la que filtrar las peliculas mediante su año de lanzamiento </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>es.ull.etsii.Filters.YearFilter</label>
+        <link refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_filter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.ull.etsii.Filters.Filter</label>
+        <link refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>es.ull.etsii.Filters.YearFilter</label>
+        <link refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_filter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.ull.etsii.Filters.Filter</label>
+        <link refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/YearFilter.java" line="10" column="7" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/YearFilter.java" bodystart="10" bodyend="81"/>
+    <listofallmembers>
+      <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_filter_1abefd7f9633103c350d1de8c279e34e8a" prot="private" virt="non-virtual"><scope>es::ull::etsii::Filters::YearFilter</scope><name>lowerBoundYear</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_filter_1af77be3292b2b4e75a27c6a70e7dac68a" prot="private" virt="non-virtual"><scope>es::ull::etsii::Filters::YearFilter</scope><name>option</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_filter_1adc509805fe7632f8c8478b346c385ba1" prot="public" virt="non-virtual"><scope>es::ull::etsii::Filters::YearFilter</scope><name>satisfies</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_filter_1a79b54a785097ed5fc74d9313a328adaf" prot="private" virt="non-virtual"><scope>es::ull::etsii::Filters::YearFilter</scope><name>upperBoundYear</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_filter_1a0eefa099180a5a418c1649b9fe970b28" prot="public" virt="non-virtual"><scope>es::ull::etsii::Filters::YearFilter</scope><name>YearFilter</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_filter_1a3dd89d4b7b5d2c2370bc1355522058dd" prot="public" virt="non-virtual"><scope>es::ull::etsii::Filters::YearFilter</scope><name>YearFilter</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_year_filter_1a2b1ebecbf19e59a2e9c8863329ed13ad" prot="public" virt="non-virtual"><scope>es::ull::etsii::Filters::YearFilter</scope><name>YearFilter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

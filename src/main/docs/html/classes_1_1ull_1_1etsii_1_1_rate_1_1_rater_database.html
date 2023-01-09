@@ -95,7 +95,9 @@ Métodos públicos estáticos</h2></td></tr>
 <tr class="memitem:ac63383382d9c8f5f9294bb29b1bf4ce0"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database.html#ac63383382d9c8f5f9294bb29b1bf4ce0">size</a> ()</td></tr>
 <tr class="separator:ac63383382d9c8f5f9294bb29b1bf4ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p >Clase '<a class="el" href="classes_1_1ull_1_1etsii_1_1_rate_1_1_rater_database.html">RaterDatabase</a>' que funciona como una base de datos de los objetos '<a class="el" href="namespacees_1_1ull_1_1etsii_1_1_movies.html">Movies</a>' con su valoración </p>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
 <a id="aac1de427a4785fc7bbabda62ff8a1938" name="aac1de427a4785fc7bbabda62ff8a1938"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aac1de427a4785fc7bbabda62ff8a1938">&#9670;&#160;</a></span>addRaterRating()</h2>
 
@@ -135,6 +137,15 @@ Métodos públicos estáticos</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >Método que añde una valoración de una película a la tabla Hash 'ourRaters' y recibe como parámetros:</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">raterID</td><td>Identificador del valorador </td></tr>
+    <tr><td class="paramname">movieID</td><td>Identificador de la película </td></tr>
+    <tr><td class="paramname">rating</td><td>Nota de la valoración </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -161,6 +172,13 @@ Métodos públicos estáticos</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >Método que, a partir de un archivo CSV pasado por parámetro, lee cada una de sus líneas y llama al método 'addRaterRating' pasándole cada uno de sus parámetros obtenidos de cada línea del fichero.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>Nombre de archivo CSV </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -187,6 +205,14 @@ Métodos públicos estáticos</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >Método que devuelve un objeto valorador a través de su identificador</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Identificador del valorador </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Objeto valorador </dd></dl>
 
 </div>
 </div>
@@ -212,6 +238,7 @@ Métodos públicos estáticos</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>Lista de objetos calificadores </dd></dl>
 
 </div>
 </div>
@@ -238,6 +265,13 @@ Métodos públicos estáticos</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >Método que inicializa las valoraciones a través de un archivo CSV pasado por parámetro</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>Nombre fichero CSV </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -263,6 +297,7 @@ Métodos públicos estáticos</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>Número de películas valoradas </dd></dl>
 
 </div>
 </div>

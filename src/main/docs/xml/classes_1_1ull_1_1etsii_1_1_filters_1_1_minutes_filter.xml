@@ -4,9 +4,9 @@
     <compoundname>es::ull::etsii::Filters::MinutesFilter</compoundname>
     <basecompoundref refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter" prot="public" virt="non-virtual">es.ull.etsii.Filters.Filter</basecompoundref>
       <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1a43841c0b05c37dfe40ed781b3a75f645" prot="private" static="no" mutable="no">
-        <type>final int</type>
-        <definition>final int es.ull.etsii.Filters.MinutesFilter.minMinutes</definition>
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1a901204af9dc94239a0398ff079e62777" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int es.ull.etsii.Filters.MinutesFilter.minMinutes</definition>
         <argsstring></argsstring>
         <name>minMinutes</name>
         <qualifiedname>es.ull.etsii.Filters.MinutesFilter.minMinutes</qualifiedname>
@@ -16,11 +16,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" line="12" column="21" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" bodystart="12" bodyend="-1"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" line="10" column="16" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" bodystart="10" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1aba640ac38915a014a8e351f6a50aeae1" prot="private" static="no" mutable="no">
-        <type>final int</type>
-        <definition>final int es.ull.etsii.Filters.MinutesFilter.maxMinutes</definition>
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1a5b6738abb9a62b956056ba061687e7af" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int es.ull.etsii.Filters.MinutesFilter.maxMinutes</definition>
         <argsstring></argsstring>
         <name>maxMinutes</name>
         <qualifiedname>es.ull.etsii.Filters.MinutesFilter.maxMinutes</qualifiedname>
@@ -30,7 +30,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" line="13" column="21" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" bodystart="13" bodyend="-1"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" line="11" column="16" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1aa7abff25fbe45a28de5e2bd0a7159ce9" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char es.ull.etsii.Filters.MinutesFilter.option</definition>
+        <argsstring></argsstring>
+        <name>option</name>
+        <qualifiedname>es.ull.etsii.Filters.MinutesFilter.option</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" line="13" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" bodystart="13" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -51,10 +65,29 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Constructor de la clase <ref refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter" kindref="compound">MinutesFilter</ref>. Se establece como opcion del filtro la duracion que se encuentra entre dos tiempos en minutos.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>minMinutes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Mínimo de minutos de duración </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxMinutes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Máximo de minutos de duración </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" line="15" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" bodystart="15" bodyend="18"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" line="22" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" bodystart="22" bodyend="26"/>
       </memberdef>
       <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1a5ad1f28beff6d3179947955afd3c8357" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -69,10 +102,90 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Constructor de la clase <ref refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter" kindref="compound">MinutesFilter</ref>. Se establece como opcion del filtro la duracion superior al tiempo en minutos pasado por parametro.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>minMinutes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Mínimo de minutos de duración </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" line="21" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" bodystart="21" bodyend="24"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" line="35" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" bodystart="35" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1a1df9316792893cf96ac60a9a11d473f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>es.ull.etsii.Filters.MinutesFilter.MinutesFilter</definition>
+        <argsstring>(int minutes, char paramOption)</argsstring>
+        <name>MinutesFilter</name>
+        <qualifiedname>es.ull.etsii.Filters.MinutesFilter.MinutesFilter</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>minutes</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>paramOption</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor de la clase <ref refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter" kindref="compound">MinutesFilter</ref>. Se establece como opcion del filtro la duracion superior o inferior al tiempo en minutos pasado por parametro.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>minutes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Mínimo de minutos de duración </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>paramOption</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Opcion elegida. Puede ser maximo de minutos o minimo de minutos </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" line="48" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" bodystart="48" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1a3636522e2575c157d1e570a74ffec7b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int es.ull.etsii.Filters.MinutesFilter.getMinMinutes</definition>
+        <argsstring>()</argsstring>
+        <name>getMinMinutes</name>
+        <qualifiedname>es.ull.etsii.Filters.MinutesFilter.getMinMinutes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" line="58" column="14" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" bodystart="58" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1a24c54881ccb1da18c55266fcc36f2952" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int es.ull.etsii.Filters.MinutesFilter.getMaxMinutes</definition>
+        <argsstring>()</argsstring>
+        <name>getMaxMinutes</name>
+        <qualifiedname>es.ull.etsii.Filters.MinutesFilter.getMaxMinutes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" line="62" column="14" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" bodystart="62" bodyend="64"/>
       </memberdef>
       <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1ada0ff9ca5afc18941c7779c232263f37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>boolean</type>
@@ -88,21 +201,29 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Método de la interfaz &apos;<ref refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter" kindref="compound">Filter</ref>&apos; heredado. Comprueba si la(s) duración(es) seleccionada(s) coincide(n) y/u opción seleccionada coincide con el año de cierta película</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador de la película </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Boolean True si se cumple con el filtro. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" line="27" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" bodystart="27" bodyend="29"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" line="75" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" bodystart="75" bodyend="87"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>A class for filter movies by time</para>
-<para><simplesect kind="author"><para>Stanislav Rakitov </para>
-</simplesect>
-<simplesect kind="version"><para>1.0 </para>
-</simplesect>
-</para>
+<para>Clase <ref refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter" kindref="compound">MinutesFilter</ref> que implementa la interfaz &apos;<ref refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter" kindref="compound">Filter</ref>&apos; Clase que con la que filtrar las peliculas mediante su duración mínima y máxima en minutos. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -128,12 +249,16 @@
         <link refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter"/>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" line="11" column="7" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" bodystart="11" bodyend="30"/>
+    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" line="9" column="7" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/MinutesFilter.java" bodystart="9" bodyend="88"/>
     <listofallmembers>
-      <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1aba640ac38915a014a8e351f6a50aeae1" prot="private" virt="non-virtual"><scope>es::ull::etsii::Filters::MinutesFilter</scope><name>maxMinutes</name></member>
-      <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1a43841c0b05c37dfe40ed781b3a75f645" prot="private" virt="non-virtual"><scope>es::ull::etsii::Filters::MinutesFilter</scope><name>minMinutes</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1a24c54881ccb1da18c55266fcc36f2952" prot="public" virt="non-virtual"><scope>es::ull::etsii::Filters::MinutesFilter</scope><name>getMaxMinutes</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1a3636522e2575c157d1e570a74ffec7b8" prot="public" virt="non-virtual"><scope>es::ull::etsii::Filters::MinutesFilter</scope><name>getMinMinutes</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1a5b6738abb9a62b956056ba061687e7af" prot="private" virt="non-virtual"><scope>es::ull::etsii::Filters::MinutesFilter</scope><name>maxMinutes</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1a901204af9dc94239a0398ff079e62777" prot="private" virt="non-virtual"><scope>es::ull::etsii::Filters::MinutesFilter</scope><name>minMinutes</name></member>
       <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1aa6adb964f98ed5cef388dee1b7618e66" prot="public" virt="non-virtual"><scope>es::ull::etsii::Filters::MinutesFilter</scope><name>MinutesFilter</name></member>
       <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1a5ad1f28beff6d3179947955afd3c8357" prot="public" virt="non-virtual"><scope>es::ull::etsii::Filters::MinutesFilter</scope><name>MinutesFilter</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1a1df9316792893cf96ac60a9a11d473f1" prot="public" virt="non-virtual"><scope>es::ull::etsii::Filters::MinutesFilter</scope><name>MinutesFilter</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1aa7abff25fbe45a28de5e2bd0a7159ce9" prot="private" virt="non-virtual"><scope>es::ull::etsii::Filters::MinutesFilter</scope><name>option</name></member>
       <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_minutes_filter_1ada0ff9ca5afc18941c7779c232263f37" prot="public" virt="non-virtual"><scope>es::ull::etsii::Filters::MinutesFilter</scope><name>satisfies</name></member>
     </listofallmembers>
   </compounddef>

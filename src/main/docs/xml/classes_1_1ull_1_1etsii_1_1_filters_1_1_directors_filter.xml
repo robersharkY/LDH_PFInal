@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/DirectorsFilter.java" line="12" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/DirectorsFilter.java" bodystart="12" bodyend="-1"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/DirectorsFilter.java" line="10" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/DirectorsFilter.java" bodystart="10" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -33,10 +33,20 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Constructor de la clase <ref refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter" kindref="compound">DirectorsFilter</ref> al que se le pasa una string que contiene el nombre o el apellido de un director <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>directors</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nombre del director a filtrar </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/DirectorsFilter.java" line="14" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/DirectorsFilter.java" bodystart="14" bodyend="16"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/DirectorsFilter.java" line="17" column="10" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/DirectorsFilter.java" bodystart="17" bodyend="19"/>
       </memberdef>
       <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter_1ac3a85d51bbcd0b0343ea99e8e640cf06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>boolean</type>
@@ -52,21 +62,29 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Método de la interfaz &apos;<ref refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter" kindref="compound">Filter</ref>&apos; heredado. Recorre el array de &apos;<ref refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter" kindref="compound">Filter</ref>&apos; y comprueba que para el identificador que se le pasa por parametro, el director de esa pelicula es igual al director del filtro</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador de la película </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Boolean True si se cumple con el filtro. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/DirectorsFilter.java" line="19" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/DirectorsFilter.java" bodystart="19" bodyend="28"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/DirectorsFilter.java" line="31" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/DirectorsFilter.java" bodystart="31" bodyend="40"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>A class for filter movies by directors</para>
-<para><simplesect kind="author"><para>Stanislav Rakitov </para>
-</simplesect>
-<simplesect kind="version"><para>1.0 </para>
-</simplesect>
-</para>
+<para>Clase <ref refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter" kindref="compound">DirectorsFilter</ref> que implementa la interfaz &apos;<ref refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter" kindref="compound">Filter</ref>&apos; Clase que con la que filtrar las peliculas mediante su director. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -92,7 +110,7 @@
         <link refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter"/>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/DirectorsFilter.java" line="11" column="7" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/DirectorsFilter.java" bodystart="11" bodyend="29"/>
+    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/DirectorsFilter.java" line="9" column="7" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/DirectorsFilter.java" bodystart="9" bodyend="41"/>
     <listofallmembers>
       <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter_1ac5f2148b499486b607712ace3d090307" prot="package" virt="non-virtual"><scope>es::ull::etsii::Filters::DirectorsFilter</scope><name>directors</name></member>
       <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_directors_filter_1a048d1708b83a2b1eb5ad22296455f412" prot="public" virt="non-virtual"><scope>es::ull::etsii::Filters::DirectorsFilter</scope><name>DirectorsFilter</name></member>

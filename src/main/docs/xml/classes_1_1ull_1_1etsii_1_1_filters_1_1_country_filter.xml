@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="es">
+  <compounddef id="classes_1_1ull_1_1etsii_1_1_filters_1_1_country_filter" kind="class" language="Java" prot="public">
+    <compoundname>es::ull::etsii::Filters::CountryFilter</compoundname>
+    <basecompoundref refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter" prot="public" virt="non-virtual">es.ull.etsii.Filters.Filter</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classes_1_1ull_1_1etsii_1_1_filters_1_1_country_filter_1a79d27eb5bdd2420b6f38e87a45a6277a" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String es.ull.etsii.Filters.CountryFilter.country</definition>
+        <argsstring></argsstring>
+        <name>country</name>
+        <qualifiedname>es.ull.etsii.Filters.CountryFilter.country</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/CountryFilter.java" line="11" column="26" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/CountryFilter.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_filters_1_1_country_filter_1ac81bc83cc004d3b8f3d06671218d3d3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>es.ull.etsii.Filters.CountryFilter.CountryFilter</definition>
+        <argsstring>(String country)</argsstring>
+        <name>CountryFilter</name>
+        <qualifiedname>es.ull.etsii.Filters.CountryFilter.CountryFilter</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>country</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor de la clase <ref refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_country_filter" kindref="compound">CountryFilter</ref>. Se establece el género a partir del cuál se filtrarán las películas. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>country</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Género a filtrar </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/CountryFilter.java" line="22" column="12" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/CountryFilter.java" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_filters_1_1_country_filter_1afafb29e8677a6043dade57ed1cf23e97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean es.ull.etsii.Filters.CountryFilter.satisfies</definition>
+        <argsstring>(String id)</argsstring>
+        <name>satisfies</name>
+        <qualifiedname>es.ull.etsii.Filters.CountryFilter.satisfies</qualifiedname>
+        <reimplements refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter_1a1edb801f34df197acf7584500c18c9ae">satisfies</reimplements>
+        <param>
+          <type>String</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Método de la interfaz &apos;<ref refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter" kindref="compound">Filter</ref>&apos; heredado. Comprueba si el genero seleccionado coincide con el conjunto de metodos que tiene una pelicula</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador de la película </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Boolean True si se cumple con el filtro. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/CountryFilter.java" line="35" column="20" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/CountryFilter.java" bodystart="35" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Clase <ref refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_genre_filter" kindref="compound">GenreFilter</ref> que implementa la interfaz &apos;<ref refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter" kindref="compound">Filter</ref>&apos; Clase que con la que filtrar las peliculas mediante su género cinematográfico. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>es.ull.etsii.Filters.CountryFilter</label>
+        <link refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_country_filter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.ull.etsii.Filters.Filter</label>
+        <link refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>es.ull.etsii.Filters.CountryFilter</label>
+        <link refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_country_filter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>es.ull.etsii.Filters.Filter</label>
+        <link refid="interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/CountryFilter.java" line="9" column="7" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Filters/CountryFilter.java" bodystart="9" bodyend="38"/>
+    <listofallmembers>
+      <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_country_filter_1a79d27eb5bdd2420b6f38e87a45a6277a" prot="private" virt="non-virtual"><scope>es::ull::etsii::Filters::CountryFilter</scope><name>country</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_country_filter_1ac81bc83cc004d3b8f3d06671218d3d3a" prot="public" virt="non-virtual"><scope>es::ull::etsii::Filters::CountryFilter</scope><name>CountryFilter</name></member>
+      <member refid="classes_1_1ull_1_1etsii_1_1_filters_1_1_country_filter_1afafb29e8677a6043dade57ed1cf23e97" prot="public" virt="non-virtual"><scope>es::ull::etsii::Filters::CountryFilter</scope><name>satisfies</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

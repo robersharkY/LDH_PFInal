@@ -5,6 +5,8 @@
 \item 
 static void \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a61e667fb59972fc76e9bdd74dded322e}{initialize}} (String moviefile)
 \item 
+static void \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a43611d859ab051ed6368e3c0ed6b3f34}{initialize}} ()
+\item 
 static void \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a286e1f5d0413d705090b483d84e939f5}{load\+Movies}} (String filename)
 \item 
 static boolean \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_aee3433ffdb5400349364a9ae48177906}{contains\+ID}} (String id)
@@ -28,8 +30,13 @@ static String \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_data
 static int \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_af84f0de37a975f26f78cacb3cc726bc1}{size}} ()
 \item 
 static Array\+List$<$ String $>$ \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a726594fb7963822662adf505292fd229}{filter\+By}} (\mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter}{Filter}} f)
+\item 
+static Array\+List$<$ \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie}{Movie}} $>$ \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a229dcc96cc32062607ce615295fa7672}{get\+Movies\+By\+Title}} (String param\+Title)
 \end{DoxyCompactItemize}
 
+
+\doxysubsection{Descripción detallada}
+Clase \textquotesingle{}\mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database}{Movie\+Database}}\textquotesingle{} que funciona base de datos de objetos \textquotesingle{}\mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie}{Movie}}\textquotesingle{} almacenados en fichero CSV 
 
 \doxysubsection{Documentación de las funciones miembro}
 \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_aee3433ffdb5400349364a9ae48177906}\label{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_aee3433ffdb5400349364a9ae48177906}} 
@@ -38,41 +45,107 @@ static Array\+List$<$ String $>$ \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_mo
 \doxysubsubsection{\texorpdfstring{containsID()}{containsID()}}
 {\footnotesize\ttfamily static boolean es.\+ull.\+etsii.\+Movies.\+Movie\+Database.\+contains\+ID (\begin{DoxyParamCaption}\item[{String}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
+Método que indica si una película se encuentra en la base de datos
+
+
+\begin{DoxyParams}{Parámetros}
+{\em id} & Identificador de la película \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Indica si se encuentra o no se encuentra 
+\end{DoxyReturn}
 \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a726594fb7963822662adf505292fd229}\label{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a726594fb7963822662adf505292fd229}} 
 \index{es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}!filterBy@{filterBy}}
 \index{filterBy@{filterBy}!es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}}
 \doxysubsubsection{\texorpdfstring{filterBy()}{filterBy()}}
 {\footnotesize\ttfamily static Array\+List$<$ String $>$ es.\+ull.\+etsii.\+Movies.\+Movie\+Database.\+filter\+By (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_filters_1_1_filter}{Filter}}}]{f }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
+Método que filtra péliculas a través de un objeto \textquotesingle{}Filter\textquotesingle{} pasado por parámetro 
+\begin{DoxyParams}{Parámetros}
+{\em f} & Filtro a emplear \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Vector de películas que cumplen la condición de filtrado 
+\end{DoxyReturn}
 \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a1c4e33ce31f85c7c973100a31ed59c8e}\label{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a1c4e33ce31f85c7c973100a31ed59c8e}} 
 \index{es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}!getCountry@{getCountry}}
 \index{getCountry@{getCountry}!es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}}
 \doxysubsubsection{\texorpdfstring{getCountry()}{getCountry()}}
 {\footnotesize\ttfamily static String es.\+ull.\+etsii.\+Movies.\+Movie\+Database.\+get\+Country (\begin{DoxyParamCaption}\item[{String}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
+Método que devuelve el país de rodaje de una película a través de su identificador 
+\begin{DoxyParams}{Parámetros}
+{\em id} & Identificador de una película \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+País(es) de la película 
+\end{DoxyReturn}
 \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_af5fa814893c293340c5a4c513d169414}\label{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_af5fa814893c293340c5a4c513d169414}} 
 \index{es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}!getDirector@{getDirector}}
 \index{getDirector@{getDirector}!es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}}
 \doxysubsubsection{\texorpdfstring{getDirector()}{getDirector()}}
 {\footnotesize\ttfamily static String es.\+ull.\+etsii.\+Movies.\+Movie\+Database.\+get\+Director (\begin{DoxyParamCaption}\item[{String}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
+Método que devuelve el director de una película a través de su identificador 
+\begin{DoxyParams}{Parámetros}
+{\em id} & Identificador de una película \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Director de la película 
+\end{DoxyReturn}
 \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a8c99101867f6ca06fd94d85f8ac30e19}\label{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a8c99101867f6ca06fd94d85f8ac30e19}} 
 \index{es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}!getGenres@{getGenres}}
 \index{getGenres@{getGenres}!es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}}
 \doxysubsubsection{\texorpdfstring{getGenres()}{getGenres()}}
 {\footnotesize\ttfamily static String es.\+ull.\+etsii.\+Movies.\+Movie\+Database.\+get\+Genres (\begin{DoxyParamCaption}\item[{String}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
+Método que devuelve los género de una película a través de su identificador 
+\begin{DoxyParams}{Parámetros}
+{\em id} & Identificador de una película \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Género(s) de la película 
+\end{DoxyReturn}
 \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a2c6f5a6bd66e94975464257f8e04ecfe}\label{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a2c6f5a6bd66e94975464257f8e04ecfe}} 
 \index{es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}!getMinutes@{getMinutes}}
 \index{getMinutes@{getMinutes}!es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}}
 \doxysubsubsection{\texorpdfstring{getMinutes()}{getMinutes()}}
 {\footnotesize\ttfamily static int es.\+ull.\+etsii.\+Movies.\+Movie\+Database.\+get\+Minutes (\begin{DoxyParamCaption}\item[{String}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
+Método que devuelve la duración en minutos de una película a través de su identificador 
+\begin{DoxyParams}{Parámetros}
+{\em id} & Identificador de una película \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Duración en minutos 
+\end{DoxyReturn}
 \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_ae4edb635a763ccbce8327b2d16ae512a}\label{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_ae4edb635a763ccbce8327b2d16ae512a}} 
 \index{es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}!getMovie@{getMovie}}
 \index{getMovie@{getMovie}!es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}}
 \doxysubsubsection{\texorpdfstring{getMovie()}{getMovie()}}
 {\footnotesize\ttfamily static \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie}{Movie}} es.\+ull.\+etsii.\+Movies.\+Movie\+Database.\+get\+Movie (\begin{DoxyParamCaption}\item[{String}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Método que devuelve el objeto \textquotesingle{}\mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie}{Movie}}\textquotesingle{} a través de su identificador
+
+
+\begin{DoxyParams}{Parámetros}
+{\em id} & Identificador de una película \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+\mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie}{Movie}} Objeto \textquotesingle{}\mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie}{Movie}}\textquotesingle{} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a229dcc96cc32062607ce615295fa7672}\label{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a229dcc96cc32062607ce615295fa7672}} 
+\index{es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}!getMoviesByTitle@{getMoviesByTitle}}
+\index{getMoviesByTitle@{getMoviesByTitle}!es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}}
+\doxysubsubsection{\texorpdfstring{getMoviesByTitle()}{getMoviesByTitle()}}
+{\footnotesize\ttfamily static Array\+List$<$ \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie}{Movie}} $>$ es.\+ull.\+etsii.\+Movies.\+Movie\+Database.\+get\+Movies\+By\+Title (\begin{DoxyParamCaption}\item[{String}]{param\+Title }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a7aa1053ba2a25b715423f1d45713ac35}\label{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a7aa1053ba2a25b715423f1d45713ac35}} 
 \index{es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}!getPoster@{getPoster}}
@@ -80,36 +153,85 @@ static Array\+List$<$ String $>$ \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_mo
 \doxysubsubsection{\texorpdfstring{getPoster()}{getPoster()}}
 {\footnotesize\ttfamily static String es.\+ull.\+etsii.\+Movies.\+Movie\+Database.\+get\+Poster (\begin{DoxyParamCaption}\item[{String}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
+Método que devuelve la URL que muestra el cartel de una película a través de su identificador 
+\begin{DoxyParams}{Parámetros}
+{\em id} & Identificador de una película \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+URL que guarda el cartel de la película 
+\end{DoxyReturn}
 \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_ad105c17eabf7262757832260804975ce}\label{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_ad105c17eabf7262757832260804975ce}} 
 \index{es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}!getTitle@{getTitle}}
 \index{getTitle@{getTitle}!es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}}
 \doxysubsubsection{\texorpdfstring{getTitle()}{getTitle()}}
 {\footnotesize\ttfamily static String es.\+ull.\+etsii.\+Movies.\+Movie\+Database.\+get\+Title (\begin{DoxyParamCaption}\item[{String}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
+Método que devuelve el título de una película a través de su identificador 
+\begin{DoxyParams}{Parámetros}
+{\em id} & Identificador de una película \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Título de la película 
+\end{DoxyReturn}
 \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a4dea0c04d1e2d01d16886f9f6a478b67}\label{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a4dea0c04d1e2d01d16886f9f6a478b67}} 
 \index{es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}!getYear@{getYear}}
 \index{getYear@{getYear}!es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}}
 \doxysubsubsection{\texorpdfstring{getYear()}{getYear()}}
 {\footnotesize\ttfamily static int es.\+ull.\+etsii.\+Movies.\+Movie\+Database.\+get\+Year (\begin{DoxyParamCaption}\item[{String}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
-\mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a61e667fb59972fc76e9bdd74dded322e}\label{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a61e667fb59972fc76e9bdd74dded322e}} 
+Método que devuelve el año de una película a través de su identificador
+
+
+\begin{DoxyParams}{Parámetros}
+{\em id} & Identificador de una película \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Año de la película 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a43611d859ab051ed6368e3c0ed6b3f34}\label{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a43611d859ab051ed6368e3c0ed6b3f34}} 
 \index{es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}!initialize@{initialize}}
 \index{initialize@{initialize}!es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}}
-\doxysubsubsection{\texorpdfstring{initialize()}{initialize()}}
+\doxysubsubsection{\texorpdfstring{initialize()}{initialize()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static void es.\+ull.\+etsii.\+Movies.\+Movie\+Database.\+initialize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Método privado estático que funciona igual que pero escoge un fichero por defecto \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a61e667fb59972fc76e9bdd74dded322e}\label{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a61e667fb59972fc76e9bdd74dded322e}} 
+\index{es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}!initialize@{initialize}}
+\index{initialize@{initialize}!es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}}
+\doxysubsubsection{\texorpdfstring{initialize()}{initialize()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
 {\footnotesize\ttfamily static void es.\+ull.\+etsii.\+Movies.\+Movie\+Database.\+initialize (\begin{DoxyParamCaption}\item[{String}]{moviefile }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
+Método estático para inicializar una base da datos a partir de un fichero que almacena películas. En este caso se cuenta con varias ficheros básicos o de ejemplo.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em moviefile} & Fichero donde se almacenan x películas \\
+\hline
+\end{DoxyParams}
 \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a286e1f5d0413d705090b483d84e939f5}\label{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_a286e1f5d0413d705090b483d84e939f5}} 
 \index{es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}!loadMovies@{loadMovies}}
 \index{loadMovies@{loadMovies}!es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}}
 \doxysubsubsection{\texorpdfstring{loadMovies()}{loadMovies()}}
 {\footnotesize\ttfamily static void es.\+ull.\+etsii.\+Movies.\+Movie\+Database.\+load\+Movies (\begin{DoxyParamCaption}\item[{String}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
+Método estático que dado un fichero con películas, las evalúa con el objeto First\+Rating e inserta su valoración en el atributo privado
+
+
+\begin{DoxyParams}{Parámetros}
+{\em filename} & Nombre fichero con películas. \\
+\hline
+\end{DoxyParams}
 \mbox{\Hypertarget{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_af84f0de37a975f26f78cacb3cc726bc1}\label{classes_1_1ull_1_1etsii_1_1_movies_1_1_movie_database_af84f0de37a975f26f78cacb3cc726bc1}} 
 \index{es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}!size@{size}}
 \index{size@{size}!es.ull.etsii.Movies.MovieDatabase@{es.ull.etsii.Movies.MovieDatabase}}
 \doxysubsubsection{\texorpdfstring{size()}{size()}}
 {\footnotesize\ttfamily static int es.\+ull.\+etsii.\+Movies.\+Movie\+Database.\+size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
+Método que devuelve el número de películas del atributo \begin{DoxyReturn}{Devuelve}
+Director de la película 
+\end{DoxyReturn}
 
 
 La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}

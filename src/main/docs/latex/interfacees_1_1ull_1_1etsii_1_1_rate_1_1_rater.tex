@@ -14,11 +14,11 @@ Diagrama de herencias de es.\+ull.\+etsii.\+Rate.\+Rater\nopagebreak
 \item 
 void \mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_a153ffa4e1c31404a3250d360d91aafd1}{add\+Rating}} (String movie\+ID, double rating)
 \item 
-boolean \mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_abc44687050cad917872f8dcb2b389db2}{has\+Rating}} (String item)
+boolean \mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_ab1ca7c4c3fcc36cfca180df53f23ad37}{has\+Rating}} (String movie\+ID)
 \item 
 String \mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_ab02f8e58a1349b99ceb32aa929243189}{get\+ID}} ()
 \item 
-double \mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_a7bd9aacc55c576def41c084fbfa3a0d4}{get\+Rating}} (String item)
+double \mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_a581b61d1155e8db9c508259ef921e56d}{get\+Rating}} (String movie\+ID)
 \item 
 int \mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_a4b6d2f0739f00a2bb0f8fbba90adc010}{num\+Ratings}} ()
 \item 
@@ -28,6 +28,9 @@ Hash\+Map$<$ String, \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_ratings_1_1_ra
 \end{DoxyCompactItemize}
 
 
+\doxysubsection{Descripción detallada}
+Interfaz \textquotesingle{}\mbox{\hyperlink{interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater}{Rater}}\textquotesingle{} 
+
 \doxysubsection{Documentación de las funciones miembro}
 \mbox{\Hypertarget{interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_a153ffa4e1c31404a3250d360d91aafd1}\label{interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_a153ffa4e1c31404a3250d360d91aafd1}} 
 \index{es.ull.etsii.Rate.Rater@{es.ull.etsii.Rate.Rater}!addRating@{addRating}}
@@ -35,6 +38,15 @@ Hash\+Map$<$ String, \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_ratings_1_1_ra
 \doxysubsubsection{\texorpdfstring{addRating()}{addRating()}}
 {\footnotesize\ttfamily void es.\+ull.\+etsii.\+Rate.\+Rater.\+add\+Rating (\begin{DoxyParamCaption}\item[{String}]{movie\+ID,  }\item[{double}]{rating }\end{DoxyParamCaption})}
 
+Método que añade la valoración de una película
+
+
+\begin{DoxyParams}{Parámetros}
+{\em movie\+ID} & Identificador de una película \\
+\hline
+{\em rating} & Valoración de la película \\
+\hline
+\end{DoxyParams}
 
 
 Implementado en \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_af54517edea8813b2ceaf83a29293e16c}{es.\+ull.\+etsii.\+Rate.\+Efficient\+Rater}}.
@@ -45,6 +57,9 @@ Implementado en \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_
 \doxysubsubsection{\texorpdfstring{getID()}{getID()}}
 {\footnotesize\ttfamily String es.\+ull.\+etsii.\+Rate.\+Rater.\+get\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
+\begin{DoxyReturn}{Devuelve}
+my\+ID Identificador del valorador 
+\end{DoxyReturn}
 
 
 Implementado en \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_ab1f5ed91322a37d6520fd793aedaac3e}{es.\+ull.\+etsii.\+Rate.\+Efficient\+Rater}}.
@@ -55,6 +70,9 @@ Implementado en \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_
 \doxysubsubsection{\texorpdfstring{getItemsRated()}{getItemsRated()}}
 {\footnotesize\ttfamily Array\+List$<$ String $>$ es.\+ull.\+etsii.\+Rate.\+Rater.\+get\+Items\+Rated (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
+\begin{DoxyReturn}{Devuelve}
+Lista de películas que han sido valoradas 
+\end{DoxyReturn}
 
 
 Implementado en \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_afc4c1e6a576c4e74add27d25c0104e8a}{es.\+ull.\+etsii.\+Rate.\+Efficient\+Rater}}.
@@ -65,26 +83,49 @@ Implementado en \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_
 \doxysubsubsection{\texorpdfstring{getMyRatings()}{getMyRatings()}}
 {\footnotesize\ttfamily Hash\+Map$<$ String, \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating}{Rating}} $>$ es.\+ull.\+etsii.\+Rate.\+Rater.\+get\+My\+Ratings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
+\begin{DoxyReturn}{Devuelve}
+Lista de películas con su título y valoración 
+\end{DoxyReturn}
 
 
 Implementado en \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_a2d63adff0982cb76cb15346ccf8e448a}{es.\+ull.\+etsii.\+Rate.\+Efficient\+Rater}}.
 
-\mbox{\Hypertarget{interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_a7bd9aacc55c576def41c084fbfa3a0d4}\label{interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_a7bd9aacc55c576def41c084fbfa3a0d4}} 
+\mbox{\Hypertarget{interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_a581b61d1155e8db9c508259ef921e56d}\label{interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_a581b61d1155e8db9c508259ef921e56d}} 
 \index{es.ull.etsii.Rate.Rater@{es.ull.etsii.Rate.Rater}!getRating@{getRating}}
 \index{getRating@{getRating}!es.ull.etsii.Rate.Rater@{es.ull.etsii.Rate.Rater}}
 \doxysubsubsection{\texorpdfstring{getRating()}{getRating()}}
-{\footnotesize\ttfamily double es.\+ull.\+etsii.\+Rate.\+Rater.\+get\+Rating (\begin{DoxyParamCaption}\item[{String}]{item }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily double es.\+ull.\+etsii.\+Rate.\+Rater.\+get\+Rating (\begin{DoxyParamCaption}\item[{String}]{movie\+ID }\end{DoxyParamCaption})}
 
+Método que devuelve la valoración de una película a través de su identificador
+
+
+\begin{DoxyParams}{Parámetros}
+{\em movie\+ID} & Identificador de la película \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Valoración númerica de la película 
+\end{DoxyReturn}
 
 
 Implementado en \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_a2dd1c28ecf99d7a730a905efcfaafbd4}{es.\+ull.\+etsii.\+Rate.\+Efficient\+Rater}}.
 
-\mbox{\Hypertarget{interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_abc44687050cad917872f8dcb2b389db2}\label{interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_abc44687050cad917872f8dcb2b389db2}} 
+\mbox{\Hypertarget{interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_ab1ca7c4c3fcc36cfca180df53f23ad37}\label{interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_ab1ca7c4c3fcc36cfca180df53f23ad37}} 
 \index{es.ull.etsii.Rate.Rater@{es.ull.etsii.Rate.Rater}!hasRating@{hasRating}}
 \index{hasRating@{hasRating}!es.ull.etsii.Rate.Rater@{es.ull.etsii.Rate.Rater}}
 \doxysubsubsection{\texorpdfstring{hasRating()}{hasRating()}}
-{\footnotesize\ttfamily boolean es.\+ull.\+etsii.\+Rate.\+Rater.\+has\+Rating (\begin{DoxyParamCaption}\item[{String}]{item }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily boolean es.\+ull.\+etsii.\+Rate.\+Rater.\+has\+Rating (\begin{DoxyParamCaption}\item[{String}]{movie\+ID }\end{DoxyParamCaption})}
 
+Método que compueba si una película tiene valoración
+
+
+\begin{DoxyParams}{Parámetros}
+{\em movie\+ID} & Identificador de la película \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+True si la película tiene valoración, false si no se ha encontrado la valoración 
+\end{DoxyReturn}
 
 
 Implementado en \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_a9d0d74175e5799102ac55b2983e517f2}{es.\+ull.\+etsii.\+Rate.\+Efficient\+Rater}}.
@@ -95,6 +136,9 @@ Implementado en \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_
 \doxysubsubsection{\texorpdfstring{numRatings()}{numRatings()}}
 {\footnotesize\ttfamily int es.\+ull.\+etsii.\+Rate.\+Rater.\+num\+Ratings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
+\begin{DoxyReturn}{Devuelve}
+Integer Número de valoraciones que tiene un valorador 
+\end{DoxyReturn}
 
 
 Implementado en \mbox{\hyperlink{classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_a7f1f110d8cb859f63fe95d1a0d004573}{es.\+ull.\+etsii.\+Rate.\+Efficient\+Rater}}.

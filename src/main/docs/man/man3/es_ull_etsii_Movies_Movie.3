@@ -1,4 +1,4 @@
-.TH "es.ull.etsii.Movies.Movie" 3 "Miércoles, 4 de Enero de 2023" "Version 1.0" "ProyectoFinalLDH" \" -*- nroff -*-
+.TH "es.ull.etsii.Movies.Movie" 3 "Lunes, 9 de Enero de 2023" "Version 1.0" "ProyectoFinalLDH" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -43,32 +43,129 @@ es.ull.etsii.Movies.Movie
 .RI "String \fBtoString\fP ()"
 .br
 .in -1c
+.SH "Descripción detallada"
+.PP 
+Clase '\fBMovie\fP' para representar el objeto película\&. Es un objeto pasivo, actúa como contenedor de información\&. 
 .SH "Documentación del constructor y destructor"
 .PP 
 .SS "es\&.ull\&.etsii\&.Movies\&.Movie\&.Movie (String anID, String aTitle, String aYear, String theGenres)"
+Constructor con los atributos mínimos que debe tener una película
+.PP
+\fBParámetros\fP
+.RS 4
+\fIanID\fP Identificador 
+.br
+\fIaTitle\fP Título 
+.br
+\fIaYear\fP Año 
+.br
+\fItheGenres\fP Género(s) 
+.RE
+.PP
 
 .SS "es\&.ull\&.etsii\&.Movies\&.Movie\&.Movie (String anID, String aTitle, String aYear, String theGenres, String aDirector, String aCountry, String aPoster, int theMinutes)"
+Constructor con los todos los atributos que puede tener una película
+.PP
+\fBParámetros\fP
+.RS 4
+\fIanID\fP Identificador 
+.br
+\fIaTitle\fP Título 
+.br
+\fIaYear\fP Año 
+.br
+\fItheGenres\fP Género(s) 
+.br
+\fIaDirector\fP Director 
+.br
+\fIaCountry\fP País 
+.br
+\fIaPoster\fP Póster de la pelicula 
+.br
+\fItheMinutes\fP Duración en minutos 
+.RE
+.PP
 
 .SH "Documentación de las funciones miembro"
 .PP 
 .SS "String es\&.ull\&.etsii\&.Movies\&.Movie\&.getCountry ()"
+Método getter que devuelve el atributo país
+.PP
+\fBDevuelve\fP
+.RS 4
+String País(es) donde se ha rodado la película 
+.RE
+.PP
 
 .SS "String es\&.ull\&.etsii\&.Movies\&.Movie\&.getDirector ()"
+Método getter que devuelve el atributo director
+.PP
+\fBDevuelve\fP
+.RS 4
+.RE
+.PP
 
 .SS "String es\&.ull\&.etsii\&.Movies\&.Movie\&.getGenres ()"
+Método getter que devuelve el atributo género
+.PP
+\fBDevuelve\fP
+.RS 4
+String Género(s) 
+.RE
+.PP
 
 .SS "String es\&.ull\&.etsii\&.Movies\&.Movie\&.getID ()"
+Método getter que devuelve el atributo identificador
+.PP
+\fBDevuelve\fP
+.RS 4
+String Identificador 
+.RE
+.PP
 
 .SS "int es\&.ull\&.etsii\&.Movies\&.Movie\&.getMinutes ()"
+Método getter que devuelve el atributo minutos (de duración)
+.PP
+\fBDevuelve\fP
+.RS 4
+.RE
+.PP
 
 .SS "String es\&.ull\&.etsii\&.Movies\&.Movie\&.getPoster ()"
+Método getter que devuelve el atributo póster
+.PP
+\fBDevuelve\fP
+.RS 4
+.RE
+.PP
 
 .SS "String es\&.ull\&.etsii\&.Movies\&.Movie\&.getTitle ()"
+Método getter que devuelve el atributo título
+.PP
+\fBDevuelve\fP
+.RS 4
+String Título 
+.RE
+.PP
 
 .SS "int es\&.ull\&.etsii\&.Movies\&.Movie\&.getYear ()"
+Método getter que devuelve el atributo año
+.PP
+\fBDevuelve\fP
+.RS 4
+Integer Año de lanzamiento 
+.RE
+.PP
 
 .SS "String es\&.ull\&.etsii\&.Movies\&.Movie\&.toString ()"
-
+Método getter que devuelve una descripción de la película con sus atributos obligatorios
+.PP
+\fBDevuelve\fP
+.RS 4
+Descripción de la película en siguiente formato: 
+.RE
+.PP
+'Movie [id=' ', title=' ', year=' ', genres= ' ']' 
 
 .SH "Autor"
 .PP 

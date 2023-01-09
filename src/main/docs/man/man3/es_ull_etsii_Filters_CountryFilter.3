@@ -1,0 +1,56 @@
+.TH "es.ull.etsii.Filters.CountryFilter" 3 "Lunes, 9 de Enero de 2023" "Version 1.0" "ProyectoFinalLDH" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+es.ull.etsii.Filters.CountryFilter
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Herencias \fBes\&.ull\&.etsii\&.Filters\&.Filter\fP\&.
+.SS "Métodos públicos"
+
+.in +1c
+.ti -1c
+.RI "\fBCountryFilter\fP (String country)"
+.br
+.ti -1c
+.RI "boolean \fBsatisfies\fP (String id)"
+.br
+.in -1c
+.SH "Descripción detallada"
+.PP 
+Clase \fBGenreFilter\fP que implementa la interfaz '\fBFilter\fP' Clase que con la que filtrar las peliculas mediante su género cinematográfico\&. 
+.SH "Documentación del constructor y destructor"
+.PP 
+.SS "es\&.ull\&.etsii\&.Filters\&.CountryFilter\&.CountryFilter (String country)"
+Constructor de la clase \fBCountryFilter\fP\&. Se establece el género a partir del cuál se filtrarán las películas\&. 
+.PP
+\fBParámetros\fP
+.RS 4
+\fIcountry\fP Género a filtrar 
+.RE
+.PP
+
+.SH "Documentación de las funciones miembro"
+.PP 
+.SS "boolean es\&.ull\&.etsii\&.Filters\&.CountryFilter\&.satisfies (String id)"
+Método de la interfaz '\fBFilter\fP' heredado\&. Comprueba si el genero seleccionado coincide con el conjunto de metodos que tiene una pelicula
+.PP
+\fBParámetros\fP
+.RS 4
+\fIid\fP Identificador de la película 
+.RE
+.PP
+\fBDevuelve\fP
+.RS 4
+Boolean True si se cumple con el filtro\&. 
+.RE
+.PP
+
+.PP
+Implementa \fBes\&.ull\&.etsii\&.Filters\&.Filter\fP\&.
+
+.SH "Autor"
+.PP 
+Generado automáticamente por Doxygen para ProyectoFinalLDH del código fuente\&.

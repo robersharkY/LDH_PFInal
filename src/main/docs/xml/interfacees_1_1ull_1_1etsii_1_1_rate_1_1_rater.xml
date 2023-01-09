@@ -22,29 +22,61 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Método que añade la valoración de una película</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>movieID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador de una película </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rating</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Valoración de la película </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/Rater.java" line="10" column="8"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/Rater.java" line="18" column="8"/>
       </memberdef>
-      <memberdef kind="function" id="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1abc44687050cad917872f8dcb2b389db2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1ab1ca7c4c3fcc36cfca180df53f23ad37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>boolean</type>
         <definition>boolean es.ull.etsii.Rate.Rater.hasRating</definition>
-        <argsstring>(String item)</argsstring>
+        <argsstring>(String movieID)</argsstring>
         <name>hasRating</name>
         <qualifiedname>es.ull.etsii.Rate.Rater.hasRating</qualifiedname>
         <reimplementedby refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a9d0d74175e5799102ac55b2983e517f2">hasRating</reimplementedby>
         <param>
           <type>String</type>
-          <declname>item</declname>
+          <declname>movieID</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Método que compueba si una película tiene valoración</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>movieID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador de la película </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True si la película tiene valoración, false si no se ha encontrado la valoración </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/Rater.java" line="12" column="11"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/Rater.java" line="27" column="11"/>
       </memberdef>
       <memberdef kind="function" id="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1ab02f8e58a1349b99ceb32aa929243189" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>String</type>
@@ -56,29 +88,45 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>myID Identificador del valorador </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/Rater.java" line="14" column="10"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/Rater.java" line="32" column="10"/>
       </memberdef>
-      <memberdef kind="function" id="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1a7bd9aacc55c576def41c084fbfa3a0d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1a581b61d1155e8db9c508259ef921e56d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
         <definition>double es.ull.etsii.Rate.Rater.getRating</definition>
-        <argsstring>(String item)</argsstring>
+        <argsstring>(String movieID)</argsstring>
         <name>getRating</name>
         <qualifiedname>es.ull.etsii.Rate.Rater.getRating</qualifiedname>
         <reimplementedby refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a2dd1c28ecf99d7a730a905efcfaafbd4">getRating</reimplementedby>
         <param>
           <type>String</type>
-          <declname>item</declname>
+          <declname>movieID</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Método que devuelve la valoración de una película a través de su identificador</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>movieID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador de la película </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Valoración númerica de la película </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/Rater.java" line="16" column="10"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/Rater.java" line="41" column="10"/>
       </memberdef>
       <memberdef kind="function" id="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1a4b6d2f0739f00a2bb0f8fbba90adc010" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -90,10 +138,13 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Integer Número de valoraciones que tiene un valorador </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/Rater.java" line="18" column="7"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/Rater.java" line="46" column="7"/>
       </memberdef>
       <memberdef kind="function" id="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1a40af9756054fa1c1c19214c383d34cf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>ArrayList&lt; String &gt;</type>
@@ -105,10 +156,13 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Lista de películas que han sido valoradas </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/Rater.java" line="20" column="13"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/Rater.java" line="51" column="13"/>
       </memberdef>
       <memberdef kind="function" id="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1a902a42e967bdde6733166cc44815cd7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>HashMap&lt; String, <ref refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating" kindref="compound">Rating</ref> &gt;</type>
@@ -120,15 +174,19 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Lista de películas con su título y valoración </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/Rater.java" line="22" column="11"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/Rater.java" line="57" column="11"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
+<para>Interfaz &apos;<ref refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater" kindref="compound">Rater</ref>&apos; </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -142,14 +200,14 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/Rater.java" line="8" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/Rater.java" bodystart="8" bodyend="23"/>
+    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/Rater.java" line="11" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/Rater.java" bodystart="11" bodyend="58"/>
     <listofallmembers>
       <member refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1a153ffa4e1c31404a3250d360d91aafd1" prot="public" virt="non-virtual"><scope>es::ull::etsii::Rate::Rater</scope><name>addRating</name></member>
       <member refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1ab02f8e58a1349b99ceb32aa929243189" prot="public" virt="non-virtual"><scope>es::ull::etsii::Rate::Rater</scope><name>getID</name></member>
       <member refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1a40af9756054fa1c1c19214c383d34cf3" prot="public" virt="non-virtual"><scope>es::ull::etsii::Rate::Rater</scope><name>getItemsRated</name></member>
       <member refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1a902a42e967bdde6733166cc44815cd7c" prot="public" virt="non-virtual"><scope>es::ull::etsii::Rate::Rater</scope><name>getMyRatings</name></member>
-      <member refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1a7bd9aacc55c576def41c084fbfa3a0d4" prot="public" virt="non-virtual"><scope>es::ull::etsii::Rate::Rater</scope><name>getRating</name></member>
-      <member refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1abc44687050cad917872f8dcb2b389db2" prot="public" virt="non-virtual"><scope>es::ull::etsii::Rate::Rater</scope><name>hasRating</name></member>
+      <member refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1a581b61d1155e8db9c508259ef921e56d" prot="public" virt="non-virtual"><scope>es::ull::etsii::Rate::Rater</scope><name>getRating</name></member>
+      <member refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1ab1ca7c4c3fcc36cfca180df53f23ad37" prot="public" virt="non-virtual"><scope>es::ull::etsii::Rate::Rater</scope><name>hasRating</name></member>
       <member refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1a4b6d2f0739f00a2bb0f8fbba90adc010" prot="public" virt="non-virtual"><scope>es::ull::etsii::Rate::Rater</scope><name>numRatings</name></member>
     </listofallmembers>
   </compounddef>

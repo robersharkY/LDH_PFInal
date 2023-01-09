@@ -1,4 +1,4 @@
-.TH "es.ull.etsii.Filters.MinutesFilter" 3 "Miércoles, 4 de Enero de 2023" "Version 1.0" "ProyectoFinalLDH" \" -*- nroff -*-
+.TH "es.ull.etsii.Filters.MinutesFilter" 3 "Lunes, 9 de Enero de 2023" "Version 1.0" "ProyectoFinalLDH" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -18,33 +18,73 @@ Herencias \fBes\&.ull\&.etsii\&.Filters\&.Filter\fP\&.
 .RI "\fBMinutesFilter\fP (int minMinutes)"
 .br
 .ti -1c
+.RI "\fBMinutesFilter\fP (int minutes, char paramOption)"
+.br
+.ti -1c
+.RI "int \fBgetMinMinutes\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetMaxMinutes\fP ()"
+.br
+.ti -1c
 .RI "boolean \fBsatisfies\fP (String id)"
 .br
 .in -1c
 .SH "Descripción detallada"
 .PP 
-A class for filter movies by time
-.PP
-\fBAutor\fP
-.RS 4
-Stanislav Rakitov 
-.RE
-.PP
-\fBVersión\fP
-.RS 4
-1\&.0 
-.RE
-.PP
-
+Clase \fBMinutesFilter\fP que implementa la interfaz '\fBFilter\fP' Clase que con la que filtrar las peliculas mediante su duración mínima y máxima en minutos\&. 
 .SH "Documentación del constructor y destructor"
 .PP 
 .SS "es\&.ull\&.etsii\&.Filters\&.MinutesFilter\&.MinutesFilter (int minMinutes, int maxMinutes)"
+Constructor de la clase \fBMinutesFilter\fP\&. Se establece como opcion del filtro la duracion que se encuentra entre dos tiempos en minutos\&.
+.PP
+\fBParámetros\fP
+.RS 4
+\fIminMinutes\fP Mínimo de minutos de duración 
+.br
+\fImaxMinutes\fP Máximo de minutos de duración 
+.RE
+.PP
 
 .SS "es\&.ull\&.etsii\&.Filters\&.MinutesFilter\&.MinutesFilter (int minMinutes)"
+Constructor de la clase \fBMinutesFilter\fP\&. Se establece como opcion del filtro la duracion superior al tiempo en minutos pasado por parametro\&.
+.PP
+\fBParámetros\fP
+.RS 4
+\fIminMinutes\fP Mínimo de minutos de duración 
+.RE
+.PP
+
+.SS "es\&.ull\&.etsii\&.Filters\&.MinutesFilter\&.MinutesFilter (int minutes, char paramOption)"
+Constructor de la clase \fBMinutesFilter\fP\&. Se establece como opcion del filtro la duracion superior o inferior al tiempo en minutos pasado por parametro\&.
+.PP
+\fBParámetros\fP
+.RS 4
+\fIminutes\fP Mínimo de minutos de duración 
+.br
+\fIparamOption\fP Opcion elegida\&. Puede ser maximo de minutos o minimo de minutos 
+.RE
+.PP
 
 .SH "Documentación de las funciones miembro"
 .PP 
+.SS "int es\&.ull\&.etsii\&.Filters\&.MinutesFilter\&.getMaxMinutes ()"
+
+.SS "int es\&.ull\&.etsii\&.Filters\&.MinutesFilter\&.getMinMinutes ()"
+
 .SS "boolean es\&.ull\&.etsii\&.Filters\&.MinutesFilter\&.satisfies (String id)"
+Método de la interfaz '\fBFilter\fP' heredado\&. Comprueba si la(s) duración(es) seleccionada(s) coincide(n) y/u opción seleccionada coincide con el año de cierta película
+.PP
+\fBParámetros\fP
+.RS 4
+\fIid\fP Identificador de la película 
+.RE
+.PP
+\fBDevuelve\fP
+.RS 4
+Boolean True si se cumple con el filtro\&. 
+.RE
+.PP
 
 .PP
 Implementa \fBes\&.ull\&.etsii\&.Filters\&.Filter\fP\&.

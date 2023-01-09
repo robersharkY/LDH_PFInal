@@ -1,4 +1,4 @@
-.TH "es.ull.etsii.Movies.MovieDatabase" 3 "Miércoles, 4 de Enero de 2023" "Version 1.0" "ProyectoFinalLDH" \" -*- nroff -*-
+.TH "es.ull.etsii.Movies.MovieDatabase" 3 "Lunes, 9 de Enero de 2023" "Version 1.0" "ProyectoFinalLDH" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -11,6 +11,9 @@ es.ull.etsii.Movies.MovieDatabase
 .in +1c
 .ti -1c
 .RI "static void \fBinitialize\fP (String moviefile)"
+.br
+.ti -1c
+.RI "static void \fBinitialize\fP ()"
 .br
 .ti -1c
 .RI "static void \fBloadMovies\fP (String filename)"
@@ -48,34 +51,185 @@ es.ull.etsii.Movies.MovieDatabase
 .ti -1c
 .RI "static ArrayList< String > \fBfilterBy\fP (\fBFilter\fP f)"
 .br
+.ti -1c
+.RI "static ArrayList< \fBMovie\fP > \fBgetMoviesByTitle\fP (String paramTitle)"
+.br
 .in -1c
+.SH "Descripción detallada"
+.PP 
+Clase '\fBMovieDatabase\fP' que funciona base de datos de objetos '\fBMovie\fP' almacenados en fichero CSV 
 .SH "Documentación de las funciones miembro"
 .PP 
 .SS "static boolean es\&.ull\&.etsii\&.Movies\&.MovieDatabase\&.containsID (String id)\fC [static]\fP"
+Método que indica si una película se encuentra en la base de datos
+.PP
+\fBParámetros\fP
+.RS 4
+\fIid\fP Identificador de la película 
+.RE
+.PP
+\fBDevuelve\fP
+.RS 4
+Indica si se encuentra o no se encuentra 
+.RE
+.PP
 
 .SS "static ArrayList< String > es\&.ull\&.etsii\&.Movies\&.MovieDatabase\&.filterBy (\fBFilter\fP f)\fC [static]\fP"
+Método que filtra péliculas a través de un objeto 'Filter' pasado por parámetro 
+.PP
+\fBParámetros\fP
+.RS 4
+\fIf\fP Filtro a emplear 
+.RE
+.PP
+\fBDevuelve\fP
+.RS 4
+Vector de películas que cumplen la condición de filtrado 
+.RE
+.PP
 
 .SS "static String es\&.ull\&.etsii\&.Movies\&.MovieDatabase\&.getCountry (String id)\fC [static]\fP"
+Método que devuelve el país de rodaje de una película a través de su identificador 
+.PP
+\fBParámetros\fP
+.RS 4
+\fIid\fP Identificador de una película 
+.RE
+.PP
+\fBDevuelve\fP
+.RS 4
+País(es) de la película 
+.RE
+.PP
 
 .SS "static String es\&.ull\&.etsii\&.Movies\&.MovieDatabase\&.getDirector (String id)\fC [static]\fP"
+Método que devuelve el director de una película a través de su identificador 
+.PP
+\fBParámetros\fP
+.RS 4
+\fIid\fP Identificador de una película 
+.RE
+.PP
+\fBDevuelve\fP
+.RS 4
+Director de la película 
+.RE
+.PP
 
 .SS "static String es\&.ull\&.etsii\&.Movies\&.MovieDatabase\&.getGenres (String id)\fC [static]\fP"
+Método que devuelve los género de una película a través de su identificador 
+.PP
+\fBParámetros\fP
+.RS 4
+\fIid\fP Identificador de una película 
+.RE
+.PP
+\fBDevuelve\fP
+.RS 4
+Género(s) de la película 
+.RE
+.PP
 
 .SS "static int es\&.ull\&.etsii\&.Movies\&.MovieDatabase\&.getMinutes (String id)\fC [static]\fP"
+Método que devuelve la duración en minutos de una película a través de su identificador 
+.PP
+\fBParámetros\fP
+.RS 4
+\fIid\fP Identificador de una película 
+.RE
+.PP
+\fBDevuelve\fP
+.RS 4
+Duración en minutos 
+.RE
+.PP
 
 .SS "static \fBMovie\fP es\&.ull\&.etsii\&.Movies\&.MovieDatabase\&.getMovie (String id)\fC [static]\fP"
+Método que devuelve el objeto '\fBMovie\fP' a través de su identificador
+.PP
+\fBParámetros\fP
+.RS 4
+\fIid\fP Identificador de una película 
+.RE
+.PP
+\fBDevuelve\fP
+.RS 4
+\fBMovie\fP Objeto '\fBMovie\fP' 
+.RE
+.PP
+
+.SS "static ArrayList< \fBMovie\fP > es\&.ull\&.etsii\&.Movies\&.MovieDatabase\&.getMoviesByTitle (String paramTitle)\fC [static]\fP"
 
 .SS "static String es\&.ull\&.etsii\&.Movies\&.MovieDatabase\&.getPoster (String id)\fC [static]\fP"
+Método que devuelve la URL que muestra el cartel de una película a través de su identificador 
+.PP
+\fBParámetros\fP
+.RS 4
+\fIid\fP Identificador de una película 
+.RE
+.PP
+\fBDevuelve\fP
+.RS 4
+URL que guarda el cartel de la película 
+.RE
+.PP
 
 .SS "static String es\&.ull\&.etsii\&.Movies\&.MovieDatabase\&.getTitle (String id)\fC [static]\fP"
+Método que devuelve el título de una película a través de su identificador 
+.PP
+\fBParámetros\fP
+.RS 4
+\fIid\fP Identificador de una película 
+.RE
+.PP
+\fBDevuelve\fP
+.RS 4
+Título de la película 
+.RE
+.PP
 
 .SS "static int es\&.ull\&.etsii\&.Movies\&.MovieDatabase\&.getYear (String id)\fC [static]\fP"
+Método que devuelve el año de una película a través de su identificador
+.PP
+\fBParámetros\fP
+.RS 4
+\fIid\fP Identificador de una película 
+.RE
+.PP
+\fBDevuelve\fP
+.RS 4
+Año de la película 
+.RE
+.PP
 
+.SS "static void es\&.ull\&.etsii\&.Movies\&.MovieDatabase\&.initialize ()\fC [static]\fP"
+Método privado estático que funciona igual que pero escoge un fichero por defecto 
 .SS "static void es\&.ull\&.etsii\&.Movies\&.MovieDatabase\&.initialize (String moviefile)\fC [static]\fP"
+Método estático para inicializar una base da datos a partir de un fichero que almacena películas\&. En este caso se cuenta con varias ficheros básicos o de ejemplo\&.
+.PP
+\fBParámetros\fP
+.RS 4
+\fImoviefile\fP Fichero donde se almacenan x películas 
+.RE
+.PP
 
 .SS "static void es\&.ull\&.etsii\&.Movies\&.MovieDatabase\&.loadMovies (String filename)\fC [static]\fP"
+Método estático que dado un fichero con películas, las evalúa con el objeto FirstRating e inserta su valoración en el atributo privado
+.PP
+\fBParámetros\fP
+.RS 4
+\fIfilename\fP Nombre fichero con películas\&. 
+.RE
+.PP
 
 .SS "static int es\&.ull\&.etsii\&.Movies\&.MovieDatabase\&.size ()\fC [static]\fP"
+Método que devuelve el número de películas del atributo 
+.PP
+\fBDevuelve\fP
+.RS 4
+Director de la película 
+.RE
+.PP
 
 
 .SH "Autor"

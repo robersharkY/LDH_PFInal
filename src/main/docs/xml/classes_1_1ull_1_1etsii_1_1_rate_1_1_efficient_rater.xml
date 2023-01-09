@@ -70,10 +70,29 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Método que añade la valoración de una película</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>movieID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador de una película </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rating</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Valoración de la película </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="24" column="15" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="24" bodyend="26"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="25" column="15" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="25" bodyend="27"/>
       </memberdef>
       <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a9d0d74175e5799102ac55b2983e517f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>boolean</type>
@@ -81,7 +100,7 @@
         <argsstring>(String movieID)</argsstring>
         <name>hasRating</name>
         <qualifiedname>es.ull.etsii.Rate.EfficientRater.hasRating</qualifiedname>
-        <reimplements refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1abc44687050cad917872f8dcb2b389db2">hasRating</reimplements>
+        <reimplements refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1ab1ca7c4c3fcc36cfca180df53f23ad37">hasRating</reimplements>
         <param>
           <type>String</type>
           <declname>movieID</declname>
@@ -89,10 +108,23 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Método que compueba si una película tiene valoración</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>movieID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador de la película </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True si la película tiene valoración, false si no se ha encontrado la valoración </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="28" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="28" bodyend="30"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="30" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="30" bodyend="32"/>
       </memberdef>
       <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1ab1f5ed91322a37d6520fd793aedaac3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -104,10 +136,13 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>myID Identificador del valorador </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="32" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="32" bodyend="34"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="35" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="35" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a2dd1c28ecf99d7a730a905efcfaafbd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -115,7 +150,7 @@
         <argsstring>(String movieID)</argsstring>
         <name>getRating</name>
         <qualifiedname>es.ull.etsii.Rate.EfficientRater.getRating</qualifiedname>
-        <reimplements refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1a7bd9aacc55c576def41c084fbfa3a0d4">getRating</reimplements>
+        <reimplements refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater_1a581b61d1155e8db9c508259ef921e56d">getRating</reimplements>
         <param>
           <type>String</type>
           <declname>movieID</declname>
@@ -123,10 +158,23 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Método que devuelve la valoración de una película a través de su identificador</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>movieID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador de la película </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Valoración númerica de la película </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="36" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="36" bodyend="43"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="40" column="17" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="40" bodyend="47"/>
       </memberdef>
       <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a7f1f110d8cb859f63fe95d1a0d004573" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -138,10 +186,13 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Integer Número de valoraciones que tiene un valorador </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="45" column="14" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="45" bodyend="47"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="50" column="14" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="50" bodyend="52"/>
       </memberdef>
       <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1afc4c1e6a576c4e74add27d25c0104e8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>ArrayList&lt; String &gt;</type>
@@ -153,10 +204,13 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Lista de películas que han sido valoradas </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="49" column="20" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="49" bodyend="51"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="55" column="20" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="55" bodyend="57"/>
       </memberdef>
       <memberdef kind="function" id="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a2d63adff0982cb76cb15346ccf8e448a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>HashMap&lt; String, <ref refid="classes_1_1ull_1_1etsii_1_1_ratings_1_1_rating" kindref="compound">Rating</ref> &gt;</type>
@@ -168,10 +222,13 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Lista de películas con su título y valoración </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="53" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="53" bodyend="55"/>
+        <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="60" column="18" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="60" bodyend="62"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -208,7 +265,7 @@
         <link refid="interfacees_1_1ull_1_1etsii_1_1_rate_1_1_rater"/>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="15" column="7" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="15" bodyend="56"/>
+    <location file="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" line="15" column="7" bodyfile="C:/Users/roberto/IdeaProjects/LDH_PFInal/src/main/java/es/ull/etsii/Rate/EfficientRater.java" bodystart="15" bodyend="63"/>
     <listofallmembers>
       <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1af54517edea8813b2ceaf83a29293e16c" prot="public" virt="non-virtual"><scope>es::ull::etsii::Rate::EfficientRater</scope><name>addRating</name></member>
       <member refid="classes_1_1ull_1_1etsii_1_1_rate_1_1_efficient_rater_1a508bd398184d2c615f1bffb2d3e49a81" prot="public" virt="non-virtual"><scope>es::ull::etsii::Rate::EfficientRater</scope><name>EfficientRater</name></member>
