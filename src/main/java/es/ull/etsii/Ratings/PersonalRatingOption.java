@@ -87,14 +87,14 @@ public class PersonalRatingOption {
             f.write(userName+","+m.getID()+","+rate+"\n");
         }
         catch(IOException ex){
-            ex.printStackTrace();
+            System.out.println(ex.getMessage());
         }
         finally {
             if (f != null) {
                 try {
                     f.close();
                 } catch (IOException ex) {
-                    ex.printStackTrace();
+                    System.out.println(ex.getMessage());
                 }
             }
         }
