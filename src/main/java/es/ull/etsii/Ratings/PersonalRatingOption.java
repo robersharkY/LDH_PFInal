@@ -96,6 +96,9 @@ public class PersonalRatingOption {
             catch (IOException ex) {
                 ex.printStackTrace();
             }
+            catch (NullPointerException ex) {
+                ex.printStackTrace();
+            }
         }
     }
 }
