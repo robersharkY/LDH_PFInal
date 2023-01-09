@@ -90,14 +90,12 @@ public class PersonalRatingOption {
             ex.printStackTrace();
         }
         finally {
-            try {
-                f.close();
-            }
-            catch (IOException ex) {
-                ex.printStackTrace();
-            }
-            catch (NullPointerException ex) {
-                ex.printStackTrace();
+            if (f != null) {
+                try {
+                    f.close();
+                } catch (IOException ex) {
+                    ex.printStackTrace();
+                }
             }
         }
     }
