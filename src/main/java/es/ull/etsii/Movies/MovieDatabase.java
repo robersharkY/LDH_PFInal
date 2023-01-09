@@ -174,4 +174,15 @@ public class MovieDatabase {
 
     return list;
   }
+
+  public static ArrayList<Movie> getMoviesByTitle(String paramTitle) {
+    initialize();
+    ArrayList<Movie> moviesFounded = new ArrayList<>();
+    for (Movie m : ourMovies.values()) {
+      if (m.getTitle().toLowerCase().contains(paramTitle)) {
+        moviesFounded.add(m);
+      }
+    }
+    return moviesFounded;
+  }
 }

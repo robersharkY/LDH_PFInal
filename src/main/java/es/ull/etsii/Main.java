@@ -4,10 +4,13 @@ import es.ull.etsii.Rate.EfficientRater;
 import es.ull.etsii.Rate.Rater;
 import es.ull.etsii.Ratings.FourthRatings;
 import es.ull.etsii.Ratings.MovieRunnerSimilarRatings;
+import es.ull.etsii.Ratings.PersonalRatingOption;
+
+import java.io.IOException;
 
 /** @author Stanislav Rakitov */
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         FourthRatings fourthRatings = new FourthRatings();
         Rater meRater = new EfficientRater("15");
         Rater otherRater = new EfficientRater("20");
@@ -38,5 +41,7 @@ public class Main {
         quiz.printSimilarRatingsByGenreAndMinutes();
         System.out.println("---");
         quiz.printSimilarRatingsByYearAfterAndMinutes();
+
+        PersonalRatingOption.menu();
     }
 }
