@@ -182,7 +182,18 @@
 <a class="jxr_linenumber" name="L174" href="#L174">174</a> 
 <a class="jxr_linenumber" name="L175" href="#L175">175</a>     <strong class="jxr_keyword">return</strong> list;
 <a class="jxr_linenumber" name="L176" href="#L176">176</a>   }
-<a class="jxr_linenumber" name="L177" href="#L177">177</a> }
+<a class="jxr_linenumber" name="L177" href="#L177">177</a> 
+<a class="jxr_linenumber" name="L178" href="#L178">178</a>   <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> ArrayList&lt;Movie&gt; getMoviesByTitle(String paramTitle) {
+<a class="jxr_linenumber" name="L179" href="#L179">179</a>     initialize();
+<a class="jxr_linenumber" name="L180" href="#L180">180</a>     ArrayList&lt;Movie&gt; moviesFounded = <strong class="jxr_keyword">new</strong> ArrayList&lt;&gt;();
+<a class="jxr_linenumber" name="L181" href="#L181">181</a>     <strong class="jxr_keyword">for</strong> (<a name="Movie" href="../../../../es/ull/etsii/Movies/Movie.html#Movie">Movie</a> m : ourMovies.values()) {
+<a class="jxr_linenumber" name="L182" href="#L182">182</a>       <strong class="jxr_keyword">if</strong> (m.getTitle().toLowerCase().contains(paramTitle)) {
+<a class="jxr_linenumber" name="L183" href="#L183">183</a>         moviesFounded.add(m);
+<a class="jxr_linenumber" name="L184" href="#L184">184</a>       }
+<a class="jxr_linenumber" name="L185" href="#L185">185</a>     }
+<a class="jxr_linenumber" name="L186" href="#L186">186</a>     <strong class="jxr_keyword">return</strong> moviesFounded;
+<a class="jxr_linenumber" name="L187" href="#L187">187</a>   }
+<a class="jxr_linenumber" name="L188" href="#L188">188</a> }
 </pre>
 <hr/>
 <div id="footer">Copyright &#169; 2023. All rights reserved.</div>

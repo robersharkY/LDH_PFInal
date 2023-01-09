@@ -339,8 +339,8 @@
 
         <Package name="es.ull.etsii.Ratings">
             <Stats>
-                <TotalClasses>2</TotalClasses>
-                <ConcreteClasses>2</ConcreteClasses>
+                <TotalClasses>3</TotalClasses>
+                <ConcreteClasses>3</ConcreteClasses>
                 <AbstractClasses>0</AbstractClasses>
                 <Ca>4</Ca>
                 <Ce>7</Ce>
@@ -356,6 +356,9 @@
             <ConcreteClasses>
                 <Class sourceFile="FirstRatings.java">
                     es.ull.etsii.Ratings.FirstRatings
+                </Class>
+                <Class sourceFile="PersonalRatingOption.java">
+                    es.ull.etsii.Ratings.PersonalRatingOption
                 </Class>
                 <Class sourceFile="Rating.java">
                     es.ull.etsii.Ratings.Rating

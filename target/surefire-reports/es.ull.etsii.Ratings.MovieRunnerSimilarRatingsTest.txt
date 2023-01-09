@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: es.ull.etsii.Ratings.MovieRunnerSimilarRatingsTest
--------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 8, Time elapsed: 0.007 s - in es.ull.etsii.Ratings.MovieRunnerSimilarRatingsTest

@@ -23,7 +23,6 @@ C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\Main.java
 C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\courserajava\edu\duke\URLResource.java
 C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\Filters\DirectorsFilter.java
 C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\courserajava\edu\duke\ResourceException.java
-C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\Filters\YearAfterFilter.java
 C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\Ratings\FirstRatings.java
 C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\Filters\MinutesFilter.java
 C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\apachecsv\org\apache\commons\csv\CSVPrinter.java
@@ -33,6 +32,7 @@ C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\apachecsv\org\apache\c
 C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\Filters\AllFilters.java
 C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\Rate\Rater.java
 C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\Recommendations\Recommender.java
+C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\Filters\CountryFilter.java
 C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\Ratings\MovieRunnerSimilarRatings.java
 C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\apachecsv\org\apache\commons\csv\ExtendedBufferedReader.java
 C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\apachecsv\org\apache\commons\csv\QuoteMode.java
@@ -40,4 +40,6 @@ C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\Movies\Movie
 C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\apachecsv\org\apache\commons\csv\Constants.java
 C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\apachecsv\org\apache\commons\csv\package-info.java
 C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\courserajava\edu\duke\StorageResource.java
+C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\Ratings\PersonalRatingOption.java
 C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\Filters\GenreFilter.java
+C:\Users\roberto\IdeaProjects\LDH_PFInal\src\main\java\es\ull\etsii\Filters\YearFilter.java
