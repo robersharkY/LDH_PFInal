@@ -15,7 +15,7 @@ public class PersonalRatingOption {
     private static String userName;
     private static String fileName;
 
-    public static void menu() throws IOException {
+    public static void menu(){
 
         System.out.print("¿Desea hacer su propia valoración? y/n: ");
         Scanner sc = new Scanner(System.in);
@@ -37,7 +37,7 @@ public class PersonalRatingOption {
             }
         }
     }
-    private static void searchTitle() throws IOException {
+    private static void searchTitle(){
         System.out.print("Introduzca el título de la película: ");
         Scanner sc = new Scanner(System.in);
         String title = sc.next();
@@ -55,7 +55,7 @@ public class PersonalRatingOption {
         }
     }
 
-    private static void rateMovie(ArrayList<Movie> movies) throws IOException {
+    private static void rateMovie(ArrayList<Movie> movies){
 
         Scanner sc = new Scanner(System.in);
         int movieIndex = -1;
@@ -74,15 +74,28 @@ public class PersonalRatingOption {
         writeInFile(movieSelected,rate);
     }
 
-    private static void writeInFile(Movie m, Integer rate) throws IOException {
-        File af = new File(fileName);
-        if (!af.isFile()) {
-            FileWriter f = new FileWriter(af,true);
-            f.write("user_name,movie_id,rating\n");
-            f.close();
+    private static void writeInFile(Movie m, Integer rate) {
+        FileWriter f = null;
+        try{
+            File af = new File(fileName);
+            if (!af.isFile()) {
+                f = new FileWriter(af,true);
+                f.write("user_name,movie_id,rating\n");
+                f.close();
+            }
+            f = new FileWriter(af,true);
+            f.write(userName+","+m.getID()+","+rate+"\n");
         }
-        FileWriter f = new FileWriter(af,true);
-        f.write(userName+","+m.getID()+","+rate+"\n");
-        f.close();
+        catch(IOException ex){
+            ex.printStackTrace();
+        }
+        finally {
+            try {
+                f.close();
+            }
+            catch (IOException ex) {
+                ex.printStackTrace();
+            }
+        }
     }
 }

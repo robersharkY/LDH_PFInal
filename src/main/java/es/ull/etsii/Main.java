@@ -10,7 +10,7 @@ import java.io.IOException;
 
 /** @author Stanislav Rakitov */
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         FourthRatings fourthRatings = new FourthRatings();
         Rater meRater = new EfficientRater("15");
         Rater otherRater = new EfficientRater("20");
