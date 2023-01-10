@@ -51,8 +51,8 @@ public class FourthRatings {
    * películas que tienen más cantidad de valoraciones que la cantidad de
    * valoraciones mínimas pasadas por parámetro.
    *
-   * @param minimalRaters Número mínimo de valoraciones
-   * @return Lista de películas
+   * @param minimalRaters Número mínimo de valoraciones.
+   * @return Lista de películas.
    */
   public ArrayList<Rating> getAverageRatings(int minimalRaters) {
     RaterDatabase.initialize("ratings.csv");
