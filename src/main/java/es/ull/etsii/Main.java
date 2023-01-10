@@ -42,12 +42,13 @@ public class Main {
         quiz.printSimilarRatingsByGenreAndMinutes();
         System.out.println("---");
         quiz.printSimilarRatingsByYearAfterAndMinutes();
+        
         /*
         RecommendationRunner recomendation = new RecommendationRunner();
         ArrayList<String> lista = recomendation.getItemsToRate();
         System.out.println(lista.toString());
         recomendation.printRecommendationsFor("32");
         */
-        
+
     }
 }

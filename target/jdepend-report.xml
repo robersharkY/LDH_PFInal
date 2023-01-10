@@ -174,7 +174,7 @@
                 <ConcreteClasses>1</ConcreteClasses>
                 <AbstractClasses>0</AbstractClasses>
                 <Ca>0</Ca>
-                <Ce>6</Ce>
+                <Ce>4</Ce>
                 <A>0</A>
                 <I>1</I>
                 <D>0</D>
@@ -193,10 +193,8 @@
             <DependsUpon>
                 <Package>es.ull.etsii.Rate</Package>
                 <Package>es.ull.etsii.Ratings</Package>
-                <Package>es.ull.etsii.Recommendations</Package>
                 <Package>java.io</Package>
                 <Package>java.lang</Package>
-                <Package>java.util</Package>
             </DependsUpon>
 
             <UsedBy>
@@ -390,11 +388,11 @@
                 <TotalClasses>2</TotalClasses>
                 <ConcreteClasses>1</ConcreteClasses>
                 <AbstractClasses>1</AbstractClasses>
-                <Ca>1</Ca>
+                <Ca>0</Ca>
                 <Ce>6</Ce>
                 <A>0.5</A>
-                <I>0.86</I>
-                <D>0.36</D>
+                <I>1</I>
+                <D>0.5</D>
                 <V>1</V>
             </Stats>
 
@@ -420,7 +418,6 @@
             </DependsUpon>
 
             <UsedBy>
-                <Package>es.ull.etsii</Package>
             </UsedBy>
         </Package>
 

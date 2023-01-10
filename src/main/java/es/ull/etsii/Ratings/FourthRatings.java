@@ -20,6 +20,16 @@ import static java.util.Collections.sort;
  */
 public class FourthRatings {
 
+  /**
+   * Método que dado una película, y un número mínimo de valoraciones, devuelve
+   * la nota media de las valoraciones de esa película.
+   *
+   * @param movieID Identificador de la película a buscar
+   * @param minimalRaters Número mínimo de valoraciones que ha de tener la
+   *                      película indicada.
+   * @return Nota media de valoraciones si se cumple el número mínimo de
+   * valoraciones. En caso contrario, devuelve 0.
+   */
   private Double getAverageByID(String movieID, Integer minimalRaters) {
     RaterDatabase.initialize("ratings.csv");
     ArrayList<Rater> myRaters = RaterDatabase.getRaters();
@@ -35,6 +45,15 @@ public class FourthRatings {
     return 0.0;
   }
 
+  /**
+   * Método que, dado un número mínimo de valoraciones, devuelve un vector de
+   * Ratings (movie_id,rating_value) con la media de las valoraciones de las
+   * películas que tienen más cantidad de valoraciones que la cantidad de
+   * valoraciones mínimas pasadas por parámetro.
+   *
+   * @param minimalRaters Número mínimo de valoraciones
+   * @return Lista de películas
+   */
   public ArrayList<Rating> getAverageRatings(int minimalRaters) {
     RaterDatabase.initialize("ratings.csv");
     ArrayList<Rating> list = new ArrayList<>();
