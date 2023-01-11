@@ -39,4 +39,5 @@ public class RecommendationRunner implements Recommender {
     }
     System.out.println("</table>");
   }
+
 }
